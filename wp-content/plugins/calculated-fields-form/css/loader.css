@@ -1,0 +1,9 @@
+/* PROCESSION FORM ANIMATION */
+@keyframes cffspinner {to {transform: rotate(360deg);}}
+#fbuilder .cff-processing-form{position:fixed;top:calc( 50% - 50px );left:calc( 50% - 50px );width:100px;height:100px;z-index:99999;}
+#fbuilder .cff-processing-form:before {
+  content:'';box-sizing:border-box;position:absolute;width:100px;height:100px;
+  border-radius:50%;border-top:6px solid #333;
+  border-right:4px solid transparent;
+  animation:cffspinner .6s linear infinite;
+}

@@ -1,0 +1,12 @@
+{% if flags.has_error_msg %}
+	<div id="login_error">
+		<strong>{{ strings.error_msg }}</strong><br />
+	</div>
+{% endif %}
+
+{{ content.form|raw }}
+
+<p id="backtoblog">
+	<a href="{{ hrefs.home }}" title="{{ strings.back_home }}">
+		&larr; {{ strings.back_home }}</a>
+</p>

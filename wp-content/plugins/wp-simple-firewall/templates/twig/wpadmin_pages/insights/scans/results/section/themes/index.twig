@@ -1,0 +1,44 @@
+<div class="row mt-3 nav-vertical scan-results-section" id="ScanResultsThemes">
+
+	<div class="col-2">
+		<ul class="nav nav-tabs flex-column">
+			{% for theme_key,theme in vars.themes %}
+				<li class="nav-item mb-2">
+					<a class="nav-link {% if theme_key < 1 %}active{% endif %} position-relative"
+					   href="#theme-tab-{{ theme.info.slug }}"
+					   data-bs-toggle="tab"
+					>
+						{% if theme.vars.count_items > 0 %}
+							<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+								{{ theme.vars.count_items }}
+							</span>
+						{% elseif theme.flags.has_warning %}
+							<span class="position-absolute top-0 start-100 translate-middle p-2 bg-warning border border-light rounded-circle">
+{#								&excl;#}
+							</span>
+						{% else %}
+							<span class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle">
+{#								&check;#}
+							</span>
+						{% endif %}
+						{{ theme.info.name }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="col-10">
+		<div class="tab-content">
+			{% for theme_key,theme in vars.themes %}
+				<div class="tab-pane {% if theme_key < 1 %}show active{% endif %}"
+					 id="theme-tab-{{ theme.info.slug }}"
+					 role="tabpanel"
+					 aria-labelledby="profile-tab"
+				>
+					{% include '/wpadmin_pages/insights/scans/results/section/themes/theme_panel.twig' %}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

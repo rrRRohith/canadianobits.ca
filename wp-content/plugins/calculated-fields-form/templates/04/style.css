@@ -1,0 +1,61 @@
+.cp_cff_elegant{padding:10px;}
+.cp_cff_elegant #fbuilder{color: rgb(81, 62, 43);font-family: Cambria, Georgia, 'Times New Roman', Times, serif;}
+.cp_cff_elegant #fbuilder h1,
+.cp_cff_elegant #fbuilder h2{color: rgb(81, 62, 43);font-family:p22-underground, arial, sans-serif;margin-bottom:0;font-size:200%;font-weight:normal;text-align: center;text-transform: uppercase;}
+.cp_cff_elegant #fbuilder .fields.section_breaks{margin-bottom:15px;margin-top:15px;}
+.cp_cff_elegant #fbuilder .fields.section_breaks,
+.cp_cff_elegant #fbuilder .fform span{color:rgb(164, 147, 132);text-align:center;font-variant:small-caps;border-top:1px dotted rgb(164, 147, 132);border-bottom:1px dotted rgb(164, 147, 132);display:block;padding:0;}
+.cp_cff_elegant #fbuilder .fields .section_break{display:none;}
+.cp_cff_elegant #fbuilder select,
+.cp_cff_elegant #fbuilder textarea,
+.cp_cff_elegant #fbuilder input[type=date],
+.cp_cff_elegant #fbuilder input[type=datetime],
+.cp_cff_elegant #fbuilder input[type=time],
+.cp_cff_elegant #fbuilder input[type=search],
+.cp_cff_elegant #fbuilder input[type=url],
+.cp_cff_elegant #fbuilder input[type=email],
+.cp_cff_elegant #fbuilder input[type=password],
+.cp_cff_elegant #fbuilder input[type=text],
+.cp_cff_elegant #fbuilder input[type=number],
+.cp_cff_elegant #fbuilder input[type=file]{border:1px solid  rgb(148, 132, 116);padding-bottom:5px;padding-top:5px;font-size:14px;background:#FFF;color:rgb(81, 62, 43);-webkit-box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);-moz-box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);padding-left:5px;padding-right:5px;}
+.cp_cff_elegant #fbuilder .uh{color:rgb(164, 147, 132);}
+.cp_cff_elegant #fbuilder .select2-selection{border:1px solid  rgb(148, 132, 116);font-size:14px;background:#FFF;color:rgb(81, 62, 43);-webkit-box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);-moz-box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);box-shadow:inset 0px 2px 7px 0px rgba(0, 0, 0, 0.09);}
+.cp_cff_elegant #fbuilder .select2-dropdown .select2-search__field{width:100% !important;}
+.cp_cff_elegant #fbuilder .select2-dropdown{border:1px solid rgb(148, 132, 116) !important;border-radius:0;}
+.cp_cff_elegant #fbuilder .select2-selection--multiple,
+.cp_cff_elegant #fbuilder .select2-selection--single{border-radius:0;}
+.cp_cff_elegant #fbuilder .select2-dropdown *,
+.cp_cff_elegant #fbuilder .select2-selection--multiple *,
+.cp_cff_elegant #fbuilder .select2-selection--single *{font-family:p22-underground, arial, sans-serif;}
+.cp_cff_elegant #fbuilder .select2-results__option--highlighted{background:rgb(115, 185, 214);}
+.cp_cff_elegant #fbuilder legend{color:rgb(164, 147, 132);font-weight:normal;text-align:center;border:0;font-family:p22-underground, arial, sans-serif;}
+.cp_cff_elegant #fbuilder legend:before,
+.cp_cff_elegant #fbuilder legend:after{content:"\007E";}
+
+.cp_cff_elegant #fbuilder fieldset{border:0;padding:0;}
+.cp_cff_elegant #fbuilder input[type=button],
+.cp_cff_elegant #fbuilder input[type=reset],
+.cp_cff_elegant .cff-spinner .cff-spinner-down,
+.cp_cff_elegant .cff-spinner .cff-spinner-up,
+.cp_cff_elegant #fbuilder .pbSubmit,
+.cp_cff_elegant #fbuilder .pbPrevious,
+.cp_cff_elegant #fbuilder .pbNext{border:0; color:#fff;font-variant:small-caps;font-size:14px;font-weight:bold;background:rgb(115, 185, 214);-webkit-border-top-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-topright: 10px;-moz-border-radius-bottomleft: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;padding:5px 20px;}
+.cp_cff_elegant #fbuilder .r{color:rgb(115, 185, 214);}
+
+.cp_cff_elegant #fbuilder .ui-slider-range{border-radius:0;background: rgb(115, 185, 214); }
+.cp_cff_elegant #fbuilder .slider{background: #DCDCDC; border-radius: 0;border:0;height: .3em;}
+.cp_cff_elegant #fbuilder .ui-slider-handle{
+    height: .8em;
+    border-radius: 0;
+    width: .8em;
+    background: #FFF;
+    border: 1px solid rgb(148, 132, 116);
+}
+
+.cp_cff_elegant #fbuilder .apply-coupon{background: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSJyZ2IoMTE1LCAxODUsIDIxNCkiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMTkgM0g1Yy0xLjExIDAtMiAuOS0yIDJ2MTRjMCAxLjEuODkgMiAyIDJoMTRjMS4xMSAwIDItLjkgMi0yVjVjMC0xLjEtLjg5LTItMi0yem0tOSAxNGwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==');}
+
+.cp_cff_elegant #fbuilder .discount-container{margin-top:10px;font-weight:bold;}
+
+.cp_cff_elegant #fbuilder .cff-switch{background:#b29d8673;}
+
+.cp_cff_elegant #fbuilder span.files-list img{border-color:rgb(148, 132, 116);}

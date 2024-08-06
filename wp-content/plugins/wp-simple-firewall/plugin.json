@@ -1,0 +1,283 @@
+{
+  "properties":       {
+    "version":                 "19.0.7",
+    "release_timestamp":       1707735000,
+    "build":                   "202402.1201",
+    "slug_parent":             "icwp",
+    "slug_plugin":             "wpsf",
+    "text_domain":             "wp-simple-firewall",
+    "base_permissions":        "manage_options",
+    "wpms_network_admin_only": true,
+    "logging_enabled":         true,
+    "show_dashboard_widget":   true,
+    "show_admin_bar_menu":     true,
+    "autoupdate":              "confidence",
+    "autoupdate_days":         5,
+    "enable_premium":          true
+  },
+  "requirements":     {
+    "php":       "7.2",
+    "wordpress": "5.7",
+    "mysql":     "5.6"
+  },
+  "reqs_rest":        {
+    "php": "7.0",
+    "wp":  "5.7"
+  },
+  "upgrade_reqs":     {
+    "18.2": {
+      "php":   "7.2",
+      "wp":    "5.7",
+      "mysql": "5.6"
+    },
+    "19.0": {
+      "php":   "7.4",
+      "wp":    "5.7",
+      "mysql": "5.6"
+    }
+  },
+  "version_upgrades": [
+    "19.0.7",
+    "18.2.0",
+    "18.2.8"
+  ],
+  "paths":            {
+    "config":           "config",
+    "source":           "src",
+    "autoload":         "lib/vendor/autoload.php",
+    "assets":           "assets",
+    "languages":        "languages",
+    "templates":        "templates",
+    "custom_templates": "shield_templates",
+    "flags":            "flags",
+    "cache":            "shield"
+  },
+  "includes":         {
+    "tp":   {
+      "bootstrap":    {
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css",
+        "js":  "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+      },
+      "highlightjs":  {
+        "js": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"
+      },
+      "hcaptcha":     {
+        "js": "https://hcaptcha.com/1/api.js"
+      },
+      "recaptcha":    {
+        "js": "https://www.google.com/recaptcha/api.js"
+      },
+      "vimeo_player": {
+        "js": "https://player.vimeo.com/api/player.js"
+      }
+    },
+    "dist": [
+      {
+        "handle": "main",
+        "zones":  [
+          "plugin_admin"
+        ],
+        "deps":   [
+          "wp-jquery"
+        ],
+        "types":  [
+          "js",
+          "css"
+        ],
+        "flags":  {
+          "admin_only": true
+        }
+      },
+      {
+        "handle": "wpadmin",
+        "zones":  [
+          "wp_admin"
+        ],
+        "deps":   [
+          "wp-jquery"
+        ],
+        "types":  [
+          "js",
+          "css"
+        ],
+        "flags":  {
+          "admin_only": true
+        }
+      },
+      {
+        "handle": "badge",
+        "zones":  [
+          "front"
+        ],
+        "types":  [
+          "js"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "blockpage",
+        "zones":  [
+          "page_shield_block"
+        ],
+        "types":  [
+          "js",
+          "css"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "login_2fa",
+        "zones":  [
+          "login_2fa",
+          "page_login"
+        ],
+        "deps":   [
+          "wp-jquery"
+        ],
+        "types":  [
+          "js",
+          "css"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "login_guard",
+        "zones":  [
+          "page_login"
+        ],
+        "deps":   [
+          "wp-jquery"
+        ],
+        "types":  [
+          "js"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "notbot",
+        "types":  [
+          "js"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "reports",
+        "types":  [
+          "js"
+        ],
+        "flags":  {
+          "admin_only": true
+        }
+      },
+      {
+        "handle": "userprofile",
+        "zones":  [
+          "page_user_profile",
+          "page_shield_login_security"
+        ],
+        "types":  [
+          "js",
+          "css"
+        ],
+        "deps":   [
+          "wp-jquery"
+        ],
+        "flags":  {
+          "admin_only": false
+        }
+      },
+      {
+        "handle": "mainwp_server",
+        "types":  [
+          "js",
+          "css"
+        ],
+        "flags":  {
+          "admin_only": true
+        }
+      }
+    ]
+  },
+  "menu":             {
+    "show":           true,
+    "top_level":      true,
+    "do_submenu_fix": true,
+    "has_submenu":    true
+  },
+  "labels":           {
+    "Name":                "Shield Security",
+    "MenuTitle":           "Shield Security",
+    "Description":         "Ultimate WP Security Protection - Scans, 2FA, Firewall, SPAM, Activity Log, Security Admin, and so much more.",
+    "Title":               "Shield Security",
+    "Author":              "Shield Security",
+    "AuthorName":          "Shield Security",
+    "PluginURI":           "https://shsec.io/2f",
+    "AuthorURI":           "https://shsec.io/bv",
+    "url_img_pagebanner":  "pluginlogo_banner-1544x500.png",
+    "url_img_logo_small":  "pluginlogo_banner-170x40.png",
+    "icon_url_16x16":      "pluginlogo_16x16.png",
+    "icon_url_16x16_grey": "pluginlogo_16x16_grey.png",
+    "icon_url_32x32":      "pluginlogo_32x32.png",
+    "icon_url_128x128":    "pluginlogo_128x128.png"
+  },
+  "meta":             {
+    "url_repo_home":       "https://shsec.io/eh",
+    "privacy_policy_href": "https://shsec.io/shieldprivacypolicy"
+  },
+  "plugin_meta":      [
+    {
+      "name": "5&#10025; Rate This Plugin",
+      "href": "https://shsec.io/wpsf29"
+    }
+  ],
+  "action_links":     {
+    "remove": null,
+    "add":    [
+      {
+        "name":   "Security Dashboard",
+        "title":  "Go To Security Dashboard",
+        "href":   "getPluginUrl_DashboardHome",
+        "target": "_top",
+        "show":   "always"
+      },
+      {
+        "name":      "&uarr; Go Pro &uarr;",
+        "title":     "Get All PRO Security Features",
+        "href":      "https://shsec.io/d8",
+        "target":    "_blank",
+        "highlight": true,
+        "show":      "free"
+      }
+    ]
+  },
+  "modules":          [
+    "plugin",
+    "data",
+    "admin_access_restriction",
+    "audit_trail",
+    "autoupdates",
+    "comments_filter",
+    "comms",
+    "events",
+    "firewall",
+    "hack_protect",
+    "headers",
+    "integrations",
+    "ips",
+    "license",
+    "lockdown",
+    "login_protect",
+    "traffic",
+    "user_management"
+  ]
+}

@@ -1,0 +1,823 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+/*
+Apple iPhone 5, 5S & 5C 
+Apple iPod Touch (5th generation)
+*/
+@media (min-width: 1136px) and (max-width: 1279px) {
+	body {	font-size: 14px; }
+    h2 { font-size:2.45em; }
+    .sc_infobox.sc_infobox_iconed:before { font-size: 17px; }
+    .mejs-controls div.mejs-time-rail { width: 425px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 415px !important; }
+    .sidebar aside { padding: 0 2em; }
+    .sidebar aside + aside { padding-top: 2em; }
+    .sidebar aside.widget_calendar { padding-left: 7%; }
+    .widget_area .widget_calendar td .day_wrap { padding: 0.05em 0; }
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 49%; }
+    .small_banner .small_banner_title { padding-top: 0.5em; }
+    .widget_area .widget_flickr .flickr_badge_image {  margin: 0 5px 5px 0; overflow: hidden }
+}
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+@media (min-width: 960px) and (max-width: 1135px) {
+    .menu_main_wrap .logo_main {
+        max-height: 60px;
+    }
+	body {	font-size: 13px; }
+	h1 { font-size:3em; }
+	h2 { font-size:2.3077em; }
+	h3 { font-size:1.6667em; }
+	h4 { font-size:1.3333em; }
+	h5 { font-size:1.2em; }
+	h6 { font-size:1em; }
+    .sc_infobox.sc_infobox_iconed:before { font-size: 15px;}
+    .woocommerce ul.products li.product .post_featured .hover_icon:before,
+    .woocommerce-page ul.products li.product .post_featured .hover_icon:before,
+    .post_item_related .post_featured .hover_icon:before,
+    .isotope_wrap .isotope_item .post_featured .hover_icon:before { font-size: 20px;}
+    .post_item_obituaries .hover_icon_view:before,
+    .post_item_obituaries .hover_icon_link:before { padding: 0.28em; }
+    .menu_center .menu_main_wrap .menu_main_nav_area { height: 4.1em; }
+    .mejs-controls div.mejs-time-rail { width: 340px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 325px !important; }
+    .sidebar aside { padding: 0 2em; }
+    .sidebar aside + aside { padding-top: 2em; }
+    .sidebar aside.widget_calendar { padding-left: 5%; }
+    .widget_area .widget_calendar td .day_wrap { padding: 0.05em 0; }
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 48%; }
+    .small_banner .small_banner_title { padding-top: 0.5em; }
+    .top_panel_fixed .menu_main_wrap .menu_main_nav_area { height: 4.15em; }
+    #fbuilder .dfield { font-size: 13px; }
+    #fbuilder input[type="checkbox"], #fbuilder input[type="radio"] { width: 0.9em !important; vertical-align: -3px; }
+    .sidebar_show .content { width: 600px; }
+    .sidebar { width: 220px; }
+    .slider_boxed, .content_wrap, .content_container { width: 850px; }
+    .widget_area .widget_flickr .flickr_badge_image {  margin: 0 5px 5px 0; overflow: hidden }
+    .sc_team_style_1 .sc_team_item_info { margin-right: 30px; }
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_titles { width: 6.7em;}
+
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8461em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9231em;
+	}
+	.menu_main_wrap .search_wrap {
+		margin-top: 2em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8461em;
+	}
+	.page_top_wrap.page_top_title .breadcrumbs {
+		padding: 2em 0 1em 2.5em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	
+	/* Shortcodes */
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 800px) and (max-width: 959px) {
+	body {	font-size: 13px; }
+    h1 { font-size:3em; }
+    h2 { font-size:2.3077em; }
+    h3 { font-size:1.6667em; }
+    h4 { font-size:1.3333em; }
+    h5 { font-size:1.2em; }
+    h6 { font-size:1em; }
+
+    .sc_infobox.sc_infobox_iconed:before { font-size: 15px;}
+    .menu_center .menu_main_wrap .menu_main_nav_area {
+        height: 4.1em;
+    }
+    .menu_main_wrap .content_wrap {
+        overflow: hidden;
+    }
+    .menu_main_wrap .logo_main {
+        max-height: 50px;
+    }
+    .sidebar aside {
+        padding: 0;
+    }
+    .mejs-controls div.mejs-time-rail { width: 460px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 445px !important; }
+    .sidebar aside.widget_calendar { margin-left: 0; }
+    .widget_area .widget_calendar td .day_wrap { padding: 0.05em 0; }
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 57%; }
+    .small_banner .small_banner_title { padding-top: 2em; }
+    .top_panel_fixed .menu_main_wrap .menu_main_nav_area { height: 4.15em; }
+    #fbuilder .dfield { font-size: 13px; }
+    #fbuilder input[type="checkbox"], #fbuilder input[type="radio"] { width: 0.9em !important; vertical-align: -3px; }
+    .sidebar_right .content { width: 100%;}
+    .sidebar_show .content { width: 100%;}
+    .sidebar, .article_style_boxed .sidebar,
+    .sidebar { width: 100%; padding: 1.875em;}
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a { width: 6.2em;}
+    .category-obituaries .sidebar aside + aside { margin-top: 0; margin-left: 0;}
+    .category-obituaries .sidebar { float: none; width: 100%; margin-top: 3em;}
+    .category-obituaries .sidebar aside { width: 50%; float: left; box-sizing: border-box; }
+    .category-obituaries.sidebar_show .content { width: 100%;  float: none;}
+    .slider_boxed, .content_wrap, .content_container { width: 720px; }
+    .widget_area .widget_flickr .flickr_badge_image {  margin: 0 5px 5px 0; overflow: hidden }
+    .sc_team_style_1 .sc_team_item_info { margin-right: 20px; }
+    .post_item_obituaries.column-1_3 .post_featured { width: 8em; }
+    .post_item_obituaries.column-1_3 .post_content { margin-left: 9em; }
+
+    .small_banner { width: 97%;  height: 181px; }
+    .big_banner { width: 97%;  height: 293px; }
+    .big_banner .big_banner_title { padding-top: 2em;}
+    .big_banner .big_banner_text { margin-top: 2em; margin-bottom: 2em;}
+    .big_banner .sc_contact_form .sc_contact_form_button { width: 43%; }
+    .menu_main_wrap .menu_main_nav > li { padding: 0; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children:after { margin-right: 0.7em; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children { padding-right: 1em; }
+    .inline img { border: 0.3em solid #e1ddd9; padding: 0.4em; margin-right: 0.7em; }
+    .sc_price_block .sc_price_block_description { height: auto;}
+
+
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8461em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9231em;
+	}
+	.menu_main_wrap .search_wrap {
+		margin-top: 2em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8461em;
+	}
+	.page_top_wrap.page_top_title .breadcrumbs {
+		padding: 2em 0 1em 2.5em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8461em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_info {
+		font-size:0.8461em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3846em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.7692em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8461em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8461em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.7692em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	
+}
+
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 480px) and (max-width: 799px) {
+	body {	font-size: 12px; }
+	h1 { font-size:2.5em; }
+	h2 { font-size:2em; }
+	h3 { font-size:1.5em; }
+	h4 { font-size:1.3em; }
+	h5 { font-size:1.1667em; }
+	h6 { font-size:1em; }
+
+    .menu_main_wrap .content_wrap {
+        overflow: hidden;
+    }
+    .menu_main_wrap .logo_main {
+        max-height: 50px;
+    }
+
+    .inline .side-right {
+        max-width: 110px;
+    }
+    .search_s {
+        display: none;
+    }
+    .sc_infobox.sc_infobox_iconed:before {
+        font-size: 14px;}
+    .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a {
+        padding: 0.5em;
+    }
+    .big_banner .sc_contact_form .sc_contact_form_item.label_left input {
+        padding: 1.1em 0.8em;
+    }
+    .icon-menu-1:before { content: '\e93f'; }
+    .menu_main_responsive_button:before { font-size: 2.25em; line-height: 1.25em; color: #c9c1ba;}
+    .menu_main_responsive_button { display: block; }
+    .menu_main_wrap .menu_main_nav_area .menu_main_responsive li a:hover { background: #f1ad48; }
+    .top_panel_style_dark.article_style_stretch .page_top_wrap { margin-top: 0; }
+    .menu_center .menu_main_wrap .logo { margin-bottom: 1em; }
+    .menu_center .menu_main_wrap .menu_main_nav_area { margin: 0;}
+    .menu_main_wrap .menu_main_nav_area .menu_main_responsive {   margin: 0 auto; line-height: 1.3em;}
+    .marg_top_2em { margin-top: 1em; margin-bottom: 1em;}
+    .top_panel_fixed .menu_main_wrap .menu_main_nav_area { height: auto; }
+    .menu_main_wrap .menu_main_nav > li { padding: 0; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children:after { margin-right: 0.7em; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children { padding-right: 0; }
+    .sidebar aside {padding: 0;}
+
+    .ih-item.square .info .post_title:before { padding: 0.4em 0.6em;  top: 35%; }
+    .sc_audio.sc_audio_info { padding: 8.5em 2.5em 1em 1em; }
+    .mejs-controls div.mejs-time-rail a { width: 160px !important; }
+    .sidebar aside.widget_calendar { padding: 0; }
+    .widget_area .widget_calendar td .day_wrap { padding: 0.05em 0; }
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 57%; }
+    .small_banner .small_banner_title { padding-top: 2.5em; }
+    #fbuilder .dfield { font-size: 13px; }
+    #fbuilder .fields.column2 { float: none !important; width: 65% !important; margin: 0 auto !important; }
+    #fbuilder input[type="checkbox"], #fbuilder input[type="radio"] { width: 0.9em !important; vertical-align: -3px; }
+    .sidebar_right .content { width: 100%; }
+    .sidebar_show .content { width: 100%;}
+    .body_filled .widget_area.sidebar_style_white,
+    .sidebar { width: 100%;   padding: 1.875em; margin-top: 2em;}
+    .category-obituaries .sidebar { float: none; width: 100%; margin-top: 3em;}
+    .category-obituaries.sidebar_show .content { width: 100%;  float: none;}
+    .slider_boxed, .content_wrap, .content_container { width: 450px; }
+    .widget_area .widget_flickr .flickr_badge_image {  margin: 0 5px 5px 0; overflow: hidden }
+    .sc_team_style_1 .sc_team_item_info { margin-right: 20px; }
+    .post_item_obituaries.column-1_3 .post_featured { width: 40%; }
+    .post_item_obituaries.column-1_3 .post_content { margin-left: 43%; }
+    .post_item_obituaries.column-1_3 { width:49%; }
+    .small_banner {   width: 96%;  height: 181px; }
+    .big_banner { width: 96%; height: auto; }
+    .big_banner .big_banner_title { padding-top: 2em;}
+    .big_banner .big_banner_text { margin-top: 2em; margin-bottom: 2em;}
+    .big_banner .sc_contact_form .sc_contact_form_button { width: 43%; }
+
+    .inline img { border: 0.3em solid #e1ddd9; padding: 0.4em; margin-right: 0.7em; }
+    .history_service .sc_column_item figure.sc_image{ width: 250px !important;}
+    .history_service .sc_column_item figure.sc_image img{ width: 250px;}
+    .admin-bar.top_panel_fixed .top_panel_wrap { top: 32px; }
+    footer.footer_style_light  .widget_title { border: 0 !important; }
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_titles {  width: 7.8em; }
+    .mejs-controls .mejs-button.mejs-mute button:before { margin: 0; }
+    .sc_team_style_1 .sc_socials.sc_socials_size_small a {
+        font-size: 1em;
+    }
+
+    .sc_price_block .sc_price_block_description { height: auto; }
+    .sc_price_block {  margin-bottom: 1em; }
+    .sc_price_block +.sc_price_block { margin-left: 0; }
+    .menu_main_responsive_button {margin-left: 0;}
+    .sc_team .columns_wrap:not(.columns_fluid) > .column-1_1 {
+        width: 100%;
+    }
+    .menu_main_wrap .logo_main {
+        max-height: 50px;
+    }
+    .sc_team_item_description {
+        display: none;
+    }
+
+	/* Menu area */
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8333em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9167em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8333em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+    .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a,
+	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+		border-width: 2px;
+	}
+    /*Slider*/
+    .sc_slider_controls_wrap .sc_slider_prev, .sc_slider_controls_wrap .sc_slider_next {
+        width: 2.2em;
+        height: 2.05em;
+        padding-top: 0.15em;
+    }
+    .marg_top_2em { margin-top: 1em; margin-bottom: 1em; width: 160px;}
+    .pad_left_2em { padding-left: 0; margin-top: 0.5em;}
+    .inline img { width: 15px; border: 0.3em solid #e1ddd9; padding: 0.4em; margin-right: 0.7em; }
+    .marg_top {margin-top: 0; }
+    .menu_center .menu_main_wrap .logo { margin-top: 2.5em; max-width: 230px;}
+    .sc_price_block {margin-bottom: 1em; }
+    .sc_price_block +.sc_price_block { margin-left: 0; }
+    .inline.bottom { display: block; text-align: center; float: none !important; padding: 0;}
+    .inline.bottom.marg_null {display: none;}
+    .search_s { display: none;}
+    .obituaries .search_wrap.search_style_regular .search_form_wrap .search_submit { padding: 0 0.5em !important; }
+    .ancora-paypal-donations input { width: 81% !important; margin: 0.2em 0 !important;}
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 50%; }
+    .bg_tint_dark .search_wrap.search_style_regular { margin-right: 4em; }
+    .bg_tint_dark .search_wrap.search_opened { margin-right: 0em; }
+    .menu_user_area.menu_user_left.menu_user_contact_area::before {
+        margin-left: 0;
+    }
+}
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+
+    .tp-mask-wrap .sc_button,
+    .hesperiden.tparrows,
+    .smalltextslider {
+        display: none !important;
+    }
+    .post_item_404 .page_title {
+        font-size: 13em;
+    }
+    .responsive_menu .menu_main_wrap {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    table tr:first-child th,
+    table tr:first-child td {
+        font-size: 11px;
+        line-height: 1.75em;
+        font-weight: 300;
+    }
+    table th, table td {
+        padding: 0.5em;
+    }
+
+    .single_add_to_cart_button, .woocommerce-page p.buttons .wc-forward, .woocommerce-page .widget_price_filter .price_slider_amount .button, .woocommerce-page ul.products li.product .add_to_cart_button, .content .post_item_404 .page_search .search_wrap .search_form_wrap .search_submit, .obituaries .search_wrap.search_style_regular .search_form_wrap .search_submit, [class*="button-"] {
+        position: relative !important;
+        display: inline-block !important;
+        overflow: hidden !important;
+        padding: 0 1.6em !important;
+    }
+    body {	font-size: 12px; }
+    h1 { font-size:2.5em; }
+    h2 { font-size:2em; }
+    h3 { font-size:1.5em; }
+    h4 { font-size:1.3em; }
+    h5 { font-size:1.1667em; }
+    h6 { font-size:1em; }
+    .sc_infobox.sc_infobox_iconed:before {
+        font-size: 14px;}
+    .menu_user_area.menu_user_left.menu_user_contact_area:before {
+        margin-left: 0;
+    }
+    .bg_tint_dark .search_wrap.search_style_regular {
+        margin-right: 4em;
+    }
+    .bg_tint_dark .search_wrap.search_opened {
+        margin-right: 0em;
+    }
+    .icon-menu-1:before { content: '\e93f'; }
+    .menu_main_responsive_button:before { font-size: 2.25em; line-height: 1.25em; color: #c9c1ba;}
+    .menu_main_responsive_button { display: block; }
+    .menu_main_wrap .menu_main_nav_area .menu_main_responsive li a:hover { background: #f1ad48; }
+    .top_panel_style_dark.article_style_stretch .page_top_wrap { margin-top: 0; }
+    .menu_center .menu_main_wrap .logo { margin-bottom: 1em; }
+    .menu_center .menu_main_wrap .menu_main_nav_area { margin: 0;}
+    .menu_main_wrap .menu_main_nav_area .menu_main_responsive {   margin: 0 auto;  line-height: 1.3em;}
+    .marg_top_2em { margin-top: 1em; margin-bottom: 1em; width: 200px;}
+    .pad_left_2em { padding-left: 0; }
+    .top_panel_fixed .menu_main_wrap .menu_main_nav_area { height: auto; }
+    .menu_main_wrap .menu_main_nav > li { padding: 0; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children:after { margin-right: 0.7em; }
+    .menu_main_wrap .menu_main_nav_area li.menu-item-has-children { padding-right: 0; }
+
+    .ih-item.square .info .post_title:before { padding: 0.4em 0.6em;  top: 32%; }
+    .sc_audio.sc_audio_info { padding: 8.5em 2.5em 1em 1em; }
+    .mejs-controls div.mejs-time-rail { width: 240px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 230px !important; }
+    .sidebar aside + aside { padding-top: 2em; }
+    .sidebar aside.widget_calendar { padding-left: 1.5em; }
+    .widget_area .widget_calendar td .day_wrap { padding: 0.05em 0; }
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 57%; }
+    .small_banner .small_banner_title { padding-top: 2.5em; }
+    #fbuilder .dfield { font-size: 13px; }
+    #fbuilder .fields.column2 { float: none !important; width: 65% !important; margin: 0 auto !important; }
+    #fbuilder input[type="checkbox"], #fbuilder input[type="radio"] { width: 0.9em !important; vertical-align: -3px; }
+    .sidebar_right .content { width: 65%; float: left}
+    .sidebar_show .content { width: 65%;}
+    .sidebar { width: 30%; }
+    .category-obituaries .sidebar aside + aside { margin-top: 0;}
+    .category-obituaries .sidebar { float: none; width: 100%; margin-top: 3em;}
+    .category-obituaries .sidebar aside { width: 50%; float: left; box-sizing: border-box; }
+    .category-obituaries.sidebar_show .content { width: 100%;  float: none;}
+    .slider_boxed, .content_wrap, .content_container { width: 95%; }
+    .widget_area .widget_flickr .flickr_badge_image {  margin: 0 5px 5px 0; overflow: hidden }
+    .sc_team_style_1 .sc_team_item_info { margin-right: 10px;  bottom: 2em;}
+    .post_item_obituaries.column-1_3 .post_featured { width: 95%; float: none; }
+    .post_item_obituaries.column-1_3 .post_content { margin-left: 0; }
+    .post_item_obituaries.column-1_3 { width: 32%; }
+    .sidebar aside { padding: 0 2em; width: 100%; box-sizing: border-box; }
+    .small_banner {   width: 96%;  height: 181px; }
+    .big_banner { width: 96%; height: auto; }
+    .big_banner .big_banner_title { padding-top: 2em;}
+    .big_banner .big_banner_text { margin-top: 4em; margin-bottom: 3em;}
+    .big_banner .sc_contact_form .sc_contact_form_button { width: 43%; }
+
+    .inline img { border: 0.3em solid #e1ddd9; padding: 0.4em; margin-right: 0.7em; }
+    .history_service .sc_column_item figure.sc_image{ width: 250px !important;}
+    .history_service .sc_column_item figure.sc_image img{ width: 250px;}
+    .admin-bar.top_panel_fixed .top_panel_wrap { top: 32px; }
+    .widget_area aside { margin-left: 0;}
+    footer.footer_style_light  .widget_title { border: 0 !important; }
+    .sc_tabs.sc_tabs_style_2 .sc_tabs_titles {  width: 7.75em; }
+    .mejs-controls .mejs-button.mejs-mute button:before { margin: 0; }
+
+    .marg_top_2em { margin-top: 1em; margin-bottom: 1em; width: 160px;}
+    .pad_left_2em { padding-left: 0; margin-top: 0.5em;}
+    .inline img { width: 15px; border: 0.3em solid #e1ddd9; padding: 0.4em; margin-right: 0.7em; }
+    .marg_top {margin-top: 0; }
+    .menu_center .menu_main_wrap .logo { margin-top: 2.5em;}
+    .sidebar_show .content,
+    .sidebar { width: 100%; padding: 0 0 1em 0; margin-top: 1em; }
+    .widget_area aside { display: inline-block; float: none; vertical-align: top; width: 48%; }
+    .sidebar aside { padding-top: 2em !important; }
+    .sc_price_block {margin-bottom: 1em; }
+    .sc_price_block +.sc_price_block { margin-left: 0; }
+    .inline.bottom { display: block; text-align: center; float: none !important; padding: 0;}
+    .inline.bottom.marg_null {display: none;}
+    .search_s { padding: 0;}
+    .sc_tabs_titles li { font-size: 1em !important;}
+    .obituaries .search_wrap.search_style_regular .search_form_wrap .search_submit { padding: 0 0.5em !important; }
+    .sc_tabs [class*="column-"] { width: 100% !important; }
+    .sc_tabs .post_content h4 { margin-top: 1em !important;}
+    .ancora-paypal-donations input { width: 81% !important; margin: 0.2em 0 !important;}
+    .big_banner .sc_contact_form .sc_contact_form_field { width: 50%; }
+    .mejs-controls div.mejs-time-rail { width: 145px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 125px !important; }
+
+    .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total:before, .mejs-controls .mejs-time-rail .mejs-time-total:before {
+        position: relative;
+    }
+    .sc_price_block .sc_price_block_description { height: auto; }
+    .sc_price_block { margin-bottom: 1em; }
+    .sc_price_block +.sc_price_block { margin-left: 0; }
+
+    /* Menu area */
+
+	.menu_main_wrap .logo a,
+	.menu_user_wrap {
+		font-size:0.8333em;
+	}
+	.menu_main_wrap .menu_main_nav > li {
+		font-size:0.9167em;
+	}
+
+	.page_top_wrap .breadcrumbs {
+		font-size:0.8333em;
+	}
+	
+	/* Post layouts */
+	.isotope_filters a {
+		font-size:0.8333em;
+	}
+	
+	/* Post parts */
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_info {
+		font-size:0.8333em;
+	}
+	.post_rating .reviews_star {
+		font-size:1em;
+	}
+	
+	.post_item_courses .post_category {
+		font-size:1em;
+		margin:0 0 0.4em;
+	}
+	.post_item_courses .post_descr .post_price_period {
+		font-size:1em;
+	}
+	.post_item_courses .post_descr .post_price_value {
+		font-size:1.3333em;
+	}
+	
+	.layout_single-courses .content .post_info:not(.post_info_bottom) {
+		font-size: 1.25em;
+	}
+	
+	/* Footer */
+	.contacts_wrap .contacts_address {
+		font-size: 1em;
+	}
+	
+	/* Widgets */
+	.widget_area .post_item .post_info {
+		font-size:0.75em;
+	}
+	.widget_area .widget_tag_cloud a {
+		font-size:0.8333em !important;
+	}
+	.widget_area .widget_calendar .weekday {
+		font-size:0.8333em;
+	}
+	.widget_area .reviews_block .reviews_summary .reviews_criteria {
+		font-size:0.75em;
+	}
+	
+	/* Shortcodes */
+	input[type="submit"], input[type="button"], button, .sc_button {
+		padding: 0.7em 0.6em;
+	}
+	blockquote {
+		font-size: 1.5em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits,
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_separator {
+		font-size:2em;
+		height: 2em;
+		line-height:2em;
+	}
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits {
+		width: 2em;
+	}
+	.sc_testimonial_content {
+		font-size:1.25em;
+	}
+	.sc_testimonial_author {
+		font-size: 1em;
+	}
+	.sc_tabs .sc_tabs_titles li {
+		font-size:1.25em;
+	}
+    .logo .logo_text {
+        font-size: 2.4em;
+    }
+    .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a, .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+        margin: 0.3em;
+        padding: 0.4em 0.5em;
+    }
+
+}
+
+
+@media (max-width: 418px) {
+    .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a, .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+        margin: 0;
+        padding: 0.5em 0.1em;
+    }
+    .menu_center .menu_main_wrap .logo {
+        margin-top: 1.5em;
+    }
+    .marg_top_2em {
+        width: 310px;
+        float: none;
+        margin: auto;
+        margin-top: -0.5em;
+        margin-bottom: 0.5em;
+        display: block;
+    }
+    .pad_left_2em {
+        padding-left: 1em;
+    }
+    .inline h4 {
+        font-size: 1.1em;
+    }
+    .obituaries .search_wrap.search_style_regular .search_form_wrap .search_field {
+        width: 75%;
+    }
+    .obituaries .search_wrap.search_style_regular .search_form_wrap .search_submit {
+        padding: 0 2% !important;
+        width: 22%;
+    }
+    .sc_price_block {
+        width: 100%;
+    }
+    .mejs-controls div.mejs-time-rail { width: 55px !important; }
+    .mejs-controls div.mejs-time-rail a { width: 35px !important; }
+
+    .mejs-controls .mejs-button button {
+        margin: 3px 3px 0 !important;
+    }
+    .mejs-container .mejs-button {
+        width: 30px !important;
+    }
+    .widget_area aside {
+        width: 100%;
+    }
+    .small_banner .small_banner_title {
+        padding-top: 1.5em;
+    }
+    .big_banner .sc_contact_form .sc_contact_form_item.label_left button {
+        padding: 0 0.5em !important;
+    }
+    .category-obituaries .sidebar aside {
+        width: 100%;
+        float: none;
+    }
+    .big_banner .sc_contact_form .sc_contact_form_item.label_left {
+        float: none;
+        width: 100%;
+    }
+    .big_banner .big_banner_text {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .big_banner .sc_contact_form .sc_contact_form_item.label_left button,
+    .big_banner .sc_contact_form .sc_contact_form_item.label_left input {
+        margin: 0 20%;
+        width: 60%;
+    }
+}
+@media (max-width: 320px) {
+    .sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a, .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
+        margin: 0;
+        padding: 0.5em 0;
+        font-size: 0.95em !important
+    }
+    .inline img {
+        margin-right: 0.3em;
+    }
+    .pad_left_2em {
+        padding-left: 0.5em;
+    }
+    .mejs-controls .mejs-button button {
+        margin: 3px 0 0 !important;
+    }
+    .sc_audio.sc_audio_info {
+        padding: 8.5em 0.5em 1em 1em;
+    }
+}
+
+@media (max-width: 991px) {
+    .sc_price_block .sc_price_block_description {
+        height: auto;
+    }
+}

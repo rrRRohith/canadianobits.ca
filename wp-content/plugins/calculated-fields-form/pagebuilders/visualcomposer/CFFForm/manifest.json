@@ -1,0 +1,19 @@
+{
+  "elements": {
+    "CFFForm": {
+      "settings": {
+        "name": "Calculated Fields Form",
+        "metaThumbnailUrl": "[publicPath]/cff-thumbnail.png",
+        "metaPreviewUrl": "[publicPath]/cff-preview.png",
+        "metaDescription": "Add a calculated fields form."
+      }
+    }
+  },
+  "categories": {
+    "Misc": {
+      "elements": [
+        "CFFForm"
+      ]
+    }
+  }
+}

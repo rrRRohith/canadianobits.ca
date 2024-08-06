@@ -1,0 +1,18 @@
+<div class="row" id="SectionStats">
+	{% for stat in vars.stats %}
+		<div class="col-xl-2 col-md-4 mt-4">
+			<div class="stat card text-center" id="statcard-{{ stat.id }}"
+				 {% if stat.tooltip is defined %}title="{{ stat.tooltip }}"{% endif %}
+			>
+				<div class="card-body">
+					<div class="stat-chart summary-chart summary-chart-{{ stat.id }}"
+						 {% if stat.tooltip_chart is defined %}title="{{ stat.tooltip_chart }}"{% endif %}>
+					</div>
+					<h6 style="font-size: small">{{ stat.title }}
+						<br/><span style="font-size: smaller">({{ stat.title_sub }})</span>
+					</h6>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>

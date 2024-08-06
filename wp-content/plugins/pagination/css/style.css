@@ -1,0 +1,26 @@
+/**
+ * styles settings page
+ */
+.pgntn_links_text,
+.pgntn_input {
+	display: inline-block;
+}
+.pgntn-empty-position {
+	clear: left;
+}
+@media screen and ( max-width: 714px ) {
+	a.nav-tab {
+		margin: 10px 10px 0 0;
+		border-bottom: 1px solid #ccc;
+	}
+}
+@media only screen and ( max-width: 320px ) {
+	#pgntn_settings_page code {
+		display: block;
+		width: 285px;
+	}
+	.pgntn_input {
+		display: block;
+		margin-left: 0;
+	}
+}

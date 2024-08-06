@@ -1,0 +1,59 @@
+<form class="form form_create_report" >
+
+	<div class="row">
+		{% for reporting_option in vars.reporting_options %}
+			<div class="col-4 mb-3">
+				<h6>{{ reporting_option.title }}</h6>
+				<div class="ps-3">
+					{% for zone_key,zone_name in reporting_option.zones %}
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox"
+								   name="{{ reporting_option.form_field_name }}[]"
+								   id="zone-{{ reporting_option.form_field_name }}-{{ zone_key }}"
+								   value="{{ zone_key }}" checked="checked" />
+							<label class="form-check-label"
+								   for="zone-{{ reporting_option.form_field_name }}-{{ zone_key }}">{{ zone_name }}</label>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-xl-6 mb-4">
+			<h6>{{ strings.date_range }}</h6>
+			<div class="input-group date input-daterange">
+			  <input type="text" name="start_date" class="form-control datepicker-input"
+					 {% if not flags.can_run_report %}disabled="disabled"{% endif %}
+					 placeholder="{{ strings.date_start }}" />
+			  <span class="input-group-text">to</span>
+			  <input type="text" name="end_date" class="form-control datepicker-input"
+					 {% if not flags.can_run_report %}disabled="disabled"{% endif %}
+					 placeholder="{{ strings.date_end }}" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-5 mb-4">
+			<h6><label for="ReportTitle" class="form-label"
+					   id="ReportTitleLabel">{{ strings.report_title }}</label></h6>
+			<input name="title" type="text" class="form-control" id="ReportTitle"
+				   placeholder="{{ strings.descriptive_title }}"
+				   aria-describedby="ReportTitleLabel">
+			<div class="form-text visually-hidden">{{ strings.descriptive_title }}</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col mb-3">
+			<button type="submit" class="btn btn-primary"
+					{% if not flags.can_run_report %}disabled="disabled"{% endif %}>
+			  {% if flags.can_run_report %}{{ strings.build_report }}{% else %}Unavailable{% endif %}
+			</button>
+		</div>
+	</div>
+</form>
+
+<hr class="my-4" />

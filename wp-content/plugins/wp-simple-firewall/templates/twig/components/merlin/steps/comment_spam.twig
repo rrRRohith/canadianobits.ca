@@ -1,0 +1,37 @@
+{% extends '/components/merlin/steps/base.twig' %}
+
+{% block slide_body_video_section_blurb %}
+	<p>Nearly 100% of comments SPAM is by automated BOTS.
+	   Shield will block all of this bot SPAM, <strong>without CAPTCHAs</strong>.
+	</p>
+{% endblock %}
+
+{% block slide_body_action_area %}
+	{% import '/common/macros.twig' as icwp_macros %}
+
+	<form class="form-horizontal merlin-form ajax-form">
+
+		<div class="row">
+			<div class="col-12 mb-2">
+				<h6>Configure Comment SPAM Blocking</h6>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+			  {{ icwp_macros.formInput_Radio_Wizard(
+				  'CommentsFilterOption',
+				  {
+					  'Y': '<span>Turn On</span> - Block automated bot SPAM comments',
+					  'N': "<span>Turn Off</span> - Don't block automated comment SPAM"
+				  },
+				  'Comment SPAM Blocking'
+			  ) }}
+			</div>
+		</div>
+
+		{{ icwp_macros.formInput_Hidden( 'step_slug', vars.step_slug ) }}
+		{{ icwp_macros.formInput_Submit2( 'Set Comment SPAM Protection', null, null, false ) }}
+	</form>
+
+{% endblock %}

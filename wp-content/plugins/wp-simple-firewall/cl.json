@@ -1,0 +1,3631 @@
+{
+  "19.0": {
+    "version":     "19.0",
+    "released_at": 1707133000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease190",
+      "upgrade": "https://shsec.io/shieldupgradeguide190"
+    },
+    "title":       "Security DIY: Custom Rules Builder",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Security Rules Builder",
+        "description": [
+          "The Security Rules Builder lets you design and build your own set of security rules for any security restrictions you desire."
+        ],
+        "href":        "https://shsec.io/lq"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Support For ShieldPRO Extensions",
+        "description": [
+          "We'll soon release some Shield Security Extensions to build upon the Shield platform."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Protection Against Session Theft/Hijacking",
+        "description": [
+          "You can now lock user sessions to IP addresses, User Agents, or both.",
+          "This helps to prevent session theft and hijacking, and re-use of user sessions on other devices."
+        ],
+        "href":        "https://shsec.io/lr"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "User Sessions Filter By Username",
+        "description": [
+          "You can (again) filter the user sessions table by usernames."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "FileLocker Improvements",
+        "description": [
+          "Updated the FileLocker system to ensure compatibility with the Shield.NET API."
+        ],
+        "href":        "https://shsec.io/lu"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Geolocation",
+        "description": [
+          "Added some basic geo-location data that comes from CloudFlare (if you use it) to allow for rules that use Geolocation data.",
+          "A ShieldPRO extension will be provided at a later date to offer Geolocation data options beyond CloudFlare."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "fixed",
+        "pro_only":    true,
+        "title":       "Improved Passkeys Platform Support",
+        "description": [
+          "Ensure Passkeys can be used on hosts that don't have the GMP extension active."
+        ],
+        "href":        "https://shsec.io/lm"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Code Rewrite & Cleaning",
+        "description": [
+          "A lot of plugin code has been rewritten to use the newer Rules Engine, improving performance & reliability."
+        ],
+        "href":        ""
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "7",
+        "released_at": 1707735000,
+        "items":       [
+          {
+            "title": "Provide option to specify temporary directory location.",
+            "type":  "new"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1707384000,
+        "items":       [
+          {
+            "title": "Set Session Lock default to not lock to IP address.",
+            "type":  "improved"
+          },
+          {
+            "title": "Ensure multiple scans don't run for WPMS sites.",
+            "type":  "improved"
+          },
+          {
+            "title": "Small adjustment to prevent fatal errors when DB has issues inserting new data.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1707149000,
+        "items":       [
+          {
+            "title": "Fix various non-critical bugs.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "18.5": {
+    "version":     "18.5",
+    "released_at": 1700478000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease185",
+      "upgrade": "https://shsec.io/shieldupgradeguide185"
+    },
+    "title":       "Smoother WordPress Two-Factor Authentication",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Passkey/WebAuthn/FIDO2 Support",
+        "description": [
+          "Seamless WordPress Two-Factor Authentication with support for all FIDO2-compliant devices and Passkeys."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Email 2FA Auto-Login",
+        "description": [
+          "Email 2FA option to provide automatic login links alongside 2FA codes."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Site Lockdown",
+        "description": [
+          "You can now completely lockdown access to your site to prevent any access whatsoever.",
+          "All traffic will be met with a block page, except for IP addresses present on the bypass/whitelist."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Export IP Rules",
+        "description": [
+          "Download all IP Rules as CSV."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Complete Javascript Rewrite",
+        "description": [
+          "All plugin Javascript code has been completely cleaned & rewritten."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Realtime Dashboard Updates",
+        "description": [
+          "The dashboard progress meters are automatically updated as settings are changed via Analysis tabs. Further improvements to come."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Bot Detection Javascript Improved",
+        "description": [
+          "NotBot JS javascript is more reliable and handles page caching nonce-staleness better."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Link-Cheese Honeypot Is Improved",
+        "description": [
+          "Some improvements have been made to the reliability of the Link-Cheese feature."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "User Sessions Management",
+        "description": [
+          "Users sessions table now uses our new UI."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Navigation Improvements",
+        "description": [
+          "Automatically selects the previously active navigation tab when page is reloaded."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Optimised Plugin Assets",
+        "description": [
+          "All plugin JS & CSS are optimised, built and packaged using Webpack."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "removed",
+        "pro_only":    false,
+        "title":       "Google reCAPTCHA and hCAPTHCA",
+        "description": [
+          "reCAPTCHA has been deprecated for over a year already and have finally been removed from the plugin.",
+          "Consider using Shield's own Antibot Detection Engine feature."
+        ],
+        "href":        ""
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "10",
+        "released_at": 1703350000,
+        "items":       [
+          {
+            "title": "Security fix for LFI (details to follow at a future date). Patched and released within 6hrs of responsible disclosure.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "9",
+        "released_at": 1702670000,
+        "items":       [
+          {
+            "title": "Mitigate potential fatal error with invalid data populated by 3rd party code.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "8",
+        "released_at": 1702640000,
+        "items":       [
+          {
+            "title": "Security fix for XSS (details to follow at a future date).",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug: Automatic Import/Export with Master sites could be inadvertently disabled.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Allow Shield to run under PHP 8.3 - there may still be issues as-yet undetected.",
+            "type":  "improved"
+          }
+        ]
+      },
+      {
+        "version":     "7",
+        "released_at": 1700730000,
+        "items":       [
+          {
+            "title": "Optimisations to NotBot JS to further reduce AJAX requests.",
+            "type":  "improved"
+          },
+          {
+            "title": "Bug: Email 2FA capability verification email was sent twice.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug: Couldn't dismiss in-plugin notices.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1700500000,
+        "items":       [
+          {
+            "title": "Bug: IP auto-detect displaying admin notices instead of running in the background.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug: unable to click-to-ignore abandoned plugin results.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "18.4": {
+    "version":     "18.4",
+    "released_at": 1695730000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease184",
+      "upgrade": "https://shsec.io/shieldupgradeguide184"
+    },
+    "title":       "Performance Optimisations",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Improved Page Loading Performance",
+        "description": [
+          "Performance improvements for page loading & TTFB through various optimisations."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Developers: New Filters",
+        "description": [
+          "Provide a filter for admins to adjust the lost password URL for suspended users."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "fixed",
+        "pro_only":    false,
+        "title":       "2FA Login Redirects",
+        "description": [
+          "Fixed a rare scenario where the redirect_to flag for WP logins wasn't being completely honoured when 2FA was used."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "fixed",
+        "pro_only":    false,
+        "title":       "Google Authenticator QR Codes",
+        "description": [
+          "Fixed broken rendering of QR Codes for Google Authenticator."
+        ],
+        "href":        ""
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "6",
+        "released_at": 1699364000,
+        "items":       [
+          {
+            "title": "REST API endpoints were not always being initiated.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1698231000,
+        "items":       [
+          {
+            "title": "Added a Comment SPAM Cooldown feature to prevent humans, that bypass bot checks, from repeatedly posting SPAM.",
+            "type":  "new"
+          },
+          {
+            "title": "Email 2FA One-Time-Password is numeric only. OTP may be modified via supplied filter.",
+            "type":  "changed"
+          },
+          {
+            "title": "Added helper text to make it clear that renaming the WP Login URL isn't a security setting. It's obscurity.",
+            "type":  "improved"
+          },
+          {
+            "title": "Reduce potential for excess AJAX calls when page caching is used.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "4",
+        "released_at": 1696417000,
+        "items":       [
+          {
+            "title": "Scenario where FileLocker wasn't creating file locks on the WP Cron.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Some file download links weren't working correctly.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "3",
+        "released_at": 1695907000,
+        "items":       [
+          {
+            "title": "Fixed potential error on loading Shield admin screens.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "18.3": {
+    "version":     "18.3",
+    "released_at": 1695036000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease183",
+      "upgrade": "https://shsec.io/shieldupgradeguide183"
+    },
+    "title":       "All-New Reporting",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Custom Reports",
+        "description": [
+          "You can now create custom reports on-demand, for any period for which you have data."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Live Traffic Log",
+        "description": [
+          "You can now temporarily switch the Traffic Log to live logging mode to capture all WordPress requests."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Live Traffic Log View",
+        "description": [
+          "Live logging tool lets you view all requests sent to the site, and automatically refreshes with the latest requests."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Reports Archive",
+        "description": [
+          "Automated and manually-created reports are now full HTML pages and are saved/archived for future reference."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Enhanced Summary Dashboard",
+        "description": [
+          "We've created a brand new dashboard, to be used as a launchpad for many security actions."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Traffic Log Download",
+        "description": [
+          "All traffic logs can be downloaded to plain-text log files."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Breadcrumbs For Better Navigation",
+        "description": [
+          "Navigating the plugin and various pages is improved and more intuitive for users."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "User Sessions Management",
+        "description": [
+          "Improved the loading of user sessions to be more thorough."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Activity and Traffic Logging Conflicts Resolved",
+        "description": [
+          "In the case that logging was disabled where you had a conflicting PHP logging library, logs are now available for you again."
+        ],
+        "href":        ""
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Many Code Improvements",
+        "description": [
+          "Major reworking and improvements of code for reliability and performance."
+        ],
+        "href":        ""
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "9",
+        "released_at": 1695216600,
+        "items":       [
+          {
+            "title": "Add activity log event for WP Core Reinstall (distinct from core upgrade)",
+            "type":  "new"
+          },
+          {
+            "title": "Fixed Fatal error on older WordPress installations for missing function get_user_count().",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "18.2": {
+    "version":     "18.2",
+    "released_at": 1690360000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease182",
+      "upgrade": "https://shsec.io/shieldupgradeguide182"
+    },
+    "title":       "Change Reporting",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Change Reports",
+        "description": [
+          "You can now create summary and detailed reports for important changes on your WordPress site."
+        ],
+        "href":        "https://shsec.io/li"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Additional Event Logging",
+        "description": [
+          "Shield now captures events such as plugin/theme uninstallation and user password updates."
+        ],
+        "href":        "https://shsec.io/li"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Enhanced Event Logging",
+        "description": [
+          "Shield now logs changes to the site that were done 'outside' of the WordPress environment.",
+          "It can capture changes to critical WordPress core options that were modified directly on WordPress DB, for example."
+        ],
+        "href":        "https://shsec.io/li"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Protect WordPress Permalinks Option",
+        "description": [
+          "Security Admin now protects the WordPress Permalinks and the New User Default Role options."
+        ],
+        "href":        ""
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "11",
+        "released_at": 1693310000,
+        "items":       [
+          {
+            "title": "Vulnerability scanning is more efficient.",
+            "type":  "improved"
+          },
+          {
+            "title": "Improvements and performance optimisation in several areas.",
+            "type":  "improved"
+          },
+          {
+            "title": "Improvements and optimizations to many SQL queries.",
+            "type":  "improved"
+          },
+          {
+            "title": "Mitigate a potential error on upgrade.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "8",
+        "released_at": 1692000000,
+        "items":       [
+          {
+            "title": "Adding Activity Log tracking for Shield options saving.",
+            "type":  "new"
+          },
+          {
+            "title": "Provide ability to filter activity & request log tables by logged-in user.",
+            "type":  "improved"
+          },
+          {
+            "title": "Refactor & optimise how Shield options are stored, reducing WordPress DB entries.",
+            "type":  "improved"
+          },
+          {
+            "title": "Updated built-in helpdesk links.",
+            "type":  "improved"
+          },
+          {
+            "title": "Provide an easily access function to trigger manual scans.",
+            "type":  "improved"
+          },
+          {
+            "title": "Performance improvements when loading activity log and traffic log tables.",
+            "type":  "improved"
+          },
+          {
+            "title": "Snapshots performance improvements and fixes for some edge cases.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "4",
+        "released_at": 1690532000,
+        "items":       [
+          {
+            "title": "Updated some JS & CSS assets.",
+            "type":  "improved"
+          },
+          {
+            "title": "Refactored license verification to reduce chances of licenses being deactivated.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Other smaller bug fixes.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "18.1": {
+    "version":     "18.1",
+    "released_at": 1686215000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease181",
+      "upgrade": "https://shsec.io/shieldupgradeguide181"
+    },
+    "title":       "Cleanup, Optimise, & Bug-Fix",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Add Bot-Protection Support for more 3rd party plugins",
+        "description": [
+          "Plugins include: 'Classified Listing', 'ProfilePress'"
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Support and integration with WP Umbrella",
+        "description": [
+          "Ensures that requests coming from WP Umbrella are never interrupted or trigger Shield's defenses."
+        ],
+        "href":        "https://shsec.io/wpumbrella"
+      },
+      {
+        "type":        "improvements",
+        "pro_only":    false,
+        "title":       "Huge underlying code cleanup and improvements..",
+        "description": [
+        ]
+      },
+      {
+        "type":        "improvements",
+        "pro_only":    true,
+        "title":       "Improved fallback support for Bing Search Engine Bots and SEMRush.",
+        "description": [
+          "If your site is having temporary rDNS lookup issues and can't verify the Bing bot, we've provided some fallback mechanisms."
+        ]
+      },
+      {
+        "type":        "improvements",
+        "pro_only":    false,
+        "title":       "Improvements to Plugin Notifications.",
+        "description": [
+        ]
+      },
+      {
+        "type":        "improvements",
+        "pro_only":    false,
+        "title":       "Upgraded Assets, such as Bootstrap to the latest available.",
+        "description": [
+        ]
+      },
+      {
+        "type":        "fix",
+        "pro_only":    true,
+        "title":       "Bug: Filelocker wasn't always creating the file lock correctly.",
+        "description": [
+        ]
+      },
+      {
+        "type":        "fix",
+        "pro_only":    true,
+        "title":       "Bug: Incorrectly identifying Contact Form 7.",
+        "description": [
+          "Shield would report Contact Form 7 is installed, when it wasn't."
+        ]
+      }
+    ],
+    "patches":     [
+    ]
+  },
+  "18.0": {
+    "version":     "18.0",
+    "released_at": 1681725600,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease180",
+      "upgrade": "https://shsec.io/shieldupgradeguide180"
+    },
+    "title":       "Bringing Artificial Intelligence To Malware Detection",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "MAL{ai} - Artificial Intelligence for WordPress Malware Detection",
+        "description": [
+        ],
+        "href":        "https://shsec.io/le"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "File Scan Areas Option",
+        "description": [
+          "We've added new scan areas, in particularly the entire /wp-content/ directory, and the WP installation root directory.",
+          "You can now select these to be scanned - you'll have more results to review, but you'll have more visibility on the files sitting on your site."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Added Extra Protection To Security Admin",
+        "description": [
+          "We've added some protection against adjustments to the WP Default User Role option within the Security Admin system."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Toggle Security Analysis Overview",
+        "description": [
+          "Added the option to view your Security Overview as either ShieldFREE or ShieldPRO."
+        ]
+      },
+      {
+        "type":        "improvements",
+        "pro_only":    false,
+        "title":       "Improved, More Compact Plugin Layout",
+        "description": [
+          "We've received a number of piece of feedback about the latest plugin layout and have restructured some elements to be more compact.",
+          "This cleanup ensures we waste less space on the screen and can display more content that you need to see."
+        ]
+      },
+      {
+        "type":        "improvements",
+        "title":       "Scan Results Display",
+        "description": [
+          "We've continued with our tweaking of the Scan Results pages, making them faster to load and easier to read."
+        ]
+      },
+      {
+        "type":        "improvements",
+        "title":       "Plugin Code and Performance",
+        "description": [
+          "We've continued our code clean-up and code enhancements, following our previous major release."
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "7",
+        "released_at": 1682498715,
+        "items":       [
+          {
+            "title": "FileLocker would fail to lock files in certain scenarios.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1682498715,
+        "items":       [
+          {
+            "title": "Added support for scanning .mo after MAL{ai} malware analysis indicate this is a common injection file type.",
+            "type":  "new"
+          },
+          {
+            "title": "ADE Not-Bot checking will only run if the IP module and NotBot options are enabled. Otherwise, no bot assessment will be performed.",
+            "type":  "improved"
+          },
+          {
+            "title": "Apply some automatic malware scanning exclusions.",
+            "type":  "improved"
+          },
+          {
+            "title": "UI and menu fixes.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "17.0": {
+    "version":     "17.0",
+    "released_at": 1677582000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease170",
+      "upgrade": "https://shsec.io/shieldupgradeguide170"
+    },
+    "title":       "Simplified Control and UI, Faster Processing & Major Code Enhancements",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "UI Enhancements",
+        "description": [
+          "We've made huge progress forward in improving the Shield Dashboard interface making it easier to get to exactly where you need to.",
+          "Shield is a big plugin, so organising all the tools and features is a challenge, but this is our best UI yet!"
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "WeForms Integration",
+        "description": [
+          "We've added native support for protection against contact form SPAM directed against WeForms."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Much Improved IP Rules Management",
+        "description": [
+          "IP Rules management could be slow as the IP rules table grew, but we've done a lot of work to speed this up."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Much Improved File Locker",
+        "description": [
+          "The OpenSSL encryption process has been hugely improved in order to run better on newer systems that don't support legacy encryption ciphers."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "NotBot JS Improvements",
+        "description": [
+          "Following some feedback and issues reported with SiteGround, we've made a few enhancement to the NotBot JS code."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Filter Tables By Date",
+        "description": [
+          "The Activity Log and Traffic Log can now be filtered by date, letting you quickly find the logs you need."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Better Security Overview",
+        "description": [
+          "We've made some adjustments to how the Overview dashboard is created alongside tweaks to the scoring logic.",
+          "We've also aligned the Admin dashboard widget score with the overall Shield Dashboard score."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Major Code Overhaul",
+        "description": [
+          "Nearly all functionality of the plugin has been rewritten and improved."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Whitelist/Bypass IP Are Included In Exports",
+        "description": [
+          "It is now possible to share Bypass IPs from a master site to its client site using the import/export feature.",
+          "Only IP addresses added after the upgrade will be included in any subsequent exports."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Much Improved Automatic Import/Export",
+        "description": [
+          "The process of automatic notification of client sites to import configurations from the master site has been much improved."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Better Plugin Search",
+        "description": [
+          "We've improved the UI for searching the plugin alongside adding the ability to search for partial IP addresses."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Pwned Passwords API",
+        "description": [
+          "We've made our implementation of the Pwned Passwords API more forgiving of API errors.",
+          "Instead of blocking passwords when there's an error with the API, we bypass the test altogether allowing the request to succeed."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Plugin Re-Install Feature Improved",
+        "description": [
+          "Depending on your particular plugin soup, the plugin reinstall feature could fail."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Removed Reporting Module",
+        "description": [
+          "As part of our focus on simplifying the Shield plugin, we've removed the separate Reporting module.",
+          "You'll still get email Reports, but the options are now configured under the General Settings module."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Minimum PHP Version: 7.2",
+        "description": [
+          "To stay ahead and on top of the latest developments in our PHP libraries, we've pushed our minimum PHP version to 7.2."
+        ],
+        "href":        "https://shsec.io/l8"
+      },
+      {
+        "type":        "changed",
+        "title":       "Minimum WordPress Version: 4.7",
+        "description": [
+          "Based on Shield telemetry data, we're pushing our minimum supported WordPress version up to 4.7.",
+          "We'll continue to push this upwards as usage data suggests it make sense to do so."
+        ]
+      },
+      {
+        "type":        "removed",
+        "title":       "Removed Password Policy Option: Minimum Password Length",
+        "description": [
+          "Shield has an option to enforce minimum password strengths, and also an option to enforce minimum length.",
+          "Enforcing password length is unnecessary when a more holistic password strength meter is also applied."
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "20",
+        "released_at": 1679660001,
+        "items":       [
+          {
+            "title": "Further enhancements to the automated import/export subsystem.",
+            "type":  "improved"
+          },
+          {
+            "title": "WordPress.org build failed for .19, so had to release .20 to create a new version.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "18",
+        "released_at": 1679350000,
+        "items":       [
+          {
+            "title": "Address an 'Unauthenticated XSS' security issue where an attacker could inject scripts via the HTTP User-Agent header. Further details to follow.",
+            "type":  "security"
+          },
+          {
+            "title": "Address a minor 'Insufficient Authorization' security issue where arbitrary activity logs could be created via the WP plugin/theme file editor. Further details to follow",
+            "type":  "security"
+          }
+        ]
+      },
+      {
+        "version":     "17",
+        "released_at": 1679316600,
+        "items":       [
+          {
+            "title": "Improve automated import/export for sites that use server caching heavily.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Prevent reports resending alerts about previously notified scan results.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "11-14",
+        "released_at": 1678025000,
+        "items":       [
+          {
+            "title": "Prevent fatal errors in the event of a Monolog library conflict, but disable Activity Logging features to facilitate this.",
+            "type":  "fixed",
+            "href":  "https://shsec.io/lc"
+          }
+        ]
+      },
+      {
+        "version":     "9",
+        "released_at": 1677844000,
+        "items":       [
+          {
+            "title": "Attempt to prevent errors being thrown with conflicting Monolog libraries.",
+            "type":  "fixed",
+            "href":  "https://shsec.io/lb"
+          },
+          {
+            "title": "Prevent unnecessary logs being generated for disabled reports.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "7",
+        "released_at": 1677674000,
+        "items":       [
+          {
+            "title": "Ensure Link Cheese robots.txt contains the necessary user-agent directive.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Fix bug with handshake API.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Fix bug with Reports migration upon upgrade.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "16.1": {
+    "version":     "16.1",
+    "released_at": 1662984000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease161",
+      "upgrade": "https://shsec.io/shieldupgradeguide161"
+    },
+    "title":       "CrowdSec Partnership + All-new IP Address Management",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "CrowdSec Partnership",
+        "description": [
+          "Shield Security and CrowdSec are now partnered to deliver powerful IP block lists to WordPress sites."
+        ],
+        "href":        "https://shsec.io/l0"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Complete Rewrite of IP Rules System",
+        "description": [
+          "The previous system for block/black and bypass/white lists was quite old and needed completely upgraded to handle the CrowdSec integration.",
+          "The new system is far faster and smarter with a much-improved table display."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Custom Activity Log Events",
+        "description": [
+          "There is now the option to log custom events to Shield's Activity Log.",
+          "It's impossible that Shield can log every possibly event for every plugin and scenario, so you can now add logging for all your desired site events.",
+          "This is an advanced option and will require professional software development experience to implement."
+        ],
+        "href":        "https://shsec.io/l3"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Super Search Box",
+        "description": [
+          "The Super Search Box is accessible and visible from every page inside the plugin.",
+          "You're currently able to search for configuration options, tools and IP addresses."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Improved Scan Results Display",
+        "description": [
+          "Eliminated errors and slow processing when displaying scan results pages for large datasets.",
+          "Shield now uses highly optimised queries to request only the records required to display the current table page."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Improved Human Comments SPAM Detection",
+        "description": [
+          "Based on some customer feedback we'd improved Human Comment SPAM detection.",
+          "Shield will now also look at recently posted comments by the same IP addresses when deciding whether a comment is SPAM."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Beta Access Option",
+        "description": [
+          "A new option is provided to allow easy access to beta version of the Shield Security plugin."
+        ],
+        "href":        "https://shsec.io/l4"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Shield Nav Bar",
+        "description": [
+          "Shield offer a much better navbar on the dashboard with built-in search, helpdesk links and updates."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Protection Against Unauthorised Deactivation",
+        "description": [
+          "The Security Admin feature that protects against unauthorised deactivation has been further strengthened with offenses."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Logging: App Password Creation",
+        "description": [
+          "Shield now captures creation of new Application Passwords in the Activity Log."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Removed: Leading Schema Firewall Rule",
+        "description": [
+          "This rules flags too many false positives for members."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Minimum WordPress Version: 4.7",
+        "description": [
+          "Based on Shield telemetry data, we're pushing our minimum supported WordPress version up to 4.7.",
+          "We'll continue to push this upwards as usage data suggests it make sense to do so."
+        ]
+      },
+      {
+        "type":     "fixed",
+        "pro_only": false,
+        "title":    "Various Fixes",
+        "list":     [
+          "Mitigate a fatal error caused by the latest wpForo plugin passing NULL to locale filters.",
+          "Bug when specifying a particular list when adding/removing an IP address using WP-CLI.",
+          "Shield now correctly honours WordPress' built-in 'disallowed keywords' feature when flagging comments for spam.",
+          "Shield no longer attempts to solve the issue of invalid 'from' email addresses on a WordPress site."
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "15",
+        "released_at": 1675876000,
+        "items":       [
+          {
+            "title": "Have I Been Pwned API Error.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "14",
+        "released_at": 1669197000,
+        "items":       [
+          {
+            "title": "Marks Shield 16.x as the final series supporting PHP 7.0 and 7.1. Shield 17 will require PHP 7.2.",
+            "type":  "changed",
+            "href":  "https://shsec.io/l8"
+          },
+          {
+            "title": "Performance improved when loading the WordPress Users page for sites with large users counts.",
+            "type":  "improved"
+          },
+          {
+            "title": "Dashboard widget showing incorrect dates for user last login if it's never been recorded.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Tweaks to CrowdSec Signals map.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Plugin/Theme file scanner bug fixes.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Minor bug fixes.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "13",
+        "released_at": 1667298000,
+        "items":       [
+          {
+            "title": "Attempt to eliminate CrowdSec API issues.",
+            "type":  "improved"
+          },
+          {
+            "title": "Attempt to mitigate import/export errors for certain configurations.",
+            "type":  "improved"
+          },
+          {
+            "title": "Accessibility of user 2FA setup form has been improved for screen readers.",
+            "type":  "improved"
+          },
+          {
+            "title": "Improved the data used to construct the QR codes for Google Authenticator setup.",
+            "type":  "improved"
+          },
+          {
+            "title": "Minor bug fixes.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "9",
+        "released_at": 1664366000,
+        "items":       [
+          {
+            "title": "Bug where fatal error could be caused in some hosting environments.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "8",
+        "released_at": 1664360000,
+        "items":       [
+          {
+            "title": "Bug Fix: ensure expired crowdsec IPs are always purged.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Optimise the checking and building of file hashes.",
+            "type":  "improved"
+          },
+          {
+            "title": "Improvements to requirements checking for the File Locker feature.",
+            "type":  "improved"
+          },
+          {
+            "title": "Update Swedish translations file.",
+            "type":  "improved"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1663240500,
+        "items":       [
+          {
+            "title": "Bug Fix: for Rate Limiting Rule failing to build",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1663236000,
+        "items":       [
+          {
+            "title":       "Improvements to MainWP Extension",
+            "type":        "improved",
+            "description": [
+              "As part of our plans to enhance our MainWP extension we've made a number of fixes and tweaks."
+            ]
+          },
+          {
+            "title":       "Obscure Access To Local Plugin/Theme Hashes",
+            "type":        "security",
+            "description": [
+              "It was pointed out that the storage of plugin/theme hashes locally were accessible on nginx servers.",
+              "It made info publicly available about which plugins/themes were installed, for some sites. Not a security problem in itself, but not ideal either."
+            ]
+          },
+          {
+            "title":       "QR Code Rendered Locally.",
+            "type":        "security",
+            "description": [
+              "It was pointed out that there are other means of generating QR codes that are preferrable to sending data to Google's API.",
+              "QR Code images are now rendered locally on the browser using Javascript."
+            ]
+          },
+          {
+            "title":       "Logged-In User Won't Be Rated Limited.",
+            "type":        "change",
+            "description": [
+              "If you're logged-into a site, and you trigger the rate limiter, you won't be limited.",
+              "You may still trigger the rate limiter if you issue non-authenticated requests, such a REST API requests."
+            ]
+          }
+        ]
+      },
+      {
+        "version":     "4",
+        "released_at": 1663064000,
+        "items":       [
+          {
+            "title":       "Security fix for reported 2FA vulnerability. More info will be released after allowing time for client upgrades.",
+            "type":        "fixed",
+            "description": [
+              "Note: sites are only vulnerable to this particular exploit IF it has an SQL-injection vulnerability caused by another plugin/theme.",
+              "As we always say, please ensure you keep ALL your plugins, themes and WordPress core up-to-date, particularly if they have known vulnerabilities!"
+            ]
+          },
+          {
+            "title": "Reverted minimum WP version to 3.7 to allow for security patching.",
+            "type":  "changes"
+          },
+          {
+            "title": "Bug: an error was generated when assessing some IP addresses.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug: API requests for certain types of options were appearing to fail (they weren't) and generating an error.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "2",
+        "released_at": 1662985000,
+        "items":       [
+          {
+            "title": "Bug fix unable to start scans.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug fix DB creation error on initialisation on a new website.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Bug fix error with Overview page when analysing the firewall grade, after removing Leading Schemas.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "15.1": {
+    "version":     "15.1",
+    "released_at": 1654522432,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease151",
+      "upgrade": "https://shsec.io/shieldupgradeguide151"
+    },
+    "title":       "Optimisations",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Optimised File Scanning",
+        "description": [
+          "Significant optimisation in file scanning with reduction of full file scan times by up to 66%.",
+          "For example, if a file scan would have normally lasted for 3 minutes, it'll now take less than 1 minute.",
+          "This means faster scanning, less waiting, and much lighter load on your servers by using fewer resources."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Happy Forms",
+        "description": [
+          "Full support available for SPAM protection on Happy Forms."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Whitelabelling",
+        "description": [
+          "We've refactored our white labelling feature to ensure your custom brand displays more consistently throughout the plugin."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Automatic Visitor IP Detection",
+        "description": [
+          "The 100% fully automatic detection of visitor IP addresses is a lofty goal and with each release we get a bit closer.",
+          "You can always help Shield by manually setting your Visitor IP source option: Shield > Config > General IP Source."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Plugin Loading",
+        "description": [
+          "Shield is a large and complex plugin so we've done a lot of work to help ensure it's more reliable when loading."
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "4",
+        "released_at": 1655195000,
+        "items":       [
+          {
+            "title": "Yet another complete rewrite of the Shield Cache Dir builder to work around restrictive web hosts.",
+            "type":  "improved"
+          },
+          {
+            "title": "Restore the event 'Connection Killed' that explicitly states that a request was terminated for a blocked IP.",
+            "type":  "improved"
+          },
+          {
+            "title": "File diff UI display was broken when comparing modified WordPress Core files with the originals.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1655719000,
+        "items":       [
+          {
+            "title": "Log the IP address in the Activity Log when IP has been manually unblocked.",
+            "type":  "improved"
+          },
+          {
+            "title": "Address a potential fatal error in the admin area when the minimum server requirements aren't met.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1658226200,
+        "items":       [
+          {
+            "title": "A rare error involving Composer versions lookup used by other plugins.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Remove some PHP 8.1 deprecated notices.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "15.0": {
+    "version":     "15.0",
+    "released_at": 1652090000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease150",
+      "upgrade": "https://shsec.io/shieldupgradeguide150"
+    },
+    "title":       "Rules Engine",
+    "description": [
+      "A major overhaul of how Shield assesses all incoming requests.",
+      "The Rules Engine allows for streamlined security processing and, in the future, easily customisable rules to handle any scenario."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "title":       "Rules Engine",
+        "description": [
+          "Massive performance and processing optimisations with a brand new core Shield Rules Engine.",
+          "All requests are now processed using a unique and customisable (future releases) set of rules."
+        ],
+        "href":        "https://shsec.io/ks"
+      },
+      {
+        "type":        "new",
+        "title":       "Brand New Shield Block Pages",
+        "description": [
+          "We now offer more user-friendly block pages to the visitor for all scenarios: firewall, IP block, username fishing."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "All-New Dashboard Overview",
+        "description": [
+          "The Shield Dashboard Overview provides detailed and actionable insights into your WordPress security and how to improve it."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "All-New WordPress Dashboard Widget",
+        "description": [
+          "The original WordPress Admin Dashboard widget was pretty basic, so we've completely revamped it with some of your latest site activity."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Removed: Legacy Comment SPAM Detection",
+        "description": [
+          "We've completely removed the older, less reliable comment spam detection using Javascript and CAPTCHAs.",
+          "Please use the newer AntiBot Detection Engine."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Visitor IP Source Detection",
+        "description": [
+          "It's critical that Shield can get the correct visitor IP address. Unfortunately many webhosts drop the ball when it comes to their configurations.",
+          "We've added a completely automated and highly reliable method of determining the best source for Visitor IP addresses. If it's there, Shield will find it."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Shield Dashboard Navigation",
+        "description": [
+          "We've done quite a bit of work to smooth out and simplify Shield's admin UI making it easier to navigate and find what you need."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Massive Performance Improvements",
+        "description": [
+          "Shield has undergone major enhancements and performance improvements."
+        ],
+        "list":        [
+          "Removed duplicate and unnecessary DB requests.",
+          "Consolidated and removed many excess WP Transients (fewer DB requests).",
+          "Optimised several DB queries."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Author Discovery/Fishing",
+        "description": [
+          "This feature is now a Bot Signal which is recorded in the Activity Log and triggers offenses."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "New Filters: Adjust scanner notices about plugin/theme update/active status",
+        "description": [
+          "You can now use filters to adjust whether Shield warns about inactive plugins/themes or those with updates."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "A New WP Filter To Add Custom Shield Template Directory",
+        "description": [
+          "If you're looking to adjust some of our page templates, such as the block pages, you can now provide custom templates more easily using the new filter."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Audit Trail Renamed to Activity Log",
+        "description": [
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Deprecated: Options For CAPTCHA and GASP Bot Checking On WordPress Login Forms",
+        "description": [
+          "The options to use CAPTCHA and/or GASP Bot Checking for WordPress Login SPAM has been deprecated.",
+          "These options are replaced with the AntiBot Detection Engine and will be completely removed in a future release."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Option Removed: Auto-Filter Scan Results",
+        "description": [
+          "Shield will now filter unnecessary scan results automatically. This option can now be adjusted using a WP filter."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Option Removed: XML-RPC bypass option",
+        "description": [
+          "This option can now be adjusted using a WP filter."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Options Removed: XML-RPC bypass option",
+        "description": [
+          "This option can now be adjusted using a WP filter."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Numerous bug fixes",
+        "description": [
+        ],
+        "list":        [
+          "Broken password reset links in some cases when using hidden login page",
+          "fix for some scan results browsing errors",
+          "help ensure forward compatibility for sites with newer TWIG libraries also installed"
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "4",
+        "released_at": 1652107639,
+        "items":       [
+          {
+            "title": "File scanner alerting to Shield's own file (rules.json) on every scan.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Tracking Login Block events for statistical purposes wasn't always happening.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1652128056,
+        "items":       [
+          {
+            "title": "Prevent a warning being displayed during WP login.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Prevent a reported fatal error.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1652183772,
+        "items":       [
+          {
+            "title": "Fix for reCAPTCHA on login forms not properly rendering.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "8",
+        "released_at": 1652357000,
+        "items":       [
+          {
+            "title": "Adjusted how the security progress meters are displayed and switch to grades instead of percentages.",
+            "type":  "improved"
+          },
+          {
+            "title": "Work around a horrendous Godaddy server 'protection' that was blocking access to the site entirely.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Prevent an error when handling user meta data.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Ensure Whitelabel logo is correctly displayed on dashboard widget.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "9",
+        "released_at": 1652433200,
+        "items":       [
+          {
+            "title": "More accurate detection of crawlers such as Facebook that interchange IPv6 and IPv4 in their primary IP resolving.",
+            "type":  "improved"
+          }
+        ]
+      },
+      {
+        "version":     "12",
+        "released_at": 1652602100,
+        "items":       [
+          {
+            "title": "Make automatic Visitor IP Source detection quieter and run more often.",
+            "type":  "improve"
+          },
+          {
+            "title": "Prevent error that occurs when rendering the Firewall Block page in some cases.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Prevent error that can occur when assessing whether plugin version is very old.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "13",
+        "released_at": 1652947091,
+        "items":       [
+          {
+            "title": "An sporadic error relating to Shield's User Meta.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "14.1": {
+    "version":     "14.1",
+    "released_at": 1647269718,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease141",
+      "upgrade": "https://shsec.io/shieldupgradeguide141"
+    },
+    "title":       "REST API Integrations",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Complete REST API",
+        "description": [
+          "Partners and developers can now manage the Shield Security plugin completely with the new REST API."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "REST API Routes",
+        "description": [
+          "New REST API endpoints let you manage many areas of the Shield Security plugin."
+        ],
+        "list":        [
+          "get/set any single option, or group of options",
+          "get scan results & status, and start new scans and check their status",
+          "add/remove IP addresses to/from any list (block or bypass)",
+          "check for, and remove, ShieldPRO license",
+          "run Debug to get general site information summary for debug purposes"
+        ],
+        "href":        "https://shsec.io/shieldrestapidocs"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Option To Load Shield as a WordPress Must-Use (MU) Plugin",
+        "description": [
+          "To prevent unwanted or accidental deactivation of the Shield plugin, Shield can be converted to an MU plugin."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Show Recent User Session In Admin Bar",
+        "description": [
+          "Show quick links to recently active (10 minutes) user sessions in the admin bar and the most recently active sessions."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Support For Application Password Authentication Failures",
+        "description": [
+          "Shield detects and logs when application passwords have been used incorrectly and applies offenses."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Speed-Up For Audit Trail and Traffic Log Tables",
+        "description": [
+          "Audit Trail and Traffic Log tables are usually huge and loading them were slow. They're now entirely AJAX based and fast-loading."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Support 3rd Party Traffic Log Handlers",
+        "description": [
+          "3rd parties can now easily integrate with Shield's Traffic Log to send log records to any destination."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Support 3rd Party Audit Trail Handlers",
+        "description": [
+          "3rd parties can now easily integrate with Shield's Audit Trail to send log records to any destination."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "IP Record Management Error",
+        "description": [
+          "When inserting a duplicate IP address record into the database, we now INSERT IGNORE to reduce error messages in logs."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Updated Dutch Translations",
+        "description": [
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Deprecated: Options For CAPTCHA and GASP Bot Checking On WordPress Comments",
+        "description": [
+          "The options to use CAPTCHA and/or GASP Bot Checking for WordPress Comment SPAM has been deprecated.",
+          "These options are replaced with the AntiBot Detection Engine and will be completely removed in a future release."
+        ]
+      },
+      {
+        "type":  "improved",
+        "title": "Display of Shield's Admin Menu Bar items can be controlled using a plugin configuration option."
+      },
+      {
+        "type":  "fixed",
+        "title": "Shield's REST API supports non-permalinks style requests (?rest_route=), regardless of permalinks configuration."
+      },
+      {
+        "type":  "fixed",
+        "title": "Fix for non-URL-encoding of password reset URL parameters when using Rename Login feature."
+      },
+      {
+        "type":  "fixed",
+        "title": "Traffic Request Log wasn't correctly indicating a request was an offense in the log viewer."
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "1",
+        "released_at": 1647849231,
+        "items":       [
+          {
+            "title": "Fix for 'find as you type' in the options search dialog.",
+            "type":  "fixed"
+          },
+          {
+            "title": "PHP Warning.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "2",
+        "released_at": 1647852420,
+        "items":       [
+          {
+            "title": "Audit Trail and Traffic Log search panels didn't always load correctly.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "3",
+        "released_at": 1647854124,
+        "items":       [
+          {
+            "title": "Ensure database upgrade doesn't stall for large traffic logs.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1647948720,
+        "items":       [
+          {
+            "title": "Allow direct searching of request path in Traffic Log.",
+            "type":  "improve"
+          },
+          {
+            "title": "Provide a more robust database migration for large request log tables.",
+            "type":  "fixed"
+          },
+          {
+            "title": "Adjust the traffic log database to account for very long request paths.",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1648122640,
+        "items":       [
+          {
+            "title": "Improve the updating Shield user metas to now bypass WP's User Query subsystem that fires massive SQL queries.",
+            "type":  "improve"
+          }
+        ]
+      },
+      {
+        "version":     "7",
+        "released_at": 1648194288,
+        "items":       [
+          {
+            "title": "Fix for an error during certain Firewall scanning.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "14.0": {
+    "version":     "14.0",
+    "released_at": 1643364060,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease140",
+      "upgrade": "https://shsec.io/shieldupgradeguide140"
+    },
+    "title":       "Two-Factor Authentication Overhaul",
+    "description": [
+    ],
+    "items":       [
+      {
+        "title":       "WP Login Style 2FA Screen",
+        "description": [
+          "Users can complete their 2FA login using the UI they're most familiar with."
+        ],
+        "type":        "new",
+        "pro_only":    false
+      },
+      {
+        "title":       "Custom Redirect For Hide WP Login & Admin",
+        "description": [
+          "Rather than display an unfriendly 404 error page for the hidden login page, you can decide to redirect requests to any page you wish."
+        ],
+        "type":        "new",
+        "pro_only":    false
+      },
+      {
+        "title":       "Easier Access To User 2FA Settings with WP Admin Menu",
+        "description": [
+          "Users can now update their 2FA account settings from a dedicated WP admin page."
+        ],
+        "type":        "new",
+        "pro_only":    false
+      },
+      {
+        "title":       "Improved 2FA User Experience",
+        "description": [
+          "Smoother, faster, more reliable and more secure 2FA experience."
+        ],
+        "type":        "new",
+        "pro_only":    false
+      },
+      {
+        "title":       "Multi-factor Authentication Removed",
+        "description": [
+          "The option to force users to supply ALL two-factor authentication options has been removed."
+        ],
+        "type":        "changed",
+        "pro_only":    false
+      },
+      {
+        "title":       "Dedicated table for User meta information",
+        "description": [
+          "This allows for new filters and better user status on the WP Admin User page."
+        ],
+        "type":        "improved",
+        "pro_only":    false
+      },
+      {
+        "title":    "Updated Translations - Dutch (thanks J.P.!)",
+        "type":     "improved",
+        "pro_only": false
+      },
+      {
+        "title":    "Further page caching mitigation for NotBot",
+        "type":     "improved",
+        "pro_only": false
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Updated Bootstrap Libraries",
+        "description": [
+        ]
+      },
+      {
+        "type":        "fixed",
+        "pro_only":    false,
+        "title":       "Various bugs and errors",
+        "description": [
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "2",
+        "released_at": 1644400200,
+        "items":       [
+          {
+            "title": "Integration with some 3rd party membership plugins + 2FA.",
+            "type":  "improved"
+          },
+          {
+            "title": "Alert displayed that U2F isn't support when U2F isn't in-use.",
+            "type":  "fixed"
+          },
+          {
+            "title": "A rare issue which Custom MFA login triggering an HTTP 402 error!",
+            "type":  "fixed"
+          },
+          {
+            "title": "Options Search dialog failed to open (can't find-as-you-type yet).",
+            "type":  "fixed"
+          }
+        ]
+      },
+      {
+        "version":     "3",
+        "released_at": 1645005000,
+        "items":       [
+          {
+            "title": "Work around WP Engine login mechanism blocking 2FA verification.",
+            "type":  "fixed"
+          }
+        ]
+      }
+    ]
+  },
+  "13.0": {
+    "version":     "13.0",
+    "released_at": 1636970660,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease130",
+      "upgrade": "https://shsec.io/shieldupgradeguide130"
+    },
+    "title":       "Scanning Engine Overhaul",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Complete Scanning Engine Overhaul",
+        "description": [
+          "We've completely rewritten the scanning engine to be faster and more intuitive.",
+          "Includes improvements to reduce cases where results are reported and then are no longer visible."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Scans can now be executed using WP-CLI",
+        "description": [
+          "Audit Trail now uses our preferred table UI with built-in, useful search and filter controls.",
+          "There's also rapid and reliable pagination and data reloading."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Support for WP-CLI based cron execution",
+        "description": [
+          "Running WP Crons using WP-CLI is full supports automatic scans."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Scan Results Management",
+        "description": [
+          "Scan results management is improved with historical scan results display and more descriptive messaging."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Scan Result Diffs",
+        "description": [
+          "Wherever possible scan results will allow you to view a file diff showing any and all file changes clearly.",
+          "This is available only for official WordPress core files and plugins/themes hosted on WordPress.org."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Simplified Scan Options",
+        "description": [
+          "Hugely simplified and reduced the configuration options available for scans."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Dynamic Search For IP Analyse Tool",
+        "description": [
+          "IP Analyse tool use AJAX-based dynamic searching when selecting an IP address on the IP Analyse tool.",
+          "This makes the tool more practical and performant for sites with large IP datasets."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Traffic Logging for WP-CLI requests",
+        "description": [
+          "WP-CLI commands and their arguments are logged for WP-CLI requests just as with paths for web requests."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Yubikey Device Verification",
+        "description": [
+          "Yubikey One-Time Passwords are now verified when attempting to register a Yubikey device to your profile."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "pro_only":    false,
+        "title":       "Adding/Removing Yubikey Device Reliability",
+        "description": [
+          "Adding and removing Yubikey devices to and from your WP user profile is more reliable."
+        ]
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "1",
+        "released_at": 1636968900,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Reduce scan chunk size to improve MySQL query memory usage."
+          },
+          {
+            "type":  "fixed",
+            "title": "Automatic selection of IP addresses in IP Analyse tool after switching to AJAX source."
+          }
+        ]
+      },
+      {
+        "version":     "3",
+        "released_at": 1640079300,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Ensure database states are handled correctly."
+          },
+          {
+            "type":  "fixed",
+            "title": "MySQL requirements are checked more flexibly."
+          },
+          {
+            "type":  "fixed",
+            "title": "Add a class to Google Authenticator QR image."
+          }
+        ]
+      },
+      {
+        "version":     "4",
+        "released_at": 1640165700,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Error with MainWP loading in certain cases."
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1641980100,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Options to provide custom roles for Email 2FA enforcement is now free-form."
+          },
+          {
+            "type":  "improved",
+            "title": "Multi-factor authentication settings are available even when your IP is on the bypass lists."
+          },
+          {
+            "type":  "improved",
+            "title": "ShieldPRO license lookups when using separate domains for multilingual site versions."
+          },
+          {
+            "type":  "improved",
+            "title": "FluentForms integration wasn't always loading and so SPAM submissions could still come through."
+          },
+          {
+            "type":  "improved",
+            "title": "NotBot Javascript is improved to better handle server timeouts and work around Page Caching limitations."
+          },
+          {
+            "type":  "fixed",
+            "title": "Prevent some fatal errors when integrating with 3rd parties and their data isn't as expected."
+          }
+        ]
+      },
+      {
+        "version":     "6",
+        "released_at": 1642152900,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Improved handling of ClassicPress versions and file scanning for migrated WP sites."
+          },
+          {
+            "type":  "changed",
+            "title": "Official WP.org themes that are inactive no longer display a warning in results tables."
+          },
+          {
+            "type":        "fixed",
+            "title":       "[Minor Security Vulnerability] An authenticated (administrator+) Persistent XSS.",
+            "description": [
+              "Privately disclosed to us by Yoru Oni - thank you."
+            ],
+            "href":        "https://shsec.io/kh"
+          },
+          {
+            "type":  "changed",
+            "title": "It's now possible to add custom exclusions to the anonymous REST API block."
+          }
+        ]
+      }
+    ]
+  },
+  "12.0": {
+    "version":     "12.0",
+    "released_at": 1631783098,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease120",
+      "upgrade": "https://shsec.io/shieldupgradeguide120"
+    },
+    "title":       "Events & Audit Trail Overhaul",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Complete Audit Trail Overhaul",
+        "description": [
+          "The Audit Trail and Events system has been completely rewritten.",
+          "It allows for extensions to log to any destination, severity levels, search and more."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "New Audit Trail Table & Filters",
+        "description": [
+          "Audit Trail now uses our preferred table UI with built-in, useful search and filter controls.",
+          "There's also rapid and reliable pagination and data reloading."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Audit Trail Events With Severity",
+        "description": [
+          "All events are given a default severity of 'Alert', 'Warning', 'Info' and 'Debug.",
+          "Which event categories are logged can be adjusted in the Configuration."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Audit Trails Logs To File",
+        "description": [
+          "As well as logging to the database, you can elect to log certain events to file."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Audit Trail Logs Description",
+        "description": [
+          "Logged events now have more descriptive messages along with more meta details for the event."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Audit Trail Meta Data",
+        "description": [
+          "By linking the Audit Trail to the Traffic Log, you can now see request data alongside Audit Logs."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Plugin Data Storage",
+        "description": [
+          "We're adding some smarter data storage to the plugin through more complex and interconnected database tables.",
+          "This approach reduces repeated and redundant data storage and disk usage."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Traffic Logging UI.",
+        "description": [
+          "The Traffic Log feature now also uses the improved table UI for faster processing and better search."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Scanning Improvements and Fixes",
+        "description": [
+          "Based on customer feedback we've made some adjustments and fixes to the scans and results processing."
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Traffic Log Limits",
+        "description": [
+          "Traffic logs are no longer limited by amount.",
+          "They are instead limited by age (in days). Updated configuration options are available."
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "NotBot JS Is Always Loaded By Default",
+        "description": [
+          "Since many customers are using caching and optimisation plugins that interfere with NotBot JS, it is now loaded for all visitors by default.",
+          "An option within the plugin has been provided to revert to the normal optimised loading of the NotBot JS."
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    true,
+        "title":       "U2F 2-Factor Authentication Bypasses MFA",
+        "description": [
+          "U2F is a strong 2FA mechanism and so it doesn't really need to be used in conjunction with other factors.",
+          "When the Chained/MFA option is enabled, when U2F is supplied, this can be done alone without the need for other factors."
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Minimum Required MySQL Version",
+        "description": [
+          "Shield processed IPv4 and IPv6 addresses and stores them in the MySQL database.",
+          "With this upgrade, the minimum required MySQL database engine is moving to 5.6."
+        ],
+        "href":        "https://shsec.io/shieldsystemrequirements"
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "4",
+        "released_at": 1632303300,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Prevent PHP exception being thrown in certain cases."
+          }
+        ]
+      },
+      {
+        "version":     "8",
+        "released_at": 1632389700,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Ensure Shield runs only on supported MySQL servers."
+          }
+        ]
+      },
+      {
+        "version":     "9",
+        "released_at": 1632908100,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Error when processing certain types of query strings in the firewall."
+          },
+          {
+            "type":  "fixed",
+            "title": "Yubikey 2FA verification was failing with a nonce less than 16 characters. Who knew?"
+          }
+        ]
+      },
+      {
+        "version":     "11",
+        "released_at": 1633599300,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "A few minor fixes, along with slight optimisation of NotBot JS."
+          },
+          {
+            "type":  "fixed",
+            "title": "Issue with managing Shield Central profiles."
+          }
+        ]
+      },
+      {
+        "version":     "13",
+        "released_at": 1633858500,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Improve support for auto-login systems like ManageWP admin login."
+          }
+        ]
+      }
+    ]
+  },
+  "11.5": {
+    "version":     "11.5",
+    "released_at": 1626779164,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease115",
+      "upgrade": "https://shsec.io/shieldupgradeguide115"
+    },
+    "title":       "Revamped Scan Results",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Brand New Arrangements of Scan Results",
+        "description": [
+          "To-date scan results have been presented in tabular format, by listing affected files or assets.",
+          "This release sees a major reorganisation to display results grouped into logical sections and areas, such as by plugin, theme, WordPress etc."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "View Scan File Contents In Browser",
+        "description": [
+          "We've added the ability to view the contents of any file shown in file results directly within your web browser.",
+          "There's no longer any need to download the files, though you still can do this of course."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Remove 'Empty' PHP Files From Results",
+        "description": [
+          "A common problem is where a PHP file that has no executable code in it gets flagged in certain scans.",
+          "It isn't trivial to detect whether a PHP file has executable code, but we've added detection for this scenario."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Scan File and Folder Exclusions",
+        "description": [
+          "You can specify files and folder which will be excluded from all file scans.",
+          "Files can be excluded in bulk using the asterisk (*) wildcard.",
+          "This option is designed to completely replace the exclusions option under the Unrecognised Files Scanner."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Scan Results Management",
+        "description": [
+          "We've scrapped the 'WordPress Tables' approach to display results and instead use the powerful DataTables JS plugin.",
+          "This makes display, pagination, refresh and actions far smoother and completely seamless."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Switch To Crowd-Sourced Plugin and Theme Hashes.",
+        "description": [
+          "When scanning plugin and theme files for modification, Shield now uses its ShieldNET crowd-source hashes system.",
+          "This results in more accurate and adaptive hashes accounting for edge-cases better resulting in fewer false positives in scan results."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Malware Scanner Uses Crowd-Sourced Hashing Data",
+        "description": [
+          "False Positives in malware results are frustrating, so the more we can reduce them, the better.",
+          "Shield already removes 99% of false positives automatically from results, before you even see them.",
+          "To improve this, ShieldNET now draws upon Crowd-Source Hashes to eliminate false positives even further."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Reporting alert email now lists some repaired/deleted files.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "WP Admin warning when 2FA by email verification isn't complete.",
+        "description": []
+      },
+      {
+        "type":        "new",
+        "title":       "Audit Trail entries for IP addresses are added and removed manually.",
+        "description": []
+      },
+      {
+        "type":        "new",
+        "title":       "Audit Trail WordPress filter to allow customisation of event logging.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Improved support and fixes for PHP 8 and WordPress 5.8.",
+        "description": []
+      }
+    ],
+    "patches":     [
+      {
+        "version":     "1",
+        "released_at": 1627551300,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Prevent overloading ShieldNET API in some cases."
+          }
+        ]
+      },
+      {
+        "version":     "2",
+        "released_at": 1627637700,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Add some limited details into the Audit Trail entries for scan results."
+          }
+        ]
+      },
+      {
+        "version":     "3",
+        "released_at": 1627896900,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Plugin/Theme scanning could result in large quantities of unrecognised files."
+          }
+        ]
+      },
+      {
+        "version":     "4",
+        "released_at": 1628069700,
+        "items":       [
+          {
+            "type":  "improved",
+            "title": "Scan results were being reported, but not displayed in results tables in some cases."
+          }
+        ]
+      },
+      {
+        "version":     "5",
+        "released_at": 1631180100,
+        "items":       [
+          {
+            "type":  "fixed",
+            "title": "Scan results wouldn't be updated after scans completed in some cases."
+          },
+          {
+            "type":  "fixed",
+            "title": "Shield would apply login blocks for requests originating from a whitelisted IP addresses."
+          }
+        ]
+      }
+    ]
+  },
+  "11.4": {
+    "version":     "11.4",
+    "released_at": 1625560514,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease114",
+      "upgrade": "https://shsec.io/shieldupgradeguide114"
+    },
+    "title":       "ShieldNET Integration",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Begin ShieldNET Integration To Provide Network Intelligence For Bots & IP Addresses",
+        "description": [
+          "You can now start to see ShieldNET scores for IP addresses based on the cumulative intelligence gathered for IP addresses.",
+          "By combining scores for IP addresses across many different Shield Security installations we can provide a more accurate IP reputation score.",
+          "These scores won't be used yet to respond to threats on your WordPress site, but this will be the goal."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Generating QR codes for Google Authenticator is improved by using the ShieldNET API.",
+        "description": [
+          "The code necessary to generate QR Code for Google Authenticator is quite large and required the GD extension to be enabled.",
+          "Not all WordPress installation offer this, so we've provided a ShieldNET API endpoint to easily generate the QR codes."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    true,
+        "title":       "Scanning for vulnerability in WordPress plugins and themes is improved.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Capturing and managing of user sessions is improved.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Capturing and managing user 2-Factor Authentication is improved.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Added enhancement for when local tests for NotBot JS loading fails, use ShieldNET to test.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Tweaks and adjustments to crowd-sourced hashing.",
+        "description": [],
+        "patch":       "11.4.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Certain modules would still run even though 'forceoff' file was present.",
+        "description": [],
+        "patch":       "11.4.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "HTML formatting issue with the 2FA Login Page.",
+        "description": [],
+        "patch":       "11.4.2"
+      },
+      {
+        "type":        "improved",
+        "title":       "Refinements to the ShieldNET cron processing.",
+        "description": [],
+        "patch":       "11.4.3"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Prevent a rare fatal error on certain pages.",
+        "description": [],
+        "patch":       "11.4.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Fix for error showing in logs during cron.",
+        "description": [],
+        "patch":       "11.4.5"
+      }
+    ]
+  },
+  "11.3": {
+    "version":     "11.3",
+    "released_at": 1623057021,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease113",
+      "upgrade": "https://shsec.io/shieldupgradeguide113"
+    },
+    "title":       "",
+    "description": [
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "High IP Reputation Bypass",
+        "description": [
+          "Added an option to ensure that IP addresses with a high-enough reputation are never blocked by Shield."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Bot Scoring Logic Is Provisioned From ShieldNET API",
+        "description": [
+          "To allow for easier and faster updates and improvements to the bot scoring logic, they are served from our ShieldNET API.",
+          "If, for whatever reason, the API is unavailable the plugin will use its built-in scoring logic."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "NotBot Javascript Loading Check",
+        "description": [
+          "The NotBot Javascript that loads for visitor is critical to Shield's ability to detect bots - we now show a warning when we can't detect it."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "404 Bot Signal doesn't trigger Shield offense on certain requests for assets",
+        "description": [
+          "404s encountered for requests for assets such as images, javascript and CSS no longer trigger offenses.",
+          "The 1 exception is if the asset URL is within a plugin/theme directory that doesn't exist on the site."
+        ]
+      },
+      {
+        "type":        "changed",
+        "pro_only":    false,
+        "title":       "Minimum supported WordPress version is now 3.7",
+        "description": []
+      }
+    ]
+  },
+  "11.2": {
+    "version":     "11.2",
+    "released_at": 1621844125,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease112",
+      "upgrade": "https://shsec.io/shieldupgradeguide112"
+    },
+    "title":       "AntiBot Scoring Improvements",
+    "description": [
+      "Shield 11.0 brought the new AntiBot Detection Engine, designed to detect bad bots and block them automatically.",
+      "With feedback from customers and ongoing research, we've made some major improvements and adjustments to the system."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "New And Improved Welcome Wizard",
+        "description": [
+          "All-New Welcome Wizard designed to get you up and running with Shield quickly and effortlessly."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Add Shield's Two-Factor Authentication User Settings Anywhere",
+        "description": [
+          "With the use of a WP Shortcode, you can add user configuration pages for 2FA into any page.",
+          "This is useful if you want to offer 2FA options to your customers."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "AntiBot Detection Engine Improvements.",
+        "description": [
+          "We've adjusted some of the bot scoring and improved the ability to detect legitimate users based on earlier logins.",
+          "We've also removed the need for the small cookie that was needed to help track the NotBot status.",
+          "The AntiBot Detection Engine can now be disabled by setting the minimum reputation score to 0."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Google Authenticator QR Codes Are Generated Locally.",
+        "description": [
+          "Google's Legacy Chart API wasn't always loading the QR code so we replaced it with a locally generated QR code image."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Brand new Knowledgebase Integration.",
+        "description": [
+          "We've moved to a brand new Helpdesk/Knowledgebase and this allows us to integrate instant access to docs inside the plugin itself.",
+          "Simply click the 'Info' link for any option to view documentation within your WordPress admin area."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Support For Protecting Subscription Forms in Groundhogg CRM.",
+        "description": [
+          "Added support for protecting Groundhogg forms from bots."
+        ],
+        "href":        "https://shsec.io/groundhogg"
+      },
+      {
+        "type":        "new",
+        "title":       "Support For Protecting Super Forms Contact Forms.",
+        "description": [
+          "Added support for protecting contact forms against SPAM in the Super Forms plugin."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Support For Protecting User Forms in LifterLMS.",
+        "description": [
+          "Added support for protecting LifterLMS login & registration forms from bots."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "The tour system would run multiple times.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "Some plugin SQL query syntax broke on MySQL 8.",
+        "description": [],
+        "patch":       "11.2.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Fatal error when initiating WP-CLI in some cases.",
+        "description": [],
+        "patch":       "11.2.2"
+      },
+      {
+        "type":        "improved",
+        "title":       "Adjust default bot scoring logic to reduce spam.",
+        "description": [],
+        "patch":       "11.2.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Some clients reported a fatal error in certain circumstances.",
+        "description": [],
+        "patch":       "11.2.4"
+      }
+    ]
+  },
+  "11.1": {
+    "version":     "11.1",
+    "released_at": 1616666000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease111",
+      "upgrade": "https://shsec.io/shieldupgradeguide111"
+    },
+    "title":       "UI Cleanup and Enhancement",
+    "description": [
+      "With Shield being such a large plugin, it's been a challenge to get a UI that everyone is happy with.",
+      "This release aims to improve the UI and make it easier for everyone to get their security task done as efficiently as possible."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Improved Dashboard UI and Navigation",
+        "description": [
+          "Detecting bad bots on your WordPress sites is a huge challenge, but it's notoriously difficult to do this.",
+          "We have developed an exclusive system for the detection of bad bots and the option to block requests from them."
+        ],
+        "href":        "https://shsec.io/jb"
+      },
+      {
+        "type":        "new",
+        "title":       "A new Quick Stats screen is available to see the activity of Shield over time.",
+        "description": [
+          "The implementation is currently basic, but it forms the foundation of future development and offers users the option to offer suggestions."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Code overhaul for Security Admin system to improve reliability and fix various bugs.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Automatic User Unblock now makes use of Shield's AntiBot Detection Engine.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "File Locker will better handle the scenario where a site is moved/migrated.",
+        "description": [
+          "File Locker for wp-config.php files will also better detect when this file is placed 1 directory higher than the site."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "White Label settings that are empty aren't applied and defaults remain.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "Statistics in reporting emails were under-reporting the full stats.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "Audit Trail didn't capture all upgrades when upgrading plugins/themes in-bulk.",
+        "description": [
+          "The Audit Trial would only capture 1 upgrade when a bulk upgrade was performed."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Exclusions for unrecognised file scanner weren't stored correctly in the case of regular expressions.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "In some rare scenarios, user sessions wouldn't be properly created and user automatically logged-out.",
+        "description": [],
+        "patch":       "11.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "WP Config FileLocker bug not correctly maintaining its state and resulting in locks not being created.",
+        "description": [],
+        "patch":       "11.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "The .htaccess file in the root of the Shield plugin directory is only created if its supported.",
+        "description": [],
+        "patch":       "11.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Whitelabel settings were misleading and didn't properly update the dashboard log.",
+        "description": [],
+        "patch":       "11.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "SPAM detection for Ninja Forms would report as SPAM when not SPAM.",
+        "description": [],
+        "patch":       "11.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "wpForo integration produced a PHP Warning in certain circumstances.",
+        "description": [],
+        "patch":       "11.1.1"
+      }
+    ]
+  },
+  "11.0": {
+    "version":     "11.0",
+    "released_at": 1616666000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease110",
+      "upgrade": "https://shsec.io/shieldupgradeguide110"
+    },
+    "title":       "All-New Shield AntiBot Detection Engine",
+    "description": [
+      "WordPress security nearly always starts with bots - detecting bad bots and blocking them.",
+      "This release delivers your new and exclusive AntiBot Detection Engine allowing Shield to more quickly identify bad bots and block their requests."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "AntiBot Detection Engine",
+        "description": [
+          "Detecting bad bots on your WordPress sites is a huge challenge, but it's notoriously difficult to do this.",
+          "We have developed an exclusive system for the detection of bad bots and the option to block requests from them."
+        ],
+        "href":        "https://shsec.io/jb"
+      },
+      {
+        "type":        "new",
+        "title":       "Contact Form SPAM Protection",
+        "description": [
+          "With the arrival of our AntiBot Detection Engine, we can now more easily integrate with 3rd party plugins.",
+          "You can add Shield's SPAM protection to Elementor PRO Gravity Forms, Contact Form 7, Ninja Forms, and many more."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Charts and Stats.",
+        "description": [
+          "We've added a page in Shield to allow you to chart some of your favourite Shield Stats."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Download Audit Trail, Traffic Log and IP DB as CSV.",
+        "description": [
+          "A long-requested feature is the ability to download the raw database data - you can now do this with a single click."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Added some new filters and hooks to allow customisation.",
+        "description": [
+          "For example, you can override the hour at which the Shield crons run, including the scans."
+        ],
+        "href":        "https://shsec.io/jv"
+      },
+      {
+        "type":        "new",
+        "title":       "Allow webmaster to specify certain web crawlers and search engines that aren't automatically whitelisted.",
+        "description": [],
+        "href":        "https://shsec.io/jt"
+      },
+      {
+        "type":        "improved",
+        "title":       "Big improvements in the reliability of Shield's Database handling.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Use CDNJS to supply important plugin Javascript/CSS assets.",
+        "description": [
+          "Using a CDN to deliver assets reduces the plugin footprint on your site, while also speeding up admin page loading."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "New and improved guided tour upon plugin activation.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Link Cheese Robots additions use enhanced Robots API in WordPress 5.7.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "Various bug fixes and enhancements.",
+        "description": [
+          "WP-Config FileLocker system is more reliable with requests in the case of database problems",
+          "Lots of code cleanup"
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Gravity Form error",
+        "description": [],
+        "patch":       "11.0.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Performance issue.",
+        "description": [],
+        "patch":       "11.0.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "PHP Warning message appears in some scenarios.",
+        "description": [],
+        "patch":       "11.0.3"
+      }
+    ]
+  },
+  "10.2": {
+    "version":     "10.2",
+    "released_at": 1613037000,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease102",
+      "upgrade": "https://shsec.io/shieldupgradeguide102"
+    },
+    "title":       "Removal of simple Content Security Policy settings and bugfixes",
+    "description": [
+      "We've decided to remove our simple Content Security Policy options as this feature is too complex.",
+      "We've also fixed a number of bugs and optimised how Shield loads and stores options and configurations."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Removed Content Security Policy Settings",
+        "description": [
+          "Due to the complexity of CSP and the superficial nature of our CSP implementation, we've decided to remove these options.",
+          "We explore the issue in full detail in our blog post on this topic."
+        ],
+        "href":        "https://shsec.io/jb"
+      },
+      {
+        "type":        "new",
+        "title":       "Invalid user login tracking covers empty usernames.",
+        "description": [
+          "When tracking for bots logging in user invalid usernames (i.e. that don't exist) it'll also trigger an offense on empty usernames."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Deleting Malware files doesn't initiate a new scan.",
+        "description": [
+          "This addresses a reported UX issue where bulk malware deletion isn't yet available and so instead of a full re-scan, the page just reloads."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Malware scanners are more efficient.",
+        "description": [
+          "Malware scanning is involved - every PHP file has to be read and then searched using a large set of patterns.",
+          "So it takes time. Hopefully these tweaks will optimise this process a little and lead to faster scans."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Add IP status to information in the traffic viewer.",
+        "description": [
+          "The traffic table will now display many offenses or whether the IP address is blocked."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Upgrade Bootstrap Library to latest 4.6.0",
+        "description": [
+          "Asset enqueuing has been refactored and optimised and also now loading Bootstrap assets from CDNJS."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Significant code cleanup.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Added cleanup code to remove stale entries in the WP Options table.",
+        "description": []
+      },
+      {
+        "type":        "improved",
+        "title":       "Added detection of server clock inconsistencies which break Google Authenticator.",
+        "description": []
+      },
+      {
+        "type":        "fixed",
+        "title":       "U2F/Yubikey Removal Bug",
+        "description": [
+          "A javascript issue prevented removal of U2F keys from user profiles."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "FileLocker would fail to load file contents if it exceeded 64KB.",
+        "description": [
+          "We upgraded the database table definition to allow for much larger files."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Plugin Upgrade Code wasn't always running",
+        "description": [
+          "Code designed to automatically run when the plugin is upgraded between version wasn't always running."
+        ],
+        "patch":       "10.2.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Fatal error in some cases",
+        "description": [],
+        "patch":       "10.2.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Certain admin JS and CSS assets were loading on the frontend.",
+        "description": [],
+        "patch":       "10.2.3"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Shield would report the server time was out-of-sync when it wasn't.",
+        "description": [],
+        "patch":       "10.2.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Replaced corrupted Javascript library (base64.min.js).",
+        "description": [],
+        "patch":       "10.2.6"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Link Cheese shouldn't run if there's an actual robots.txt file present.",
+        "description": [],
+        "patch":       "10.2.6"
+      }
+    ]
+  },
+  "10.1": {
+    "version":     "10.1",
+    "released_at": 1605606920,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease101",
+      "upgrade": "https://shsec.io/shieldupgradeguide101"
+    },
+    "title":       "Enhanced Dashboard + MainWP Integration",
+    "description": [
+      "We're continuing our improvements to the Shield UI with a brand new Dashboard.",
+      "The Dashboard is your primary launchpad for all things WordPress Security and Shield.",
+      "We're also delighted to bring our first major 3rd party integration - MainWP."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Brand New Shield Dashboard",
+        "description": [
+          "With the help of some feedback from clients, we've made significant enhancements to the Shield UI.",
+          "A brand-new Shield dashboard centralises everything related to Shield giving you a consistent, clean launchpad to perform security tasks."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "MainWP Integration/Extension",
+        "description": [
+          "You can now manage your Shield Security plugin directly from within your MainWP WordPress management control panel.",
+          "The Shield Security Extension page will highlight all sites with any scan issues that need your attention.",
+          "For now, the functionality is limited to installing, activating and deactivating the Shield plugin."
+        ],
+        "href":        "https://shsec.io/ir"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "IP Analyse Tool Enhancements",
+        "description": [
+          "Based on customer feedback we've added links to the IP Analyse tool to let you quickly perform blocks or bypass on an IP.",
+          "The identification of a 'known' IP address now also draws information from the IP Bypass labels."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Enhanced Plugin Badge",
+        "description": [
+          "Based on customer feedback we've added the ability to customize the plugin badge based on Whitelabel settings.",
+          "You'll may also use a WordPress filter to make fine adjustments to settings and styles of the badge."
+        ],
+        "href":        "https://shsec.io/is"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Huge Codebase Refactor",
+        "description": [
+          "With our earlier move to PHP 7.0, we're continuing with our codebase cleanup and optimisations."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Shield Overview Styles",
+        "description": [
+          "With some feedback and suggestions provided by clients, we've improved our Shield Overview design."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "iControlWP Whitelist",
+        "description": [
+          "Fix to ensure iControlWP is properly whitelisted."
+        ],
+        "patch":       "10.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug with PHP Type Error in some cases",
+        "description": [],
+        "patch":       "10.1.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug with MainWP site actions not working in all cases",
+        "description": [],
+        "patch":       "10.1.3"
+      },
+      {
+        "type":        "new",
+        "title":       "Full support for Application Passwords arriving with WordPress 5.6",
+        "description": [
+          "Part of the purpose of Application Passwords is to allow APIs and 3rd parties to integrate with your WP site.",
+          "Shield recognises authentication via Application Passwords and doesn't apply restrictions to it, including 2FA.",
+          "Of course, failed logins attempted through Application Passwords will be treated as an offense against the site, as always."
+        ],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "improved",
+        "title":       "Full support for PHP 8.0",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "504 Gateway Timeout error on servers with malconfigured rDNS lookups.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Ensure requests from ManageWP bypass Shield protections, where possible.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "new",
+        "title":       "Add a new WordPress admin notice for when the Shield plugin version gets too old.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Stop notice showing when it's not required.",
+        "description": [],
+        "patch":       "10.1.5"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Prevent warnings and logouts when loading WordPress Site Health tool.",
+        "description": [],
+        "patch":       "10.1.6"
+      }
+    ]
+  },
+  "10.0": {
+    "version":     "10.0",
+    "released_at": 1603281600,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease100",
+      "upgrade": "https://shsec.io/shieldupgradeguide100"
+    },
+    "title":       "All-New PHP-7 Optimised Shield Security",
+    "description": [
+      "We've massively enhanced the Dashboard UI, making it much easier to secure your WordPress site by quickly identifying areas of improvement.",
+      "Of particular note is the IP Analysis tool which lets you see all information pertaining to an IP address in 1 place."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Enhanced Dashboard Overview UI",
+        "description": [
+          "The new Dashboard Overview provides a simplified display of all security items on your site.",
+          "You can quickly discover where your site is doing well, and what areas need immediate attention or improvements.",
+          "Responsive filters let you filter by individual Shield modules and the current status of each item."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "SureSend Email Delivery",
+        "description": [
+          "Most WordPress sites aren't properly configured to send emails, so sometimes they don't arrive.",
+          "This is a critical issue when 2-Factor Authentication emails don't go where they should.",
+          "SureSend uses the ShieldNET API to deliver 2FA emails so that you always get them."
+        ],
+        "href":        "https://icwp.io/im"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "IP Analysis Tool",
+        "description": [
+          "Discover all the ways an IP address is interacting with your site, in 1 place.",
+          "Rather than jump around looking at different tables and filtering by IP address, you can see all information in the IP Analyse tool."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Force Shield Locale",
+        "description": [
+          "An option has been added that lets you force Shield to always display in certain locale.",
+          "Setting this option will override user's profile locale for anything relating to Shield.",
+          "This setting doesn't affect the locale for any other part of a WordPress site."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Huawei (Petal) Bot Detection",
+        "description": [
+          "Added support for detection of Huawei search engine bot/spider."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Shield plugin badge URL may be replaced using White Label settings",
+        "description": [
+          "The URL used in the Shield plugin badge may be replaced using the Home URL provided in White Label settings."
+        ],
+        "patch":       "10.0.3"
+      },
+      {
+        "type":        "improved",
+        "title":       "PHP 7+ Only",
+        "description": [
+          "PHP 7.0+ is required to run Shield v10.",
+          "This change in minimum requirements lets us optimise Shield code for PHP 7 and better prepare for PHP 8."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "More reliable 2FA email codes",
+        "description": [
+          "2FA codes generated for email 2FA are more reliable."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "U2F two-factor authentication can now be standalone",
+        "description": [
+          "Due to the experimental nature of the U2F implementation, you needed at least one other 2FA factor active on your profile before you could enable U2F."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Server Public IPv6 Detection",
+        "description": [
+          "Detection of your WordPress server's public IPv6 address has been fixed."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "HTTP loopback tests would timeout",
+        "description": [
+          "HTTP loopback request now has a longer timeout to be more reliable for slow sites."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Link Cheese requests could be missed",
+        "description": [
+          "Detection of requests to link cheese is improved."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Potential PHP error",
+        "description": [
+          "A PHP error has been fixed which would occur in some cases."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Database creation may delete existing tables",
+        "description": [
+          "In some cases during plugin upgrade, some table may get inadvertently deleted."
+        ],
+        "patch":       "10.0.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Fatal error when IP address isn't detected",
+        "description": [],
+        "patch":       "10.0.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Not correctly identifying GoogleBot.",
+        "description": [],
+        "patch":       "10.0.3"
+      }
+    ]
+  },
+  "9.2":  {
+    "version":     "9.2",
+    "released_at": 1599135934,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease92",
+      "upgrade": "https://shsec.io/shieldupgradeguide92"
+    },
+    "title":       "Improved UX For Logged-In Users",
+    "description": [
+      "Most notable in this release is a feature that allows logged-in users to unblock their IP.",
+      "Note that this will also be the final release to support PHP 5."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Automatic Unblock For Logged-In Users",
+        "description": [
+          "When a user's IP address is blocked on a site, they may automatically unblock it if they're logged-in.",
+          "By using a magic unblock-link, users may regain access to a site without intervention from an admin."
+        ],
+        "href":        "https://shsec.io/ii"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Auto-Delete Unnecessary WordPress Files",
+        "description": [
+          "Files such as wp-config-sample.php, readme.html and license.txt are replaced each time WordPress upgrades.",
+          "This new option ensures that they are removed each time they are restored to your site after an upgrade."
+        ],
+        "href":        "https://shsec.io/hv"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Support for WP Members plugin",
+        "description": [
+          "Provide native support for protection on WP Members plugin login/registration forms."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Defer to WordPress 5.5 Automatic Updates Changes",
+        "description": [
+          "Automatic updates notification email is now only sent if on WordPress < 5.5"
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Integrate with WordPress 5.5 Automatic Updates Changes",
+        "description": [
+          "Shield's Automatic updates notification email setting also applies to plugin/theme update emails."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Improved Integration with WP Fastest Cache",
+        "description": [
+          "Use WP Fastest Cache method to prevent caching of block pages. Whether it makes a difference is another thing."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Better Mitigation of Error From Other Plugins",
+        "description": [
+          "Prevent spurious output from errors not relating to this plugin from affecting display of our admin pages."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Better Detection Of forceoff File",
+        "description": [
+          "Detecting the forceoff file is all its many forms is improved."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "File Locker + open_basedir",
+        "description": [
+          "The File Locker is less likely to trigger an open_basedir warning."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Lots Of Code Optimisation",
+        "description": []
+      },
+      {
+        "type":        "changed",
+        "title":       "Session Cookie Name Change",
+        "description": [
+          "Session cookie renamed from icwp-wpsf to wp-icwp-wpsf."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Bootstrap Library Updated",
+        "description": [
+          "Upgraded shipped Bootstrap libraries to latest available (v4.5.2)."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Increased Limit For Counting IP Offenses",
+        "description": [
+          "Upgraded the database to support much larger values for the IP offenses counter."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "MemberPress Integration Bug",
+        "description": [
+          "MemberPress support had a bug where certain forms weren’t checked for bots."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "WP-CLI Bugs",
+        "description": [
+          "Cleaned some WP-CLI PHP notices on certain commands."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug: User Sessions",
+        "description": [
+          "User session IDs weren’t cleared correctly."
+        ],
+        "patch":       "9.2.1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{% block input_row %}
+	<p class="shield_2fa_field_container shield_{{ field.slug }}_container">
+
+		{% block before_login_field_input %}{% endblock %}
+
+		<label>
+			<span>{{ field.text }}</span>
+			{% block login_field_input %}
+				{% include '/components/html/input.twig' %}
+			{% endblock %}
+		</label>
+
+		<span class="otp-description">
+			{% block after_login_field_input %}
+				{{ field.description|default('') }}
+			{% endblock %}
+		</span>
+
+	</p>
+{% endblock %}

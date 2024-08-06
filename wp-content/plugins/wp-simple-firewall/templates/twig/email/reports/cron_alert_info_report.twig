@@ -1,0 +1,21 @@
+{% extends '/email/base_email.twig' %}
+
+{% block email_body %}
+	<p>
+		{{ body.strings.please_find }}
+		<br />{{ body.strings.depending }}
+	</p>
+
+	<p>
+		&ndash; {{ body.strings.site_url }}: {{ body.vars.site_url }}
+	</p>
+
+	{% for report in body.vars.reports %}
+		<p style="font-weight: bold">{{ body.strings.report_type }}: {{ report.type }}</p>
+		<ul>
+			<li>{{ body.strings.generated }}: {{ report.generated }}</li>
+			<li><a href="{{ report.href }}">{{ body.strings.view_report }} &rarr;</a></li>
+		</ul>
+	{% endfor %}
+
+{% endblock %}

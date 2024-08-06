@@ -1,0 +1,46 @@
+/* BB Press Styles
+----------------------------------------------- */
+
+#bbpress-forums  {
+	font-size: 0.875em;
+}
+#bbpress-forums ul.bbp-forums  {
+	margin-top: 4em;
+}
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-topics,
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results {
+	font-size: 1em;
+}
+
+#subscription-toggle {
+	float: right;
+}
+
+img.avatar-14 {
+	vertical-align: baseline;
+}
+
+.bbpress select { 
+	border: 1px solid #ddd;
+	color: #666;
+}
+
+div.bbp-template-notice.info {
+	display: block;
+	clear:both;
+	margin-top: 1.5em;
+}
+
+#bbpress-forums fieldset.bbp-form legend,
+#bbpress-forums li.bbp-header,
+#bbpress-forums li.bbp-footer {
+	font-weight: 400;
+	color: #222222;
+}
+
+.quicktags-toolbar input {
+	font-weight: 400 !important;
+}

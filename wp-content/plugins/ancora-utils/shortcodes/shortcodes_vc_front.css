@@ -1,0 +1,57 @@
+/* VC Frontend editor styles */
+
+/* Columns */
+.vc_editor .sc_columns .vc_trx_column_item {
+	float:left;
+	padding-right: 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.vc_editor .sc_columns .vc_trx_column_item .sc_column_item {
+	float:none;
+	width: 100%;
+}
+.vc_editor .sc_columns_count_2 .vc_trx_column_item {	width: 50%; }
+.vc_editor .sc_columns_count_3 .vc_trx_column_item {	width: 33.3333%; }
+.vc_editor .sc_columns_count_4 .vc_trx_column_item {	width: 25%; }
+.vc_editor .sc_columns_count_5 .vc_trx_column_item {	width: 20%; }
+.vc_editor .sc_columns_count_6 .vc_trx_column_item {	width: 16.6667%; }
+.vc_editor .sc_columns_count_7 .vc_trx_column_item {	width: 14.2857%; }
+.vc_editor .sc_columns_count_8 .vc_trx_column_item {	width: 12.5%; }
+.vc_editor .sc_columns_count_9 .vc_trx_column_item {	width: 11.1111%; }
+.vc_editor .sc_columns_count_10 .vc_trx_column_item {	width: 10%; }
+.vc_editor .sc_columns_count_11 .vc_trx_column_item {	width: 9.0909%; }
+.vc_editor .sc_columns_count_12 .vc_trx_column_item {	width: 8.3333%; }
+
+
+/* Contact form */
+.vc_editor .sc_contact_form .sc_contact_form_field input,
+.vc_editor .sc_contact_form .sc_contact_form_message textarea {
+	border: 1px solid #dddddd;
+}
+
+
+/* Skills */
+.vc_editor .sc_skills_columns .vc_trx_skills_item {
+	float:left;
+	padding-right: 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.vc_editor .sc_skills_columns .vc_trx_skills_item .sc_skills_column {
+	float:none;
+	width: 100%;
+}
+.vc_editor .sc_skills_columns_2 .vc_trx_skills_item {	width: 50%; }
+.vc_editor .sc_skills_columns_3 .vc_trx_skills_item{	width: 33.3333%; }
+.vc_editor .sc_skills_columns_4 .vc_trx_skills_item {	width: 25%; }
+.vc_editor .sc_skills_columns_5 .vc_trx_skills_item {	width: 20%; }
+.vc_editor .sc_skills_columns_6 .vc_trx_skills_item {	width: 16.6667%; }
+.vc_editor .sc_skills_columns_7 .vc_trx_skills_item {	width: 14.2857%; }
+.vc_editor .sc_skills_columns_8 .vc_trx_skills_item {	width: 12.5%; }
+.vc_editor .sc_skills_columns_9 .vc_trx_skills_item {	width: 11.1111%; }
+.vc_editor .sc_skills_columns_10 .vc_trx_skills_item {	width: 10%; }
+.vc_editor .sc_skills_columns_11 .vc_trx_skills_item {	width: 9.0909%; }
+.vc_editor .sc_skills_columns_12 .vc_trx_skills_item {	width: 8.3333%; }

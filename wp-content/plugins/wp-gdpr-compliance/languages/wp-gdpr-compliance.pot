@@ -1,0 +1,1110 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP GDPR Compliance\n"
+"POT-Creation-Date: 2020-05-25 09:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: Van Ons <info@van-ons.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n;_ngettext_noop:1,2;_n_noop:1,2;"
+"_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Includes/Action.php:93
+msgid "Data Access Request"
+msgstr ""
+
+#: Includes/Action.php:129
+msgid "Couldn't create the required database tables."
+msgstr ""
+
+#: Includes/Action.php:133
+msgid "Retry"
+msgstr ""
+
+#: Includes/Action.php:157
+msgid "More information"
+msgstr ""
+
+#: Includes/Action.php:157 Includes/Page.php:503 Includes/Shortcode.php:169
+msgid "My settings"
+msgstr ""
+
+#: Includes/Action.php:182 Includes/Action.php:214
+msgid "Accept"
+msgstr ""
+
+#: Includes/Action.php:214
+msgid "Save my settings"
+msgstr ""
+
+#: Includes/Action.php:230 Includes/Page.php:766
+msgid "(no title)"
+msgstr ""
+
+#: Includes/Action.php:243 Includes/Helper.php:116 Includes/Helper.php:174
+#: Includes/Page.php:271 Includes/Page.php:366 Includes/Page.php:381
+#: Includes/Page.php:442 Includes/Page.php:498 Includes/Page.php:852
+#: Includes/Page.php:958 Includes/Shortcode.php:164
+msgid "Note"
+msgstr ""
+
+#: Includes/Action.php:244
+msgid ""
+"These settings will only apply to the browser and device you are currently "
+"using."
+msgstr ""
+
+#: Includes/Action.php:269
+msgid "Enable"
+msgstr ""
+
+#: Includes/Action.php:293
+msgid "Close modal"
+msgstr ""
+
+#: Includes/Ajax.php:26 Includes/Ajax.php:95 Includes/Ajax.php:291
+msgid "Missing data."
+msgstr ""
+
+#: Includes/Ajax.php:36
+msgid "Missing option name."
+msgstr ""
+
+#: Includes/Ajax.php:40
+msgid "You're not allowed to manage settings."
+msgstr ""
+
+#: Includes/Ajax.php:44
+msgid "You're not allowed to manage this setting."
+msgstr ""
+
+#: Includes/Ajax.php:48
+msgid "Missing value."
+msgstr ""
+
+#: Includes/Ajax.php:99
+msgid "Missing type."
+msgstr ""
+
+#: Includes/Ajax.php:110
+msgid "Missing or incorrect email address."
+msgstr ""
+
+#: Includes/Ajax.php:114
+msgid "You need to accept the privacy checkbox."
+msgstr ""
+
+#: Includes/Ajax.php:139
+msgid "page"
+msgstr ""
+
+#: Includes/Ajax.php:146
+#, php-format
+msgid "%s - Your data request"
+msgstr ""
+
+#: Includes/Ajax.php:152
+#, php-format
+msgid "You have requested to access your data on %s."
+msgstr ""
+
+#: Includes/Ajax.php:156
+#, php-format
+msgid "Please visit this %s to view the data linked to the email address %s."
+msgstr ""
+
+#: Includes/Ajax.php:160
+msgid ""
+"This page is available for 24 hours and can only be reached from the same "
+"device, IP address and browser session you requested from."
+msgstr ""
+
+#: Includes/Ajax.php:162
+#, php-format
+msgid ""
+"If your link is invalid you can fill in a new request after 24 hours: %s."
+msgstr ""
+
+#: Includes/Ajax.php:176
+msgid "Success. You will receive an email with your data shortly."
+msgstr ""
+
+#: Includes/Ajax.php:180
+msgid "Something went wrong while saving the request. Please try again."
+msgstr ""
+
+#: Includes/Ajax.php:183
+msgid ""
+"You have already requested your data. Please check your mailbox. After 24 "
+"hours you can put in a new request."
+msgstr ""
+
+#: Includes/Ajax.php:196
+msgid "Missing token."
+msgstr ""
+
+#: Includes/Ajax.php:200
+msgid "Missing or invalid type."
+msgstr ""
+
+#: Includes/Ajax.php:204
+msgid "No value selected."
+msgstr ""
+
+#: Includes/Ajax.php:224
+msgid "Something went wrong while saving this request. Please try again."
+msgstr ""
+
+#: Includes/Ajax.php:232 Includes/Page.php:85
+msgid "Requests"
+msgstr ""
+
+#: Includes/Ajax.php:236
+#, php-format
+msgid "%s - New anonymise request"
+msgstr ""
+
+#: Includes/Ajax.php:241
+#, php-format
+msgid "You have received a new anonymise request on %s."
+msgstr ""
+
+#: Includes/Ajax.php:245
+#, php-format
+msgid "You can manage this request in the admin panel: %s"
+msgstr ""
+
+#: Includes/Ajax.php:256
+msgid "Session doesn't match."
+msgstr ""
+
+#: Includes/Ajax.php:259
+msgid "No session found."
+msgstr ""
+
+#: Includes/Ajax.php:281
+msgid "The access request functionality is not enabled."
+msgstr ""
+
+#: Includes/Ajax.php:295
+msgid "This request doesn't exist."
+msgstr ""
+
+#: Includes/Ajax.php:317
+msgid "This user doesn't exist."
+msgstr ""
+
+#: Includes/Ajax.php:324
+msgid "You're not allowed to edit users."
+msgstr ""
+
+#: Includes/Ajax.php:337
+msgid "This comment doesn't exist."
+msgstr ""
+
+#: Includes/Ajax.php:343
+msgid "You're not allowed to edit comments."
+msgstr ""
+
+#: Includes/Ajax.php:387
+msgid "You're not allowed to edit WooCommerce orders."
+msgstr ""
+
+#: Includes/Ajax.php:399
+#, php-format
+msgid "%s - Your request"
+msgstr ""
+
+#: Includes/Ajax.php:404
+#, php-format
+msgid ""
+"We have successfully processed your request and your data has been "
+"anonymised on %s."
+msgstr ""
+
+#: Includes/Ajax.php:407
+msgid "The following has been processed:"
+msgstr ""
+
+#: Includes/Ajax.php:416
+msgid "Successfully sent an confirmation mail to the user."
+msgstr ""
+
+#: Includes/Ajax.php:420
+msgid "This request has already been processed."
+msgstr ""
+
+#: Includes/Consent.php:55
+msgid "Privacy Settings"
+msgstr ""
+
+#: Includes/Consent.php:68
+msgid ""
+"This site uses functional cookies and external scripts to improve your "
+"experience. Which cookies and scripts are used and how they impact your "
+"visit is specified on the left. You may change your settings at any time. "
+"Your choices will not impact your visit."
+msgstr ""
+
+#: Includes/Consent.php:81
+msgid ""
+"This site uses functional cookies and external scripts to improve your "
+"experience."
+msgstr ""
+
+#: Includes/Consent.php:296
+msgid "Wrap my code snippet with <script> tags"
+msgstr ""
+
+#: Includes/Consent.php:297
+msgid "Do not wrap my code snippet"
+msgstr ""
+
+#: Includes/Consent.php:306 Includes/Page.php:680
+msgid "Head"
+msgstr ""
+
+#: Includes/Consent.php:307 Includes/Page.php:685
+msgid "Body"
+msgstr ""
+
+#: Includes/Consent.php:308 Includes/Page.php:690
+msgid "Footer"
+msgstr ""
+
+#: Includes/Cron.php:21
+msgid "Once a month"
+msgstr ""
+
+#: Includes/Data.php:27 Includes/Extensions/WP.php:44 Includes/Shortcode.php:85
+#: Includes/Shortcode.php:105
+#, php-format
+msgid "<strong>ERROR</strong>: %s"
+msgstr ""
+
+#: Includes/Data.php:28
+msgid "Email Address is required."
+msgstr ""
+
+#: Includes/Data.php:52
+msgid "Username"
+msgstr ""
+
+#: Includes/Data.php:53
+msgid "Display Name"
+msgstr ""
+
+#: Includes/Data.php:54 Includes/Data.php:63 Includes/Data.php:70
+#: Includes/Page.php:968
+msgid "Email Address"
+msgstr ""
+
+#: Includes/Data.php:55
+msgid "Website"
+msgstr ""
+
+#: Includes/Data.php:56
+msgid "Registered on"
+msgstr ""
+
+#: Includes/Data.php:61
+msgid "Author"
+msgstr ""
+
+#: Includes/Data.php:62
+msgid "Content"
+msgstr ""
+
+#: Includes/Data.php:64 Includes/Page.php:865 Includes/Page.php:969
+msgid "IP Address"
+msgstr ""
+
+#: Includes/Data.php:69
+msgid "Order"
+msgstr ""
+
+#: Includes/Data.php:71
+msgid "Name"
+msgstr ""
+
+#: Includes/Data.php:72
+msgid "Address"
+msgstr ""
+
+#: Includes/Data.php:73
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: Includes/Data.php:74
+msgid "City"
+msgstr ""
+
+#: Includes/Data.php:178
+#, php-format
+msgid "Anonymise selected %s(s)"
+msgstr ""
+
+#: Includes/DeleteRequest.php:234
+msgid "Unknown"
+msgstr ""
+
+#: Includes/DeleteRequest.php:237
+msgid "User"
+msgstr ""
+
+#: Includes/DeleteRequest.php:240
+msgid "Comment"
+msgstr ""
+
+#: Includes/DeleteRequest.php:243
+msgid "WooCommerce Order"
+msgstr ""
+
+#: Includes/Extensions/CF7.php:184 Includes/Extensions/GForms.php:113
+#: Includes/Extensions/GForms.php:129 Includes/Extensions/GForms.php:149
+#: Includes/Extensions/WC.php:69 Includes/Extensions/WC.php:96
+#: Includes/Extensions/WP.php:79
+msgid "Not accepted."
+msgstr ""
+
+#: Includes/Extensions/CF7.php:188 Includes/Extensions/WC.php:67
+msgid "GDPR accepted on:"
+msgstr ""
+
+#: Includes/Extensions/GForms.php:58 Includes/Extensions/GForms.php:97
+#: Includes/Extensions/WC.php:84
+msgid "Privacy"
+msgstr ""
+
+#: Includes/Extensions/GForms.php:147
+#, php-format
+msgid "Accepted on %s."
+msgstr ""
+
+#: Includes/Extensions/WP.php:33
+msgid "This checkbox is checked because you are an admin"
+msgstr ""
+
+#: Includes/Extensions/WP.php:34
+msgid "required"
+msgstr ""
+
+#: Includes/Extensions/WP.php:47
+msgid "Comment Submission Failure"
+msgstr ""
+
+#: Includes/Extensions/WP.php:67
+msgid "GDPR Accepted On"
+msgstr ""
+
+#: Includes/Extensions/WPRegistration.php:86
+msgid "user has given consent when registering"
+msgstr ""
+
+#: Includes/Helper.php:110
+#, php-format
+msgid "You can use: %s"
+msgstr ""
+
+#: Includes/Helper.php:117
+msgid "No HTML allowed due to plugin limitations."
+msgstr ""
+
+#: Includes/Helper.php:134
+msgid "Consent has been updated successfully."
+msgstr ""
+
+#: Includes/Helper.php:137
+msgid "Consent has been added successfully."
+msgstr ""
+
+#: Includes/Helper.php:140
+msgid "Consent has been removed successfully."
+msgstr ""
+
+#: Includes/Helper.php:144
+msgid "Couldn't find this consent."
+msgstr ""
+
+#: Includes/Helper.php:147
+msgid "The consent bar has been reset."
+msgstr ""
+
+#: Includes/Helper.php:175
+msgid ""
+"Please disable the custom comments form in Jetpack to make your WordPress "
+"Comments GDPR compliant."
+msgstr ""
+
+#: Includes/Helper.php:190
+msgid "Do you have a contact form?"
+msgstr ""
+
+#: Includes/Helper.php:191
+msgid ""
+"Make sure you add a checkbox specifically asking the user of the form if "
+"they consent to you storing and using their personal information to get back "
+"in touch with them. The checkbox must be unchecked by default. Also mention "
+"if you will send or share the data with any 3rd-parties and which."
+msgstr ""
+
+#: Includes/Helper.php:194
+msgid "Can visitors comment anywhere on your website?"
+msgstr ""
+
+#: Includes/Helper.php:195
+msgid ""
+"Make sure you add a checkbox specifically asking the user of the comment "
+"section if they consent to storing their message attached to the e-mail "
+"address they've used to comment. The checkbox must be unchecked by default. "
+"Also mention if you will send or share the data with any 3rd-parties and "
+"which."
+msgstr ""
+
+#: Includes/Helper.php:198
+msgid "Is there an order form on your website or webshop present?"
+msgstr ""
+
+#: Includes/Helper.php:199
+msgid ""
+"Make sure you add a checkbox specifically asking the user of the form if "
+"they consent to you storing and using their personal information to ship the "
+"order. This cannot be the same checkbox as the Privacy Policy checkbox you "
+"should already have in place. The checkbox must be unchecked by default. "
+"Also mention if you will send or share the data with any 3rd-parties and "
+"which."
+msgstr ""
+
+#: Includes/Helper.php:202
+msgid "Do you provide a forum or message board?"
+msgstr ""
+
+#: Includes/Helper.php:203
+msgid ""
+"Make sure you add a checkbox specifically asking forum / board users if they "
+"consent to you storing and using their personal information and messages. "
+"The checkbox must be unchecked by default. Also mention if you will send or "
+"share the data with any 3rd-parties and which."
+msgstr ""
+
+#: Includes/Helper.php:206
+msgid "Can visitors chat with your company directly?"
+msgstr ""
+
+#: Includes/Helper.php:207
+msgid ""
+"Make sure you add a checkbox specifically asking chat users if they consent "
+"to you storing and using their personal information and messages. The "
+"checkbox must be unchecked by default. We recommend also mentioning for how "
+"long you will store chat messages or deleting them all within 24 hours. Also "
+"mention if you will send or share the data with any 3rd-parties and which."
+msgstr ""
+
+#: Includes/Integration.php:137 Includes/Integration.php:181
+#, php-format
+msgid "Form: %s"
+msgstr ""
+
+#: Includes/Integration.php:138 Includes/Integration.php:182
+msgid "Activate for this form:"
+msgstr ""
+
+#: Includes/Integration.php:141 Includes/Integration.php:185
+#: Includes/Integration.php:220 Includes/Page.php:473
+msgid "Checkbox text"
+msgstr ""
+
+#: Includes/Integration.php:147 Includes/Integration.php:191
+#: Includes/Integration.php:226
+msgid "Error message"
+msgstr ""
+
+#: Includes/Integration.php:157 Includes/Integration.php:207
+msgid "No forms found."
+msgstr ""
+
+#: Includes/Integration.php:197 Includes/Integration.php:232
+msgid "Required message"
+msgstr ""
+
+#: Includes/Integration.php:258 Includes/Integration.php:322
+msgid ""
+"By using this form you agree with the storage and handling of your data by "
+"this website."
+msgstr ""
+
+#: Includes/Integration.php:275
+msgid "Please accept the privacy checkbox."
+msgstr ""
+
+#: Includes/Integration.php:291
+msgid "You need to accept this checkbox."
+msgstr ""
+
+#: Includes/Integration.php:302 Includes/Page.php:353 Includes/Page.php:405
+msgid "Privacy Policy"
+msgstr ""
+
+#: Includes/Integration.php:310
+msgid "http://www.example.com"
+msgstr ""
+
+#: Includes/Integration.php:336
+#, php-format
+msgid ""
+"Below we show you all of the data stored by %s on %s. Select the data you "
+"wish the site owner to anonymise so it cannot be linked to your email "
+"address any longer. It is the site's owner responsibility to act upon your "
+"request. When your data is anonymised you will receive an email confirmation."
+msgstr ""
+
+#: Includes/Integration.php:379 Includes/Page.php:845
+msgid "WordPress Comments"
+msgstr ""
+
+#: Includes/Integration.php:380
+msgid ""
+"When activated the GDPR checkbox will be added automatically just above the "
+"submit button."
+msgstr ""
+
+#: Includes/Integration.php:384
+msgid "Wordpress Registration"
+msgstr ""
+
+#: Includes/Integration.php:385
+msgid ""
+"When activated the GDPR checkbox will be added automatically just above the "
+"register button."
+msgstr ""
+
+#: Includes/Integration.php:399
+msgid "Contact Form 7"
+msgstr ""
+
+#: Includes/Integration.php:400 Includes/Integration.php:407
+msgid "A GDPR form tag will be automatically added to every form you activate."
+msgstr ""
+
+#: Includes/Integration.php:406
+msgid "Gravity Forms"
+msgstr ""
+
+#: Includes/Integration.php:413 Includes/Page.php:847
+msgid "WooCommerce"
+msgstr ""
+
+#: Includes/Integration.php:414
+msgid ""
+"The GDPR checkbox will be added automatically at the end of your checkout "
+"page."
+msgstr ""
+
+#: Includes/Page.php:68
+msgid "Integrations"
+msgstr ""
+
+#: Includes/Page.php:70 Includes/Page.php:491
+msgid "Consents"
+msgstr ""
+
+#: Includes/Page.php:96
+msgid "Checklist"
+msgstr ""
+
+#: Includes/Page.php:98 wp-gdpr-compliance.php:368
+msgid "Settings"
+msgstr ""
+
+#: Includes/Page.php:138
+msgid ""
+"This plugin assists website and webshop owners to comply with European "
+"privacy regulations known as GDPR. By May 25th, 2018 your site or shop has "
+"to comply."
+msgstr ""
+
+#: Includes/Page.php:141
+#, php-format
+msgid ""
+"%s currently supports %s. Please visit %s for frequently asked questions and "
+"our development roadmap."
+msgstr ""
+
+#: Includes/Page.php:147
+msgid ""
+"Disclaimer: The creators of this plugin do not have a legal background "
+"please contact a law firm for rock solid legal advice."
+msgstr ""
+
+#: Includes/Page.php:153
+msgid "Rate us"
+msgstr ""
+
+#: Includes/Page.php:155
+#, php-format
+msgid "Did %s help you out? Please leave a 5-star review. Thank you!"
+msgstr ""
+
+#: Includes/Page.php:158
+msgid "Write a review"
+msgstr ""
+
+#: Includes/Page.php:162
+msgid "Support"
+msgstr ""
+
+#: Includes/Page.php:164
+#, php-format
+msgid ""
+"Need a helping hand? Please ask for help on the %s. Be sure to mention your "
+"WordPress version and give as much additional information as possible."
+msgstr ""
+
+#: Includes/Page.php:165
+msgid "Support forum"
+msgstr ""
+
+#: Includes/Page.php:170
+msgid "WordProof Timestamp"
+msgstr ""
+
+#: Includes/Page.php:171
+msgid ""
+"Protect your copyright, improve trust and enjoy future SEO benefits by "
+"timestamping your content."
+msgstr ""
+
+#: Includes/Page.php:173
+#, php-format
+msgid "%s or read the %s"
+msgstr ""
+
+#: Includes/Page.php:174
+msgid "Install WordProof Timestamp"
+msgstr ""
+
+#: Includes/Page.php:175
+msgid "review by WPLift.com"
+msgstr ""
+
+#: Includes/Page.php:177
+msgid "New"
+msgstr ""
+
+#: Includes/Page.php:211
+msgid "Enable:"
+msgstr ""
+
+#: Includes/Page.php:238
+#, php-format
+msgid "This plugin is outdated. %s supports version %s and up."
+msgstr ""
+
+#: Includes/Page.php:247
+msgid "Couldn't find any supported plugins installed."
+msgstr ""
+
+#: Includes/Page.php:248
+msgid "The following plugins are supported as of now:"
+msgstr ""
+
+#: Includes/Page.php:254
+msgid "More plugins will be added in the future."
+msgstr ""
+
+#: Includes/Page.php:272
+msgid "We think you might have a mail plugin installed."
+msgstr ""
+
+#: Includes/Page.php:275
+msgid ""
+"Do you know where you got your email database from? Did you ask all the "
+"people on your newsletter(s) if they consent to receiving it? GDPR requires "
+"that all of the people in your email software has given you explicit "
+"permission to mail them."
+msgstr ""
+
+#: Includes/Page.php:278
+msgid ""
+"Below we ask you what private data you currently collect and provide you "
+"with tips to comply."
+msgstr ""
+
+#: Includes/Page.php:355 Includes/Page.php:431
+msgid "Activate"
+msgstr ""
+
+#: Includes/Page.php:359
+msgid "Activate external links"
+msgstr ""
+
+#: Includes/Page.php:368
+msgid "Enabling this will allow you to use external Privacy Policy instances"
+msgstr ""
+
+#: Includes/Page.php:383
+msgid "Currently you do not have a privacy policy page selected"
+msgstr ""
+
+#: Includes/Page.php:395
+msgid "External Privacy Policy Link"
+msgstr ""
+
+#: Includes/Page.php:410 Includes/Page.php:460
+msgid "Select an option"
+msgstr ""
+
+#: Includes/Page.php:419
+msgid "Link text"
+msgstr ""
+
+#: Includes/Page.php:426
+msgid "Request User Data"
+msgstr ""
+
+#: Includes/Page.php:428
+msgid ""
+"Allow your site's visitors to request their data stored in the WordPress "
+"database (comments, WooCommerce orders etc.). Data found is send to their "
+"email address and allows them to put in an additional request to have the "
+"data anonymised."
+msgstr ""
+
+#: Includes/Page.php:435
+msgid "Activate page"
+msgstr ""
+
+#: Includes/Page.php:444
+#, php-format
+msgid ""
+"Enabling this will create one private page containing the necessary "
+"shortcode: %s. You can determine when and how to publish this page yourself."
+msgstr ""
+
+#: Includes/Page.php:455
+msgid "Page"
+msgstr ""
+
+#: Includes/Page.php:467
+msgid "Click here to edit this page"
+msgstr ""
+
+#: Includes/Page.php:482
+msgid "Anonymise request explanation"
+msgstr ""
+
+#: Includes/Page.php:493
+msgid ""
+"Your visitors can give permission to all of the created Consents (scripts) "
+"through a Consent bar at the bottom of their screen. There they can also "
+"access their personal settings to give or deny permission to individual "
+"Consents. Once their settings are saved the bar disappears for 365 days."
+msgstr ""
+
+#: Includes/Page.php:500
+#, php-format
+msgid ""
+"Let your visitors re-access their settings by placing a link to the modal "
+"with the shortcode %s or add the \"%s\" class to a menu item."
+msgstr ""
+
+#: Includes/Page.php:512
+msgid "Bar: Explanation"
+msgstr ""
+
+#: Includes/Page.php:520
+msgid "Bar Color"
+msgstr ""
+
+#: Includes/Page.php:527
+msgid "Bar Text Color"
+msgstr ""
+
+#: Includes/Page.php:534
+msgid "Button Color Primary"
+msgstr ""
+
+#: Includes/Page.php:542
+msgid "Button Color Secondary"
+msgstr ""
+
+#: Includes/Page.php:550
+msgid "Modal: Title"
+msgstr ""
+
+#: Includes/Page.php:559
+msgid "Modal: Explanation"
+msgstr ""
+
+#: Includes/Page.php:603
+msgid "Add New Consent"
+msgstr ""
+
+#: Includes/Page.php:605 Includes/Page.php:751 Includes/Page.php:998
+msgid "Active"
+msgstr ""
+
+#: Includes/Page.php:608 Includes/Page.php:701 Includes/Page.php:770
+#: Includes/Page.php:790 wp-gdpr-compliance.php:378 wp-gdpr-compliance.php:414
+msgid "Yes"
+msgstr ""
+
+#: Includes/Page.php:613 Includes/Page.php:746
+msgid "Title"
+msgstr ""
+
+#: Includes/Page.php:618
+msgid "e.g. \"Google Analytics\" or \"Advertising\""
+msgstr ""
+
+#: Includes/Page.php:623
+msgid "Description"
+msgstr ""
+
+#: Includes/Page.php:629
+msgid ""
+"Describe your consent script as thoroughly as possible. %privacy_policy% "
+"will not work."
+msgstr ""
+
+#: Includes/Page.php:634
+msgid "Code Snippet"
+msgstr ""
+
+#: Includes/Page.php:640
+msgid "Code snippets for Google Analytics, Facebook Pixel, etc."
+msgstr ""
+
+#: Includes/Page.php:645
+msgid "Code Wrap"
+msgstr ""
+
+#: Includes/Page.php:662
+msgid "Placement"
+msgstr ""
+
+#: Includes/Page.php:681
+msgid "Snippet will be added at the end of the HEAD tag."
+msgstr ""
+
+#: Includes/Page.php:686
+msgid "Snippet will be added directly after the BODY tag."
+msgstr ""
+
+#: Includes/Page.php:691
+msgid "Snippet will be added at the end of the BODY tag."
+msgstr ""
+
+#: Includes/Page.php:698 Includes/Page.php:747
+msgid "Required"
+msgstr ""
+
+#: Includes/Page.php:704
+msgid ""
+"Ticking this checkbox means this Consent will always be triggered so users "
+"cannot opt-in or opt-out."
+msgstr ""
+
+#: Includes/Page.php:709
+msgid "Update"
+msgstr ""
+
+#: Includes/Page.php:709
+msgid "Add"
+msgstr ""
+
+#: Includes/Page.php:711
+msgid "Back to overview"
+msgstr ""
+
+#: Includes/Page.php:730
+msgid ""
+"Ask your visitors for permission to enable certain scripts for tracking or "
+"advertising purposes. Add a Consent for each type of script you are "
+"requesting permission for. Scripts will only be activated when permission is "
+"given."
+msgstr ""
+
+#: Includes/Page.php:732
+msgctxt "consent"
+msgid "Add New"
+msgstr ""
+
+#: Includes/Page.php:736
+msgid ""
+"Click this button if you want to reset the consent bar, this means that the "
+"consent bar will appear again for all users."
+msgstr ""
+
+#: Includes/Page.php:745
+msgid "Consent"
+msgstr ""
+
+#: Includes/Page.php:748
+msgid "Modified at"
+msgstr ""
+
+#: Includes/Page.php:749
+msgid "Created at"
+msgstr ""
+
+#: Includes/Page.php:750 Includes/Page.php:868
+msgid "Action"
+msgstr ""
+
+#: Includes/Page.php:770 Includes/Page.php:790 wp-gdpr-compliance.php:379
+#: wp-gdpr-compliance.php:415
+msgid "No"
+msgstr ""
+
+#: Includes/Page.php:780
+msgid "Edit"
+msgstr ""
+
+#: Includes/Page.php:785
+msgid "Remove"
+msgstr ""
+
+#: Includes/Page.php:813 Includes/Page.php:929 Includes/Page.php:1021
+#, php-format
+msgid "%d of %d results found"
+msgstr ""
+
+#: Includes/Page.php:817
+msgid "No consents found."
+msgstr ""
+
+#: Includes/Page.php:841
+msgid ""
+"Anonymise a request by ticking the checkbox and clicking on the green "
+"anonymise button below."
+msgstr ""
+
+#: Includes/Page.php:843
+msgid "WordPress Users"
+msgstr ""
+
+#: Includes/Page.php:853 Includes/Page.php:959
+#, php-format
+msgid "Requests are automatically anonymised after %d days."
+msgstr ""
+
+#: Includes/Page.php:863
+msgid "Request"
+msgstr ""
+
+#: Includes/Page.php:864
+msgid "Type"
+msgstr ""
+
+#: Includes/Page.php:866 Includes/Page.php:970
+msgid "Date"
+msgstr ""
+
+#: Includes/Page.php:867
+msgid "Processed"
+msgstr ""
+
+#: Includes/Page.php:889
+msgid "View"
+msgstr ""
+
+#: Includes/Page.php:891
+msgid "N/A"
+msgstr ""
+
+#: Includes/Page.php:910
+msgid "Anonymise selected request(s)"
+msgstr ""
+
+#: Includes/Page.php:935 Includes/Page.php:1027
+msgid "No requests found."
+msgstr ""
+
+#: Includes/Page.php:966
+msgid "ID"
+msgstr ""
+
+#: Includes/Page.php:967
+msgid "Requests to Process"
+msgstr ""
+
+#: Includes/Page.php:971
+msgid "Status"
+msgstr ""
+
+#: Includes/Page.php:990
+msgid "Manage"
+msgstr ""
+
+#: Includes/Page.php:998
+msgid "Expired"
+msgstr ""
+
+#: Includes/Shortcode.php:35
+msgid "Users"
+msgstr ""
+
+#: Includes/Shortcode.php:42
+#, php-format
+msgid "No users found with email address %s."
+msgstr ""
+
+#: Includes/Shortcode.php:49
+msgid "Comments"
+msgstr ""
+
+#: Includes/Shortcode.php:56
+#, php-format
+msgid "No comments found with email address %s."
+msgstr ""
+
+#: Includes/Shortcode.php:65
+msgid "WooCommerce Orders"
+msgstr ""
+
+#: Includes/Shortcode.php:72
+#, php-format
+msgid "No WooCommerce orders found with email address %s."
+msgstr ""
+
+#: Includes/Shortcode.php:88
+msgid ""
+"You are only able to view your data when visiting this page on the same "
+"device with the same IP and in the same browser session as when you "
+"performed your request. This is an extra security measure to keep your data "
+"safe."
+msgstr ""
+
+#: Includes/Shortcode.php:90
+#, php-format
+msgid "If needed you can put in a new request after 24 hours here: %s."
+msgstr ""
+
+#: Includes/Shortcode.php:106
+msgid "This request is expired or doesn't exist."
+msgstr ""
+
+#: Includes/Shortcode.php:126
+msgid "Your Email Address"
+msgstr ""
+
+#: Includes/Shortcode.php:140
+msgid "Send"
+msgstr ""
+
+#: Includes/Shortcode.php:165
+msgid "You need to make sure you have added atleast one (1) active consent."
+msgstr ""
+
+#: wp-gdpr-compliance.php:368
+msgid "View WP GDPR Compliance settings"
+msgstr ""

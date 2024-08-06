@@ -1,0 +1,1091 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-11-14 21:55+0100\n"
+"PO-Revision-Date: 2022-11-14 21:55+0100\n"
+"Last-Translator: CodePeople\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cp_calculatedfieldsf_free.php:78
+msgid "Form Preview"
+msgstr ""
+
+#: cp_calculatedfieldsf_free.php:119
+msgid ""
+"<div class=\"error-text\">The data cannot be stored in database because has "
+"occurred an error with the database structure. Please, go to the plugins "
+"section and Deactivate/Activate the plugin to be sure the structure of "
+"database has been checked, and corrected if needed. If the issue persist, "
+"please <a href=\"https://cff.dwbooster.com/contact-us\">contact us</a></div>"
+msgstr ""
+
+#: cp_calculatedfieldsf_free.php:130
+msgid ""
+"<div class=\"error-text\">The data cannot be stored in database because has "
+"occurred an error with the form structure. Please, try to save the data "
+"again. If have been copied and pasted data from external text editors, the "
+"data can contain invalid characters. If the issue persist, please <a href="
+"\"https://cff.dwbooster.com/contact-us\">contact us</a></div>"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:36
+msgid "Settings saved"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:51 inc/cpcff_admin_int_list.inc.php:148
+#: inc/cpcff_page_builders.inc.php:164
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:9
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:11
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:12
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:11
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:12
+#: pagebuilders/divi/cff.pb.php:9 pagebuilders/elementor/elementor.pb.php:36
+msgid "Calculated Fields Form"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:51 pagebuilders/divi/cff.pb.php:13
+msgid "Form"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:57
+msgid "Direct form URL"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:60
+msgid "Back to items list..."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:70 inc/cpcff_admin_int.inc.php:230
+msgid "Form Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:74
+msgid "Form Category"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:84
+msgid ""
+"* Different form styles available on the tab Form Settings &gt;&gt; Form "
+"Template"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:87
+msgid "Form Builder"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:91
+msgid "Revisions"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:96
+msgid "Select a revision"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:108 inc/cpcff_admin_int.inc.php:250
+#: inc/cpcff_admin_int.inc.php:682
+msgid "Preview"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:108
+msgid "Saves the form's structure only, and opens a preview windows"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:109
+msgid "Fields List"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:119
+msgid ""
+"If the form is not loading in the public website, go to the settings page of "
+"the plugin through the menu option: \"Settings/Calculated Fields Form\", "
+"select the \"Classic\" option for the attribute: \"Script load method\", and "
+"press the \"Update\" button."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:119
+msgid ""
+"If you need also the form to be sent to the server side for processing (for "
+"example to deliver emails) then the <a href=\"https://cff.dwbooster.com/"
+"download\" target=\"_blank\">Commercial versions</a> of the plugin are "
+"required."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:136
+msgid ""
+"The action will load the revision selected, the data are not stored will be "
+"lose. Do you want continue?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:193
+msgid ""
+"These features aren't available in this version. Do you want to open the "
+"plugin's page to check other versions?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:228
+msgid "Add a Field"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:229
+msgid "Field Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:249 inc/cpcff_admin_int.inc.php:379
+#: inc/cpcff_admin_int.inc.php:730
+msgid "Save Changes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:257
+msgid "Generate revisions in the form preview as well"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:262
+msgid "Texts definition"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:263
+msgid "Error texts"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:264
+msgid "General payment settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:265
+msgid "PayPal integration"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:266
+msgid "Notification email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:267
+msgid "Email copy to user"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:268
+msgid "Captcha settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:271
+msgid "Define Texts"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:275
+msgid "Previous button label (text)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:280
+msgid "Next button label (text)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:286
+msgid ""
+"- The styles can be applied into any of the CSS files of your theme or into "
+"the CSS file <em>\"calculated-fields-form\\css\\stylepublic.css\"</em>."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:287
+msgid ""
+"- For general CSS styles modifications to the form and samples <a href="
+"\"https://cff.dwbooster.com/faq#q82\" target=\"_blank\">check this FAQ</a>."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:303 inc/cpcff_admin_int.inc.php:364
+#: inc/cpcff_admin_int.inc.php:451 inc/cpcff_admin_int.inc.php:537
+#: inc/cpcff_admin_int.inc.php:600 inc/cpcff_admin_int.inc.php:646
+#: inc/cpcff_admin_int.inc.php:719
+msgid "Up to form structure"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:308
+msgid "Validation Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:312
+msgid "\"is required\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:316
+msgid "\"is email\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:320
+msgid "\"is valid captcha\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:325
+msgid "\"is valid date (mm/dd/yyyy)\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:329
+msgid "\"is valid date (dd/mm/yyyy)\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:333
+msgid "\"is number\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:337
+msgid "\"only digits\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:341
+msgid "\"under maximum\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:345
+msgid "\"over minimum\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:369
+msgid "Note"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:371
+msgid ""
+"To display the form in a post/page, enter your shortcode in the post/page "
+"content:"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:373
+msgid ""
+"The CFF plugin implements widgets and blocks to allow inserting the form "
+"visually with the most popular page builders such as Gutenberg Editor, "
+"Classic Editor, Elementor, Site Origin, Visual Composer, Beaver Builder, "
+"Divi, and for the other page builders insert the shortcode directly."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:382 inc/cpcff_admin_int.inc.php:733
+#: inc/cpcff_admin_int_list.inc.php:436
+msgid "Request Custom Modifications"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:382 inc/cpcff_admin_int.inc.php:733
+#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:218
+msgid "Help"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:389
+msgid ""
+"The following features are available in the commercial version of the <a "
+"href=\"https://cff.dwbooster.com/download\" target=\"_blank\" style=\"text-"
+"decoration:none;\">\"Calculated Fields Form\"</a>"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:390
+msgid "Pay only ONCE, use it FOREVER"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:399
+msgid "Form Processing and Payment Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:403
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:408
+msgid "Request cost"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:413
+msgid "Currency"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:415
+msgid "United States dollar"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:415
+msgid "Pound sterling"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:415
+msgid "PayPal Currency Codes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:420
+msgid "Base amount"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:421
+msgid ""
+"Minimum amount to charge. If the final price is lesser than this number, the "
+"base amount will be applied."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:426
+msgid "Paypal product name"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:431
+msgid "Discount Codes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:433
+msgid "This feature isn't available in this version."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:436
+msgid "Add new discount code"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:438
+msgid "Code"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:439
+msgid "Discount"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:440
+msgid "Percent"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:441
+msgid "Fixed Value"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:444
+msgid "Valid until"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:445
+msgid "Add"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:447
+msgid "Note: Expiration date based in server time. Server time now is"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:456
+msgid "Paypal Payment Configuration"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:461
+msgid "Enable Paypal Payments?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:463 inc/cpcff_admin_int.inc.php:575
+#: inc/cpcff_admin_int.inc.php:617 inc/cpcff_admin_int.inc.php:662
+msgid "No"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:465
+msgid ""
+"Note: If \"Optional\" is selected, a radiobutton will appear in the form to "
+"select if the payment will be made with PayPal or not."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:467
+msgid "Label for the \"<strong>Pay with PayPal</strong>\" option"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:473
+msgid "Paypal Mode"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:476
+msgid "Production - real payments processed"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:478
+msgid "SandBox - PayPal testing sandbox area"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:484
+msgid "Paypal email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:489
+msgid "A $0 amount to pay means"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:492
+msgid "Let the user enter any amount at PayPal (ex: for a donation)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:494
+msgid "Don't require any payment. Form is submitted skiping the PayPal page."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:500
+msgid "Paypal language"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:505
+msgid "Payment frequency"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:510
+msgid "One time payment (default option, user is billed only once)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:512
+msgid "Bill the user every 1 month"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:514
+msgid "Bill the user every 3 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:516
+msgid "Bill the user every 6 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:518
+msgid "Bill the user every 12 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:523
+msgid "Paypal prompt buyers for shipping address"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:528
+msgid "Do not prompt for an address"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:530
+msgid "Prompt for an address, but do not require one"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:532
+msgid "Prompt for an address and require one"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:544
+msgid ""
+"If you or your users do not receive the notification emails, they are "
+"probably being blocked by the web server. If so, install any of the SMTP "
+"connection plugins distributed through the WordPress directory, and "
+"configure it to use your hosting provider's SMTP server."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:552
+msgid "Form Processing / Email Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:556
+msgid "\"From\" email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:557
+msgid ""
+"This email is required if the \"From fixed email address\" option is "
+"selected, or it is enabled the email copy to the user."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:560
+msgid "Destination emails (comma separated)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:564 inc/cpcff_admin_int.inc.php:626
+msgid "Email subject"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:568
+msgid "Include additional information?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:573 inc/cpcff_admin_int.inc.php:615
+#: inc/cpcff_admin_int.inc.php:660
+msgid "Yes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:576
+msgid ""
+"If the \"No\" option is selected the plugin won't capture the IP address of "
+"users."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:580
+msgid "Thank you page (after sending the message)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:584 inc/cpcff_admin_int.inc.php:630
+msgid "Email format?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:589 inc/cpcff_admin_int.inc.php:635
+msgid "Plain Text (default)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:591 inc/cpcff_admin_int.inc.php:637
+msgid "HTML (use html in the textarea below)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:596 inc/cpcff_admin_int.inc.php:642
+msgid "Message"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:606
+msgid "Email Copy to User"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:610
+msgid "Send confirmation/thank you message to user?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:622
+msgid "Email field on the form"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:651
+msgid "Captcha Verification"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:655
+msgid "Use Captcha Verification?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:668
+msgid "Width"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:670
+msgid "Height"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:672
+msgid "Chars"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:677
+msgid "Min font size"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:679
+msgid "Max font size"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:684
+msgid "security code"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:690
+msgid "Noise"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:692
+msgid "Noise Length"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:697
+msgid "Background"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:704
+msgid "Font"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:48
+msgid "Default settings updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:65
+msgid "Item added"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:72
+msgid "Item updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:76
+msgid "Item deleted"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:80
+msgid "Item duplicated/cloned"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:82
+msgid "Duplicate/Clone Error, the form cannot be cloned"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:127
+msgid "Troubleshoot settings updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:200
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:208
+msgid "Are you sure you want to update these settings?"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:233
+msgid ""
+"Are you sure you want to modify existing forms?\\nWe recommend modifying the "
+"forms one by one."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:243
+msgid "Forms and Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:245 inc/cpcff_admin_int_list.inc.php:369
+msgid "Marketplace"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:262
+msgid "Form Categories"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:264
+msgid "All forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:276
+msgid "Form List / Items List"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:279
+msgid "in"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:279
+msgid "category"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:287
+msgid "ID"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:289
+msgid "Form Name"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:290
+msgid "Options"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:291
+msgid "Category/Shortcode"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:303 inc/cpcff_admin_int_list.inc.php:363
+msgid "Update"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:304 inc/cpcff_main.inc.php:216
+msgid "Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:305
+msgid "Messages"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:306
+msgid "Clone"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:307
+msgid "Delete"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:310
+msgid "Category: "
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:321
+msgid "New Form"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:324
+msgid "Item Name"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:327
+msgid "Category"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:333
+msgid "Create Form"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:334
+msgid "From Template"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:341
+msgid "Default Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:343
+msgid "Applies the default settings to new forms."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:345
+msgid "Default Template"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:360
+msgid "Apply To Existing Forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:360
+msgid "It will modify the settings of existing forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:369
+msgid "For additional resources visit the plugin's"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:373
+msgid "Troubleshoot Area & General Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:377
+msgid ""
+"<strong>Important!</strong>: Use this area <strong>only</strong> if you are "
+"experiencing conflicts with third party plugins, with the theme scripts or "
+"with the character encoding."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:378
+msgid "Script load method"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:381
+msgid "Classic (Recommended)"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:383
+msgid "Direct"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:385
+msgid ""
+"* Change the script load method if the form doesn't appear in the public "
+"website."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:387
+msgid "Character encoding"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:389
+msgid "Keep current charset (Recommended)"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:390
+msgid "try this first"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:391
+msgid "Only from MySQL 5.5"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:394
+msgid ""
+"* Update the charset if you are getting problems displaying special/non-"
+"latin characters. After updated you need to edit the special characters "
+"again."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:401
+msgid "There is active an optimization plugin in WordPress"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:402
+msgid ""
+"* Tick the checkbox if there is an optimization plugin active on the "
+"website, and the forms are not visible."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:410
+msgid "Disable Form Revisions"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:412
+msgid "Activate Javascript Cache"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:414
+msgid "Allows to access the forms directly"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:416
+msgid "Allows to access the forms from amp pages"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:418
+msgid "Do not load the forms with crawlers"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:419
+msgid "* The forms are not loaded when website is being indexed by searchers."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:421
+msgid "UPDATE"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:430
+msgid "Calculated Fields Form Marketplace"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:436 inc/cpcff_main.inc.php:217
+msgid "Upgrade"
+msgstr ""
+
+#: inc/cpcff_amp.inc.php:171
+msgid "Click to expand"
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:18
+msgid ""
+"There is active the <b>Breeze - WordPress Cache Plugin</b> plugin. If the "
+"forms are not visible, please tick the <i>\"There is active an optimization "
+"plugin in WordPress\"</i> and Purge the Breeze cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:24
+msgid ""
+"There is active the <b>Fast Velocity Minify</b> plugin. If the forms are not "
+"visible, please try disabling the <i>\"Disable minification on JS files\"</"
+"i> or <i>\"Disable JavaScript processing\"</i> options in the <b>Fast "
+"Velocity Minify</b> settings."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:30
+msgid ""
+"There is active the <b>W3 Total Cache</b> plugin. If the forms are not "
+"visible, please tick the checkbox."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:36
+msgid ""
+"There is active the <b>Autoptimize</b> plugin. If the forms are not visible, "
+"please try disabling the <i>\"Force JavaScript in &lt;head&gt;\"</i> option "
+"in the <b>Autoptimize</b> settings, or remove the jQuery file from the <i>"
+"\"Exclude scripts from Autoptimize\"</i> one."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:42
+msgid ""
+"There is active the <b>LiteSpeed Cache</b> plugin. If the forms are not "
+"visible, please try disabling the <i>\"JS Combine\"</i> option in the "
+"<b>Optimize</b> tab of <b>LiteSpeed Cache</b> settings."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:48
+msgid ""
+"There is active the <b>WP Rocket</b> plugin. If the forms are not visible, "
+"please try disabling the <i>\"Combine JavaScript files\"</i> option in the "
+"<b>FILE OPTIMIZATION</b> tab of <b>WP Rocket</b> settings, and remember to "
+"clear the website cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:54
+msgid ""
+"There is active the <b>SG Optimizer</b> plugin. If the forms are not "
+"visible, please try disabling the options: <i>\"Minify the HTML Output\"</i> "
+"and <i>\"Minify JavaScript Files\"</i> in the <b>SG Optimizer</b> settings, "
+"and remember to purge the website cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:60
+msgid ""
+"There is active the <b>Hummingbird</b> plugin. If the forms are not visible, "
+"check the <i>\"Hummingbird &gt; Asset Optimization\"</i> options. Make sure "
+"that jQuery or other required scripts are not configured to load after the "
+"page loads. Remember to purge the website cache, after edit the plugin "
+"settings."
+msgstr ""
+
+#: inc/cpcff_main.inc.php:215
+msgid "Request custom changes"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:234
+msgid "Insert Calculated Fields Form"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:234
+msgid "Create a JavaScript var from POST, GET, SESSION, or COOKIE var"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:89
+#: pagebuilders/elementor/elementor.pb.php:54
+msgid "Select a form"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:90
+msgid "Forms"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:91
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:39
+#: pagebuilders/divi/cff.pb.php:49 pagebuilders/elementor/elementor.pb.php:65
+msgid "Additional attributes"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:92
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:44
+#: pagebuilders/elementor/elementor.pb.php:79
+#: pagebuilders/siteorigin/siteorigin-cpcff/fields/cff-button.class.php:11
+msgid "Edit form"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:22
+msgid "Select the form and enter the additional attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:25
+msgid "Form information"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:29
+#: pagebuilders/divi/cff.pb.php:34
+msgid "Select form"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:35
+#: pagebuilders/divi/cff.pb.php:43
+msgid "Class name"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:10
+msgid "Inserts a form"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:8
+msgid "Generate variable"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:11
+msgid "Variable attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:15
+msgid "Enter the variable name"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:20
+msgid "Enter the default value"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:24
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:28
+msgid "Generate variable from"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:26
+msgid "Directly"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:27
+msgid "GET parameters"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:28
+msgid "POST parameters"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:29
+msgid "SESSION variables"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:30
+msgid "COOKIES variables"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:9
+msgid "Create variable"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:10
+msgid "Create javascript variable"
+msgstr ""
+
+#: pagebuilders/divi/cff.pb.php:39
+msgid "Select the form."
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:168
+msgid "Variable Shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:175
+msgid "Variable shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:180
+msgid "I need help [+]"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:13
+msgid "Calculated Fields Form, Variable Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:15
+msgid ""
+"Shortcode to generate a javascript variable from the url parameters (GET or "
+"POST), session variables, cookies, or define it directly"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:23
+msgid "Variable name"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:31
+msgid "Any source"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:32
+msgid "GET parameter"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:33
+msgid "POST parameter"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:34
+msgid "Session variable"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:35
+msgid "Cookie"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:40
+msgid "Default value (used when variables are generated from a source)"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:45
+msgid "Value (value of the variable when it is generated directly)"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:24
+msgid "Calculated Fields Form Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:26
+msgid "Includes the shortcode for inserting a form"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:34
+msgid "Form to include"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:40
+msgid "Enter a class name to be assigned to the form (optional)"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:44
+msgid ""
+"Pass additional attributes to the form. Ex: attr_name=\"attr_value"
+"\" (optional)"
+msgstr ""

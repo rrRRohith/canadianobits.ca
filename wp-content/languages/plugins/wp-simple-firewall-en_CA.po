@@ -1,0 +1,173 @@
+# Translation of Plugins - Shield Security &#8211; Scanners, Security Hardening, Brute Force Protection &amp; Firewall - Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Plugins - Shield Security &#8211; Scanners, Security Hardening, Brute Force Protection &amp; Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-27 09:40:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Shield Security &#8211; Scanners, Security Hardening, Brute Force Protection &amp; Firewall - Stable (latest release)\n"
+
+#: src/lib/src/Modules/Base/ModCon.php:1118
+msgid "For more information:"
+msgstr "For more information:"
+
+#: src/lib/src/Modules/LoginGuard/Strings.php:263
+#: src/lib/src/Modules/LoginGuard/Strings.php:318
+#: src/lib/src/Modules/LoginGuard/Strings.php:325
+#: src/lib/src/Modules/SecurityAdmin/Strings.php:140
+#: src/lib/src/Modules/Base/ModCon.php:1111
+#: src/lib/src/Modules/HackGuard/Strings.php:189
+#: src/lib/src/Modules/HackGuard/Strings.php:303
+#: src/lib/src/Modules/UserManagement/Strings.php:138
+#: src/lib/src/Modules/UserManagement/Strings.php:248
+msgid "Default"
+msgstr "Default"
+
+#: src/lib/src/Modules/Base/Strings.php:41
+msgid "Save Options"
+msgstr "Save Options"
+
+#: src/lib/src/Modules/Base/Strings.php:44
+msgid "No Wizards"
+msgstr "No Wizards"
+
+#: src/lib/src/Modules/Base/Strings.php:44
+msgid "Wizards"
+msgstr "Wizards"
+
+#: src/lib/src/Modules/Integrations/Lib/MainWP/Server/UI/PageRender/SitesList.php:98
+msgid "Actions"
+msgstr "Actions"
+
+#: src/lib/src/Modules/Base/Strings.php:43
+#: src/lib/src/Modules/Base/Strings.php:65
+msgid "Help"
+msgstr "Help"
+
+#: src/lib/src/Modules/Insights/Strings.php:66
+#: src/lib/src/Modules/Insights/UI.php:43
+#: src/lib/src/Modules/Base/Strings.php:42
+#: src/lib/src/Modules/Base/Strings.php:61
+#: src/lib/src/Modules/Base/Strings.php:123
+#: src/lib/src/Modules/Autoupdates/Insights/OverviewCards.php:81
+msgid "Options"
+msgstr "Options"
+
+#: src/lib/src/Tables/Build/ScanBase.php:79
+#: src/lib/src/Tables/Build/Sessions.php:65 src/lib/src/Tables/Build/Ip.php:65
+#: src/lib/src/Tables/Build/Traffic.php:83
+#: src/lib/src/Tables/Build/Traffic.php:108
+#: src/lib/src/Modules/IPs/Lib/IpAnalyse/BuildDisplay.php:147
+#: src/lib/src/Modules/Base/Strings.php:49
+msgid "No"
+msgstr "No"
+
+#: src/lib/src/Tables/Build/ScanBase.php:79
+#: src/lib/src/Tables/Build/Sessions.php:65 src/lib/src/Tables/Build/Ip.php:65
+#: src/lib/src/Tables/Build/Traffic.php:108
+#: src/lib/src/Modules/IPs/Lib/IpAnalyse/BuildDisplay.php:146
+#: src/lib/src/Modules/Base/Strings.php:48
+#: src/lib/src/Modules/HackGuard/Scan/Utilities/PtgAddReinstallLinks.php:50
+msgid "Yes"
+msgstr "Yes"
+
+#: src/lib/src/Modules/License/Strings.php:35
+#: src/lib/src/Modules/Reporting/AjaxHandler.php:52 src/wizards/base.php:210
+msgid "Error"
+msgstr "Error"
+
+#: src/wizards/base.php:207
+msgid "Next Step"
+msgstr "Next Step"
+
+#: src/lib/src/Modules/Base/Strings.php:40
+msgid "Watch Help Video"
+msgstr "Watch Help Video"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "Shield Security"
+msgstr "Shield Security"
+
+#. Description of the plugin
+msgid "Powerful, Easy-To-Use #1 Rated WordPress Security System"
+msgstr "Powerful, Easy-To-Use #1 Rated WordPress Security System"
+
+#: src/lib/src/Tables/Render/WpListTable/ScanWpv.php:55
+#: src/lib/src/Modules/HackGuard/Scan/Utilities/WpvAddPluginRows.php:123
+#: src/lib/src/Modules/HackGuard/Strings.php:398
+#: src/lib/src/Modules/HackGuard/Strings.php:448
+msgid "More Info"
+msgstr "More Info"
+
+#: src/lib/src/Modules/Base/Strings.php:58
+msgid "Blog"
+msgstr "Blog"
+
+#: src/lib/src/Modules/Statistics/Strings.php:20
+#: src/lib/src/Modules/Statistics/Strings.php:29
+#: src/lib/src/Modules/Traffic/Strings.php:31
+#: src/lib/src/Modules/LoginGuard/Strings.php:68
+#: src/lib/src/Modules/Firewall/Strings.php:19
+#: src/lib/src/Modules/Sessions/Strings.php:20
+#: src/lib/src/Modules/IPs/Strings.php:24
+#: src/lib/src/Modules/CommentsFilter/Strings.php:39
+#: src/lib/src/Modules/SecurityAdmin/Strings.php:34
+#: src/lib/src/Modules/Lockdown/Strings.php:30
+#: src/lib/src/Modules/Base/Strings.php:46
+#: src/lib/src/Modules/Autoupdates/Strings.php:21
+#: src/lib/src/Modules/HackGuard/Strings.php:78
+#: src/lib/src/Modules/UserManagement/Strings.php:36
+#: src/lib/src/Modules/AuditTrail/Strings.php:126
+#: src/lib/src/Modules/Headers/Strings.php:19
+msgid "On"
+msgstr "On"
+
+#: src/lib/src/Modules/Statistics/Strings.php:20
+#: src/lib/src/Modules/Statistics/Strings.php:29
+#: src/lib/src/Modules/Traffic/Strings.php:31
+#: src/lib/src/Modules/LoginGuard/Strings.php:68
+#: src/lib/src/Modules/Firewall/Strings.php:19
+#: src/lib/src/Modules/Sessions/Strings.php:20
+#: src/lib/src/Modules/IPs/Strings.php:24
+#: src/lib/src/Modules/CommentsFilter/Strings.php:39
+#: src/lib/src/Modules/SecurityAdmin/Strings.php:34
+#: src/lib/src/Modules/Lockdown/Strings.php:30
+#: src/lib/src/Modules/Base/Strings.php:47
+#: src/lib/src/Modules/Autoupdates/Strings.php:21
+#: src/lib/src/Modules/HackGuard/Strings.php:78
+#: src/lib/src/Modules/UserManagement/Strings.php:36
+#: src/lib/src/Modules/AuditTrail/Strings.php:126
+#: src/lib/src/Modules/Headers/Strings.php:19
+msgid "Off"
+msgstr "Off"
+
+#: src/lib/src/Modules/Insights/UI.php:201
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:78
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:83
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:118
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:166
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:262
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:280
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:411
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:444
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:449
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:455
+#: src/lib/src/Modules/Insights/Lib/SideMenuBuilder.php:460
+#: src/lib/src/Modules/Insights/Lib/Requests/DynamicPageLoader.php:72
+#: src/lib/src/Modules/Base/Strings.php:45
+msgid "Settings"
+msgstr "Settings"
+
+#: src/lib/src/Modules/Plugin/Strings.php:504
+#: src/lib/src/Modules/Base/ModCon.php:1119
+msgid "Support Forums"
+msgstr "Support Forums"
+
+#: src/lib/src/Modules/LoginGuard/Lib/Rename/RenameLogin.php:85
+msgid "Permalinks"
+msgstr "Permalinks"

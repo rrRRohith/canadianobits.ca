@@ -1,0 +1,679 @@
+== Changelog ==
+
+= 1.1.128 =
+
+* Fixes a conflict with the Elementor popup.
+* Applies the Google Places and Signature in the forms previews (Platinum versions of the plugin).
+
+= 1.1.127 =
+
+* Modifies the slider controls.
+* And data sources fields (Developers and Platinum versions of the plugin).
+
+= 1.1.126 =
+
+* Modifies the equation parser.
+* Implements the CSVTOJSON operation in the file handling operations module. Allows to convert a client-side CSV file into a JSON object for use in equations.
+* Implements integration with Advanced Custom Fields as a data source in DS fields (Distributed with Developers and Platinum versions of the plugin).
+* Reimplements the CFF - DropBox add-on to support the new DropBox integration requirements (Platinum version).
+
+= 1.1.125 =
+
+* Fixes a minor issue in the Slider, Checkbox, and number controls with spinner buttons.
+
+= 1.1.124 =
+
+* Implements the Text Operations module.
+
+= 1.1.123 =
+
+* Implements two new operations CFFCOUNTIF and CFFFILTER.
+* Fixes a minor issue in the advanced equations editor.
+* Prevents involuntary endless loop using operands with |n modifier.
+* Prevents third-party plugins affecting the redirection to the thank you page (Professional, Developer and Platinum distributions).
+
+= 1.1.122 =
+
+* Loads the font files locally instead of Google Fonts.
+* Fixes an issue with Phone fields.
+
+= 1.1.121 =
+
+* Improves the plugin security.
+
+= 1.1.120 =
+
+* Optimizes select queries in widgets by reducing execution time and resource usage.
+* Fixes an issue in container fields (DIV and Fieldset) when the choices of contained radio buttons and checkbox fields are generated dynamically.
+* Fixes an issue in the spinner number fields when multiple forms are on the same page.
+* Triggers cff-summary-update event after updating the summary fields.
+
+= 1.1.119 =
+
+* Implements the NETWORKDAYS operation in the Date/Time operations module.
+* Fixes some warnings in the PHPCS report in the compatibilit checked with PHP8.1
+* Modifies the CFFCHART operation to allow registering the ChartJS plugins (Developer and Platinum versions).
+* Implements the Stripe Checkout add-on (Platinum version).
+
+= 1.1.118 =
+
+* Modifies the loading scripts to solve issues caused by optimizer plugins.
+
+= 1.1.117 =
+
+* Modifies the SUM operation.
+* Implements the SIGMA operation.
+* Implements the CURRENTLATLNG operation in the Distance operations module (Developer and Platinum plugin versions).
+
+= 1.1.116 =
+
+* Modifies the calculated fields to reduce the number of endless loops.
+* Modifies the Google Places add-on to fix a conflict with the Yoast sitemap (Platinum plugin version).
+* Fixes a notice in the WebMerge add-on (Platinum plugin version).
+* Minor modifications in the interface of other add-ons (Platinum plugin version).
+
+= 1.1.115 =
+
+* Modifies the number and currency controls to allow including buttons to increase and decrease their values.
+* Implements the GOTOFIELD operation for scrolling to the field location, even if it is in another page of multipage form.
+
+= 1.1.114 =
+
+* Fixes a parser error when opening the public form right after importing it from the forms library.
+
+= 1.1.113 =
+
+* Modifies the setChoices method in radio buttons, checkbox, and dropdown fields.
+* Modifies the GOTOPAGE operation.
+
+= 1.1.112 =
+
+* Removes unnecessary characters.
+
+= 1.1.111 =
+
+* Improves the plugin code.
+* Includes additional forms to the forms library.
+
+= 1.1.110 =
+
+* Fixes a minor issue with Upload File and Summary fields settigns.
+
+= 1.1.109 =
+
+* Increase the number of template forms.
+* Modifies the library popup.
+* Modifies the forms generator.
+* Fixes a minor issue in the button control.
+* Makes the form name a required attribute.
+* Modifies the currentdate and submissiondate tags in the notification emails and thank you pages to accept a separator symbol between date components (Professional, Developer, and Platinum versions).
+
+= 1.1.108 =
+
+* Implements the create form from the templates library module.
+
+= 1.1.107 =
+
+* Allows the associate audio tutorials to the form fields.
+* Modifies the WooCommerce add-on to support third-party plugins like 'Ajax add to cart for WooCommerce'.
+
+= 1.1.106 =
+
+* Implements the logarithmic slider.
+* Implements a new attribute in the plugin settings page to disable form revisions.
+* Fixes an issue with pending equations.
+
+= 1.1.105 =
+
+* Implement an experimental control that allows users to record audio and video while filling out the form.
+
+= 1.1.104 =
+
+* Fixes a conflict with Breeze WordPress Cache plugin.
+* Modifies the results list shortcode to allow displaying submissions of multiple forms in the same shortcode (Professional, Developer, and Platinum versions).
+
+= 1.1.103 =
+
+* Includes new modifications in the radio buttons and radio buttons ds.
+* Implements additional verifications to prevent undesired actions.
+
+= 1.1.102 =
+
+* Fixes an issue with the radio buttons when switching on/off is enabled.
+
+= 1.1.101 =
+
+* Modifies the Textarea control to preserve the changes of line accessing the raw field's value.
+* Fixes an issue in the calculated fields formatted automatically with manually entered values.
+* Removes the extra columns and rows in the generated CSV files from the Messages section (Professional, Developer, and Platinum versions).
+* Implements the new control "HTML Content DS" to display plain HTML content read from an external data source (Developer and Platinum versions).
+* Modifies the "CFF - WooCommerce" add-on to support the "WooCommerce One Page Checkout" plugin (Developer and Platinum versions).
+
+= 1.1.100 =
+
+* Removes the h2 and span tags for form title and description if they are empty.
+* Fixes an issue with the collapsible fieldsets when legends are empty.
+* Modifies the CSV Generator add-on to allow including the URL to the CSV files in the notification emails (Platinum version).
+* Implements the Private Apps integration in the HubSpot add-on (Platinum version).
+
+= 1.1.99 =
+
+* Fixes an issue with the Select2 integration to display the choices texts instead of their values.
+
+= 1.1.98 =
+
+* Improves the feedback module that alerts to errors in the database.
+* Improves the CSV data source (Developer and Platinum versions).
+* Implements support for Google Analytics 4 (Platinum version).
+
+= 1.1.97 =
+
+* Reduces the form creation process. It redirects the user to the form settings after creating the form.
+* It is possible to close and open the settings sections to make form editing easier.
+
+= 1.1.96 =
+
+* Fixes a conflict with the latest update of The Events Calendar plugin.
+
+= 1.1.95 =
+
+* Fixes an issue with InnoDB tables whose ROW_FORMAT=COMPACT.
+* Modifies the submissions data sources to allow accessing the unpaid submissions only (Developer and Platinum versions).
+
+= 1.1.94 =
+
+* Fixes a minor issue in the checkbox control.
+* Modifies the MONTH, DAY, and WEEKDAY to accept an additional parameter for leading zeros.
+* Modifies the CSS rules to hide empty validation messages.
+
+= 1.1.93 =
+
+* Modifies the summary control.
+* Modifies the container fields for accepting 12 columns.
+* Modifies the Autocomplete Places add-on (Platinum version).
+
+= 1.1.92 =
+
+* Fixes an issue in the summary field that allowed evaluating scripts.
+* Fixes an issue by reordering fields into DIV and Fieldset controls.
+* Modifies the payment gateways add-ons (Platinum version).
+
+= 1.1.91 =
+
+* Modifies the date/time control to allow defining custom error messages.
+* Fixes an issue in the Date/Time DS field when it receives dates in text format (Developer and Platinum versions)
+
+= 1.1.90 =
+
+* Improves the form creation making the controls draggable.
+* Modifies the fieldset control to allow emulating an accordion control.
+* Modifies the email control.
+* Improves the integration with the CFF Rich Text Editor and CP Blocks plugins.
+
+= 1.1.89 =
+
+* Modifies numeric fields. When Digits format is selected, the field does not accept other symbols to be typed by the user.
+* Includes a new button in the form builder to list the form fields, their labels and whether they are excluded from submission or not.
+* Modifies the DataTable DS field to trigger the custom event cff-datatatable-click with the corresponding record index as parameter (Platinum and Developer versions).
+* Modify the Verification Code add-on to allow to include the email address where the notification email was sent in the popup label (Platinum and Developer versions).
+* Modify the CSV Generator add-on to allow configuring the add-on to write the entry in the CSV file only after payment confirmation (Platinum version).
+
+= 1.1.88 =
+
+* Modifies the method of loading the admin resources to fix a conflict with third-party website builders.
+* Modifies the Stripe add-on (Platinum version).
+
+= 1.1.87 =
+
+* Improves the plugin behavior by escaping all field attributes.
+* Solves a warning in the CFF WooCommerce add-on (Developer and Platinum versions)
+* Fixes a conflict in the CFF - Analytics add-on (Platinum version)
+
+= 1.1.86 =
+
+* Modifies the template 14.
+* Modifies the PayPal integration (Professional, Developer, and Platinum versions)
+
+= 1.1.85 =
+
+* Modifies the val method in all components.
+* Fixes a style conflict between the forms builder and some themes.
+* Modifies the PDF Generator add-on to allow generating the PDF files after payment or generate the files even if they are not attached to any email (Platinum version)
+
+= 1.1.84 =
+
+* Modifies the Phone fields to include the country code component.
+* Modifies the module that generates the database structure.
+* Modifies the WooCommerce add-on to allow the buyers to access the products with the form fields pre-filled from the order's history (Developer and Platinum versions)
+* Modifies the CSV Generator add-on to allow selecting the fields to export to the CSV file (Platinum version)
+
+= 1.1.83 =
+
+* Modifies the fields validation module.
+
+= 1.1.82 =
+
+* Modifies the forms categories module to assign the category from form creation and improves the category assignment.
+* Modifies the validation of the Upload File fields to prevent showing the error message when the select file dialog is opened.
+* Modifies the CAPTCHA module to fix an issue when the website uses a CDN server (Professional, Developer, and Platinum versions).
+* Modifies the import forms module to display possible solutions to the errors detected (Professional, Developer, and Platinum versions).
+* Modifies the PDF Generator add-on to include the PDF files on the submissions list (Platinum version).
+
+= 1.1.81 =
+
+* Modifies the date/time control.
+* Modifies the DATETIMESUM operation to allow ignoring weekends.
+* Modifies the getField operation.
+* Fixes a conflict with WP Rocket.
+* Modifies the Submissions data-source to allow loading paid submissions only (Developer and Platinum versions).
+
+= 1.1.80 =
+
+* Modifies the code that formats the equations' results.
+* Implements the UNFORMAT operation.
+* Modifies From and To attributes in the RecordSet DS fields for the Submissions data-source (Developer and Platinum versions).
+* Modifies the User Registration add-on (Developer and Platinum versions).
+* Fixes an issue in the MailChimp add-on (Platinum version).
+
+= 1.1.79 =
+
+* Includes a new attribute in the form's settings to categorize the forms.
+* Allow listing the forms by categories on the plugin settings page.
+* Modifies the DISTANCE operations module (Developer and Platinum versions).
+* Fixes a malfunction between the CFF WooCommerce add-on and some WP Rocket settings (Developer and Platinum versions).
+* Improves the integration between the CFF Registration User and the CFF Email Verification add-ons (Developer and Platinum versions).
+
+= 1.1.78 =
+
+* Modifies the Handling Files operations module.
+
+= 1.1.77 =
+
+* Modifies the Managing Fields operations module.
+* Improves the javascript cache module.
+* Fixes minor issues in the DataTable DS Control (Developer and Platinum versions).
+* Implements the addRecord, updateRecord, and deleteRecord methods in the RecordSet DS control (Developer and Platinum versions).
+* Includes the layout attribute in the PDF Generator add-on to generate the PDF in portrait or landscape mode (Platinum version).
+
+= 1.1.76 =
+
+* Includes the operations SHOWFIELD, HIDEFIELD to show/hide fields without disabling them.
+* Includes new attributes in the date/time field to allow disabling the keyboard on mobiles and configure Monday as the first weekday.
+* Modifies the styles on datepickers.
+* Implements additional validations in the Captcha generator.
+* Includes new filters to modify the headers row and body rows in the Export CSV module (Professional, Developer, and Platinum versions).
+
+= 1.1.75 =
+
+* Modifies functions deprecated by the latest Elementor update.
+
+= 1.1.74 =
+
+* Fixes an issue with the default values in DropDown, Radio Buttons, and Checkbox fields.
+* Modifies the add-ons Google Place, Signature, and reCAPTCHA to prevent conflicts with the DIVI pages builder (Developer and Platinum versions).
+* Modifies the SERVER-SIDE Equations add-on (Developer and Platinum versions).
+
+= 1.1.73 =
+
+* Fixes a minor issue with the next/previous pages feature in multi-page forms.
+* Modifies the appearance of the controls on mobile devices.
+
+= 1.1.72 =
+
+* Modifies the forms builder design.
+* Modifies the PREC operation to support an additional parameter to return the number without decimal if it is an integer.
+* Modifies the WooCommerce add-on to support signatures in the WooCommerce carts and orders (Developer and Platinum versions).
+* Registering the plugin becomes a MUST (Commercial plugin versions).
+
+= 1.1.71 =
+
+* Fixes an issue with the CDATE operation.
+* Modifies the Gutenberg Block to update the forms list dynamically.
+* Modifies the reCAPTCHA add-on to fix a conflict when the web page loads an additional instance of the reCAPTCHA API.
+
+= 1.1.70 =
+
+* Modifies the loading process to prevent the iframe tags affect the form generation.
+
+= 1.1.69 =
+
+* Includes a 'Files Operations' module to manage files. The operations module includes three operations: PDFPAGESNUMBER to obtain the pages number in a PDF file selected by the user with the Upload File control. IMGDIMENSION to get an object with the natural width and height of the image selected by the user. VIEWFILE displays the images and PDF files selected by the user into a tag decided by the form developer.
+* Moves the 'when to send notification emails' attribute to the payment settings section because this attribute affects every payment gateway activated in the form (Commercial versions of the plugin).
+* Includes a minor modification in the styles of the Users Permissions add-on to avoid word breaks in the users' submissions lists (Developer and Platinum versions of the plugin).
+* Triggers the 'cff-data-filled' custom event when the plugin fills the DS fields (Developer and Platinum versions of the plugin)
+
+= 1.1.68 =
+
+* Includes a minor modification in template 14.
+* Loads the vendors' scripts in the footer to prevent conflicts with third-party plugins and themes.
+* Modifies the Messages section for filtering by paid entries, includes in the forms lists, the ids of forms with entries associated, even when the forms were deleted, and a button to delete all entries at once (Professional, Developer, and Platinum versions of the plugin)
+* Modifies the recordset fields when loads forms' submissions. For every field, it includes two attributes with the same value, an attribute with the field's name (fieldname#) and another one with the number component of the field's name (#) (Developer and Platinum versions of the plugin)
+
+= 1.1.67 =
+
+* Fixes a conflict with the latest update of Visual Composer.
+
+= 1.1.66 =
+
+* Fixes an issue in the new animation feature.
+
+= 1.1.65 =
+
+* Implements a new option in the form settings tab to activate animations in the page breaks (for multipage forms) and dependencies.
+* Makes a minor correction in template 14.
+* Assigns autocomplete attribute with new-password to the password controls.
+
+= 1.1.64 =
+
+* Modifies the NTHROOT operation and implements the PRINTFORM operation for printing the form area.
+* Fixes a minor issue to allow entering negative values as the sliders' default values.
+* Fixes a minor issue in the DataTable DS fields on small screens.
+* Modifies the tags submissiondate_mmddyyyy, submissiondate_ddmmyyyy, currentdate_mmddyyyy, and currentdate_ddmmyyyy to display date only, and include the submissiontime and currenttime tags to include the corresponding time components (Professional, Developer, and Platinum versions of the plugin).
+
+= 1.1.63 =
+
+* Improves the advanced equations editor on mobiles devices.
+* Fixes an issue with the advanced equations editor and the Firefox browser.
+
+= 1.1.62 =
+
+* Fixes a minor issue in the checkbox fields.
+* Implements the NTHROOT operation to calculate the nth root of a number.
+* Modifies the AVERAGE operation for accepting numbers array as its argument.
+* Implements the DataTable DS control in the Developer and Platinum versions to insert tables with recordset records.
+
+= 1.1.61 =
+
+* Improves the integration with WP-Optimize plugin.
+* Removes deprecated functions.
+
+= 1.1.60 =
+
+* Improves the plugin performance.
+* Improves the integration with the optimizer plugins like WP Rocket and Autoptimize.
+* Reduces the number of database queries.
+
+= 1.1.59 =
+
+* Modifies the way the plugin enqueues the SELECT2 library.
+* Modifies the Number DS and Currency DS fields (Developer and Platinum versions).
+* Modifies the eWay add-on to support the iFrame integration method (Platinum version).
+
+= 1.1.58 =
+
+* Implements the operations DECIMALTOSCIENTIFIC, FRACTIONSUM, FRACTIONSUB, FRACTIONMULT, and FRACTIONDIV.
+* Modifies the calculated fields settings.
+* Fixes a minor error with the minimum price of WooCommerce add-on (Developer and Platinum versions).
+* Modifies the events in the DS fields (Developer and Platinum versions).
+
+= 1.1.57 =
+
+* Integrates the Select2 library with the DropDown controls.
+* Modifies iPhone keyboards for decimals.
+* Implements the eWay Payment Gateway integration (Platinum version).
+
+= 1.1.56 =
+
+* Move the getField operation to the root to access it outside the context of the equations.
+
+= 1.1.55 =
+= 1.1.54 =
+
+* Modifies the setChoices operation in Radio Buttons, Checkboxes, and DropDown fields.
+* Modifies the CSV Generator, and the Signature add-ons (Platinum version).
+
+= 1.1.53 =
+
+* Includes two new operations DECIMALTOFRACTION and FRACTIONTODECIMAL, to transform numbers between decimals and fractions.
+* Improves the getURLParameters operation.
+* Allow passing parameters to the thank you pages (Professional, Developer, and Platinum versions).
+* Modifies the recurring payments in the Stripe add-on (Platinum version).
+
+= 1.1.52 =
+
+* Fixes some minor issues with the calculated fields with values entered manually.
+* Improves the appearance of AMP pages.
+* Fixes conflicts with third-party plugins that integrate reCAPTCHA on websites (Developer and Platinum versions).
+
+= 1.1.51 =
+= 1.1.50 =
+
+* Optimizes the performance reducing memory consumption.
+* Improves the possible conflicts with Autoptimize.
+* Adjusts the form height into AMP pages.
+
+= 1.1.49 =
+
+* Loads the Chosen and jQuery-UI resources from the local web server.
+
+= 1.1.48 =
+
+* Fixes a fatal error.
+
+= 1.1.47 =
+= 1.1.46 =
+
+* Fixes a conflict with LiteSpeed Cache.
+
+= 1.1.45 =
+
+* Modifies the forms generation and validation process.
+* Fixes a minor conflict between the slider control appearances and third-party themes.
+* Modifies the forms submission process (commercial versions of the plugin)
+* Modifies the Signature, Autocomplete Places, Google Places, User Registration Form, and reCAPTCHA add-ons (Developer and Platinum versions of the plugin).
+
+= 1.1.44 =
+
+* Prevents that operations like CFFPROXY, DISTANCE, CFFCHART, and SERVER_SIDE affect other forms on the page that don't use them.
+* Fixes a minor issue with the instructions for users in radio buttons and checkbox fields whose choices are displayed side by side.
+* Modifies the appearance and the apply coupon icon, making it more intuitive (commercial versions of the plugin)
+
+= 1.1.43 =
+= 1.1.42 =
+
+* Modifies the generation of javascript files to avoid conflicts with WordFence.
+* Modifies the WooCommerce and Server Side add-ons (Developer and Platinum versions).
+
+= 1.1.41 =
+
+* Modifies Upload File field improving the visualization of thumbnails and including a component to clear the selected files.
+* Improves the appearance of date/time, radio buttons, and checkbox controls.
+* Modifies the different templates.
+* Modifies the DropBox and Uploads add-ons to allow disabling the integration with specific forms (Platinum version)
+
+= 1.1.40 =
+
+* Modifies how the scripts are loaded.
+
+= 1.1.39 =
+
+* Improves the integration with WP Rocket.
+* Fixes a compatibility issue between the WooCommerce add-on and Side Cart Woocommerce plugin (Developer and Platinum versions).
+* Modifies the DropBox add-on (Platinum version).
+
+= 1.1.38 =
+
+* Prevents the enter key submits the form.
+* Fixes a conflict with Elementor Popup.
+* Modifies the checkbox, radio buttons, dropdown, and calculated fields.
+* Modifies the form reset module.
+* Modifies the IN operation.
+* Modifies the DATEDIFF operation.
+* Fixes a compatibility issue between the reCAPTCHA add-on and third-party reCAPTCHA plugins (Developer and Platinum versions).
+* Modifies the Users Permissions add-on (Developer and Platinum versions).
+
+= 1.1.37 =
+
+* Allows configuring min and max values in the calculated fields.
+* Improves the validation rules.
+* Modifies the User Registration add-on (Developer and Platinum versions)
+* Allows displaying the reCAPTCHA on isolated form pages (Developer and Platinum versions).
+
+= 1.1.36 =
+
+* Fixes a conflict with web servers where the parse_ini_file function is disabled.
+
+= 1.1.35 =
+
+* Modifies the Summary field.
+* Deletes the files uploaded by the forms when submissions are deleted (Professional, Developer, and Platinum versions of the plugin).
+
+= 1.1.34 =
+
+* Modifies the setChoices method in the radio buttons, checkbox, and dropdown fields.
+* Includes the new operation COPYFIELDVALUE to copy the values of the fields to the clipboard.
+
+= 1.1.33 =
+
+* Improves the plugin performance.
+* Modifies the WooCommerce and Users Registration add-ons.
+
+= 1.1.32 =
+
+* Improved access to additional resources.
+
+= 1.1.31 =
+= 1.1.30 =
+
+* Fixes an issue in the DATETIMESUM operation.
+* Fixes the icons in the Elementor widgets.
+
+= 1.1.29 =
+
+* Includes the GOTOPAGE operation for jumping between pages in multipage forms.
+* Modifies the template 14.
+* Fixes a conflict with the Elementor styles.
+* Allows modifying the evaluation of the server-side equations (Developer and Platinum versions).
+
+= 1.1.28 =
+
+* Includes a new predefined template.
+
+= 1.1.27 =
+
+* Fixes a conflict with the Appointment Hour Booking plugin.
+* Removes the text-shadow from the error messages added by some themes.
+
+= 1.1.26 =
+
+* Fixes an issue with the autocomplete attribute on fields.
+
+= 1.1.25 =
+
+* Includes a new section to configure some form attributes by default. It allows modifying all existing forms at once.
+* Modify some templates and default design.
+* Modify the phone controls.
+
+= 1.1.24 =
+
+* Modifies cffProxy operation.
+
+= 1.1.23 =
+
+* Modifies the date time field.
+* Fixes a conflict between the CFF - WooCommerce add-on and third-party themes (Developer and Platinum versions of the plugin).
+
+= 1.1.22 =
+
+* Modifies the templates management. Now it is possible to create custom templates into the '/wp-content/uploads/calculated-fields-form/templates' directory. These custom templates would not be affected by the plugin updates.
+
+= 1.1.21 =
+
+* Fixes an issue in the slider control.
+
+= 1.1.20 =
+
+* Implements two new operations TIMETODECIMAL and DECIMALTOTIME, to convert a time string to a decimal number or the decimal to a time format text.
+
+= 1.1.19 =
+
+* Modifies the DATEDIFF operation.
+
+= 1.1.17 =
+
+* Modifies the slider control.
+* Modifies date/time operations for accepting dates with two digits for the years.
+* Modifies the submissions to register the form's page (Commercial versions).
+
+= 1.1.16 =
+
+* Improves the integration with third-party code.
+
+= 1.1.15 =
+
+* Modifies the currency and number controls to allow forcing the numberpad on mobiles.
+* Allows the installation of trial version of the plugin.
+* Modifies the notification and confirmation emails on Professional, Developer, and Platinum versions of the plugin.
+
+= 1.1.14 =
+
+* Applies on/off switch to the radio buttons.
+* Improves the integration with WP Rocket.
+
+= 1.1.13 =
+= 1.1.12 =
+
+* Modifies the visualization of controls in the forms builder.
+* Triggers a new action by the Users Permissions add-on after disabling submission (Developer and Platinum versions of the plugin).
+* Modifies the EDD add-on (Platinum version of the plugin).
+
+= 1.1.11 =
+
+* Modifies the forms builder.
+
+= 1.1.10 =
+
+* Fixes an issue with the calculated fields dependencies.
+* Modifies the form validation (Professional, Developer, and Platinum versions of the plugin).
+* Improves the submissions list data source (Developer and Platinum versions of the plugin).
+
+= 1.1.9 =
+
+* Modifies the URL Operations module. It includes the new getURLProtocol operation and modifies getURLParameters and getURLParameter decoding the parameters automatically.
+
+= 1.1.8 =
+
+* Modifies the form generation, fixing conflicts with Popup plugins.
+
+= 1.1.7 =
+
+* Modifies the tooltips to display them over fields in centered forms.
+* Implement two new filters cpcff_send_confirmation_email and cpcff_send_notification_email (Professional, Developer, and Platinum versions of the plugin).
+* Implements a new data source in the RecordSet DS field to load other forms submissions (Developer and Platinum versions of the plugin).
+* Modifies the WooCommerce add-on (Developer and Platinum versions of the plugin).
+
+= 1.1.6 =
+
+* Modifies the checkbox and acceptance controls, allowing to configure them as on/off switches.
+* Fixes minor issues with the different predefined templates.
+
+= 1.1.5 =
+
+* Improves the integration with WP Rocket.
+* Fixes an issue with the calculated fields dependencies when they are edited manually.
+
+= 1.1.4 =
+
+* Improve the forms builder.
+* Fixes a conflict with WP Rocket.
+* Modifies the Upload Files field.
+* Modifies the send emails process (commercial versions).
+
+= 1.1.3 =
+
+* Allows selecting the autocomplete attribute from the fields' settings.
+* Includes the Date/Time operations module with the free and professional version of the plugin.
+* Allows passing the version number of the ChartJS library through the CFFCHART operation (Developer and Platinum versions of the plugin).
+
+= 1.1.2 =
+
+* Includes a new control. The COLOR control.
+* Implements the read-only feature in radio buttons and checkbox fields.
+
+= 1.1.1 =
+
+* Improve accessibility by making the design more coherent.
+
+= 1.1.0 =
+
+* Modifies the plugin's design and the accessibility.

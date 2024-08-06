@@ -1,0 +1,84 @@
+<div id="NavSideBar">
+
+<ul class="nav top-level-nav flex-column accordion" id="ShieldCollapseNav">
+
+	{% for mitem in vars.navbar_menu %}
+
+		<li class="nav-item {{ mitem.active|default(false) ? 'active':'' }}
+					{% if mitem.sub_items|default([]) is not empty %} with-submenu{% endif %}"
+		    {% if mitem.id|default('') is not empty %}id="{{ mitem.id }}"{% endif %}
+		>
+			<a class="nav-link fs-6 my-0 pt-2 pb-3 ps-2 pe-1 {{ mitem.classes|default([])|join( ' ' ) }} text-start {{ mitem.active|default(false) ? 'show':'' }}
+					d-flex"
+					{% if mitem.sub_items|default([]) is not empty %}
+						data-bs-toggle="collapse" data-bs-target="#subnav-{{ mitem.slug }}"
+					{% endif %}
+         href="{{ mitem.sub_items|default([]) is empty ? mitem.href|default('javascript:{}') : 'javascript:{}' }}"
+					{% for data_key,data_val in mitem.data|default([]) %}
+						data-{{ data_key }}="{{ data_val }}"
+					{% endfor %}
+					{% if sub.target|default('') is not empty %}target="{{ sub.target }}"{% endif %}
+					{% if mitem.introjs|default([]) is not empty %}
+						{% if mitem.introjs.title|default('') is not empty %}
+							data-introtitle="{{ mitem.introjs.title }}"
+						{% endif %}
+						data-intro="{{ mitem.introjs.body }}"
+						data-introposition="right"
+					{% endif %}
+			>
+
+				{% if mitem.img|default('') is not empty %}
+					<span class="nav-icon me-2 d-flex flex-column justify-content-center" style="vertical-align: text-bottom;">
+						{{ mitem.img|raw }}
+					</span>
+				{% endif %}
+				<span class="top-title d-flex flex-column">
+					<span class="title">
+						{{ mitem.title }}
+						{% if mitem.sub_items|default([]) is not empty %}
+							{{ imgs.svgs.triangle|raw }}
+						{% endif %}
+					</span>
+					<span class="subtitle p-0" style="font-size: 0.7rem">
+						{{ mitem.subtitle|default('') }}
+					</span>
+				</span>
+				{% if mitem.badge|default([]) is not empty %}
+					<span class="badge bg-{{ mitem.badge.type|default('info') }}">
+						{{ mitem.badge.text }}
+					</span>
+				{% endif %}
+			</a>
+
+			{% if mitem.sub_items|default([]) is not empty %}
+				<div class="ms-2 subnava-menu accordion-collapse {{ mitem.active|default(false) ? 'show':'collapse' }}"
+				     id="subnav-{{ mitem.slug }}"
+				     data-bs-parent="#ShieldCollapseNav"
+				>
+					<ul class="nav flex-column pt-0 primary_side_sub_menu px-0 py-2">
+						{% for sub in mitem.sub_items %}
+							<li class="mb-0 pl-0 py-0">
+							<a class="py-1 m0-1 pe-0 nav-link fs-6 {{ sub.classes|default([])|join( ' ' ) }}"
+							   href="{{ sub.href|default('#') }}"
+							   {% if sub.tooltip|default(false) is not empty %}title="{{ sub.tooltip }}"{% endif %}
+									{% for data_key,data_val in sub.data|default([]) %}
+										data-{{ data_key }}="{{ data_val }}"
+									{% endfor %}
+									{% if sub.target|default('') is not empty %}target="{{ sub.target }}"{% endif %}
+							>{{ sub.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
+		</li>
+
+	{% endfor %}
+</ul>
+</div>
+
+{% if not flags.is_whitelabelled %}
+	<div class="mt-2 text-center border-bottom mx-auto" style="color: #008000;">
+		{{ strings.running_version|raw }}
+	</div>
+{% endif %}

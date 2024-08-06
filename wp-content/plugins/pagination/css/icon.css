@@ -1,0 +1,16 @@
+#toplevel_page_pagination .wp-menu-image {
+	font-family: 'bwsicons' !important;
+}
+#toplevel_page_pagination .wp-menu-image:before {
+	content: "\e91d" !important;
+	font-family: 'bwsicons' !important;
+}
+#bws_settings_tabs .bws-tab-appearance a:before{
+	content: "\f100";
+}
+.form-table {
+	margin-left: 13px;
+}
+#pgntn_on_paginated_divi {
+	margin-right: 7px;
+}

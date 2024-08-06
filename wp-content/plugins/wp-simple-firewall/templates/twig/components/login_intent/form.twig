@@ -1,0 +1,60 @@
+<style>
+	.input-group-addon a {
+	  font-weight: bold;
+	  display: block;
+  }
+  #countdown {
+	  font-weight: bolder;
+  }
+  #TimeRemaining {
+	  margin-top: 30px;
+	  padding: 10px;
+  }
+  #skip_mfa {
+	  margin: 10px 10px 5px 20px;
+  }
+</style>
+
+<div class="alert alert-{{ vars.message_type }}" role="alert">{{ strings.message|raw }}</div>
+
+<form action="{{ hrefs.form_action }}" method="post" class="form-horizontal" id="loginform" class="shield-2fa-custom">
+	{% for hidden_field_name,hidden_field_value in vars.form_hidden_fields %}
+		<input type="hidden" id="{{ hidden_field_name }}" name="{{ hidden_field_name }}" value="{{ hidden_field_value|raw }}" />
+	{% endfor %}
+
+	{% for login_field in content.login_fields %}
+		{{ login_field|raw }}
+	{% endfor %}
+
+	{% if flags.can_skip_mfa %}
+		<div class="row">
+			<div class="my-2">
+				<div class="input-group">
+					<label class="form-label" for="skip_mfa">
+						<input type="checkbox" value="Y" name="skip_mfa" id="skip_mfa">
+						{{ strings.skip_mfa }}</label>
+				</div>
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="row submit mt-4">
+		<div class="col-6 order-2 text-end">
+			<button type="submit" id="mainSubmit" class="pull-right btn btn-success">
+				{{ strings.verify_my_login }}</button>
+		</div>
+		<div class="col-6 order-1 text-start">
+			<button class="btn btn-outline-dark" name="cancel" value="1">
+				&larr; {{ strings.cancel }}</button>
+		</div>
+	</div>
+</form>
+
+<div class="row justify-content-center">
+	<div class="col">
+		<p id="TimeRemaining" class="text-center text-dark">
+			{{ strings.time_remaining }}:
+			<span class="countdown">{{ strings.calculating }}</span>
+		</p>
+	</div>
+</div>

@@ -1,0 +1,606 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blessing\n"
+"POT-Creation-Date: 2020-05-26 14:13+0300\n"
+"PO-Revision-Date: 2018-12-17 13:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: AncoraThemes\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: _e;gettext;gettext_noop;__;_x;_n_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: blog.php:75
+msgid "Search the Obituaries"
+msgstr ""
+
+#: blog.php:75
+msgid "Enter name"
+msgstr ""
+
+#: functions.php:177
+#, php-format
+msgid "For further details on handling user data, see our %s"
+msgstr ""
+
+#: functions.php:179
+msgid "Privacy Policy"
+msgstr ""
+
+#: fw/core/core.date.php:48
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: fw/core/core.date.php:48
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: fw/core/core.date.php:72
+#, php-format
+msgid "%s months"
+msgstr ""
+
+#: fw/core/core.date.php:72
+#, php-format
+msgid "%s month"
+msgstr ""
+
+#: fw/core/core.date.php:74
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: fw/core/core.date.php:74
+#, php-format
+msgid "%s day"
+msgstr ""
+
+#: fw/core/core.date.php:76
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: fw/core/core.date.php:76
+#, php-format
+msgid "%s hour"
+msgstr ""
+
+#: fw/core/core.date.php:78
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: fw/core/core.date.php:78
+#, php-format
+msgid "%s minute"
+msgstr ""
+
+#: fw/core/core.date.php:80
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: fw/core/core.date.php:80
+#, php-format
+msgid "%s second"
+msgstr ""
+
+#: fw/core/core.date.php:80
+msgid "less then minute"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:25
+#, php-format
+msgid "Wrong function name %s in the theme options array"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:258
+msgid "Specify text with Privacy Policy link for the checkbox 'I agree ...'"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:259
+msgid "I agree that my submitted data is being collected and stored."
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:2917
+msgid "API Keys for some Web services"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:2921
+msgid ""
+"Insert Google API Key for browsers into the field above to generate Google "
+"Maps. Please note that this option will only work with the active TRX Utils/"
+"Addons plugin. \n"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:2928
+msgid "Settings for the users login and registration"
+msgstr ""
+
+#: fw/core/core.options/core.options-settings.php:2940
+msgid ""
+"Specify shortcode from your Social Login Plugin or any HTML/JS code to make "
+"Social Login section"
+msgstr ""
+
+#: fw/core/core.options/core.options.php:516
+msgid ""
+"Global settings affect the entire website's display. They can be overriden "
+"when editing settings for a certain post type (if select it in the popup "
+"menu above) or when editing category or single page/post (affect only on "
+"this category/page/post)"
+msgstr ""
+
+#: fw/core/core.options/core.options.php:518
+msgid ""
+"Settings template for a certain post type: affects the display of just one "
+"specific post type. They can be overriden when editing categories and/or "
+"posts of a certain type"
+msgstr ""
+
+#: fw/core/core.theme.php:617
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: fw/core/core.updater.php:63
+#, php-format
+msgid "There is a new version of the %s theme available."
+msgstr ""
+
+#: fw/core/core.updater.php:63
+#, php-format
+msgid "You have version %s installed. Update to version %s."
+msgstr ""
+
+#: fw/core/core.updater.php:69
+#, php-format
+msgid ""
+"<strong>Please note:</strong> make a backup of the Theme inside your "
+"WordPress installation folder <strong>/wp-content/themes/%s/</strong>"
+msgstr ""
+
+#: fw/core/core.updater.php:71
+#, php-format
+msgid ""
+"Extract the zip's contents, look for the extracted theme folder, and after "
+"you have all the new files upload them using FTP to the <strong>/wp-content/"
+"themes/%s/</strong> folder overwriting the old ones (this is why it's "
+"important to backup any changes you've made to the theme files)."
+msgstr ""
+
+#: fw/core/core.wp.php:156
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: fw/core/core.wp.php:646 fw/core/core.wp.php:673 fw/core/core.wp.php:688
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr ""
+
+#: fw/core/core.wp.php:726
+msgid "items"
+msgstr ""
+
+#: fw/core/plugin.woocommerce.php:492
+msgid "Show products as thumbs"
+msgstr ""
+
+#: fw/core/plugin.woocommerce.php:493
+msgid "Show products as list"
+msgstr ""
+
+#: fw/core/plugin.woocommerce.php:567
+msgid "Product ID: "
+msgstr ""
+
+#: fw/core/type.post.php:356
+#, php-format
+msgid "Author page: %s"
+msgstr ""
+
+#: fw/core/type.post.php:360
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: fw/core/type.post.php:362
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: fw/core/type.post.php:364
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: fw/core/type.post.php:366
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: fw/core/type.post.php:368
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: fw/core/type.post.php:370
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: fw/core/type.post.php:372
+#, php-format
+msgid "Attachment: %s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:393
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:394
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: fw/lib/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: header.php:79
+msgid "Home"
+msgstr ""
+
+#: header.php:79
+msgid "{Return to Home} - |navigate to home page of the site"
+msgstr ""
+
+#: header.php:80
+msgid "To Top"
+msgstr ""
+
+#: header.php:80
+msgid "{Back to top} - |scroll to top of the page"
+msgstr ""
+
+#: templates/404.php:37
+#, php-format
+msgid ""
+"Can't find what you need? Take a moment<br> and do a search below or start "
+"from our <a href=\"%s\">homepage</a>."
+msgstr ""
+
+#: templates/no-articles.php:31 templates/no-search.php:32
+#, php-format
+msgid ""
+"Go back, or return to <a href=\"%s\">%s</a> home page to choose a new page."
+msgstr ""
+
+#: templates/parts/counters.php:7
+#, php-format
+msgid "Views - %s"
+msgstr ""
+
+#: templates/parts/counters.php:13
+#, php-format
+msgid "Comments - %s"
+msgstr ""
+
+#: templates/parts/counters.php:20
+#, php-format
+msgid "Rating - %s"
+msgstr ""
+
+#: templates/parts/editor-area.php:27
+msgid "Save"
+msgstr ""
+
+#: templates/parts/editor-area.php:28
+msgid "Cancel"
+msgstr ""
+
+#: templates/portfolio.php:1
+msgid "LEARN MORE"
+msgstr ""
+
+#: templates/portfolio.php:1
+msgid "BUY NOW"
+msgstr ""

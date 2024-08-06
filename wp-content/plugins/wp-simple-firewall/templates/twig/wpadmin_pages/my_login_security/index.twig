@@ -1,0 +1,23 @@
+{% extends '/wpadmin_pages/base.twig' %}
+
+{% block inline_styles %}
+	<style>
+		#wpfooter {
+		display: none;
+		}
+	</style>
+{% endblock %}
+
+{% block h1heading %}<h1 style="display: none;">&nbsp;</h1>{% endblock %}
+{% block page_head %}{% endblock %}
+{% block body %}
+	<div id="ShieldMfaUserProfileForm" class="shield_user_mfa_container">
+		<p>Loading ...</p>
+	</div>
+{% endblock %}
+
+{% block page_foot %}
+{% endblock %}
+
+{% block html_placeholders %}
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends '/wpadmin/plugin_pages/base_inner_page.twig' %}
+
+{% block inner_page_body %}
+
+	{% if flags.can_importexport %}
+		<div class="row">
+			<div class="col insights_section">
+				<ul class="nav nav-tabs shield_body-sub-nav">
+
+					<li class="nav-item">
+						<a class="nav-link active" data-bs-toggle="tab" role="tab" href="#toFile"
+						   aria-selected="true"
+						   data-bs-toggle="tab">
+							{{ strings.tab_to_file }}
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-bs-toggle="tab" role="tab" href="#byFile"
+						   data-bs-toggle="tab">
+							{{ strings.tab_by_file }}
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-bs-toggle="tab" role="tab" href="#fromSite"
+						   data-bs-toggle="tab">
+							{{ strings.tab_by_site }}
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="tab-content">
+
+			<div class="tab-pane fade show active" id="toFile" role="tabpanel" aria-labelledby="toFile">
+				<div class="row">
+					<div class="col">
+						{% if flags.can_importexport_file %}
+							{% include '/wpadmin_pages/insights/importexport/to_file.twig' %}
+						{% else %}
+							{% include '/wpadmin/components/feature_unavailable.twig' %}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="byFile" role="tabpanel" aria-labelledby="byFile">
+				<div class="row">
+					<div class="col">
+						{% if flags.can_importexport_file %}
+							{% include '/wpadmin_pages/insights/importexport/from_file.twig' %}
+						{% else %}
+							{% include '/wpadmin/components/feature_unavailable.twig' %}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="fromSite" role="tabpanel" aria-labelledby="fromSite">
+				<div class="row">
+					<div class="col">
+						{% if flags.can_importexport_sync %}
+							{% include '/wpadmin_pages/insights/importexport/from_site.twig' %}
+						{% else %}
+							{% include '/wpadmin/components/feature_unavailable.twig' %}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+
+		</div>
+	{% else %}
+		<div class="row">
+			<div class="col-12 insights_section">
+				{% include '/wpadmin/components/feature_unavailable.twig' %}
+			</div>
+		</div>
+	{% endif %}
+
+{% endblock %}

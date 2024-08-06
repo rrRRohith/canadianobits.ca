@@ -1,0 +1,119 @@
+.cff-form-library-cover{
+    z-index:99999;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,.7)
+}
+
+.cff-form-library-container{
+    background:white;
+    width:90%;
+    height:90%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate( -50%, -50% );
+    display: flex;
+}
+
+.cff-form-library-column-left{
+    /* flex:1 0 auto; */
+    border-right:1px solid #dddddd;
+	position: relative;
+}
+
+.cff-form-library-search-box{
+    border-bottom: 1px solid #ddd;
+    padding:10px;
+	height:50px;
+	box-sizing:border-box;
+}
+
+.cff-form-library-search-box input{
+	width:100%;
+	margin-bottom:5px;
+	height:30px;
+}
+
+.cff-form-library-categories{
+	padding:10px;
+	position:absolute;
+	top:50px;
+	bottom:0;
+	right:0;
+	left:0;
+	overflow:auto;
+}
+
+.cff-form-library-categories ul>li:not(:first-child){margin-left:20px}
+
+.cff-form-library-categories a{text-decoration:none;}
+.cff-form-library-categories a:hover,
+.cff-form-library-categories a:active,
+.cff-form-library-active-category{color:#c52359 !important;}
+
+.cff-form-library-column-right{
+    flex:3 0 auto;
+    position:relative;
+}
+
+.cff-form-library-close{
+    float:right;
+    padding:5px;
+    width:18px;
+    height:18px;
+    top:0;
+    z-index:999;
+}
+
+.cff-form-library-close::before{
+    content: "✖";
+    cursor:pointer;
+	font-size:18px;
+	line-height:18px;
+}
+
+.cff-form-library-close:hover::before{color:#c52359;}
+
+.cff-form-library-main{
+    top:30px;
+    position:absolute;
+    padding:10px;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:auto;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-start;
+}
+
+.cff-form-library-no-form{text-align:center;}
+
+.cff-form-library-form{width:46%;margin:1%;float:left;box-sizing:border-box;border:1px solid #ddd;}
+
+.cff-form-library-form-title{font-size:1.2em;font-weight:bold;padding:10px;}
+
+.cff-form-library-form-description{padding:0 10px 10px 10px;}
+
+.cff-form-library-form-category{border-top:1px solid #ddd;padding:10px;font-style:italic;}
+
+.cff-form-library-form [type="button"]{margin:0 10px 10px 10px;}
+
+
+/* Desktop */
+@media screen and (min-width:710px) {
+
+}
+
+/* Mobiles devices */
+@media screen and (max-width:710px) {
+	.cff-form-library-container{flex-direction:column;}
+	.cff-form-library-column-left,
+	.cff-form-library-search-box{border:0;}
+	.cff-form-library-categories{display:none;}
+	.cff-form-library-form{width:98%;}
+}

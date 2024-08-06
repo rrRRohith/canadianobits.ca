@@ -1,0 +1,452 @@
+{
+  "buddyboss":               {
+    "identifiers": {
+      "classes":   [
+        "\\BuddyPress"
+      ],
+      "functions": [
+        "\\buddypress"
+      ],
+      "methods":   [
+        [
+          "\\BuddyPress",
+          "instance"
+        ]
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "buddypress":              {
+    "identifiers": {
+      "classes":   [
+        "\\BuddyPress"
+      ],
+      "functions": [
+        "\\buddypress"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "buddypress"
+    }
+  },
+  "calderaforms":            {
+    "identifiers": {
+      "classes":   [
+        "\\Caldera_Forms"
+      ],
+      "functions": [
+        "\\caldera_forms_load"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "contactform7":            {
+    "identifiers": {
+      "classes":   [
+        "\\WPCF7"
+      ],
+      "constants": [
+        "\\WPCF7_TEXT_DOMAIN"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "contact-form-7"
+    }
+  },
+  "classifiedlisting":       {
+    "identifiers": {
+      "classes":   [
+        "\\Rtcl"
+      ],
+      "functions": [
+        "\\rtcl"
+      ],
+      "constants": [
+        "\\RTCL_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "classified-listing"
+    }
+  },
+  "easydigitaldownloads":    {
+    "identifiers": {
+      "classes":   [
+        "\\Easy_Digital_Downloads"
+      ],
+      "functions": [
+        "\\edd_set_error"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "easy-digital-downloads"
+    }
+  },
+  "elementorpro":            {
+    "identifiers": {
+      "functions": [
+        "\\elementor_pro_load_plugin"
+      ],
+      "constants": [
+        "\\ELEMENTOR_PRO_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "fluentforms":             {
+    "identifiers": {
+      "classes":   [
+        "\\FluentForm\\App"
+      ],
+      "constants": [
+        "\\FORMINATOR_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "fluentform"
+    }
+  },
+  "formidableforms":         {
+    "identifiers": {
+      "classes":   [
+        "\\FrmHooksController"
+      ],
+      "functions": [
+        "\\load_formidable_forms"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "formidable"
+    }
+  },
+  "forminator":              {
+    "identifiers": {
+      "classes":   [
+        "\\Forminator"
+      ],
+      "constants": [
+        "\\FORMINATOR_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "forminator"
+    }
+  },
+  "gravityforms":            {
+    "identifiers": {
+      "classes": [
+        "\\GFForms"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "groundhogg":              {
+    "identifiers": {
+      "classes":   [
+        "\\Groundhogg\\Plugin"
+      ],
+      "constants": [
+        "\\GROUNDHOGG_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "groundhogg"
+    }
+  },
+  "happyforms":              {
+    "identifiers": {
+      "classes":   [
+        "\\HappyForms"
+      ],
+      "functions": [
+        "\\HappyForms",
+        "\\happyforms_get_version"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "happyforms"
+    }
+  },
+  "kaliforms":               {
+    "identifiers": {
+      "classes":   [
+        "\\KaliForms\\Inc\\KaliForms"
+      ],
+      "constants": [
+        "\\KALI_FORMS"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "kali-forms"
+    }
+  },
+  "learnpress":              {
+    "identifiers": {
+      "classes": [
+        "\\LearnPress"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "learnpress"
+    }
+  },
+  "lifterlms":               {
+    "identifiers": {
+      "classes": [
+        "\\LifterLMS"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "lifterlms"
+    }
+  },
+  "memberpress":             {
+    "identifiers": {
+      "classes":   [
+        "\\MeprAccountCtrl"
+      ],
+      "functions": [
+        "\\mepr_autoloader"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "ninjaforms":              {
+    "identifiers": {
+      "classes": [
+        "\\Ninja_Forms"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "paidmembersubscriptions": {
+    "identifiers": {
+      "classes":   [
+        "\\Paid_Member_Subscriptions"
+      ],
+      "functions": [
+        "\\pms_errors"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "paid-member-subscriptions"
+    }
+  },
+  "profilebuilder":          {
+    "identifiers": {
+      "classes":   [
+        "\\WPPB_Plugin_Updater"
+      ],
+      "constants": [
+        "\\PROFILE_BUILDER_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "profile-builder"
+    }
+  },
+  "profilepress":          {
+    "identifiers": {
+      "classes":   [
+        "\\ProfilePress\\Core\\Base"
+      ],
+      "methods":   [
+        [
+          "\\ProfilePress\\Core\\Base",
+          "get_instance"
+        ]
+      ],
+      "constants": [
+        "\\PPRESS_VERSION_NUMBER"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "wp-user-avatar"
+    }
+  },
+  "restrictcontentpro":      {
+    "identifiers": {
+      "classes":   [
+        "\\RCP_Requirements_Check"
+      ],
+      "functions": [
+        "\\rcp_errors"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "sgcachepress":            {
+    "identifiers": {
+      "classes": [
+        "\\SiteGround_Optimizer\\Loader\\Loader",
+        "\\SiteGround_Optimizer\\Helper\\Helper"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "sg-cachepress"
+    }
+  },
+  "superforms":              {
+    "identifiers": {
+      "classes": [
+        "\\SUPER_Forms"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "supportcandy":            {
+    "identifiers": {
+      "classes":   [
+        "\\Support_Candy"
+      ],
+      "constants": [
+        "\\WPSC_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "ultimatemember":          {
+    "identifiers": {
+      "classes":   [
+        "\\UM"
+      ],
+      "functions": [
+        "\\UM"
+      ],
+      "methods":   [
+        [
+          "\\UM",
+          "form"
+        ]
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "ultimate-member"
+    }
+  },
+  "w3totalcache":            {
+    "identifiers": {
+      "classes":   [
+        "\\W3_Config"
+      ],
+      "functions": [
+        "\\w3_instance",
+        "\\w3tc_class_autoload"
+      ],
+      "constants": [
+        "\\W3TC",
+        "\\W3TC_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "w3-total-cache"
+    }
+  },
+  "weforms":                 {
+    "identifiers": {
+      "classes":   [
+        "\\WeForms"
+      ],
+      "constants": [
+        "\\WEFORMS_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "weforms"
+    }
+  },
+  "woocommerce":             {
+    "identifiers": {
+      "classes": [
+        "\\WooCommerce"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "woocommerce"
+    }
+  },
+  "wordfence":             {
+    "identifiers": {
+      "classes": [
+        "\\wordfence"
+      ],
+      "constants": [
+        "\\WORDFENCE_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "wordfence"
+    }
+  },
+  "wpforms":                 {
+    "identifiers": {
+      "functions": [
+        "\\wpforms"
+      ],
+      "constants": [
+        "\\WPFORMS_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "wpforms-lite"
+    }
+  },
+  "wpforo":                  {
+    "identifiers": {
+      "classes":   [
+        "\\wpForo"
+      ],
+      "functions": [
+        "\\WPF"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "wpforo"
+    }
+  },
+  "wpmembers":               {
+    "identifiers": {
+      "functions": [
+        "\\wpmem_init"
+      ],
+      "constants": [
+        "\\WPMEM_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": null
+    }
+  },
+  "wpumbrella":               {
+    "identifiers": {
+      "functions": [
+        "\\wp_umbrella_load_plugin"
+      ],
+      "constants": [
+        "\\WP_UMBRELLA_SLUG",
+        "\\WP_UMBRELLA_VERSION"
+      ]
+    },
+    "properties":  {
+      "wporg_slug": "wp-health"
+    }
+  }
+}

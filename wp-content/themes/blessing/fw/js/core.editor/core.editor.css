@@ -1,0 +1,82 @@
+/* Frontend editor
+----------------------------------------------------- */
+#frontend_editor {
+	display: none;
+	position:absolute;
+	z-index:2001;
+	height:auto;
+	left:0;
+	right:0;
+	top:0;
+	background-color:#f0f0f0;
+	border:1px solid #c4c4c4;
+	padding:30px 16px;
+	box-shadow: 6px 6px 10px 2px #222222;
+}
+	#frontend_editor #frontend_editor_post_title_label {
+		font-size:18px;
+		color:#222222;
+		display:block;
+		margin:0 0 8px;
+	}
+	#frontend_editor #frontend_editor_post_title {
+		font-size:18px;
+		color:#222222;
+		display:block;
+		width:98%;
+		margin:0 0 20px;
+		border:1px solid #c4c4c4;
+		background-color:#ffffff;
+	}
+	#frontend_editor .wp-editor-wrap select {
+		height:28px;
+		line-height:28px;
+		margin-left:4px;
+		border:1px solid #c4c4c4;
+		background-color:#ffffff;
+	}
+	#frontend_editor .wp-editor-wrap textarea {
+		min-height:300px;
+		font-size:12px;
+		line-height:16px;
+		border:1px solid #c4c4c4;
+		background-color:#ffffff;
+	}
+	#frontend_editor #frontend_editor_post_excerpt_label {
+		font-size:18px;
+		color:#222222;
+		display:block;
+		margin:20px 0 8px;
+	}
+	#frontend_editor #frontend_editor_post_excerpt {
+		font-size:14px;
+		line-height:18px;
+		color:#222222;
+		display:block;
+		width:98%;
+		margin:0 0 20px;
+		border:1px solid #c4c4c4;
+		background-color:#ffffff;
+	}
+	#frontend_editor #frontend_editor_button_save,
+	#frontend_editor #frontend_editor_button_cancel {
+		border:1px solid #c4c4c4;
+		display:inline-block;
+	}
+
+.frontend_editor_overflow { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	width:100%; 
+	height:100%; 
+	background: #000; 
+	z-index: 2000; 
+	opacity: 0.6; 
+	display: none;
+}
+
+.attachments-browser label {
+	display:inline-block;
+	height:auto;
+}

@@ -1,0 +1,36 @@
+{% extends '/components/merlin/steps/base.twig' %}
+
+{% block slide_body_video_section_blurb %}
+	<p>Shield will protect your WP Login from bots and limit login attempts,
+		<strong>without any CAPTCHAs!</strong>
+	</p>
+{% endblock %}
+
+{% block slide_body_action_area %}
+	{% import '/common/macros.twig' as icwp_macros %}
+
+	<form class="form-horizontal merlin-form ajax-form">
+
+		<div class="row">
+			<div class="col-12 mb-2">
+				<h6>Turn On Brute Force Login Protection</h6>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				{{ icwp_macros.formInput_Radio_Wizard(
+					'LoginProtectOption',
+					{
+						'Y': '<span>Turn On</span> - Protect my WordPress login from automated attacks',
+						'N': "<span>Turn Off</span> - Don't protect my WordPress login"
+					},
+					'Bot Login Protection'
+				) }}
+			</div>
+		</div>
+
+		{{ icwp_macros.formInput_Hidden( 'step_slug', vars.step_slug ) }}
+		{{ icwp_macros.formInput_Submit2( 'Set Login Protection', null, null, false ) }}
+	</form>
+{% endblock %}

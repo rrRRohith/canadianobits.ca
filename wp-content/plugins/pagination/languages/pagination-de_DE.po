@@ -1,0 +1,501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagination\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-31 15:20+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-pgntn-settings.php:24 pagination.php:39 pagination.php:631
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-pgntn-settings.php:25
+msgid "Appearance"
+msgstr "Darstellung"
+
+#: includes/class-pgntn-settings.php:26
+msgid "Misc"
+msgstr "Sonstiges"
+
+#: includes/class-pgntn-settings.php:27
+msgid "Custom Code"
+msgstr "Eigener Code"
+
+#: includes/class-pgntn-settings.php:28
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: includes/class-pgntn-settings.php:107
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: includes/class-pgntn-settings.php:109
+msgid ""
+"Choose some page types to display plugin`s pagination in frontend of your "
+"site."
+msgstr ""
+"Wählen Sie einige Seitenarten aus, um die Seitennummerierung (Pagination) "
+"des Plugins im Frontend Ihrer Website anzuzeigen."
+
+#: includes/class-pgntn-settings.php:124 pagination.php:38 pagination.php:39
+#: pagination.php:108
+msgid "Pagination Settings"
+msgstr "Einstellungen der Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:129
+msgid "Display Pagination on"
+msgstr "Seitennummerierung anzeigen an"
+
+#: includes/class-pgntn-settings.php:133
+msgid "all pages"
+msgstr "alle Seiten"
+
+#: includes/class-pgntn-settings.php:135
+msgid "home page"
+msgstr "Startseite"
+
+#: includes/class-pgntn-settings.php:137
+msgid "blog page"
+msgstr "Beitrags Seite"
+
+#: includes/class-pgntn-settings.php:139
+msgid "archive pages ( by categories, date, tags etc. )"
+msgstr "Archiv-Seite (von Kategorien, Tagen, Tags, etc.)"
+
+#: includes/class-pgntn-settings.php:140
+msgid "search results page"
+msgstr "Seite der Suchergebnisse"
+
+#: includes/class-pgntn-settings.php:142
+msgid "paginated posts/pages"
+msgstr "nummerierte Posts/Seiten"
+
+#: includes/class-pgntn-settings.php:150 includes/class-pgntn-settings.php:289
+msgid "Close"
+msgstr "Schließen"
+
+#: includes/class-pgntn-settings.php:154
+msgid "Pagination Type"
+msgstr "Art der Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:158
+msgid "Numeric pagination"
+msgstr "Numerische Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:161
+msgid "\"Load More\" button"
+msgstr "\"Mehr anzeigen\" Knopf"
+
+#: includes/class-pgntn-settings.php:162
+msgid ""
+"display a single button at the bottom of the posts/pages that when clicked "
+"loads new posts/pages via ajax"
+msgstr ""
+"Zeige am Ende der Seite einen einzelnen Knopf für Beiträge/Seiten, welcher "
+"beim Klicken neue Beiträge/Seiten mit ajax lädt"
+
+#: includes/class-pgntn-settings.php:165
+msgid "Infinite scroll"
+msgstr "Unendliches Scrollen"
+
+#: includes/class-pgntn-settings.php:166
+msgid ""
+"automatically loads new posts/pages as the user scrolls to the bottom of the "
+"screen"
+msgstr ""
+"Automatisch neue Beiträge/Seiten laden, wenn der Nutzer bis zum Ende des "
+"Bildschirms scrolt"
+
+#: includes/class-pgntn-settings.php:169
+msgid "Next/Previous buttons"
+msgstr "Nächste/Vorherige (Seite) Knopf"
+
+#: includes/class-pgntn-settings.php:177 includes/class-pgntn-settings.php:312
+msgid "Learn More"
+msgstr "Mehr Erfahren"
+
+#: includes/class-pgntn-settings.php:184
+msgid "Pagination Position"
+msgstr "Seitennummerierungs Position"
+
+#: includes/class-pgntn-settings.php:187
+msgid "above the main content"
+msgstr "Über dem Haupt-Inhalt"
+
+#: includes/class-pgntn-settings.php:188
+msgid "below the main content"
+msgstr "Ünter dem Haupt-Inhalt"
+
+#: includes/class-pgntn-settings.php:189
+msgid "above and below the main content"
+msgstr "Über und unter dem Haupt-Inhalt"
+
+#: includes/class-pgntn-settings.php:190
+msgid "via function only"
+msgstr "nur über die Funktion"
+
+#: includes/class-pgntn-settings.php:195
+msgid "Display 'Page __ of __' Block"
+msgstr "Zeige 'Seite __ von __' Block"
+
+#: includes/class-pgntn-settings.php:201
+msgid "Display Next/Previous Arrows"
+msgstr "Zeige Nächste/Vorherige (Seite )Pfeile"
+
+#: includes/class-pgntn-settings.php:206
+msgid "text for previous page link"
+msgstr "Text für den Link der vorherigen Seite"
+
+#: includes/class-pgntn-settings.php:208
+msgid "text for next page link"
+msgstr "Text für den Link der nächsten Seite"
+
+#: includes/class-pgntn-settings.php:213
+msgid "Type of Output"
+msgstr "Art der Ausgabe"
+
+#: includes/class-pgntn-settings.php:217
+msgid "all numbers of pages"
+msgstr "Alle Nummern der Seiten"
+
+#: includes/class-pgntn-settings.php:220
+msgid "shorthand output"
+msgstr "Kurzausgabe"
+
+#: includes/class-pgntn-settings.php:223
+msgid "numbers to either side of current page, but not including current page."
+msgstr ""
+"Zahlen auf beiden Seiten der aktuellen Seite, jedoch nicht die aktuelle "
+"Seite."
+
+#: includes/class-pgntn-settings.php:230
+msgid "Hide Standard Pagination"
+msgstr "Verstecke die Standard Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:232
+msgid ""
+"Used for standard WordPress themes or themes, which use standard CSS-classes "
+"to display pagination blocks"
+msgstr ""
+"Wird für Standard-WordPress-Themes oder -Designs verwendet, die Standard-CSS-"
+"Klassen zum Anzeigen von Seitennummerierungen verwenden"
+
+#: includes/class-pgntn-settings.php:239
+msgid "posts pagination"
+msgstr "Beitrags Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:241
+msgid "on paginated posts or pages"
+msgstr "auf nummerierten Beiträgen oder Seiten"
+
+#: includes/class-pgntn-settings.php:243
+msgid "comments pagination"
+msgstr "Kommentar Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:249
+msgid "Hide Custom Pagination"
+msgstr "Die benutzerdefinierte Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:251
+msgid ""
+"Enter one ( or more comma-separated ) CSS-classes or ID of blocks which you "
+"would like to hide."
+msgstr ""
+"Geben Sie eine (oder mehrere durch Kommas getrennte) CSS-Klassen oder IDs "
+"von Blöcken ein, die Sie ausblenden möchten."
+
+#: includes/class-pgntn-settings.php:252
+msgid "Example"
+msgstr "Beispiel"
+
+#: includes/class-pgntn-settings.php:254 includes/class-pgntn-settings.php:256
+msgid "or"
+msgstr "oder"
+
+#: includes/class-pgntn-settings.php:272
+msgid "Nofollow Link"
+msgstr "\"Nofollow\" Link"
+
+#: includes/class-pgntn-settings.php:276
+msgid "Enable to add rel=\"nofollow\" attribute."
+msgstr "Aktivieren Attribut rel = \"nofollow\" hinzuzufügen."
+
+#: includes/class-pgntn-settings.php:283
+msgid "Display Settings"
+msgstr "Einstellungen anzeigen"
+
+#: includes/class-pgntn-settings.php:294
+msgid "Loader Image"
+msgstr "Lade Bild"
+
+#: includes/class-pgntn-settings.php:297
+#, php-format
+msgid "Max image height: %s; image types: %s."
+msgstr "Maximale Bild Höhe: %s; Bildarten: %s."
+
+#: includes/class-pgntn-settings.php:299
+msgid "Current image"
+msgstr "Aktuelles Bild"
+
+#: includes/class-pgntn-settings.php:303
+msgid "Text for \"Load more\" Button"
+msgstr "Text für den \"Mehr anzeigen\" Knopf"
+
+#: includes/class-pgntn-settings.php:319
+msgid "Add Styles"
+msgstr "Styles hinzufügen"
+
+#: includes/class-pgntn-settings.php:325
+msgid "Page Pagination Block width"
+msgstr "Die Breite der Seitennummerierung auf Seiten"
+
+#: includes/class-pgntn-settings.php:331
+msgid "Pagination Align"
+msgstr "Ausrichtung der Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:335
+msgid "Left"
+msgstr "Links"
+
+#: includes/class-pgntn-settings.php:336
+msgid "Center"
+msgstr "Mitte"
+
+#: includes/class-pgntn-settings.php:338
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/class-pgntn-settings.php:343
+msgid "Left Padding"
+msgstr "Linker Padding"
+
+#: includes/class-pgntn-settings.php:349
+msgid "Right Padding"
+msgstr "Rechter Padding"
+
+#: includes/class-pgntn-settings.php:355
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: includes/class-pgntn-settings.php:361
+msgid "Background Color for Current Page"
+msgstr "Hintergrundfarbe der aktuellen Seite"
+
+#: includes/class-pgntn-settings.php:367
+msgid "Text Color for Page"
+msgstr "Schriftfarbe von Seiten"
+
+#: includes/class-pgntn-settings.php:373
+msgid "Text Color for Current Page"
+msgstr "Schriftfarbe der aktuellen Seite"
+
+#: includes/class-pgntn-settings.php:379
+msgid "Hover Color"
+msgstr "Hover Farbe"
+
+#: includes/class-pgntn-settings.php:385
+msgid "Border Color"
+msgstr "Rand Farbe (Border)"
+
+#: includes/class-pgntn-settings.php:391
+msgid "Border Width"
+msgstr "Rand Breite (Border)"
+
+#: includes/class-pgntn-settings.php:397
+msgid "Border Radius"
+msgstr "Rand Radius (Border)"
+
+#: includes/class-pgntn-settings.php:414
+msgid "Pagination"
+msgstr "Seitennummerierung"
+
+#: includes/class-pgntn-settings.php:417
+msgid ""
+"If you would like to display pagination block in a different place on your "
+"site, add the following strings into the file"
+msgstr ""
+"Wenn Sie die Seitennummerierung an einer anderen Stelle auf Ihrer Seite "
+"anzeigen möchten, fügen Sie der Datei die folgenden Zeichenfolgen hinzu"
+
+#: includes/class-pgntn-settings.php:417
+msgid "of your theme"
+msgstr "von unserem Theme"
+
+#: includes/class-pgntn-settings.php:421
+msgid ""
+"If you would like to display pagination block for paginated posts or pages "
+"in a different place on your site, add the following strings into the "
+"appropriate templates source code of your theme"
+msgstr ""
+"Wenn Sie den Seitenumbruchblock für paginierte Beiträge oder Seiten an einer "
+"anderen Stelle auf Ihrer Website anzeigen möchten, fügen Sie die folgenden "
+"Zeichenfolgen dem entsprechenden Vorlagen-Quellcode Ihres Designs hinzu"
+
+#: includes/class-pgntn-settings.php:425
+msgid ""
+"Paste this into the comments template if you want to display pagination for "
+"comments"
+msgstr ""
+"Fügen Sie dies in die Kommentarvorlage ein, wenn Sie die Seitennummerierung "
+"für Kommentare anzeigen möchten"
+
+#: pagination.php:44
+msgid "Upgrade to Pro"
+msgstr "Auf die Pro Version upgraden"
+
+#: pagination.php:109
+msgid "Please enable JavaScript in your browser."
+msgstr "Bitte aktivieren Sie JavaScript in Ihrem Browser."
+
+#: pagination.php:131
+msgid "« Previous"
+msgstr "« Vorherige"
+
+#: pagination.php:132
+msgid "Next »"
+msgstr "Nächste »"
+
+#: pagination.php:454 pagination.php:474
+msgid "Page"
+msgstr "Seite"
+
+#: pagination.php:454 pagination.php:474 pagination.php:504 pagination.php:587
+msgid "of"
+msgstr "von"
+
+#: pagination.php:504
+msgid "Pages"
+msgstr "Seiten"
+
+#: pagination.php:587
+msgid "Comments Page"
+msgstr "Kommentar Seite"
+
+#: pagination.php:632
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pagination.php:633
+msgid "Support"
+msgstr "Support"
+
+#~ msgid "Notice:"
+#~ msgstr "Notiz:"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Alle Plugin-Einstellungen wurden wiederhergestellt."
+
+#~ msgid "Custom code"
+#~ msgstr "Benutzerdefinierter Code"
+
+#~ msgid "Go PRO"
+#~ msgstr "PRO"
+
+#~ msgid ""
+#~ "If you would like to display pagination block for paginated posts or "
+#~ "pages in a different place on your site, add the following strings into "
+#~ "to the appropriate templates source code of your theme"
+#~ msgstr ""
+#~ "Wenn Sie die Seitennummerierung für Numerische Beiträge oder Seiten an "
+#~ "einer anderen Stelle auf Ihrer Website anzeigen möchten, fügen Sie dem "
+#~ "entsprechenden Vorlagen-Quellcode Ihres Designs die folgenden "
+#~ "Zeichenfolgen hinzu"
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Display pagination on"
+#~ msgstr "Seitennummerierung anzeigen an"
+
+#~ msgid "Pagination type"
+#~ msgstr "Art der Seitennummerierung"
+
+#~ msgid "Pagination position"
+#~ msgstr "Position der Seitennummerierung"
+
+#~ msgid "Display 'Page __ of __' block"
+#~ msgstr "Den  'Seiten __ von __' Block anzeigem"
+
+#~ msgid "Type of output"
+#~ msgstr "Art der Ausgabe"
+
+#~ msgid "Hide standard pagination"
+#~ msgstr "Standard Seitennummerierung verstecken"
+
+#~ msgid "Hide custom pagination"
+#~ msgstr "Benutzerdefinierte Seitennummerierung verstecken"
+
+#~ msgid "Add styles"
+#~ msgstr "Styles hinzufügen"
+
+#~ msgid "Page pagination block width"
+#~ msgstr "Breite der Seitennummerierung für Seiten"
+
+#~ msgid "Pagination align"
+#~ msgstr "Ausrichtung der Seitennummerierung"
+
+#~ msgid "Left padding"
+#~ msgstr "Linker Padding"
+
+#~ msgid "Right padding"
+#~ msgstr "Rechter Padding"
+
+#~ msgid "Background color"
+#~ msgstr "Hintergrundfarbe für die Seite"
+
+#~ msgid "Background color for current page"
+#~ msgstr "Hintergrundfarbe für die aktuelle Seite"
+
+#~ msgid "Text color for page"
+#~ msgstr "Schriftfarbe für die Seite"
+
+#~ msgid "Text color for current page"
+#~ msgstr "Schriftfarbe für die aktuelle Seite"
+
+#~ msgid "Border color"
+#~ msgstr "Border Farbe"
+
+#~ msgid "Border width"
+#~ msgstr "Border Breite"
+
+#~ msgid "Border radius"
+#~ msgstr "Border Radius"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr ""
+#~ "Wenn Sie auf die Pro Version upgraden werden alle Ihre Einstellungen "
+#~ "gespeichert."
+
+#~ msgid ""
+#~ "Used for standard WordPress themes or themes, which use standard CSS-"
+#~ "classes for displaying pagination blocks"
+#~ msgstr ""
+#~ "Wird für Standard-WordPress-Themes oder -Designs verwendet, bei denen "
+#~ "Standard-CSS-Klassen zum Anzeigen von Seitenleisten verwendet werden"
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr ""
+#~ "Alle Premium Einstellungen durch das Upgraden auf die Pro Version "
+#~ "freischalten"
+
+#~ msgid "everywhere"
+#~ msgstr "überall"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them, please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Die Einstellungen des Plugins wurden geändert. Klicken Sie bitte auf den "
+#~ "\"Einstellungen speichern\" Knopf, um zu speichern."

@@ -1,0 +1,8 @@
+{% extends "/notices/base-error.twig" %}
+
+{% block notice_body %}
+	<p>{{ strings.message }}</p>
+	<p>
+		<a href="#" class="shield_admin_notice_action" data-notice_action="delete_forceoff">{{ strings.delete }}</a>
+	</p>
+{% endblock %}

@@ -1,0 +1,13 @@
+/* Buddy Press Styles
+----------------------------------------------- */
+
+#buddypress #item-body form#whats-new-form { 
+	margin-top: 1.5em; 
+}
+
+.buddypress select,
+#buddypress select { 
+	border: 1px solid #ddd;
+	color: #666;
+	font-weight: 300;
+}

@@ -1,0 +1,598 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagination\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-29 14:51+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bws_menu\n"
+
+#: includes/class-pgntn-settings.php:21 pagination.php:39 pagination.php:661
+#: pagination.php:679
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/class-pgntn-settings.php:22
+msgid "Misc"
+msgstr "Різне"
+
+#: includes/class-pgntn-settings.php:23
+msgid "Custom Code"
+msgstr "Користувацький код"
+
+#: includes/class-pgntn-settings.php:24
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+#: includes/class-pgntn-settings.php:102
+msgid ""
+"Choose some page types to display plugin`s pagination in frontend of your "
+"site."
+msgstr "Виберіть типи сторінок для відображення блоку навігації у фронтенді."
+
+#: includes/class-pgntn-settings.php:107
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+#: includes/class-pgntn-settings.php:123 pagination.php:38 pagination.php:39
+#: pagination.php:121
+msgid "Pagination Settings"
+msgstr "Налаштування Pagination"
+
+#: includes/class-pgntn-settings.php:127
+msgid "General"
+msgstr "Загальне"
+
+#: includes/class-pgntn-settings.php:129
+msgid "Add Pagination to"
+msgstr "Додати навігацію на "
+
+#: includes/class-pgntn-settings.php:133
+msgid "All pages"
+msgstr "На всіх сторінках"
+
+#: includes/class-pgntn-settings.php:135
+msgid "Home"
+msgstr "Домашній сторінці"
+
+#: includes/class-pgntn-settings.php:137
+msgid "Blog"
+msgstr "Сторінці блогу"
+
+#: includes/class-pgntn-settings.php:139
+msgid "Archive (by categories, date, tags etc.)"
+msgstr "Архівах ( за категоріями, датами, мітками і т.д. )"
+
+#: includes/class-pgntn-settings.php:141
+msgid "Search results"
+msgstr "Сторінці виводу результатів пошуку"
+
+#: includes/class-pgntn-settings.php:143 includes/class-pgntn-settings.php:170
+msgid "Paginated posts/pages"
+msgstr "Багатосторінкових записах чи сторінках"
+
+#: includes/class-pgntn-settings.php:147 includes/class-pgntn-settings.php:218
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-pgntn-settings.php:152
+msgid "Paginated Divi modules"
+msgstr "Divi модулях"
+
+#: includes/class-pgntn-settings.php:163
+msgid "Hide Standard Pagination for"
+msgstr "Приховати стандартну навігацію"
+
+#: includes/class-pgntn-settings.php:168
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/class-pgntn-settings.php:172
+msgid "Comments"
+msgstr "Сторінка коментарів"
+
+#: includes/class-pgntn-settings.php:173
+msgid ""
+"Used for standard WordPress themes or themes, which use standard CSS-classes "
+"to display pagination blocks."
+msgstr ""
+"Застосувати до стандартних тем WordPress або тем, що використовують "
+"стандартні CSS-класи для відображення блоку навігації."
+
+#: includes/class-pgntn-settings.php:179
+msgid "Hide Custom Pagination"
+msgstr "Приховати додаткову навігацію"
+
+#: includes/class-pgntn-settings.php:187
+msgid ""
+"Enable to add one (or more comma-separated) CSS-classes or ID of blocks "
+"which you would like to hide."
+msgstr ""
+"Введіть один (чи декілька розділених комами) CSS класів чи ID блоків, що "
+"потрібно приховати."
+
+#: includes/class-pgntn-settings.php:194
+msgid "Example"
+msgstr "Наприклад"
+
+#: includes/class-pgntn-settings.php:196 includes/class-pgntn-settings.php:198
+msgid "or"
+msgstr "чи"
+
+#: includes/class-pgntn-settings.php:194
+msgid ""
+":<br />\n"
+"\t\t\t\t\t\t\t<code>#nav_block</code><br />"
+msgstr ""
+
+#: includes/class-pgntn-settings.php:206
+msgid "Nofollow Link"
+msgstr "Атрибут rel=\"nofollow\""
+
+#: includes/class-pgntn-settings.php:210
+msgid ""
+"Enable to add a rel=\"nofollow\" attribute to your anchor (aka link) tags to "
+"help Google bots identify such links (recommended)."
+msgstr ""
+"Увімкніть, щоб додати атрибут rel = \"nofollow\" до ваших якорних тегів (ака-"
+"посилання), щоб допомогти ботам Google виявити такі посилання "
+"(рекомендується)."
+
+#: includes/class-pgntn-settings.php:222
+msgid "Pagination Type"
+msgstr "Тип навігації"
+
+#: includes/class-pgntn-settings.php:226
+msgid "Numeric"
+msgstr "Числова"
+
+#: includes/class-pgntn-settings.php:229
+msgid "\"Load More\" button"
+msgstr "Кнопка \"Завантажити ще\""
+
+#: includes/class-pgntn-settings.php:230
+msgid "A single AJAX button."
+msgstr "Єдина кнопка AJAX."
+
+#: includes/class-pgntn-settings.php:233
+msgid "Infinite scroll"
+msgstr "Безкінечна прокрутка"
+
+#: includes/class-pgntn-settings.php:234
+msgid ""
+"An option that loads content continuously as the user scrolls down the page."
+msgstr ""
+"Варіант, який постійно завантажує вміст, коли користувач прокручує сторінку "
+"вниз."
+
+#: includes/class-pgntn-settings.php:237
+msgid "Next/Previous buttons"
+msgstr "Кнопка попередній/наступний"
+
+#: includes/class-pgntn-settings.php:248
+msgid "Numeric Pagination"
+msgstr "Числова навігація"
+
+#: includes/class-pgntn-settings.php:250
+msgid "Pagination Position"
+msgstr "Розташування навігації"
+
+#: includes/class-pgntn-settings.php:253
+msgid "Above content"
+msgstr "Перед основним контентом"
+
+#: includes/class-pgntn-settings.php:254
+msgid "Below content"
+msgstr "Після основного контенту"
+
+#: includes/class-pgntn-settings.php:255
+msgid "Above & below content"
+msgstr "Перед і після основного контенту"
+
+#: includes/class-pgntn-settings.php:256
+msgid "Custom function position"
+msgstr "Розміщення навігації"
+
+#: includes/class-pgntn-settings.php:258
+msgid "Select pagination position in the main content."
+msgstr "Виберіть позицію сторінки в основному вмісті."
+
+#: includes/class-pgntn-settings.php:262
+msgid "Current (Total) Page Count"
+msgstr "Поточна (загальна) кількість сторінок"
+
+#: includes/class-pgntn-settings.php:265
+msgid ""
+"Enable to display current page and total page count (for example, Page 3 of "
+"7)."
+msgstr ""
+"Увімкнути для відображення поточної сторінки та загальної кількості сторінок "
+"(наприклад, Сторінка 3 з 7)."
+
+#: includes/class-pgntn-settings.php:269
+msgid "Next & Previous Buttons"
+msgstr "Кнопка попередній/наступний"
+
+#: includes/class-pgntn-settings.php:272
+msgid "Enable to display next and previous page buttons."
+msgstr "Увімкнути для відображення кнопок наступної та попередньої сторінок."
+
+#: includes/class-pgntn-settings.php:275
+msgid "Previous"
+msgstr "Попередня"
+
+#: includes/class-pgntn-settings.php:278
+msgid "Next"
+msgstr "Наступна"
+
+#: includes/class-pgntn-settings.php:283
+msgid "Page Range"
+msgstr "Діапазон сторінок"
+
+#: includes/class-pgntn-settings.php:286
+msgid ""
+"The number of page links/buttons to show before and after the current page "
+"(set to \"0\" if you want to display all buttons)."
+msgstr ""
+"Кількість посилань/кнопок сторінки, які потрібно відобразити до та після "
+"поточної сторінки (встановіть значення \"0\", якщо потрібно відобразити всі "
+"кнопки)."
+
+#: includes/class-pgntn-settings.php:290
+msgid "Custom Styles"
+msgstr "Користувацький стиль"
+
+#: includes/class-pgntn-settings.php:293
+msgid "Custom Pagination Style"
+msgstr "Користувальницький стиль блоку навігації"
+
+#: includes/class-pgntn-settings.php:296
+msgid "Enable to apply custom CSS styles for pagination."
+msgstr "Увімкніть щоб застосувати спеціальні стилі CSS для блоку навігаціі."
+
+#: includes/class-pgntn-settings.php:300
+msgid "Page Pagination Block width"
+msgstr "Ширина блоку навігації"
+
+#: includes/class-pgntn-settings.php:306
+msgid "Pagination Align"
+msgstr "Розміщення навігації"
+
+#: includes/class-pgntn-settings.php:310
+msgid "Left"
+msgstr "Зліва"
+
+#: includes/class-pgntn-settings.php:311
+msgid "Center"
+msgstr "По центру"
+
+#: includes/class-pgntn-settings.php:313
+msgid "Right"
+msgstr "Справа"
+
+#: includes/class-pgntn-settings.php:318
+msgid "Left Padding"
+msgstr "Відступ зліва"
+
+#: includes/class-pgntn-settings.php:324
+msgid "Right Padding"
+msgstr "Відступ справа"
+
+#: includes/class-pgntn-settings.php:330
+msgid "Background Color"
+msgstr "Колір фону"
+
+#: includes/class-pgntn-settings.php:336
+msgid "Background Color for Current Page"
+msgstr "Колір фону для поточної сторінки"
+
+#: includes/class-pgntn-settings.php:342
+msgid "Text Color for Page"
+msgstr "Колір тексту"
+
+#: includes/class-pgntn-settings.php:348
+msgid "Text Color for Current Page"
+msgstr "Колір тексту поточної сторінки"
+
+#: includes/class-pgntn-settings.php:354
+msgid "Hover Color"
+msgstr "Колір при наведенні"
+
+#: includes/class-pgntn-settings.php:360
+msgid "Border Color"
+msgstr "Колір межі"
+
+#: includes/class-pgntn-settings.php:366
+msgid "Border Width"
+msgstr "Ширина межі"
+
+#: includes/class-pgntn-settings.php:372
+msgid "Border Radius"
+msgstr "Радіус межі"
+
+#: includes/class-pgntn-settings.php:389
+msgid "Pagination"
+msgstr "Pagination"
+
+#: includes/class-pgntn-settings.php:392
+msgid ""
+"If you would like to display pagination block in a different place on your "
+"site, add the following strings into the file"
+msgstr ""
+"Якщо Ви хочете відображати блок навігації в іншому місці сайту, додайте "
+"наступні рядки у файл"
+
+#: includes/class-pgntn-settings.php:392
+msgid "of your theme"
+msgstr "вашої теми"
+
+#: includes/class-pgntn-settings.php:396
+msgid ""
+"If you would like to display pagination block for paginated posts or pages "
+"in a different place on your site, add the following strings into the "
+"appropriate templates source code of your theme"
+msgstr ""
+"Якщо ви хочете відобразити блок навігації для багатосторінкових записів або "
+"сторінок в іншому місці, додайте наступні рядки до відповідних шаблони Вашої "
+"теми"
+
+#: includes/class-pgntn-settings.php:400
+msgid ""
+"Paste this into the comments template if you want to display pagination for "
+"comments"
+msgstr ""
+"Вставте цей код у шаблон коментарів, якщо Ви хочете відображати блок "
+"навігації для коментарів"
+
+#: pagination.php:44
+msgid "Upgrade to Pro"
+msgstr "Оновитися на Pro"
+
+#: pagination.php:122
+msgid "Please enable JavaScript in your browser."
+msgstr "Будь ласка, увімкніть використання JavaScript у вашому браузері."
+
+#: pagination.php:144
+msgid "« Previous"
+msgstr "« Попередня"
+
+#: pagination.php:145
+msgid "Next »"
+msgstr "Наступна »"
+
+#: pagination.php:468 pagination.php:488
+msgid "Page"
+msgstr "Сторінка"
+
+#: pagination.php:468 pagination.php:488 pagination.php:526 pagination.php:615
+msgid "of"
+msgstr "з"
+
+#: pagination.php:526
+msgid "Pages"
+msgstr "Сторінок"
+
+#: pagination.php:615
+msgid "Comments Page"
+msgstr "Сторінка коментарів"
+
+#: pagination.php:680
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pagination.php:681
+msgid "Support"
+msgstr "Техпідтримка"
+
+#~ msgid "Learn More"
+#~ msgstr "Детальніше"
+
+#~ msgid "Numeric pagination"
+#~ msgstr "Числова"
+
+#~ msgid "Leave empty to display all links/buttons."
+#~ msgstr "Залиште порожнім, щоб відобразити всі посилання/кнопки."
+
+#~ msgid "paginated posts/pages"
+#~ msgstr "багатосторінкових записах чи сторінках"
+
+#~ msgid "Type of Output"
+#~ msgstr "Тип виводу"
+
+#~ msgid "Loader Image"
+#~ msgstr "Зображення завантажувача"
+
+#~ msgid "Max image height: %s; image types: %s."
+#~ msgstr "Максимальна висота зображення: %s; типи зображення: %s."
+
+#~ msgid "Current image"
+#~ msgstr "Поточне зображення"
+
+#~ msgid "Text for \"Load more\" Button"
+#~ msgstr "Кнопка \"Завантажити ще\""
+
+#~ msgid "Add Styles"
+#~ msgstr "Додати стилі"
+
+#~ msgid "<br />"
+#~ msgstr "<br />"
+
+#~ msgid "Appearance"
+#~ msgstr "Відображення"
+
+#~ msgid "Display Pagination on"
+#~ msgstr "Відображати навігацію на"
+
+#~ msgid "home page"
+#~ msgstr "домашній сторінці"
+
+#~ msgid "blog page"
+#~ msgstr "сторінці блогу"
+
+#~ msgid ""
+#~ "display a single button at the bottom of the posts/pages that when "
+#~ "clicked loads new posts/pages via ajax"
+#~ msgstr ""
+#~ "відображення однієї кнопки в нижній частині записів/сторінок, при "
+#~ "натисканні на яку загружаються нові записи/сторінки за допомогою AJAX"
+
+#~ msgid ""
+#~ "automatically loads new posts/pages as the user scrolls to the bottom of "
+#~ "the screen"
+#~ msgstr ""
+#~ "автоматично завантажувати нові записи/сторінки, коли користувач прокручує "
+#~ "до нижньої частини екрану"
+
+#~ msgid "via function only"
+#~ msgstr "тільки за допомогою функції"
+
+#~ msgid "Display 'Page __ of __' Block"
+#~ msgstr "Відображати блок 'Сторінка __ з __'"
+
+#~ msgid "Display Next/Previous Arrows"
+#~ msgstr "Відображати Попередня/Наступна стрілки"
+
+#~ msgid "text for previous page link"
+#~ msgstr "текст для посилання на попередню сторінку"
+
+#~ msgid "text for next page link"
+#~ msgstr "текст для посилання на наступну сторінку"
+
+#~ msgid "all numbers of pages"
+#~ msgstr "номери всіх сторінок"
+
+#~ msgid "shorthand output"
+#~ msgstr "скорочений вивід"
+
+#~ msgid ""
+#~ "numbers to either side of current page, but not including current page."
+#~ msgstr ""
+#~ "кількість номерів сторінок з обох сторін від поточної сторінки, не "
+#~ "включаючи її."
+
+#~ msgid "posts pagination"
+#~ msgstr "навігація по записам"
+
+#~ msgid "on paginated posts or pages"
+#~ msgstr "на багатосторінкових записах або сторінках"
+
+#~ msgid "comments pagination"
+#~ msgstr "навігація по коментарях"
+
+#~ msgid "Enable to add rel=\"nofollow\" attribute."
+#~ msgstr "Увімкніть, щоб додати атрибут rel=\"nofollow\"."
+
+#~ msgid "Display Settings"
+#~ msgstr "Налаштування відображення"
+
+#~ msgid "Display"
+#~ msgstr "Відображення"
+
+#~ msgid "Notice:"
+#~ msgstr "Зауважте:"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Всі налаштування плагіну було скинуто до стандартних."
+
+#~ msgid "Custom code"
+#~ msgstr "Користувацький код"
+
+#~ msgid "Go PRO"
+#~ msgstr "Оновити до Pro"
+
+#~ msgid ""
+#~ "If you would like to display pagination block for paginated posts or "
+#~ "pages in a different place on your site, add the following strings into "
+#~ "to the appropriate templates source code of your theme"
+#~ msgstr ""
+#~ "Якщо ви хочете відображати блок навігації для багатосторінкових записів "
+#~ "або сторінок в іншому місці, додайте наступні рядки у відповідні шаблони "
+#~ "вашої теми"
+
+#~ msgid "Display pagination on"
+#~ msgstr "Відображати навігацію на"
+
+#~ msgid "Display 'Page __ of __' block"
+#~ msgstr "Відображати блок 'Сторінка __ з __'"
+
+#~ msgid "Display Next/Previous arrows"
+#~ msgstr "Відображати Попередня/Наступна стрілки"
+
+#~ msgid "Type of output"
+#~ msgstr "Тип виводу"
+
+#~ msgid "Hide standard pagination"
+#~ msgstr "Приховати стандартну навігацію"
+
+#~ msgid "Hide custom pagination"
+#~ msgstr "Приховати додаткову навігацію"
+
+#~ msgid "Add nofollow link attribute"
+#~ msgstr "Додати посиланню атребут \"nofollow\""
+
+#~ msgid "Add styles"
+#~ msgstr "Додати стилі"
+
+#~ msgid "Page pagination block width"
+#~ msgstr "Ширина блоку навігації"
+
+#~ msgid "Pagination align"
+#~ msgstr "Розміщення навігації"
+
+#~ msgid "Left padding"
+#~ msgstr "Відступ зліва"
+
+#~ msgid "Right padding"
+#~ msgstr "Відступ справа"
+
+#~ msgid "Background color"
+#~ msgstr "Колір фону"
+
+#~ msgid "Background color for current page"
+#~ msgstr "Колір фону поточної сторінки"
+
+#~ msgid "Text color for page"
+#~ msgstr "Колір тексту"
+
+#~ msgid "Text color for current page"
+#~ msgstr "Колір тексту поточної сторінки"
+
+#~ msgid "Border color"
+#~ msgstr "Колір межі"
+
+#~ msgid "Border width"
+#~ msgstr "Ширина межі"
+
+#~ msgid "Border radius"
+#~ msgstr "Радіус межі"
+
+#~ msgid "Output type"
+#~ msgstr "Тип виводу"
+
+#~ msgid "If you upgrade to Pro version all your settings will be saved."
+#~ msgstr "Якщо ви перейдете на Pro версію, всі налаштування будуть збережені."
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Зробити доступними преміум-опції, перейшовши на Pro версію"
+
+#~ msgid "everywhere"
+#~ msgstr "Скрізь"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them, please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Налаштування плагіну змінено. Щоб зберегти їх, будь ласка, не забудьте "
+#~ "клікнути 'Зберегти'."

@@ -1,0 +1,192 @@
+/* Shortcode selector
+-----------------------------------------------------------------*/
+.sc_selector {
+	width: auto !important;
+	padding:2px !important;
+}
+
+.sc_refresh {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+/* Attachment folders
+-----------------------------------------------------------------*/
+.compat-attachment-fields .field .media_folder_selector {
+	max-height: 200px;
+	overflow: auto;
+}
+
+
+/* Additional column in the Categories list
+-----------------------------------------------------------------*/
+.ancora_options_list {
+	display:block;
+	max-height:120px;
+	
+	overflow:auto;
+}
+.ancora_options_list .ancora_options_prop_value {
+	font-style:italic;
+	color: #222;
+}
+
+
+/* Internal Colorpicker "More Colors" button
+-----------------------------------------------------------------*/
+.iColorPicker_moreColors {
+	display:inline-block;
+    width: 14px;
+    height: 14px;
+	margin-left:2px;
+    background: url(../images/colorpicker_morecolors.png);
+	vertical-align:middle;
+}
+
+
+/* Reviews block
+-----------------------------------------------------------------*/
+.reviews_block { 
+	margin: 0 0 10px 0;
+	width: 390px;
+	overflow: hidden;
+}
+.reviews_block .reviews_item { 
+	position:relative;
+	height:41px;
+	padding-right:30px;
+	overflow:hidden;
+}
+.reviews_block .reviews_value {
+	position:absolute;
+	top:0;
+	right: 0;
+	color:#333333;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+}
+.reviews_block .reviews_criteria {
+	position:absolute;
+	z-index:1;
+	padding: 4px 10px 0 0;
+	width:240px;
+}
+.reviews_block .reviews_max_level_10 .reviews_criteria {
+	width:190px;
+}
+.reviews_block .reviews_max_level_100 .reviews_criteria {
+	color: #ffffff;
+	height:25px;
+	line-height:25px;
+	padding-left:10px;
+}
+.reviews_block .reviews_stars_wrap {
+	position:relative;
+	height:41px;
+	width:92px;
+	margin-left:250px;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+}
+.reviews_block .reviews_max_level_10 .reviews_stars_wrap {
+	width:158px;
+	margin-left:200px;	
+}
+.reviews_block .reviews_editable .reviews_stars_wrap {
+	cursor: pointer;
+}
+.reviews_block .reviews_max_level_100 .reviews_stars_wrap {
+	margin-left:0;
+	width:100%;
+}
+.reviews_block .reviews_stars_bg,
+.reviews_block .reviews_stars_hover {
+	position:absolute;
+	left:4px;
+	right:4px;
+	top:4px;
+}
+.reviews_block .reviews_max_level_100 .reviews_stars_bg {
+	background-color: #dddddd;
+	height:25px;
+}
+.reviews_block .reviews_max_level_100 .reviews_stars_hover {
+	background-color: #333333;
+	height:25px;
+}
+.reviews_block .reviews_stars_hover {
+	white-space:nowrap;
+	overflow:hidden;
+}
+.reviews_block .reviews_slider {
+	background-color: #333333;
+	height: 6px;
+	width: 8px;
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	-webkit-box-shadow: -1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+	   -moz-box-shadow: -1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+	        box-shadow: -1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+}
+.reviews_block .reviews_max_level_100 .reviews_slider {
+	bottom: 1px;
+}
+.reviews_block .reviews_slider:before {
+	content: ' ';
+	display: block;
+	height: 6px;
+	width: 6px;
+	background-color: #333333;
+	margin: -3px 0 0 1px;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+
+.reviews_block .reviews_star {
+	display: inline-block;
+	margin: 0;
+	padding: 0; 
+	font-size: 18px;
+	vertical-align: top; 
+} 
+.reviews_block .reviews_max_level_10 .reviews_star {
+	font-size: 16px;
+} 
+.reviews_block .reviews_star:before {
+	content: '\e805';
+	font-family: "fontello";
+	font-size:inherit;
+	display: inline-block;
+	vertical-align:top;
+	text-align: center;
+}
+.reviews_block .reviews_stars_hover .reviews_star:before {
+	content: '\e804';
+}
+
+
+/* Importer
+-----------------------------------------------------------------*/
+.trx_importer {
+	overflow:hidden;
+}
+.trx_importer_section {
+	width: 45%;
+	float:left;
+	border: 2px groove #e0e0e0;
+	margin: 2em 0 0 0;
+	padding: 1em 2em 2em;
+}
+.trx_exporter_section {
+	width: 45%;
+	float:right;
+	border: 2px groove #e0e0e0;
+	margin: 2em 2em 0 0;
+	padding: 1em 2em 2em;
+}

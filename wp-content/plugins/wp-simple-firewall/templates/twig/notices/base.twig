@@ -1,0 +1,46 @@
+{% if unique_render_id|default('') is empty %}
+	{% set unique_render_id= random() %}
+{% endif %}
+
+{% block notice_wrapper %}
+
+	<div id="{{ unique_render_id }}"
+		 data-notice_id="{{ notice_id }}"
+	     class="{{ notice_classes|default('info') }} notice is-dismissible shield-notice-container">
+
+		<div class="notice-body" style="display: flex; flex-direction: row; ">
+
+			<div class="notice-icon">
+				{{ imgs.icon_shield|raw }}
+			</div>
+
+			<div class="notice-content">
+				{% if strings.title|default('') is not empty %}
+					<h3 class="notice-title">{{ strings.title }}</h3>
+				{% endif %}
+				<div>
+					{% block notice_body %}
+						{% if strings.lines|default([]) is not empty %}
+							{% for line in strings.lines %}
+								<p>{{ line }}</p>
+							{% endfor %}
+						{% endif %}
+						{% if strings.read_more|default('') is not empty %}
+						<p><a href="{{ hrefs.read_more }}" target="_blank">{{ strings.read_more }}</a></p>
+					{% endif %}
+					{% endblock %}
+				</div>
+			</div>
+
+		</div>
+
+		{% block dismiss_link %}
+			<div class="dismiss-p">
+				<a class="shield-notice-dismiss"
+				   href="#"
+				>{{ strings.dismiss|default('Dismiss') }}</a>
+			</div>
+		{% endblock %}
+
+	</div>
+{% endblock %}

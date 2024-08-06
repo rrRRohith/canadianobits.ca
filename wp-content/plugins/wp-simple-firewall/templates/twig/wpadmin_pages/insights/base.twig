@@ -1,0 +1,22 @@
+{% extends '/wpadmin_pages/base.twig' %}
+
+{% block h1heading %}<h1 style="display: none;">&nbsp;</h1>{% endblock %}
+
+{% block page_head %}
+
+	{% if strings.top_page_warnings|default([]) is not empty %}
+		<div id="ShieldTopPageWarnings" class="row row-cols-1">
+			{% for warning in strings.top_page_warnings %}
+				<div class="col shield-top_page_warning bg-{{ warning.type }} py-1 border-bottom">
+					{% for each_line in warning.text %}<p class="my-1 text-center">{{ each_line|raw }}</p>{% endfor %}
+				</div>
+			{% endfor %}
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block page_main %}
+{% endblock %}
+
+{% block page_foot %}
+{% endblock %}

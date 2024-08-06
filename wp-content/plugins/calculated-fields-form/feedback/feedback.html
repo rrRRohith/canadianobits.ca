@@ -1,0 +1,168 @@
+<script id="cp_feedback_html<?php print esc_attr($plugin_slug); ?>" type="text/template">
+	<div title="QUICK FEEDBACK">
+		<div style="padding:10px;">
+			<style type="text/css">
+				.cp-feedback-reason-block { margin-top:8px; }
+			</style>
+      		<h3><strong>Please let me know the reason why you are deactivating our plugin:</strong></h3>
+			<form id="cp_feedback_form{{plugin_slug}}">
+				<?php wp_nonce_field( 'calculated-fields-form-feedback', '_wpnonce' ); ?>
+				<div class="cp-feedback-reason-block">
+					<label>
+						<input type="radio" name="answer" value="collect-data">
+						I want to receive an email with the data collected by the form.<br />
+					</label>
+					<div id="cp_feedback_collect_data" style="margin-left:25px;display:none;padding:10px;border:1px dotted gray;color:#660000">
+						<p>Please, before deciding to disable the plugin, we recommend that you check the features of its <a href="https://cff.dwbooster.com/download/#comparison" target="_blank">commercial version</a>.</p>
+						<p>Or the <a href="https://cff-bundles.dwbooster.com/product/data-collector" target="_blank">Data Collector plugin</a> as an alternative.</p>
+					</div>
+				</div>
+				<div class="cp-feedback-reason-block">
+					<label>
+						<input type="radio" name="answer" value="temporary-deactivation"> This is a temporary deactivation. I'm just upgrading to the Commercial version or debugging an issue.<br />
+					</label>
+				</div>
+				<div class="cp-feedback-reason-block">
+					<label>
+						<input type="radio" name="answer" value="better-plugin"> I found a better plugin.<br />
+					</label>
+					<div id="cp_feedback_otherplugin" style="margin-left:25px;display:none;">
+						<input type="text" name="otherplugin" placeholder="Please, enter its name" style="width:100%">
+					</div>
+				</div>
+				<div class="cp-feedback-reason-block">
+					<label>
+						<input type="radio" name="answer" value="other"> Another reason.<br />
+					</label>
+					<div id="cp_feedback_other" style="margin-left:25px;display:none;">
+						Please, describe the reason so that we can improve our plugin.<br />
+						<input type="text" name="otherinfo" style="width:100%">
+					</div>
+				</div>
+				<div id="cp_feedback_anonymous" style="display:none;margin-top:30px;text-align:right">
+					<input type="checkbox" name="cp_feedback_anonymous" value="yes"> Anonymous feedback
+				</div>
+			</form>
+		</div>
+	</div>
+</script>
+<script type="text/javascript">
+	jQuery(window).on(
+		'load',
+		function()
+		{
+			var $ = jQuery,
+				plugin_slug = '<?php print esc_js($plugin_slug); ?>',
+				support_link = '<?php print esc_js($support_link); ?>',
+				full_support_link = '<?php print esc_js($full_support_link); ?>';
+			$('[data-slug="'+plugin_slug+'"] .deactivate a').
+			on(
+				'click',
+				function(evt)
+				{
+					evt.preventDefault()
+					evt.stopPropagation();
+					// Define events
+					$(document).on(
+						'change',
+						'[id="cp_feedback_form'+plugin_slug+'"] [name="answer"]',
+						function()
+						{
+							var field = $(this),
+								value = field.val(),
+								form  = field.closest('form');
+							$("#cp_feedback_deactivatebtn:visible").val('Submit & Deactivate');
+							$("#cp_feedback_deactivatebtn:visible").html('<span class="ui-button-text">Submit &amp; Deactivate</span>');
+							form.find("#cp_feedback_anonymous").show();
+							form.find("#cp_feedback_other,#cp_feedback_otherplugin,#cp_feedback_collect_data").hide();
+							switch(value)
+							{
+								case 'other':
+									form.find("#cp_feedback_other").show();
+								break;
+								case 'better-plugin':
+									form.find("#cp_feedback_otherplugin").show();
+								break;
+								case 'collect-data':
+									form.find("#cp_feedback_collect_data").show();
+								break;
+							}
+						}
+					);
+					var url_redirect = $('[data-slug="'+plugin_slug+'"] .deactivate a').attr('href'),
+						html = $('[id="cp_feedback_html'+plugin_slug+'"]').html();
+					html = html.replace(/\{\{plugin_slug\}\}/g, plugin_slug)
+							.replace(/\{\{support_link\}\}/g, full_support_link)
+							.replace(/\{\{support_link_text\}\}/g, support_link);
+					$(html).dialog(
+						{
+							width:'600',
+							dialogClass: 'wp-dialog',
+							modal: true,
+							close: function(event, ui)
+								{
+									$(this).dialog("close");
+									$(this).remove();
+								},
+							closeOnEscape: true,
+							buttons: [
+								{
+									id: 'cp_feedback_deactivatebtn',
+									text: "Skip & Deactivate",
+									click: function()
+									{
+										var form = $('[id="cp_feedback_form'+plugin_slug+'"]'),
+											answer = form.find("input[name='answer']:checked").val(),
+											submitFeedback = function(){
+												var data = {
+													'action': 'cp_feedback',
+													'feedback_plugin': plugin_slug
+												};
+												$.each(form.serializeArray(), function(i,v){data[v['name']] = v['value'];});
+												if(ajaxurl) // WordPress global variable with the AJAX URL
+												{
+													$.post(
+														ajaxurl,
+														data,
+														function(response)
+														{
+															window.location.href = url_redirect;
+														}
+													);
+												}
+											};
+
+										if (answer == undefined || answer == '')
+										{
+											window.location.href = url_redirect;
+										}
+										else
+										{
+											submitFeedback();
+										}
+									}
+								},
+								{
+									text: "We can help: Support Service",
+									click: function()
+									{
+										window.open(support_link);
+										$(this).dialog("close");
+									}
+								},
+								{
+									text: "Cancel",
+									"class": 'button button-primary button-close',
+									click: function()
+									{
+										$(this).dialog("close");
+									}
+								}
+							]
+						}
+					); // End dialog
+				}
+			); // End onclick deactivate btn
+		}
+	); // End onload window
+</script>

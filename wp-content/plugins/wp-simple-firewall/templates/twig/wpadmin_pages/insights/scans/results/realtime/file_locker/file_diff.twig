@@ -1,0 +1,129 @@
+{% if success %}
+	<h6 class="my-4 ps-3">{{ strings.reviewing_locked_file }}: <code>{{ vars.full_path }}</code></h6>
+
+	{% if flags.has_diff %}
+		<div class="row text-center mt-4">
+			<div class="col"><h5>{{ strings.file_content_original }}</h5></div>
+			<div class="col"><h5>{{ strings.file_content_current }}</h5></div>
+		</div>
+		<hr />
+		<div class="row my-4">
+			<div class="col">
+				{{ html.diff|raw }}
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="card-group">
+
+		<div class="card">
+
+			<div class="card-body">
+				<h5 class="card-title">{{ strings.file_details }}</h5>
+
+				<dl class="row">
+					<dt>{{ strings.relative_path }}</dt>
+					<dd>{{ vars.relative_path }}</dd>
+				</dl>
+
+				<dl class="row">
+					<dt>{{ strings.locked }}</dt>
+					<dd>{{ vars.locked_at }}</dd>
+				</dl>
+
+				<dl class="row">
+					<dt>{{ strings.file_size }}</dt>
+					<dd>{{ vars.file_size_locked }}</dd>
+				</dl>
+
+				<dl class="row">
+					<dt>{{ strings.file_modified }}</dt>
+					<dd>{{ vars.file_modified_ago }}<br/>({{ vars.file_modified_at }})</dd>
+				</dl>
+
+				<dl class="row">
+					<dt>{{ strings.download }}</dt>
+					<dd>
+						<a href="{{ ajax.original }}" title="{{ strings.download }}" class="text-nowrap">
+							<span class="dashicons dashicons-download"></span></a>
+					</dd>
+				</dl>
+			</div>
+
+		</div>
+
+		{% if flags.has_diff %}
+			<div class="card">
+
+				<div class="card-body">
+					<h5 class="card-title">{{ strings.modified_file }}</h5>
+
+					<dl class="row">
+						<dt>{{ strings.change_detected_at }}</dt>
+						<dd>{{ vars.change_detected_at }}</dd>
+					</dl>
+
+					<dl class="row">
+						<dt >{{ strings.file_size }}</dt>
+						<dd >{{ vars.file_size_modified }}</dd>
+					</dl>
+
+					<dl class="row">
+						<dt >{{ strings.download }}</dt>
+						<dd class="col">
+							<a href="{{ ajax.current }}" title="{{ strings.download }}" class="text-nowrap">
+								<span class="dashicons dashicons-download"></span></a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">{{ strings.file_restore }}</h5>
+					<form class="filelocker_fileaction">
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input me-0"
+								   id="ConfirmFileRestore"
+								   name="ConfirmFileRestore"
+								   value="Y"
+							/>
+							<label class="form-check-label"
+								   for="ConfirmFileRestore">{{ strings.file_restore_checkbox }}</label>
+						</div>
+						<input href="#"
+							   type="submit" value="{{ strings.butt_restore }}"
+							   data-action="restore"
+							   data-rid="{{ vars.rid }}"
+							   class="btn btn-outline-success btn-sm mt-3" />
+					</form>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">{{ strings.file_accept }}</h5>
+					<form class="filelocker_fileaction">
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input me-0"
+								   id="ConfirmFileAccept"
+								   name="ConfirmFileAccept"
+								   value="Y"
+							/>
+							<label class="form-check-label"
+								   for="ConfirmFileAccept">{{ strings.file_accept_checkbox }}</label>
+						</div>
+						<input href="#"
+							   type="submit" value="{{ strings.butt_accept }}"
+							   data-action="accept"
+							   data-rid="{{ vars.rid }}"
+							   class="btn btn-outline-danger btn-sm mt-3" />
+					</form>
+				</div>
+			</div>
+		{% endif %}
+
+	</div>
+{% else %}
+	<div class="alert alert-warning">{{ error }}</div>
+{% endif %}

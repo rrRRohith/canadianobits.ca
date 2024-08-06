@@ -1,0 +1,11 @@
+.cff-widefat *{
+	width: 100% !important;
+    clear: both !important;
+    display: block !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+.cff-edit-form-btn button{
+	padding: 8px 15px;
+	height: auto !important;
+}

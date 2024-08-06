@@ -1,0 +1,31 @@
+<table class="form-table">
+	<tbody>
+	<tr id="ShieldSuspend" class="shield-user-suspend-wrap">
+		<th>
+			<label for="_shield_suspend_user" class="form-label">{{ strings.title }}</label>
+		</th>
+		{% if flags.can_suspend %}
+			<td>
+				<fieldset>
+					<legend class="screen-reader-text"><span>{{ strings.title }}</span></legend>
+					<label for="_shield_suspend_user">
+						<input name="{{ vars.form_field }}" type="checkbox" id="_shield_suspend_user" value="Y"
+							   {% if flags.is_suspended %}checked="checked"{% endif %}>
+						{{ strings.label }}
+					</label>
+
+					<p class="description">{{ strings.description }}
+						{% if flags.is_suspended %}
+							<br/><span>({{ strings.since }})</span>
+						{% endif %}
+					</p>
+				</fieldset>
+			</td>
+		{% else %}
+			<td>
+				<p>{{ strings.cant_manage }}</p>
+			</td>
+		{% endif %}
+	</tr>
+	</tbody>
+</table>

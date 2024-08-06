@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html {% for htmlattr, htmlattrval in head.html %} {{ htmlattr }}="{{ htmlattrval }}"{% endfor %}>
+
+{% block head %}
+	<head>
+	    <link rel="icon" type="image/png" href="{{ imgs.favicon }}" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% if not head.meta is empty %}
+			{% for metaEntry in head.meta %}
+				<meta {{ metaEntry.type }}="{{ metaEntry.type_type }}" content="{{ metaEntry.content }}" />
+			{% endfor %}
+		{% endif %}
+
+		<title>{{ strings.page_title }}</title>
+
+		{% block head_stylesheets %}
+			{% for headstyle_key,headstyle in head.styles|default([]) %}
+				<link id="{{ headstyle.id }}-css" rel="stylesheet" href="{{ headstyle.href }}" />
+			{% endfor %}
+		{% endblock %}
+
+		{% block head_inline_styles %}
+			<style>
+				body {
+					font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+				}
+			</style>
+		{% endblock %}
+
+		{% block scripts_head %}
+			{% for script_key,script in head.scripts|default([]) %}
+				{% if not script.footer|default(false) %}
+					<script id="{{ script.id }}-js" type="text/javascript" src="{{ script.src }}"></script>
+				{% endif %}
+			{% endfor %}
+		{% endblock %}
+
+		{% block head_inline_scripts %}
+		{% endblock %}
+	</head>
+
+{% endblock %}
+
+{% block body %}
+	{% block html_tag_body %}<body>{% endblock html_tag_body %}
+	<main>
+		{% block body_start %}
+		{% endblock %}
+
+		{% block body_header %}
+		{% endblock %}
+
+		{% block body_content %}
+			<div class="container-fluid">
+				{% block body_content_header %}
+					<div class="row">
+						<div class="col-4 offset-4"></div>
+					</div>
+				{% endblock %}
+				{% block body_content_main %}
+					<div class="row">
+						<div class="col-4 offset-4"></div>
+					</div>
+				{% endblock %}
+				{% block body_content_footer %}
+					<div class="row">
+						<div class="col-4 offset-4"></div>
+					</div>
+				{% endblock %}
+			</div>
+		{% endblock %}
+
+		{% block body_footer %}
+		{% endblock %}
+
+		{% block body_footer_scripts %}
+		{% endblock %}
+
+		{% block body_end %}
+		{% endblock %}
+	</main>
+
+	{% block pre_body_close %}
+	{% endblock %}
+
+	{% block scripts_footer %}
+		{% for script_key,script in head.scripts|default([]) %}
+			{% if script.footer|default(false) %}
+				<script id="{{ script.id }}-js" type="text/javascript" src="{{ script.src }}"></script>
+			{% endif %}
+		{% endfor %}
+	{% endblock %}
+
+	{% block inline_js %}
+		{% if vars.inline_js|default([]) is not empty %}
+			<script type="text/javascript">
+				{% for ijs in vars.inline_js %}
+				{{ ijs|raw }}
+				{% endfor %}
+			</script>
+		{% endif %}
+	{% endblock %}
+	</body>
+{% endblock %}
+</html>

@@ -1,0 +1,206 @@
+@import "_mixins.scss";
+@import "_colors.scss";
+$trx_updater_icons: 'dashicons';
+
+
+/* Common styles
+--------------------------------------------------------------- */
+.trx_updater_hidden {
+	display: none !important;
+}
+.trx_updater_loading:before {
+	content: '\f463' !important;
+	font-family: $trx_updater_icons;
+	display: inline-block;
+	margin-right: 0.5em;
+	@include animation(spin 2s infinite linear);
+}
+td.trx_updater_loading {
+	position: relative;
+	pointer-events: none;
+}
+td.trx_updater_loading > * {
+	opacity: 0.4;
+}
+td.trx_updater_loading:before {
+	@include abs-lt(50%, 50%, 10);
+	@include font( 2em, 1em );
+	opacity: 1;
+}
+td.trx_updater_loading:after {
+	content: ' ';
+	@include bg-mask(#666, 0.2, 1);
+	opacity: 1;
+	@include transition-property(background-color);
+}
+
+
+/* Info boxes
+--------------------------------------------------------------- */
+.trx_updater_info_box {
+	padding: 1.5em 1.5em 1.5em 3.5em;
+	line-height:1.5em;
+	border-left: 4px solid $info_color;
+	background-color: $info_bg_color;
+	color: $text_color;
+	@include border-box;
+	position: relative;
+}
+.trx_updater_info_box:before {
+	content: '\f534' ;
+	font-family: $trx_updater_icons;
+	font-size: 1.2em;
+	color: $info_color;
+	@include abs-lt(1.15em, 1.35em);
+}
+.trx_updater_info_box_warning,
+.trx_updater_info_box_dialog {
+	border-color: $dialog_color;
+	background-color: $dialog_bg_color;
+}
+.trx_updater_info_box_warning:before,
+.trx_updater_info_box_dialog:before {
+	content: '\f534' ;
+	color: $dialog_color;
+}
+.trx_updater_info_box_error {
+	border-color: $error_color;
+	background-color: $error_bg_color;
+}
+.trx_updater_info_box_error:before {
+	content: '\f153' ;
+	color: $error_color;
+}
+.trx_updater_info_box_success {
+	border-color: $success_color;
+	background-color: $success_bg_color;
+}
+.trx_updater_info_box_success:before {
+	content: '\f12a' ;
+	color: $success_color;
+}
+.trx_updater_info_box p {
+	margin: 0;
+}
+.trx_updater_info_box p + p {
+	margin-top: 0.3em;
+}
+
+
+/* Upgrade
+--------------------------------------------------------------- */
+.trx_updater_upgrade_button[disabled],
+.trx_updater_upgrade_button[disabled]:hover,
+.trx_updater_upgrade_button[disabled]:focus {
+	color: #aaa;
+	cursor: not-allowed;
+}
+.trx_updater_upgrade_status_wrap {
+	text-align: center;
+	font-size: 1.5em;
+}
+.trx_updater_upgrade_status:before {
+	font-family: $trx_updater_icons;
+	display: inline-block;
+	vertical-align: top;
+}
+.trx_updater_upgrade_status_progress:before {
+	content: '\f463';
+	color: $accent_color;
+	@include animation(spin 2s infinite linear);
+}
+.trx_updater_upgrade_status_success:before {
+	content: '\f147';
+	color: $success_color;
+}
+.trx_updater_upgrade_status_error:before {
+	content: '\f335';
+	color: $error_color;
+}
+
+
+
+/* Settings
+--------------------------------------------------------------- */
+.trx_updater_option_description {
+	font-style: italic;
+	margin-top: 0.5em;
+}
+.trx_updater_option_checklist {
+	max-height: 25em;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-bottom: 1em;
+}
+.trx_updater_option_checklist label {
+	display: block;
+	width: 100%;
+	@include border-box;
+	margin: 0.25em 0;
+}
+.trx_updater_backups_item_title {
+	font-weight: 600;
+}
+.trx_updater_backups_item_date {
+	font-style: italic;
+}
+
+
+/* Animation 'Spin'
+-------------------------------------- */
+@-webkit-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(359deg);
+		-o-transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@-o-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(359deg);
+		-o-transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@-ms-keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(359deg);
+		-o-transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@keyframes spin {
+	0% {
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-moz-transform: rotate(359deg);
+		-o-transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}

@@ -1,0 +1,6476 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeREX Utilities\n"
+"POT-Creation-Date: 2020-06-26 15:28+0300\n"
+"PO-Revision-Date: 2015-10-06 14:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: ThemeREX\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n;_n_noop;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ancora-utils.php:188 ancora-utils.php:289
+msgid "I agree that my submitted data is being collected and stored."
+msgstr ""
+
+#: ancora-utils.php:191 ancora-utils.php:292
+#, php-format
+msgid "For further details on handling user data, see our %s"
+msgstr ""
+
+#: ancora-utils.php:193 ancora-utils.php:294
+msgid "Privacy Policy"
+msgstr ""
+
+#: ancora-utils.php:424
+msgid "Attention! Do not modify this .css-file!"
+msgstr ""
+
+#: ancora-utils.php:426
+msgid "Please, make all necessary changes in the corresponding .less-file!"
+msgstr ""
+
+#: ancora-utils.php:482
+msgid "Scroll to top"
+msgstr ""
+
+#: ancora-utils.php:495
+msgid "Additional CSS and HTML/JS code"
+msgstr ""
+
+#: ancora-utils.php:496
+msgid "Put here your custom CSS and JS code"
+msgstr ""
+
+#: ancora-utils.php:502
+msgid "Your CSS code"
+msgstr ""
+
+#: ancora-utils.php:503
+msgid "Put here your css code to correct main theme styles"
+msgstr ""
+
+#: ancora-utils.php:513
+msgid "Your HTML/JS code"
+msgstr ""
+
+#: ancora-utils.php:514
+msgid "Put here your invisible html/js code: Google analitics, counters, etc"
+msgstr ""
+
+#: api/api.php:27
+msgid "BB Press & Buddy Press"
+msgstr ""
+
+#: api/api.php:30 api/booked/booked.php:31
+msgid "Booked Appointments"
+msgstr ""
+
+#: api/api.php:33 api/calculated-fields-form/calculated-fields-form.php:30
+#: api/calculated-fields-form/calculated-fields-form.php:74
+#: api/calculated-fields-form/calculated-fields-form.php:87
+#: api/calculated-fields-form/calculated-fields-form.php:114
+msgid "Calculated Fields Form"
+msgstr ""
+
+#: api/api.php:36 api/contact-form-7/contact-form-7.php:27
+msgid "Contact Form 7"
+msgstr ""
+
+#: api/api.php:39 api/content_timeline/content_timeline.php:52
+#: api/content_timeline/content_timeline.php:94
+#: api/content_timeline/content_timeline.php:107
+#: api/content_timeline/content_timeline.php:134
+msgid "Content Timeline"
+msgstr ""
+
+#: api/api.php:42 api/easy-digital-downloads/easy-digital-downloads.php:23
+#: api/easy-digital-downloads/easy-digital-downloads.php:119
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: api/api.php:45
+msgid "Elegro Crypto Payment"
+msgstr ""
+
+#: api/api.php:48 api/essential-grid/essential-grid.php:195
+msgid "Essential Grid"
+msgstr ""
+
+#: api/api.php:51 api/instagram-feed/instagram-feed.php:26
+msgid "Instagram Feed"
+msgstr ""
+
+#: api/api.php:54
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: api/api.php:57 api/mp-timetable/mp-timetable.php:31
+#: api/mp-timetable/mp-timetable.php:126
+msgid "MP TimeTable"
+msgstr ""
+
+#: api/api.php:60 api/revslider/revslider.php:56
+#: api/revslider/revslider.php:192
+msgid "Revolution Slider"
+msgstr ""
+
+#: api/api.php:63
+msgid "SiteOrigin Panels (free PageBuilder)"
+msgstr ""
+
+#: api/api.php:69
+msgid "The Events Calendar"
+msgstr ""
+
+#: api/api.php:71 shortcodes/shortcodes_settings.php:3570
+#: shortcodes/shortcodes_vc.php:687 shortcodes/shortcodes_vc.php:2009
+#: shortcodes/shortcodes_vc.php:3195 shortcodes/shortcodes_vc.php:4610
+msgid "Default"
+msgstr ""
+
+#: api/api.php:72
+msgid "Detailed"
+msgstr ""
+
+#: api/api.php:76 api/tourmaster/tourmaster.php:32
+#: api/tourmaster/tourmaster.php:104 api/tourmaster/tourmaster.php:132
+msgid "Tour Master"
+msgstr ""
+
+#: api/api.php:79
+msgid "ThemeREX Donations"
+msgstr ""
+
+#: api/api.php:84 api/ubermenu/ubermenu.php:27
+msgid "UberMenu"
+msgstr ""
+
+#: api/api.php:87 api/js_composer/js_composer.php:36
+msgid "Visual Composer"
+msgstr ""
+
+#: api/api.php:93
+msgid "VC Extensions Bundle"
+msgstr ""
+
+#: api/api.php:96 api/woocommerce/woocommerce.php:29
+#: api/woocommerce/woocommerce.php:163 shortcodes/shortcodes_vc.php:5259
+#: shortcodes/shortcodes_vc.php:5278 shortcodes/shortcodes_vc.php:5297
+#: shortcodes/shortcodes_vc.php:5316 shortcodes/shortcodes_vc.php:5335
+#: shortcodes/shortcodes_vc.php:5354 shortcodes/shortcodes_vc.php:5424
+#: shortcodes/shortcodes_vc.php:5462 shortcodes/shortcodes_vc.php:5501
+#: shortcodes/shortcodes_vc.php:5561 shortcodes/shortcodes_vc.php:5612
+#: shortcodes/shortcodes_vc.php:5672 shortcodes/shortcodes_vc.php:5732
+#: shortcodes/shortcodes_vc.php:5792 shortcodes/shortcodes_vc.php:5874
+#: shortcodes/shortcodes_vc.php:5944 shortcodes/shortcodes_vc.php:6022
+msgid "WooCommerce"
+msgstr ""
+
+#: api/api.php:99
+msgid "WP Booking Calendar"
+msgstr ""
+
+#: api/api.php:102
+#: api/sitepress-multilingual-cms/sitepress-multilingual-cms.php:29
+msgid "WPML - Sitepress Multilingual CMS"
+msgstr ""
+
+#: api/bbpress/bbpress.php:25
+msgid "BBPress or BuddyPress"
+msgstr ""
+
+#: api/bbpress/bbpress.php:69
+msgid "Import BBPress and BuddyPress"
+msgstr ""
+
+#: api/bbpress/bbpress.php:82
+msgid "Clear BBPress and BuddyPress tables"
+msgstr ""
+
+#: api/bbpress/bbpress.php:119 api/bbpress/bbpress.php:154
+msgid "BBPress and BuddyPress data"
+msgstr ""
+
+#: api/bbpress/bbpress.php:198
+msgid "BBPress and BuddyPress"
+msgstr ""
+
+#: api/calculated-fields-form/calculated-fields-form.php:60
+msgid "Import Calculated Fields Form"
+msgstr ""
+
+#: api/contact-form-7/contact-form-7.php:50
+msgid "Import Contact Form 7"
+msgstr ""
+
+#: api/content_timeline/content_timeline.php:38
+#: api/revslider/revslider.php:41
+msgid "Inherit"
+msgstr ""
+
+#: api/content_timeline/content_timeline.php:80
+msgid "Import Content Timeline"
+msgstr ""
+
+#: api/easy-digital-downloads/easy-digital-downloads.php:51
+msgid "Import Easy Digital Downloads"
+msgstr ""
+
+#: api/easy-digital-downloads/easy-digital-downloads.php:65
+#: api/easy-digital-downloads/easy-digital-downloads.php:91
+msgid "Easy Digital Downloads meta"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:26
+msgid "Essential Grids"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:53
+msgid "Import Essential Grid"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:66
+msgid "Clear Essential Grid tables"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:69
+#, php-format
+msgid "Failed truncate table \"%s\". Error message: %s"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:160
+msgid "Essential Grid import complete"
+msgstr ""
+
+#: api/essential-grid/essential-grid.php:163
+#, php-format
+msgid "Essential Grid import error: %s"
+msgstr ""
+
+#: api/mailchimp-for-wp/mailchimp-for-wp.php:27
+msgid "MailChimp for WP"
+msgstr ""
+
+#: api/mailchimp-for-wp/mailchimp-for-wp.php:55
+msgid "Import MailChimp for WP"
+msgstr ""
+
+#: api/mp-timetable/mp-timetable.php:59
+msgid "Import MP TimeTable"
+msgstr ""
+
+#: api/mp-timetable/mp-timetable.php:73 api/mp-timetable/mp-timetable.php:99
+msgid "MP TimeTable data"
+msgstr ""
+
+#: api/revslider/revslider.php:83
+msgid "Import Revolution Sliders"
+msgstr ""
+
+#: api/revslider/revslider.php:96
+msgid "Clear Revolution Slider tables"
+msgstr ""
+
+#: api/revslider/revslider.php:99
+msgid "Failed truncate table \"revslider_sliders\"."
+msgstr ""
+
+#: api/revslider/revslider.php:101
+msgid "Failed truncate table \"revslider_slides\"."
+msgstr ""
+
+#: api/revslider/revslider.php:103
+msgid "Failed truncate table \"revslider_static_slides\"."
+msgstr ""
+
+#: api/revslider/revslider.php:117
+msgid "Import Revolution sliders"
+msgstr ""
+
+#: api/revslider/revslider.php:157
+#, php-format
+msgid "Revolution Slider \"%s\" import error."
+msgstr ""
+
+#: api/revslider/revslider.php:168
+#, php-format
+msgid "Slider \"%s\" imported"
+msgstr ""
+
+#: api/revslider/revslider.php:178
+#, php-format
+msgid "Can not locate plugin Revolution Slider: %s"
+msgstr ""
+
+#: api/revslider/revslider.php:217
+msgid "Revolution Sliders"
+msgstr ""
+
+#: api/siteorigin-panels/siteorigin-panels.php:42
+msgid "SiteOrigin Panels"
+msgstr ""
+
+#: api/the-events-calendar/the-events-calendar.php:30
+msgid "Tribe Events Calendar"
+msgstr ""
+
+#: api/tourmaster/tourmaster.php:64
+msgid "Import Tour Master"
+msgstr ""
+
+#: api/tourmaster/tourmaster.php:78
+msgid "Tour Master data"
+msgstr ""
+
+#: api/trx_donations/trx_donations.php:25
+msgid "trx_donations"
+msgstr ""
+
+#: api/vc-extensions-bundle/vc-extensions-bundle.php:26
+msgid "Visual Composer Extensions Bundle"
+msgstr ""
+
+#: api/woocommerce/woocommerce.php:89
+msgid "Import WooCommerce"
+msgstr ""
+
+#: api/woocommerce/woocommerce.php:103 api/woocommerce/woocommerce.php:130
+msgid "WooCommerce meta"
+msgstr ""
+
+#: api/wp-booking-calendar/wp-booking-calendar.php:31
+msgid "Booking Calendar WP Plugin"
+msgstr ""
+
+#: api/wp-booking-calendar/wp-booking-calendar.php:61
+msgid "Import Booking Calendar"
+msgstr ""
+
+#: api/wp-booking-calendar/wp-booking-calendar.php:75
+msgid "Booking Calendar meta"
+msgstr ""
+
+#: api/wp-booking-calendar/wp-booking-calendar.php:89
+#: api/wp-booking-calendar/wp-booking-calendar.php:128
+msgid "Booking Calendar"
+msgstr ""
+
+#: importer/class.importer.php:144
+msgid "Install Demo Data"
+msgstr ""
+
+#: importer/class.importer.php:156
+msgid ""
+"ATTENTION!\n"
+"\n"
+"In this case ALL THE OLD DATA WILL BE ERASED\n"
+"and YOU WILL GET A NEW SET OF POSTS, pages and menu items."
+msgstr ""
+
+#: importer/class.importer.php:158
+msgid ""
+"It is strongly recommended only for new installations of WordPress\n"
+"(without posts, pages and any other data)!"
+msgstr ""
+
+#: importer/class.importer.php:160
+msgid ""
+"Press 'OK' to continue or 'Cancel' to return to a partial installation"
+msgstr ""
+
+#: importer/class.importer.php:174
+msgid "Incorrect WP-nonce data! Operation canceled!"
+msgstr ""
+
+#: importer/class.importer.php:184
+msgid "Importer"
+msgstr ""
+
+#: importer/class.importer.php:191
+msgid "Select the demo to be imported:"
+msgstr ""
+
+#: importer/class.importer.php:201
+msgid "Select the demo-data set to be imported:"
+msgstr ""
+
+#: importer/class.importer.php:203
+msgid "Only pages, forms and sliders"
+msgstr ""
+
+#: importer/class.importer.php:206
+msgid ""
+"<b>Only pages, forms layouts and sliders will be imported in this case.</b>"
+msgstr ""
+
+#: importer/class.importer.php:207
+msgid "The imported data will be added to the existing content."
+msgstr ""
+
+#: importer/class.importer.php:208
+msgid "All the images are replaced with placeholders."
+msgstr ""
+
+#: importer/class.importer.php:209
+msgid ""
+"The new pages provide sample markup and shall not be included in the menu! "
+"You have to do it yourself."
+msgstr ""
+
+#: importer/class.importer.php:210 importer/class.importer.php:218
+msgid ""
+"Import some components (Revolution sliders, Essential Grids, etc.) take a "
+"long time - <b>please wait until the end of the procedure, do not navigate "
+"away from this page</b>."
+msgstr ""
+
+#: importer/class.importer.php:213
+msgid "Whole demo-site content"
+msgstr ""
+
+#: importer/class.importer.php:216
+msgid ""
+"<b>It is recommended for new installations of WordPress</b> (without "
+"posts, pages and any other data)!"
+msgstr ""
+
+#: importer/class.importer.php:217
+msgid ""
+"As a result, you will get a new set of posts, pages, menu items - <b>a "
+"complete copy of our demo site</b>."
+msgstr ""
+
+#: importer/class.importer.php:223
+msgid "Select the elements to be imported:"
+msgstr ""
+
+#: importer/class.importer.php:228
+msgid "Import posts, pages, taxonomies, etc."
+msgstr ""
+
+#: importer/class.importer.php:252
+msgid "Import Theme Options"
+msgstr ""
+
+#: importer/class.importer.php:258 importer/class.importer.php:945
+msgid "Import Theme Settings"
+msgstr ""
+
+#: importer/class.importer.php:264 importer/class.importer.php:967
+msgid "Import Widgets"
+msgstr ""
+
+#: importer/class.importer.php:274 importer/class.importer.php:765
+msgid "Import media"
+msgstr ""
+
+#: importer/class.importer.php:282 importer/class.importer.php:871
+msgid "Regenerate thumbnails"
+msgstr ""
+
+#: importer/class.importer.php:290
+msgid "Start import"
+msgstr ""
+
+#: importer/class.importer.php:295
+msgid "Import demo data"
+msgstr ""
+
+#: importer/class.importer.php:301 importer/class.importer.php:350
+#: importer/class.importer.php:759
+msgid "Posts"
+msgstr ""
+
+#: importer/class.importer.php:302 importer/class.importer.php:352
+msgid "Theme Options"
+msgstr ""
+
+#: importer/class.importer.php:303 importer/class.importer.php:353
+msgid "Theme Settings"
+msgstr ""
+
+#: importer/class.importer.php:304 importer/class.importer.php:354
+#: widgets/recent_posts.php:33 widgets/recent_reviews.php:33
+#: widgets/top10.php:33
+msgid "Widgets"
+msgstr ""
+
+#: importer/class.importer.php:315
+msgid "Media"
+msgstr ""
+
+#: importer/class.importer.php:316
+msgid "Thumbnails"
+msgstr ""
+
+#: importer/class.importer.php:323
+msgid "Congratulations! Data import complete!"
+msgstr ""
+
+#: importer/class.importer.php:323
+msgid "View site"
+msgstr ""
+
+#: importer/class.importer.php:332
+msgid "Exporter"
+msgstr ""
+
+#: importer/class.importer.php:349 importer/class.importer.php:748
+msgid "Users"
+msgstr ""
+
+#: importer/class.importer.php:351
+msgid "Uploads"
+msgstr ""
+
+#: importer/class.importer.php:366
+msgid "Select the demo type to be exported"
+msgstr ""
+
+#: importer/class.importer.php:379
+msgid "Export Demo Data"
+msgstr ""
+
+#: importer/class.importer.php:485
+msgid "Download"
+msgstr ""
+
+#: importer/class.importer.php:494
+msgid ""
+"Attention! For correct installation of the selected demo data, you must "
+"install and activate the following plugins: "
+msgstr ""
+
+#: importer/class.importer.php:566
+#, php-format
+msgid "User %d"
+msgstr ""
+
+#: importer/class.importer.php:575 importer/class.importer.php:577
+#, php-format
+msgid "FName%d"
+msgstr ""
+
+#: importer/class.importer.php:576 importer/class.importer.php:578
+#, php-format
+msgid "LName%d"
+msgstr ""
+
+#: importer/class.importer.php:621
+#, php-format
+msgid "Export %d rows from table '%s'. Used query: %s"
+msgstr ""
+
+#: importer/class.importer.php:633
+msgid "AJAX handler for importer"
+msgstr ""
+
+#: importer/class.importer.php:642
+#, php-format
+msgid "Dispatch action: %s"
+msgstr ""
+
+#: importer/class.importer.php:663
+#, php-format
+msgid "Start import from \"%s\""
+msgstr ""
+
+#: importer/class.importer.php:709
+#, php-format
+msgid "AJAX handler finished - send results to client: %s"
+msgstr ""
+
+#: importer/class.importer.php:722
+msgid "Clear tables"
+msgstr ""
+
+#: importer/class.importer.php:724
+msgid "Failed truncate table POSTS."
+msgstr ""
+
+#: importer/class.importer.php:726
+msgid "Failed truncate table POSTMETA."
+msgstr ""
+
+#: importer/class.importer.php:728
+msgid "Failed truncate table COMMENTS."
+msgstr ""
+
+#: importer/class.importer.php:730
+msgid "Failed truncate table COMMENTMETA."
+msgstr ""
+
+#: importer/class.importer.php:732
+msgid "Failed truncate table TERMS."
+msgstr ""
+
+#: importer/class.importer.php:734
+msgid "Failed truncate table TERM_RELATIONSHIPS."
+msgstr ""
+
+#: importer/class.importer.php:736
+msgid "Failed truncate table TERM_TAXONOMY."
+msgstr ""
+
+#: importer/class.importer.php:746
+msgid "Import users"
+msgstr ""
+
+#: importer/class.importer.php:754
+msgid "Import posts, terms and comments"
+msgstr ""
+
+#: importer/class.importer.php:827
+#, php-format
+msgid "Loaded %d bytes"
+msgstr ""
+
+#: importer/class.importer.php:837
+#, php-format
+msgid ""
+"File %s imported. Current import progress: %s. Time limit: %s sec. Elapsed "
+"time: %s sec."
+msgstr ""
+
+#: importer/class.importer.php:842
+#, php-format
+msgid "Extract zip-file \"%s\""
+msgstr ""
+
+#: importer/class.importer.php:845
+#, php-format
+msgid "Error when unzip file \"%s\""
+msgstr ""
+
+#: importer/class.importer.php:854
+#, php-format
+msgid "File \"%s\" not found"
+msgstr ""
+
+#: importer/class.importer.php:910
+#, php-format
+msgid ""
+"Thumbnails of the attachments %s: %s regenerated. Current import progress: "
+"%s. Time limit: %s sec. Elapsed time: %s sec."
+msgstr ""
+
+#: importer/class.importer.php:922
+msgid "Import Theme Options (WP modifications)"
+msgstr ""
+
+#: importer/class.importer.php:937 importer/class.importer.php:959
+#: importer/class.importer.php:979 importer/class.importer.php:1135
+#, php-format
+msgid "Error unserialize data from the file %s"
+msgstr ""
+
+#: importer/class.importer.php:987
+#, php-format
+msgid "Import dump file: \"%s\""
+msgstr ""
+
+#: importer/class.importer.php:1000
+#, php-format
+msgid "Process table \"%s\""
+msgstr ""
+
+#: importer/class.importer.php:1003
+#, php-format
+msgid "Table \"%s\" does not exists! Skip dump import for this table."
+msgstr ""
+
+#: importer/class.importer.php:1086
+#, php-format
+msgid "Record (ID=%s) is imported. Progress: %s. Time: %s sec. from %s sec."
+msgstr ""
+
+#: importer/class.importer.php:1130
+#, php-format
+msgid "Imported %s. Elapsed time %s sec. of %s sec."
+msgstr ""
+
+#: importer/class.importer.php:1156
+msgid "No-Image placeholder"
+msgstr ""
+
+#: importer/class.importer.php:1215
+msgid "Incorrect parameters"
+msgstr ""
+
+#: importer/class.importer.php:1351
+#, php-format
+msgid "Download file %s successful"
+msgstr ""
+
+#: importer/class.importer.php:1357
+#, php-format
+msgid "Attempt %d. Download file '%s' failed."
+msgstr ""
+
+#: importer/class.importer.php:1362
+#, php-format
+msgid "Error download file '%s'."
+msgstr ""
+
+#: importer/class.importer.php:1363 importer/class.importer.php:1392
+msgid "Please, try again!"
+msgstr ""
+
+#: importer/class.importer.php:1386
+#, php-format
+msgid "Attempt %d. Load data from the file '%s' failed. "
+msgstr ""
+
+#: importer/class.importer.php:1391
+#, php-format
+msgid "Error load data from the file '%s'."
+msgstr ""
+
+#: importer/class.importer.php:1400
+#, php-format
+msgid "Load data from the file %s successful"
+msgstr ""
+
+#: importer/importer.php:20
+msgid "Errors that occurred during the import process:"
+msgstr ""
+
+#: includes/core.reviews.php:72
+msgid "Bad post ID"
+msgstr ""
+
+#: includes/core.reviews.php:102
+msgid "no rated"
+msgstr ""
+
+#: includes/core.reviews.php:129
+msgid "Accept your votes"
+msgstr ""
+
+#: includes/core.reviews.php:135
+msgid "Summary"
+msgstr ""
+
+#: includes/core.reviews.php:156
+#, php-format
+msgid "%s / %s"
+msgstr ""
+
+#: includes/core.reviews.php:156
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/core.socials.php:267 includes/core.users.php:85
+msgid "User Position"
+msgstr ""
+
+#: includes/core.socials.php:270 includes/core.users.php:88
+msgid "User position"
+msgstr ""
+
+#: includes/core.socials.php:272 includes/core.users.php:90
+msgid "Please, enter your position in the company"
+msgstr ""
+
+#: includes/core.socials.php:277 includes/core.users.php:95
+msgid "Social links"
+msgstr ""
+
+#: includes/core.socials.php:292 includes/core.users.php:111
+#, php-format
+msgid "Please, enter your %s link"
+msgstr ""
+
+#: includes/plugin.files.php:403
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Put contents to the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.files.php:436
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get contents from the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.files.php:453
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get rows from the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.users.php:41
+msgid "Login"
+msgstr ""
+
+#: includes/plugin.users.php:55
+msgid "Register"
+msgstr ""
+
+#: includes/plugin.users.php:68
+msgid "The Login field can't be empty"
+msgstr ""
+
+#: includes/plugin.users.php:69
+msgid "The Login field is too long"
+msgstr ""
+
+#: includes/plugin.users.php:70
+msgid "The password can't be empty and shorter then 4 characters"
+msgstr ""
+
+#: includes/plugin.users.php:71
+msgid "The password is too long"
+msgstr ""
+
+#: includes/plugin.users.php:72
+msgid "Login success! The page will be reloaded in 3 sec."
+msgstr ""
+
+#: includes/plugin.users.php:73
+msgid "Login failed!"
+msgstr ""
+
+#: includes/plugin.users.php:74
+msgid "Please, read and check 'Terms and Conditions'"
+msgstr ""
+
+#: includes/plugin.users.php:75
+msgid "Too short (or empty) email address"
+msgstr ""
+
+#: includes/plugin.users.php:76
+msgid "E-mail address is too long"
+msgstr ""
+
+#: includes/plugin.users.php:77
+msgid "E-mail address is invalid"
+msgstr ""
+
+#: includes/plugin.users.php:78
+msgid "The passwords in both fields are not equal"
+msgstr ""
+
+#: includes/plugin.users.php:79
+msgid "Registration success! Please log in!"
+msgstr ""
+
+#: includes/plugin.users.php:80
+msgid "Registration failed!"
+msgstr ""
+
+#: includes/plugin.users.php:111
+#, php-format
+msgid "Site %s - New user registration: %s"
+msgstr ""
+
+#: includes/plugin.users.php:112
+msgid "New registration:"
+msgstr ""
+
+#: includes/plugin.users.php:113 includes/plugin.users.php:124
+#: shortcodes/shortcodes.php:888 widgets/qrcode/qrcode.php:81
+#: widgets/qrcode/qrcode.php:288
+msgid "Name:"
+msgstr ""
+
+#: includes/plugin.users.php:114 includes/plugin.users.php:125
+#: shortcodes/shortcodes.php:889 widgets/qrcode/qrcode.php:84
+#: widgets/qrcode/qrcode.php:257 widgets/qrcode/qrcode.php:292
+msgid "E-mail:"
+msgstr ""
+
+#: includes/plugin.users.php:122
+#, php-format
+msgid "Welcome to the \"%s\""
+msgstr ""
+
+#: includes/plugin.users.php:123
+msgid "Your registration data:"
+msgstr ""
+
+#: includes/plugin.users.php:126
+msgid "Password:"
+msgstr ""
+
+#: includes/support.attachment.php:18 includes/support.attachment.php:28
+msgid "Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:19
+msgid "Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:20
+msgid "Search Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:21
+msgid "All Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:22
+msgid "Parent Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:23
+msgid "Parent Media Folder:"
+msgstr ""
+
+#: includes/support.attachment.php:24
+msgid "Edit Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:25
+msgid "Update Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:26
+msgid "Add New Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:27
+msgid "New Media Folder Name"
+msgstr ""
+
+#: includes/support.clients.php:15 includes/support.clients.php:18
+#: includes/support.clients.php:20
+msgid "Clients"
+msgstr ""
+
+#: includes/support.clients.php:16
+msgid "Clients Description"
+msgstr ""
+
+#: includes/support.clients.php:19
+msgid "Client"
+msgstr ""
+
+#: includes/support.clients.php:21 includes/support.courses.php:23
+#: includes/support.courses.php:65 includes/support.matches.php:21
+#: includes/support.matches.php:62 includes/support.menuitems.php:21
+#: includes/support.services.php:21 includes/support.team.php:21
+#: includes/support.testimonials.php:21
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/support.clients.php:22
+msgid "All Clients"
+msgstr ""
+
+#: includes/support.clients.php:23 includes/support.courses.php:25
+#: includes/support.courses.php:67 includes/support.matches.php:23
+#: includes/support.matches.php:64 includes/support.menuitems.php:23
+#: includes/support.services.php:23 includes/support.team.php:23
+#: includes/support.testimonials.php:23
+msgid "View Item"
+msgstr ""
+
+#: includes/support.clients.php:24
+msgid "Add New Client"
+msgstr ""
+
+#: includes/support.clients.php:25 includes/support.courses.php:27
+#: includes/support.courses.php:69 includes/support.matches.php:25
+#: includes/support.matches.php:66 includes/support.menuitems.php:25
+#: includes/support.services.php:25 includes/support.team.php:25
+#: includes/support.testimonials.php:25
+msgid "Add New"
+msgstr ""
+
+#: includes/support.clients.php:26 includes/support.courses.php:28
+#: includes/support.courses.php:70 includes/support.matches.php:26
+#: includes/support.matches.php:67 includes/support.menuitems.php:26
+#: includes/support.services.php:26 includes/support.team.php:26
+#: includes/support.testimonials.php:26
+msgid "Edit Item"
+msgstr ""
+
+#: includes/support.clients.php:27 includes/support.courses.php:29
+#: includes/support.courses.php:71 includes/support.matches.php:27
+#: includes/support.matches.php:68 includes/support.menuitems.php:27
+#: includes/support.services.php:27 includes/support.team.php:27
+#: includes/support.testimonials.php:27
+msgid "Update Item"
+msgstr ""
+
+#: includes/support.clients.php:28 includes/support.courses.php:30
+#: includes/support.courses.php:72 includes/support.matches.php:28
+#: includes/support.matches.php:69 includes/support.menuitems.php:28
+#: includes/support.services.php:28 includes/support.team.php:28
+#: includes/support.testimonials.php:28
+msgid "Search Item"
+msgstr ""
+
+#: includes/support.clients.php:29 includes/support.courses.php:31
+#: includes/support.courses.php:73 includes/support.matches.php:29
+#: includes/support.matches.php:70 includes/support.menuitems.php:29
+#: includes/support.services.php:29 includes/support.team.php:29
+#: includes/support.testimonials.php:29
+msgid "Not found"
+msgstr ""
+
+#: includes/support.clients.php:30 includes/support.courses.php:32
+#: includes/support.courses.php:74 includes/support.matches.php:30
+#: includes/support.matches.php:71 includes/support.menuitems.php:30
+#: includes/support.services.php:30 includes/support.team.php:30
+#: includes/support.testimonials.php:30
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/support.clients.php:67 includes/support.clients.php:77
+msgid "Clients Group"
+msgstr ""
+
+#: includes/support.clients.php:68 includes/support.matches.php:109
+#: includes/support.matches.php:135 includes/support.menuitems.php:68
+#: includes/support.services.php:68 includes/support.team.php:68
+#: includes/support.testimonials.php:65
+#: shortcodes/shortcodes_settings.php:1285 shortcodes/shortcodes_vc.php:1701
+msgid "Group"
+msgstr ""
+
+#: includes/support.clients.php:69 includes/support.courses.php:112
+#: includes/support.matches.php:110 includes/support.matches.php:136
+#: includes/support.menuitems.php:69 includes/support.services.php:69
+#: includes/support.team.php:69 includes/support.testimonials.php:66
+msgid "Search Groups"
+msgstr ""
+
+#: includes/support.clients.php:70 includes/support.courses.php:113
+#: includes/support.matches.php:111 includes/support.matches.php:137
+#: includes/support.menuitems.php:70 includes/support.services.php:70
+#: includes/support.team.php:70 includes/support.testimonials.php:67
+msgid "All Groups"
+msgstr ""
+
+#: includes/support.clients.php:71 includes/support.courses.php:114
+#: includes/support.matches.php:112 includes/support.matches.php:138
+#: includes/support.menuitems.php:71 includes/support.services.php:71
+#: includes/support.team.php:71 includes/support.testimonials.php:68
+msgid "Parent Group"
+msgstr ""
+
+#: includes/support.clients.php:72 includes/support.courses.php:115
+#: includes/support.matches.php:113 includes/support.matches.php:139
+#: includes/support.menuitems.php:72 includes/support.services.php:72
+#: includes/support.team.php:72 includes/support.testimonials.php:69
+msgid "Parent Group:"
+msgstr ""
+
+#: includes/support.clients.php:73 includes/support.courses.php:116
+#: includes/support.matches.php:114 includes/support.matches.php:140
+#: includes/support.menuitems.php:73 includes/support.services.php:73
+#: includes/support.team.php:73 includes/support.testimonials.php:70
+msgid "Edit Group"
+msgstr ""
+
+#: includes/support.clients.php:74 includes/support.courses.php:117
+#: includes/support.matches.php:115 includes/support.matches.php:141
+#: includes/support.menuitems.php:74 includes/support.services.php:74
+#: includes/support.team.php:74 includes/support.testimonials.php:71
+msgid "Update Group"
+msgstr ""
+
+#: includes/support.clients.php:75 includes/support.courses.php:118
+#: includes/support.matches.php:116 includes/support.matches.php:142
+#: includes/support.menuitems.php:75 includes/support.services.php:75
+#: includes/support.team.php:75 includes/support.testimonials.php:72
+msgid "Add New Group"
+msgstr ""
+
+#: includes/support.clients.php:76 includes/support.courses.php:119
+#: includes/support.matches.php:117 includes/support.matches.php:143
+#: includes/support.menuitems.php:76 includes/support.services.php:76
+#: includes/support.team.php:76 includes/support.testimonials.php:73
+msgid "New Group Name"
+msgstr ""
+
+#: includes/support.courses.php:17 includes/support.courses.php:21
+msgid "Course item"
+msgstr ""
+
+#: includes/support.courses.php:18
+msgid "Course Description"
+msgstr ""
+
+#: includes/support.courses.php:20 includes/support.courses.php:22
+msgid "Courses"
+msgstr ""
+
+#: includes/support.courses.php:24
+msgid "All Courses"
+msgstr ""
+
+#: includes/support.courses.php:26
+msgid "Add New Course item"
+msgstr ""
+
+#: includes/support.courses.php:59 includes/support.courses.php:63
+msgid "Lesson"
+msgstr ""
+
+#: includes/support.courses.php:60
+msgid "Lesson Description"
+msgstr ""
+
+#: includes/support.courses.php:62 includes/support.courses.php:64
+msgid "Lessons"
+msgstr ""
+
+#: includes/support.courses.php:66
+msgid "All lessons"
+msgstr ""
+
+#: includes/support.courses.php:68
+msgid "Add New lesson"
+msgstr ""
+
+#: includes/support.courses.php:110 includes/support.courses.php:120
+msgid "Courses Groups"
+msgstr ""
+
+#: includes/support.courses.php:111
+msgid "Courses Group"
+msgstr ""
+
+#: includes/support.courses.php:137 includes/support.courses.php:147
+msgid "Courses Tags"
+msgstr ""
+
+#: includes/support.courses.php:138
+msgid "Courses Tag"
+msgstr ""
+
+#: includes/support.courses.php:139
+msgid "Search Tags"
+msgstr ""
+
+#: includes/support.courses.php:140
+msgid "All Tags"
+msgstr ""
+
+#: includes/support.courses.php:141
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/support.courses.php:142
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/support.courses.php:143
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/support.courses.php:144
+msgid "Update Tag"
+msgstr ""
+
+#: includes/support.courses.php:145
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/support.courses.php:146
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/support.matches.php:15 includes/support.matches.php:18
+#: includes/support.matches.php:19 includes/support.matches.php:20
+msgid "Matches"
+msgstr ""
+
+#: includes/support.matches.php:16
+msgid "Matches Description"
+msgstr ""
+
+#: includes/support.matches.php:22
+msgid "All Matches"
+msgstr ""
+
+#: includes/support.matches.php:24
+msgid "Add New Match"
+msgstr ""
+
+#: includes/support.matches.php:56 includes/support.matches.php:59
+#: includes/support.matches.php:60 includes/support.matches.php:61
+msgid "Players"
+msgstr ""
+
+#: includes/support.matches.php:57
+msgid "Players Description"
+msgstr ""
+
+#: includes/support.matches.php:63
+msgid "All Players"
+msgstr ""
+
+#: includes/support.matches.php:65
+msgid "Add New Player"
+msgstr ""
+
+#: includes/support.matches.php:108
+msgid "Matches Group"
+msgstr ""
+
+#: includes/support.matches.php:118 includes/support.matches.php:144
+#: shortcodes/shortcodes_settings.php:3130
+#: shortcodes/shortcodes_settings.php:3347
+#: shortcodes/shortcodes_settings.php:4533 shortcodes/shortcodes_vc.php:4084
+#: shortcodes/shortcodes_vc.php:4331 shortcodes/shortcodes_vc.php:5840
+msgid "Categories"
+msgstr ""
+
+#: includes/support.matches.php:134
+msgid "Players Group"
+msgstr ""
+
+#: includes/support.menuitems.php:15 includes/support.menuitems.php:18
+#: includes/support.menuitems.php:20
+msgid "Menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:16
+msgid "Menu Items Description"
+msgstr ""
+
+#: includes/support.menuitems.php:19
+msgid "Menu item"
+msgstr ""
+
+#: includes/support.menuitems.php:22
+msgid "All menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:24
+msgid "Add New menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:67
+msgid "Menu Items Group"
+msgstr ""
+
+#: includes/support.menuitems.php:77
+msgid "Menu items Group"
+msgstr ""
+
+#: includes/support.services.php:15 includes/support.services.php:19
+msgid "Service item"
+msgstr ""
+
+#: includes/support.services.php:16
+msgid "Service Description"
+msgstr ""
+
+#: includes/support.services.php:18 includes/support.services.php:20
+msgid "Services"
+msgstr ""
+
+#: includes/support.services.php:22
+msgid "All Services"
+msgstr ""
+
+#: includes/support.services.php:24
+msgid "Add New Service"
+msgstr ""
+
+#: includes/support.services.php:67 includes/support.services.php:77
+msgid "Services Group"
+msgstr ""
+
+#: includes/support.team.php:15 includes/support.team.php:19
+#: shortcodes/shortcodes_settings.php:3205
+#: shortcodes/shortcodes_settings.php:3216 shortcodes/shortcodes_vc.php:4179
+#: shortcodes/shortcodes_vc.php:4200
+msgid "Team member"
+msgstr ""
+
+#: includes/support.team.php:16
+msgid "Team Description"
+msgstr ""
+
+#: includes/support.team.php:18 includes/support.team.php:20
+#: shortcodes/shortcodes_settings.php:3097 shortcodes/shortcodes_vc.php:4043
+msgid "Team"
+msgstr ""
+
+#: includes/support.team.php:22
+msgid "All Team"
+msgstr ""
+
+#: includes/support.team.php:24
+msgid "Add New Team member"
+msgstr ""
+
+#: includes/support.team.php:67 includes/support.team.php:77
+msgid "Team Group"
+msgstr ""
+
+#: includes/support.testimonials.php:15 includes/support.testimonials.php:19
+#: shortcodes/shortcodes_vc.php:4468
+msgid "Testimonial"
+msgstr ""
+
+#: includes/support.testimonials.php:16
+msgid "Testimonial Description"
+msgstr ""
+
+#: includes/support.testimonials.php:18 includes/support.testimonials.php:20
+#: shortcodes/shortcodes_settings.php:3302 shortcodes/shortcodes_vc.php:4278
+msgid "Testimonials"
+msgstr ""
+
+#: includes/support.testimonials.php:22
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/support.testimonials.php:24
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/support.testimonials.php:64
+msgid "Testimonials Group"
+msgstr ""
+
+#: includes/support.testimonials.php:74
+msgid "Testimonial Group"
+msgstr ""
+
+#: shortcodes/core.shortcodes.php:172
+msgid "- Select Shortcode -"
+msgstr ""
+
+#: shortcodes/shortcodes.php:439 shortcodes/shortcodes.php:446
+msgid "All"
+msgstr ""
+
+#: shortcodes/shortcodes.php:794 shortcodes/shortcodes_settings.php:1116
+#: shortcodes/shortcodes_settings.php:3230 shortcodes/shortcodes_vc.php:1467
+#: shortcodes/shortcodes_vc.php:4217
+msgid "Name"
+msgstr ""
+
+#: shortcodes/shortcodes.php:794
+msgid "Name *"
+msgstr ""
+
+#: shortcodes/shortcodes.php:795 shortcodes/shortcodes_settings.php:3251
+#: shortcodes/shortcodes_settings.php:3479 shortcodes/shortcodes_vc.php:4235
+#: shortcodes/shortcodes_vc.php:4497
+msgid "E-mail"
+msgstr ""
+
+#: shortcodes/shortcodes.php:795
+msgid "E-mail *"
+msgstr ""
+
+#: shortcodes/shortcodes.php:796
+msgid "Subject"
+msgstr ""
+
+#: shortcodes/shortcodes.php:798
+msgid "Message"
+msgstr ""
+
+#: shortcodes/shortcodes.php:802
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: shortcodes/shortcodes.php:876
+msgid "Unknown admin email!"
+msgstr ""
+
+#: shortcodes/shortcodes.php:887
+#, php-format
+msgid "Site %s - Contact form message from %s"
+msgstr ""
+
+#: shortcodes/shortcodes.php:890
+msgid "Subject:"
+msgstr ""
+
+#: shortcodes/shortcodes.php:891
+msgid "Message:"
+msgstr ""
+
+#: shortcodes/shortcodes.php:895
+#, php-format
+msgid "Site %s - Custom form data"
+msgstr ""
+
+#: shortcodes/shortcodes.php:905
+msgid "Error send message!"
+msgstr ""
+
+#: shortcodes/shortcodes.php:992
+msgid "Days"
+msgstr ""
+
+#: shortcodes/shortcodes.php:997
+msgid "Hours"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1002
+msgid "Minutes"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1007
+msgid "Seconds"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1137
+msgid "Please, enter you email address."
+msgstr ""
+
+#: shortcodes/shortcodes.php:1138
+msgid "Submit"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1138
+msgid "E-mailer subscription"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2029
+msgid "Search ..."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2052
+msgid "Open/close search form"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2057 shortcodes/shortcodes_settings.php:2296
+msgid "Search"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2057
+msgid "Start search"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2236 shortcodes/shortcodes_settings.php:2493
+#: shortcodes/shortcodes_vc.php:3237
+msgid "Skills"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:17 shortcodes/shortcodes_vc.php:8
+msgid "Width"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:27 shortcodes/shortcodes_vc.php:20
+msgid "Height"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:28
+msgid "Width (in pixels or percent) and height (only in pixels) of element"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:53 shortcodes/shortcodes_vc.php:154
+msgid "Element ID"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:54 shortcodes/shortcodes_vc.php:155
+msgid "ID for current element"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:62 shortcodes/shortcodes_vc.php:164
+msgid "Element CSS class"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:63
+msgid "CSS class for current element (optional)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:70 shortcodes/shortcodes_vc.php:184
+msgid "CSS styles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:71 shortcodes/shortcodes_vc.php:185
+msgid "Any additional CSS rules (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:78 shortcodes/shortcodes_vc.php:195
+msgid "Top margin"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:85 shortcodes/shortcodes_vc.php:204
+msgid "Bottom margin"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:91 shortcodes/shortcodes_vc.php:213
+msgid "Left margin"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:97 shortcodes/shortcodes_vc.php:222
+msgid "Right margin"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:98
+msgid "Margins around list (in pixels)."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:105
+msgid "Unordered"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:106
+msgid "Ordered"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:107
+msgid "Iconed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:142 shortcodes/shortcodes_vc.php:174
+msgid "Animation"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:143 shortcodes/shortcodes_vc.php:175
+msgid "Select animation while object enter in the visible area of page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:155 shortcodes/shortcodes_vc.php:236
+msgid "Accordion"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:156 shortcodes/shortcodes_vc.php:237
+msgid "Accordion items"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:161 shortcodes/shortcodes_vc.php:248
+msgid "Accordion style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:162 shortcodes/shortcodes_vc.php:249
+msgid "Select style for display accordion"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:165
+#: shortcodes/shortcodes_settings.php:1210
+#: shortcodes/shortcodes_settings.php:1252
+#: shortcodes/shortcodes_settings.php:3032
+#: shortcodes/shortcodes_settings.php:3108
+#: shortcodes/shortcodes_settings.php:3677 shortcodes/shortcodes_vc.php:253
+#: shortcodes/shortcodes_vc.php:1598 shortcodes/shortcodes_vc.php:1653
+#: shortcodes/shortcodes_vc.php:3302 shortcodes/shortcodes_vc.php:3459
+#: shortcodes/shortcodes_vc.php:3949 shortcodes/shortcodes_vc.php:4060
+#: shortcodes/shortcodes_vc.php:4738
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:166
+#: shortcodes/shortcodes_settings.php:1211
+#: shortcodes/shortcodes_settings.php:1253
+#: shortcodes/shortcodes_settings.php:3033
+#: shortcodes/shortcodes_settings.php:3109
+#: shortcodes/shortcodes_settings.php:3678 shortcodes/shortcodes_vc.php:254
+#: shortcodes/shortcodes_vc.php:1599 shortcodes/shortcodes_vc.php:1654
+#: shortcodes/shortcodes_vc.php:3303 shortcodes/shortcodes_vc.php:3460
+#: shortcodes/shortcodes_vc.php:3950 shortcodes/shortcodes_vc.php:4061
+#: shortcodes/shortcodes_vc.php:4739
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:171
+#: shortcodes/shortcodes_settings.php:2514
+#: shortcodes/shortcodes_settings.php:3683 shortcodes/shortcodes_vc.php:260
+#: shortcodes/shortcodes_vc.php:3265 shortcodes/shortcodes_vc.php:4745
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:172 shortcodes/shortcodes_vc.php:261
+msgid "Display counter before each accordion title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:178 shortcodes/shortcodes_vc.php:268
+msgid "Initially opened item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:179 shortcodes/shortcodes_vc.php:269
+msgid "Number of initially opened item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:185
+#: shortcodes/shortcodes_settings.php:220
+#: shortcodes/shortcodes_settings.php:3690
+#: shortcodes/shortcodes_settings.php:3732 shortcodes/shortcodes_vc.php:276
+#: shortcodes/shortcodes_vc.php:337 shortcodes/shortcodes_vc.php:4753
+#: shortcodes/shortcodes_vc.php:4820
+msgid "Icon while closed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:186
+#: shortcodes/shortcodes_settings.php:221 shortcodes/shortcodes_vc.php:277
+#: shortcodes/shortcodes_vc.php:338
+msgid "Select icon for the closed accordion item from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:192
+#: shortcodes/shortcodes_settings.php:227
+#: shortcodes/shortcodes_settings.php:3697
+#: shortcodes/shortcodes_settings.php:3739 shortcodes/shortcodes_vc.php:284
+#: shortcodes/shortcodes_vc.php:345 shortcodes/shortcodes_vc.php:4761
+#: shortcodes/shortcodes_vc.php:4828
+msgid "Icon while opened"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:193
+#: shortcodes/shortcodes_settings.php:228 shortcodes/shortcodes_vc.php:285
+#: shortcodes/shortcodes_vc.php:346
+msgid "Select icon for the opened accordion item from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:209
+#: shortcodes/shortcodes_settings.php:1822
+#: shortcodes/shortcodes_settings.php:3462
+msgid "Item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:210 shortcodes/shortcodes_vc.php:317
+msgid "Accordion item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:214
+msgid "Accordion item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:215 shortcodes/shortcodes_vc.php:329
+msgid "Title for current accordion item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:234
+msgid "Accordion item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:235
+msgid "Current accordion item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:252 shortcodes/shortcodes_vc.php:371
+msgid "Anchor"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:253 shortcodes/shortcodes_vc.php:372
+msgid "Insert anchor for the TOC (table of content)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:258 shortcodes/shortcodes_vc.php:382
+msgid "Anchor's icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:259 shortcodes/shortcodes_vc.php:383
+msgid "Select icon for the anchor from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:265 shortcodes/shortcodes_vc.php:390
+msgid "Short title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:266 shortcodes/shortcodes_vc.php:391
+msgid "Short title of the anchor (for the table of content)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:271 shortcodes/shortcodes_vc.php:399
+msgid "Long description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:272 shortcodes/shortcodes_vc.php:400
+msgid ""
+"Description for the popup (then hover on the icon). You can use '{' and "
+"'}' - make the text italic, '|' - insert line break"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:277 shortcodes/shortcodes_vc.php:407
+msgid "External URL"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:278 shortcodes/shortcodes_vc.php:408
+msgid "External URL for this TOC item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:283 shortcodes/shortcodes_vc.php:415
+msgid "Add separator"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:284 shortcodes/shortcodes_vc.php:416
+msgid "Add separator under item in the TOC"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:296 shortcodes/shortcodes_vc.php:437
+msgid "Audio"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:297 shortcodes/shortcodes_vc.php:438
+msgid "Insert audio player"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:302
+#: shortcodes/shortcodes_settings.php:303 shortcodes/shortcodes_vc.php:456
+msgid "URL for audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:308
+msgid "Choose audio"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:314
+msgid "Choose audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:315
+msgid "Select audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:324
+#: shortcodes/shortcodes_settings.php:1205
+#: shortcodes/shortcodes_settings.php:1247
+#: shortcodes/shortcodes_settings.php:1663
+#: shortcodes/shortcodes_settings.php:1731
+#: shortcodes/shortcodes_settings.php:2224
+#: shortcodes/shortcodes_settings.php:2302 shortcodes/shortcodes_vc.php:448
+#: shortcodes/shortcodes_vc.php:1593 shortcodes/shortcodes_vc.php:1648
+#: shortcodes/shortcodes_vc.php:1832 shortcodes/shortcodes_vc.php:2151
+#: shortcodes/shortcodes_vc.php:2240 shortcodes/shortcodes_vc.php:2891
+#: shortcodes/shortcodes_vc.php:3000
+msgid "Style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:325 shortcodes/shortcodes_vc.php:449
+msgid "Select style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:332
+#: shortcodes/shortcodes_settings.php:3977 shortcodes/shortcodes_vc.php:465
+#: shortcodes/shortcodes_vc.php:5063
+msgid "Cover image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:333 shortcodes/shortcodes_vc.php:466
+msgid "Select or upload image or write URL from other site for audio cover"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:339
+#: shortcodes/shortcodes_settings.php:1077
+#: shortcodes/shortcodes_settings.php:1609
+#: shortcodes/shortcodes_settings.php:2140
+#: shortcodes/shortcodes_settings.php:2312
+#: shortcodes/shortcodes_settings.php:2622
+#: shortcodes/shortcodes_settings.php:3510
+#: shortcodes/shortcodes_settings.php:3771
+#: shortcodes/shortcodes_settings.php:4314
+#: shortcodes/shortcodes_settings.php:4357
+#: shortcodes/shortcodes_settings.php:4392
+#: shortcodes/shortcodes_settings.php:4435
+#: shortcodes/shortcodes_settings.php:4478
+#: shortcodes/shortcodes_settings.php:4521
+#: shortcodes/shortcodes_settings.php:4587
+#: shortcodes/shortcodes_settings.php:4630
+#: shortcodes/shortcodes_settings.php:4685 shortcodes/shortcodes_vc.php:328
+#: shortcodes/shortcodes_vc.php:473 shortcodes/shortcodes_vc.php:1416
+#: shortcodes/shortcodes_vc.php:2099 shortcodes/shortcodes_vc.php:2777
+#: shortcodes/shortcodes_vc.php:3011 shortcodes/shortcodes_vc.php:3356
+#: shortcodes/shortcodes_vc.php:3410 shortcodes/shortcodes_vc.php:4540
+#: shortcodes/shortcodes_vc.php:4803 shortcodes/shortcodes_vc.php:5534
+#: shortcodes/shortcodes_vc.php:5594 shortcodes/shortcodes_vc.php:5645
+#: shortcodes/shortcodes_vc.php:5705 shortcodes/shortcodes_vc.php:5765
+#: shortcodes/shortcodes_vc.php:5825 shortcodes/shortcodes_vc.php:5916
+#: shortcodes/shortcodes_vc.php:5977 shortcodes/shortcodes_vc.php:6055
+msgid "Title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:340 shortcodes/shortcodes_vc.php:474
+msgid "Title of the audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:346
+#: shortcodes/shortcodes_settings.php:3467 shortcodes/shortcodes_vc.php:482
+#: shortcodes/shortcodes_vc.php:4480
+msgid "Author"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:347 shortcodes/shortcodes_vc.php:483
+msgid "Author of the audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:352 shortcodes/shortcodes_vc.php:957
+#: shortcodes/shortcodes_vc.php:3617
+msgid "Show controls"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:353
+msgid "Show controls in audio player"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:361
+msgid "Autoplay audio"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:362 shortcodes/shortcodes_vc.php:499
+msgid "Autoplay audio on page load"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:368
+#: shortcodes/shortcodes_settings.php:406
+#: shortcodes/shortcodes_settings.php:1069
+#: shortcodes/shortcodes_settings.php:1895
+#: shortcodes/shortcodes_settings.php:2353
+#: shortcodes/shortcodes_settings.php:3969
+msgid "Align"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:369
+#: shortcodes/shortcodes_settings.php:407
+#: shortcodes/shortcodes_settings.php:1896
+#: shortcodes/shortcodes_settings.php:2354
+#: shortcodes/shortcodes_settings.php:3970 shortcodes/shortcodes_vc.php:507
+#: shortcodes/shortcodes_vc.php:559 shortcodes/shortcodes_vc.php:2482
+#: shortcodes/shortcodes_vc.php:3071 shortcodes/shortcodes_vc.php:5056
+msgid "Select block alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:393 shortcodes/shortcodes_vc.php:538
+msgid "Block container"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:394 shortcodes/shortcodes_vc.php:539
+msgid "Container for any block ([section] analog - to enable nesting)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:399
+#: shortcodes/shortcodes_settings.php:2346 shortcodes/shortcodes_vc.php:549
+#: shortcodes/shortcodes_vc.php:3061
+msgid "Dedicated"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:400
+#: shortcodes/shortcodes_settings.php:2347 shortcodes/shortcodes_vc.php:550
+#: shortcodes/shortcodes_vc.php:3062
+msgid ""
+"Use this block as dedicated content - show it before post title on single "
+"page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:414
+#: shortcodes/shortcodes_settings.php:2361 shortcodes/shortcodes_vc.php:566
+#: shortcodes/shortcodes_vc.php:3078
+msgid "Columns emulation"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:415
+#: shortcodes/shortcodes_settings.php:2362 shortcodes/shortcodes_vc.php:567
+#: shortcodes/shortcodes_vc.php:3079
+msgid "Select width for columns emulation"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:421
+#: shortcodes/shortcodes_settings.php:2368 shortcodes/shortcodes_vc.php:575
+#: shortcodes/shortcodes_vc.php:3087
+msgid "Use pan effect"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:422
+#: shortcodes/shortcodes_settings.php:2369 shortcodes/shortcodes_vc.php:576
+#: shortcodes/shortcodes_vc.php:3088
+msgid "Use pan effect to show section content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:429
+#: shortcodes/shortcodes_settings.php:679
+#: shortcodes/shortcodes_settings.php:2376
+#: shortcodes/shortcodes_settings.php:3046 shortcodes/shortcodes_vc.php:584
+#: shortcodes/shortcodes_vc.php:944 shortcodes/shortcodes_vc.php:948
+#: shortcodes/shortcodes_vc.php:3096
+msgid "Use scroller"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:430
+#: shortcodes/shortcodes_settings.php:2377 shortcodes/shortcodes_vc.php:585
+#: shortcodes/shortcodes_vc.php:3097
+msgid "Use scroller to show section content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:437 shortcodes/shortcodes_vc.php:594
+msgid "Scroll direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:438 shortcodes/shortcodes_vc.php:595
+msgid "Scroll direction (if Use scroller = yes)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:448
+#: shortcodes/shortcodes_settings.php:2396 shortcodes/shortcodes_vc.php:608
+#: shortcodes/shortcodes_vc.php:3116
+msgid "Scroll controls"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:449
+#: shortcodes/shortcodes_settings.php:2397 shortcodes/shortcodes_vc.php:609
+#: shortcodes/shortcodes_vc.php:3117
+msgid "Show scroll controls (if Use scroller = yes)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:458
+#: shortcodes/shortcodes_settings.php:1010
+#: shortcodes/shortcodes_settings.php:2406 shortcodes/shortcodes_vc.php:621
+#: shortcodes/shortcodes_vc.php:1326 shortcodes/shortcodes_vc.php:3129
+msgid "Fore color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:459
+#: shortcodes/shortcodes_settings.php:2407 shortcodes/shortcodes_vc.php:622
+#: shortcodes/shortcodes_vc.php:3130
+msgid "Any color for objects in this section"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:465
+#: shortcodes/shortcodes_settings.php:2413
+#: shortcodes/shortcodes_settings.php:3411
+#: shortcodes/shortcodes_settings.php:3869 shortcodes/shortcodes_vc.php:630
+#: shortcodes/shortcodes_vc.php:3138 shortcodes/shortcodes_vc.php:4409
+#: shortcodes/shortcodes_vc.php:4946
+msgid "Background tint"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:466
+#: shortcodes/shortcodes_settings.php:2414
+#: shortcodes/shortcodes_settings.php:3412
+#: shortcodes/shortcodes_settings.php:3870 shortcodes/shortcodes_vc.php:631
+#: shortcodes/shortcodes_vc.php:3139 shortcodes/shortcodes_vc.php:4410
+#: shortcodes/shortcodes_vc.php:4947
+msgid "Main background tint: dark or light"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:472
+#: shortcodes/shortcodes_settings.php:1016
+#: shortcodes/shortcodes_settings.php:1454
+#: shortcodes/shortcodes_settings.php:1697
+#: shortcodes/shortcodes_settings.php:1970
+#: shortcodes/shortcodes_settings.php:2420
+#: shortcodes/shortcodes_settings.php:2563
+#: shortcodes/shortcodes_settings.php:2642
+#: shortcodes/shortcodes_settings.php:3419
+#: shortcodes/shortcodes_settings.php:3877 shortcodes/shortcodes_vc.php:639
+#: shortcodes/shortcodes_vc.php:1334 shortcodes/shortcodes_vc.php:1898
+#: shortcodes/shortcodes_vc.php:1968 shortcodes/shortcodes_vc.php:2190
+#: shortcodes/shortcodes_vc.php:3147 shortcodes/shortcodes_vc.php:3332
+#: shortcodes/shortcodes_vc.php:3437 shortcodes/shortcodes_vc.php:4418
+#: shortcodes/shortcodes_vc.php:4955
+msgid "Background color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:473
+#: shortcodes/shortcodes_settings.php:2421
+#: shortcodes/shortcodes_settings.php:3420
+#: shortcodes/shortcodes_settings.php:3878 shortcodes/shortcodes_vc.php:640
+#: shortcodes/shortcodes_vc.php:3148 shortcodes/shortcodes_vc.php:4419
+#: shortcodes/shortcodes_vc.php:4956
+msgid "Any background color for this section"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:478
+#: shortcodes/shortcodes_settings.php:2426
+#: shortcodes/shortcodes_settings.php:3425
+#: shortcodes/shortcodes_settings.php:3883 shortcodes/shortcodes_vc.php:648
+#: shortcodes/shortcodes_vc.php:3156 shortcodes/shortcodes_vc.php:4427
+#: shortcodes/shortcodes_vc.php:4964
+msgid "Background image URL"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:479
+#: shortcodes/shortcodes_settings.php:1023
+#: shortcodes/shortcodes_settings.php:2427
+#: shortcodes/shortcodes_settings.php:3426
+#: shortcodes/shortcodes_settings.php:3884 shortcodes/shortcodes_vc.php:1343
+msgid ""
+"Select or upload image or write URL from other site for the background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:485
+#: shortcodes/shortcodes_settings.php:2019
+#: shortcodes/shortcodes_settings.php:2433
+#: shortcodes/shortcodes_settings.php:3432
+#: shortcodes/shortcodes_settings.php:3890 shortcodes/shortcodes_vc.php:657
+#: shortcodes/shortcodes_vc.php:2610 shortcodes/shortcodes_vc.php:3165
+#: shortcodes/shortcodes_vc.php:4436 shortcodes/shortcodes_vc.php:4973
+msgid "Overlay"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:486
+#: shortcodes/shortcodes_settings.php:2020
+#: shortcodes/shortcodes_settings.php:2434
+#: shortcodes/shortcodes_settings.php:3433
+#: shortcodes/shortcodes_settings.php:3891 shortcodes/shortcodes_vc.php:658
+#: shortcodes/shortcodes_vc.php:2611 shortcodes/shortcodes_vc.php:3166
+#: shortcodes/shortcodes_vc.php:4437 shortcodes/shortcodes_vc.php:4974
+msgid "Overlay color opacity (from 0.0 to 1.0)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:494
+#: shortcodes/shortcodes_settings.php:2028
+#: shortcodes/shortcodes_settings.php:2442
+#: shortcodes/shortcodes_settings.php:3441
+#: shortcodes/shortcodes_settings.php:3899 shortcodes/shortcodes_vc.php:666
+#: shortcodes/shortcodes_vc.php:2618 shortcodes/shortcodes_vc.php:3174
+#: shortcodes/shortcodes_vc.php:4445 shortcodes/shortcodes_vc.php:4982
+msgid "Texture"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:495
+#: shortcodes/shortcodes_settings.php:2029
+#: shortcodes/shortcodes_settings.php:2443
+#: shortcodes/shortcodes_settings.php:3442
+#: shortcodes/shortcodes_settings.php:3900
+msgid "Predefined texture style from 1 to 11. 0 - without texture."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:503
+#: shortcodes/shortcodes_settings.php:1460
+#: shortcodes/shortcodes_settings.php:1538
+#: shortcodes/shortcodes_settings.php:2451 shortcodes/shortcodes_vc.php:675
+#: shortcodes/shortcodes_vc.php:1906 shortcodes/shortcodes_vc.php:1997
+#: shortcodes/shortcodes_vc.php:3183 shortcodes/shortcodes_vc.php:4598
+msgid "Font size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:504
+#: shortcodes/shortcodes_settings.php:2452 shortcodes/shortcodes_vc.php:676
+#: shortcodes/shortcodes_vc.php:3184
+msgid ""
+"Font size of the text (default - in pixels, allows any CSS units of "
+"measure)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:509
+#: shortcodes/shortcodes_settings.php:1549
+#: shortcodes/shortcodes_settings.php:2457
+#: shortcodes/shortcodes_settings.php:3564 shortcodes/shortcodes_vc.php:683
+#: shortcodes/shortcodes_vc.php:2005 shortcodes/shortcodes_vc.php:3191
+#: shortcodes/shortcodes_vc.php:4606
+msgid "Font weight"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:510
+#: shortcodes/shortcodes_settings.php:2458 shortcodes/shortcodes_vc.php:684
+#: shortcodes/shortcodes_vc.php:3192
+msgid "Font weight of the text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:515
+#: shortcodes/shortcodes_settings.php:1558
+#: shortcodes/shortcodes_settings.php:2463
+#: shortcodes/shortcodes_settings.php:3571 shortcodes/shortcodes_vc.php:688
+#: shortcodes/shortcodes_vc.php:2010 shortcodes/shortcodes_vc.php:3196
+#: shortcodes/shortcodes_vc.php:4611
+msgid "Thin (100)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:516
+#: shortcodes/shortcodes_settings.php:1559
+#: shortcodes/shortcodes_settings.php:2464
+#: shortcodes/shortcodes_settings.php:3572 shortcodes/shortcodes_vc.php:689
+#: shortcodes/shortcodes_vc.php:2011 shortcodes/shortcodes_vc.php:3197
+#: shortcodes/shortcodes_vc.php:4612
+msgid "Light (300)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:517
+#: shortcodes/shortcodes_settings.php:1560
+#: shortcodes/shortcodes_settings.php:2465
+#: shortcodes/shortcodes_settings.php:3573 shortcodes/shortcodes_vc.php:690
+#: shortcodes/shortcodes_vc.php:2012 shortcodes/shortcodes_vc.php:3198
+#: shortcodes/shortcodes_vc.php:4613
+msgid "Normal (400)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:518
+#: shortcodes/shortcodes_settings.php:1561
+#: shortcodes/shortcodes_settings.php:2466
+#: shortcodes/shortcodes_settings.php:3575 shortcodes/shortcodes_vc.php:691
+#: shortcodes/shortcodes_vc.php:2013 shortcodes/shortcodes_vc.php:3199
+#: shortcodes/shortcodes_vc.php:4615
+msgid "Bold (700)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:522
+#: shortcodes/shortcodes_settings.php:1164
+#: shortcodes/shortcodes_settings.php:2067
+#: shortcodes/shortcodes_settings.php:2470
+msgid "Container content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:523
+#: shortcodes/shortcodes_settings.php:1165
+#: shortcodes/shortcodes_settings.php:2068
+#: shortcodes/shortcodes_settings.php:2471
+msgid "Content for section container"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:547 shortcodes/shortcodes_vc.php:728
+msgid "Blogger"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:548 shortcodes/shortcodes_vc.php:729
+msgid ""
+"Insert posts (pages) in many styles from desired categories or directly "
+"from ids"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:553
+msgid "Posts output style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:554 shortcodes/shortcodes_vc.php:740
+msgid "Select desired style for posts output"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:560 shortcodes/shortcodes_vc.php:748
+msgid "Show filters"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:561 shortcodes/shortcodes_vc.php:749
+msgid "Use post's tags or categories as filter buttons"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:568 shortcodes/shortcodes_vc.php:757
+msgid "Hover effect"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:569 shortcodes/shortcodes_vc.php:758
+msgid "Select hover effect (only if style=Portfolio)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:578 shortcodes/shortcodes_vc.php:769
+msgid "Hover direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:579 shortcodes/shortcodes_vc.php:770
+msgid ""
+"Select hover direction (only if style=Portfolio and hover=Circle|Square)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:589 shortcodes/shortcodes_vc.php:793
+msgid "Posts direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:590 shortcodes/shortcodes_vc.php:794
+msgid "Display posts in horizontal or vertical direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:597
+#: shortcodes/shortcodes_settings.php:4217 shortcodes/shortcodes_vc.php:846
+#: shortcodes/shortcodes_vc.php:5390
+msgid "Post type"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:598 shortcodes/shortcodes_vc.php:847
+msgid "Select post type to show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:604
+#: shortcodes/shortcodes_settings.php:3185
+#: shortcodes/shortcodes_settings.php:3402 shortcodes/shortcodes_vc.php:855
+#: shortcodes/shortcodes_vc.php:4396
+msgid "Post IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:605
+#: shortcodes/shortcodes_settings.php:2771
+#: shortcodes/shortcodes_settings.php:3186
+#: shortcodes/shortcodes_settings.php:3403 shortcodes/shortcodes_vc.php:856
+#: shortcodes/shortcodes_vc.php:3599 shortcodes/shortcodes_vc.php:4397
+msgid ""
+"Comma separated list of posts ID. If set - parameters above are ignored!"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:610 shortcodes/shortcodes_vc.php:864
+#: shortcodes/shortcodes_vc.php:3538
+msgid "Categories list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:611
+msgid ""
+"Select the desired categories. If not selected - show posts from any "
+"category or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:624 shortcodes/shortcodes_vc.php:877
+msgid "Total posts to show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:625
+#: shortcodes/shortcodes_settings.php:2729
+#: shortcodes/shortcodes_settings.php:3144
+#: shortcodes/shortcodes_settings.php:3361 shortcodes/shortcodes_vc.php:878
+#: shortcodes/shortcodes_vc.php:3551 shortcodes/shortcodes_vc.php:4098
+#: shortcodes/shortcodes_vc.php:4345
+msgid ""
+"How many posts will be displayed? If used IDs - this parameter ignored."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:635 shortcodes/shortcodes_vc.php:891
+msgid "Columns number"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:636
+msgid ""
+"How many columns used to show posts? If empty or 0 - equal to posts number"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:646
+#: shortcodes/shortcodes_settings.php:3154
+#: shortcodes/shortcodes_settings.php:3371 shortcodes/shortcodes_vc.php:904
+#: shortcodes/shortcodes_vc.php:4110 shortcodes/shortcodes_vc.php:4357
+msgid "Offset before select posts"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:647
+#: shortcodes/shortcodes_settings.php:2740
+#: shortcodes/shortcodes_settings.php:3155
+#: shortcodes/shortcodes_settings.php:3372 shortcodes/shortcodes_vc.php:905
+#: shortcodes/shortcodes_vc.php:3563 shortcodes/shortcodes_vc.php:4111
+#: shortcodes/shortcodes_vc.php:4358
+msgid "Skip posts before select next part."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:657
+#: shortcodes/shortcodes_settings.php:3164
+#: shortcodes/shortcodes_settings.php:3381 shortcodes/shortcodes_vc.php:917
+msgid "Post order by"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:658
+#: shortcodes/shortcodes_settings.php:2750
+#: shortcodes/shortcodes_settings.php:3165
+#: shortcodes/shortcodes_settings.php:3382 shortcodes/shortcodes_vc.php:918
+#: shortcodes/shortcodes_vc.php:3575 shortcodes/shortcodes_vc.php:4124
+#: shortcodes/shortcodes_vc.php:4371
+msgid "Select desired posts sorting method"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:664
+#: shortcodes/shortcodes_settings.php:3174
+#: shortcodes/shortcodes_settings.php:3391 shortcodes/shortcodes_vc.php:926
+#: shortcodes/shortcodes_vc.php:4136 shortcodes/shortcodes_vc.php:4383
+msgid "Post order"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:665
+#: shortcodes/shortcodes_settings.php:2760
+#: shortcodes/shortcodes_settings.php:3175
+#: shortcodes/shortcodes_settings.php:3392 shortcodes/shortcodes_vc.php:927
+#: shortcodes/shortcodes_vc.php:3587 shortcodes/shortcodes_vc.php:4137
+#: shortcodes/shortcodes_vc.php:4384
+msgid "Select desired posts order"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:672 shortcodes/shortcodes_vc.php:935
+msgid "Select posts only"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:673 shortcodes/shortcodes_vc.php:936
+msgid "Select posts only with reviews, videos, audios, thumbs or galleries"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:680 shortcodes/shortcodes_vc.php:945
+msgid "Use scroller to show all posts"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:687 shortcodes/shortcodes_vc.php:953
+msgid "Show slider controls"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:688 shortcodes/shortcodes_vc.php:954
+msgid "Show arrows to control scroll slider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:697 shortcodes/shortcodes_vc.php:781
+msgid "Dedicated content location"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:698 shortcodes/shortcodes_vc.php:782
+msgid "Select position for dedicated content (only for style=excerpt)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:708 shortcodes/shortcodes_vc.php:802
+msgid "Show rating stars"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:709 shortcodes/shortcodes_vc.php:803
+msgid "Show rating stars under post's header"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:715 shortcodes/shortcodes_vc.php:811
+msgid "Show post info block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:716 shortcodes/shortcodes_vc.php:812
+msgid "Show post info block (author, date, tags, etc.)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:722
+msgid "Allow links on the post"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:723
+msgid "Allow links on the post from each blogger item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:729 shortcodes/shortcodes_vc.php:819
+msgid "Description length"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:730 shortcodes/shortcodes_vc.php:820
+msgid ""
+"How many characters are displayed from post excerpt? If 0 - don't show "
+"description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:737 shortcodes/shortcodes_vc.php:837
+msgid "More link text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:738 shortcodes/shortcodes_vc.php:838
+msgid "Read more link text. If empty - show 'More', else - used as link text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:761
+msgid "Break"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:762
+msgid "Line break with clear floating (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:767 shortcodes/shortcodes_vc.php:996
+msgid "Clear floating"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:768
+msgid "Clear floating (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:772
+#: shortcodes/shortcodes_settings.php:1514
+#: shortcodes/shortcodes_settings.php:2801 shortcodes/shortcodes_vc.php:1001
+#: shortcodes/shortcodes_vc.php:1981 shortcodes/shortcodes_vc.php:3634
+msgid "None"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:773
+#: shortcodes/shortcodes_settings.php:3647 shortcodes/shortcodes_vc.php:1002
+#: shortcodes/shortcodes_vc.php:4692
+msgid "Left"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:774 shortcodes/shortcodes_vc.php:1003
+msgid "Right"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:775 shortcodes/shortcodes_vc.php:1004
+msgid "Both"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:786 shortcodes/shortcodes_vc.php:1024
+msgid "Button"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:787 shortcodes/shortcodes_vc.php:1025
+msgid "Button with link"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:792 shortcodes/shortcodes_vc.php:1035
+msgid "Caption"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:793 shortcodes/shortcodes_vc.php:1036
+msgid "Button caption"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:798 shortcodes/shortcodes_vc.php:1043
+msgid "Button's shape"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:799 shortcodes/shortcodes_vc.php:1044
+msgid "Select button's shape"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:803
+#: shortcodes/shortcodes_settings.php:1516
+#: shortcodes/shortcodes_settings.php:1636 shortcodes/shortcodes_vc.php:1047
+#: shortcodes/shortcodes_vc.php:1983 shortcodes/shortcodes_vc.php:2092
+msgid "Square"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:804
+#: shortcodes/shortcodes_settings.php:1515
+#: shortcodes/shortcodes_settings.php:1637 shortcodes/shortcodes_vc.php:1048
+#: shortcodes/shortcodes_vc.php:1982 shortcodes/shortcodes_vc.php:2093
+msgid "Round"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:809 shortcodes/shortcodes_vc.php:1054
+msgid "Button's style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:810 shortcodes/shortcodes_vc.php:1055
+msgid "Select button's style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:814
+#: shortcodes/shortcodes_settings.php:1965 shortcodes/shortcodes_vc.php:1058
+#: shortcodes/shortcodes_vc.php:2564
+msgid "Dark"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:815
+#: shortcodes/shortcodes_settings.php:1964 shortcodes/shortcodes_vc.php:1059
+#: shortcodes/shortcodes_vc.php:2563
+msgid "Light"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:816 shortcodes/shortcodes_vc.php:1060
+msgid "Global"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:821 shortcodes/shortcodes_vc.php:1066
+msgid "Button's size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:822 shortcodes/shortcodes_vc.php:1067
+msgid "Select button's size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:826
+#: shortcodes/shortcodes_settings.php:2920
+#: shortcodes/shortcodes_settings.php:3632 shortcodes/shortcodes_vc.php:1071
+#: shortcodes/shortcodes_vc.php:3791 shortcodes/shortcodes_vc.php:4678
+msgid "Small"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:827
+#: shortcodes/shortcodes_settings.php:3633 shortcodes/shortcodes_vc.php:1072
+#: shortcodes/shortcodes_vc.php:4679
+msgid "Medium"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:828
+#: shortcodes/shortcodes_settings.php:2921
+#: shortcodes/shortcodes_settings.php:3634 shortcodes/shortcodes_vc.php:1073
+#: shortcodes/shortcodes_vc.php:3792 shortcodes/shortcodes_vc.php:4680
+msgid "Large"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:833 shortcodes/shortcodes_vc.php:1079
+msgid "Button's icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:834
+#: shortcodes/shortcodes_settings.php:1616 shortcodes/shortcodes_vc.php:1080
+#: shortcodes/shortcodes_vc.php:2109
+msgid "Select icon for the title from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:840 shortcodes/shortcodes_vc.php:1087
+msgid "Button's color scheme"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:841 shortcodes/shortcodes_vc.php:1088
+msgid "Select button's color scheme"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:848 shortcodes/shortcodes_vc.php:1095
+msgid "Button's text color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:849 shortcodes/shortcodes_vc.php:1096
+msgid "Any color for button's caption"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:854 shortcodes/shortcodes_vc.php:1103
+msgid "Button's backcolor"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:855 shortcodes/shortcodes_vc.php:1104
+msgid "Any color for button's background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:860 shortcodes/shortcodes_vc.php:1111
+msgid "Button's alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:861 shortcodes/shortcodes_vc.php:1112
+msgid "Align button to left, center or right"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:868
+#: shortcodes/shortcodes_settings.php:1576
+#: shortcodes/shortcodes_settings.php:1860
+#: shortcodes/shortcodes_settings.php:2146 shortcodes/shortcodes_vc.php:1119
+#: shortcodes/shortcodes_vc.php:1208 shortcodes/shortcodes_vc.php:2028
+#: shortcodes/shortcodes_vc.php:2386 shortcodes/shortcodes_vc.php:2786
+msgid "Link URL"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:869
+msgid "URL for link on button click"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:875
+#: shortcodes/shortcodes_settings.php:1867 shortcodes/shortcodes_vc.php:1128
+#: shortcodes/shortcodes_vc.php:2396
+msgid "Link target"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:876
+msgid "Target for link on button click"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:884 shortcodes/shortcodes_vc.php:1137
+msgid "Open link in popup"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:885 shortcodes/shortcodes_vc.php:1138
+msgid "Open link target in popup window"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:894 shortcodes/shortcodes_vc.php:1146
+msgid "Rel attribute"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:895
+msgid "Rel attribute for button's link (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:919 shortcodes/shortcodes_vc.php:1180
+msgid "Chat"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:920 shortcodes/shortcodes_vc.php:1181
+msgid "Chat message"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:925 shortcodes/shortcodes_vc.php:1191
+msgid "Item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:926
+msgid "Chat item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:931 shortcodes/shortcodes_vc.php:1200
+msgid "Item photo"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:932 shortcodes/shortcodes_vc.php:1201
+msgid ""
+"Select or upload image or write URL from other site for the item photo "
+"(avatar)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:938
+msgid "Item link"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:939
+msgid "Chat item link"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:944
+msgid "Chat item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:945
+msgid "Current chat item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:966
+#: shortcodes/shortcodes_settings.php:2529
+#: shortcodes/shortcodes_settings.php:3113
+#: shortcodes/shortcodes_settings.php:4275
+#: shortcodes/shortcodes_settings.php:4300
+#: shortcodes/shortcodes_settings.php:4343
+#: shortcodes/shortcodes_settings.php:4378
+#: shortcodes/shortcodes_settings.php:4421
+#: shortcodes/shortcodes_settings.php:4464
+#: shortcodes/shortcodes_settings.php:4507
+#: shortcodes/shortcodes_settings.php:4573
+#: shortcodes/shortcodes_settings.php:4616
+#: shortcodes/shortcodes_settings.php:4671 shortcodes/shortcodes_vc.php:1249
+#: shortcodes/shortcodes_vc.php:3282 shortcodes/shortcodes_vc.php:4067
+#: shortcodes/shortcodes_vc.php:5480 shortcodes/shortcodes_vc.php:5519
+#: shortcodes/shortcodes_vc.php:5579 shortcodes/shortcodes_vc.php:5630
+#: shortcodes/shortcodes_vc.php:5690 shortcodes/shortcodes_vc.php:5750
+#: shortcodes/shortcodes_vc.php:5810 shortcodes/shortcodes_vc.php:5901
+#: shortcodes/shortcodes_vc.php:5962 shortcodes/shortcodes_vc.php:6040
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:967
+msgid "Insert up to 5 columns in your page (post)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:972 shortcodes/shortcodes_vc.php:1270
+#: shortcodes/shortcodes_vc.php:1273
+msgid "Fluid columns"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:973 shortcodes/shortcodes_vc.php:1271
+msgid ""
+"To squeeze the columns when reducing the size of the window (fluid=yes) or "
+"to rebuild them (fluid=no)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:991 shortcodes/shortcodes_vc.php:1297
+msgid "Column"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:992 shortcodes/shortcodes_vc.php:1298
+msgid "Column item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:996 shortcodes/shortcodes_vc.php:1309
+msgid "Merge columns"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:997 shortcodes/shortcodes_vc.php:1310
+msgid "Count merged columns from current"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1002
+#: shortcodes/shortcodes_settings.php:1215
+#: shortcodes/shortcodes_settings.php:1299
+#: shortcodes/shortcodes_settings.php:1565
+#: shortcodes/shortcodes_settings.php:2113
+#: shortcodes/shortcodes_settings.php:2184
+#: shortcodes/shortcodes_settings.php:2272
+#: shortcodes/shortcodes_settings.php:3323
+#: shortcodes/shortcodes_settings.php:3550
+#: shortcodes/shortcodes_settings.php:3853 shortcodes/shortcodes_vc.php:506
+#: shortcodes/shortcodes_vc.php:558 shortcodes/shortcodes_vc.php:1318
+#: shortcodes/shortcodes_vc.php:1408 shortcodes/shortcodes_vc.php:1605
+#: shortcodes/shortcodes_vc.php:1718 shortcodes/shortcodes_vc.php:2481
+#: shortcodes/shortcodes_vc.php:2736 shortcodes/shortcodes_vc.php:2840
+#: shortcodes/shortcodes_vc.php:2959 shortcodes/shortcodes_vc.php:3070
+#: shortcodes/shortcodes_vc.php:3377 shortcodes/shortcodes_vc.php:4307
+#: shortcodes/shortcodes_vc.php:4589 shortcodes/shortcodes_vc.php:4930
+#: shortcodes/shortcodes_vc.php:5055 shortcodes/shortcodes_vc.php:5179
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1003 shortcodes/shortcodes_vc.php:1319
+msgid "Alignment text in the column"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1011 shortcodes/shortcodes_vc.php:1327
+msgid "Any color for objects in this column"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1017 shortcodes/shortcodes_vc.php:1335
+msgid "Any background color for this column"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1022 shortcodes/shortcodes_vc.php:1342
+msgid "URL for background image file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1029
+msgid "Column item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1030
+msgid "Current column item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1049 shortcodes/shortcodes_vc.php:1379
+msgid "Contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1050 shortcodes/shortcodes_vc.php:1380
+msgid "Insert contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1055
+#: shortcodes/shortcodes_settings.php:1440
+#: shortcodes/shortcodes_settings.php:3122
+#: shortcodes/shortcodes_settings.php:3339 shortcodes/shortcodes_vc.php:1391
+#: shortcodes/shortcodes_vc.php:1881 shortcodes/shortcodes_vc.php:4076
+#: shortcodes/shortcodes_vc.php:4323
+msgid "Custom"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1056 shortcodes/shortcodes_vc.php:1392
+msgid ""
+"Use custom fields or create standard contact form (ignore info from "
+"'Field' tabs)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1062 shortcodes/shortcodes_vc.php:1399
+msgid "Action"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1063 shortcodes/shortcodes_vc.php:1400
+msgid ""
+"Contact form action (URL to handle form data). If empty - use internal "
+"action"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1070 shortcodes/shortcodes_vc.php:1409
+msgid "Select form alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1078
+msgid "Contact form title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1084
+#: shortcodes/shortcodes_settings.php:1365
+#: shortcodes/shortcodes_settings.php:1366
+#: shortcodes/shortcodes_settings.php:2193
+#: shortcodes/shortcodes_settings.php:3282 shortcodes/shortcodes_vc.php:1814
+#: shortcodes/shortcodes_vc.php:1815 shortcodes/shortcodes_vc.php:2849
+#: widgets/banner.php:113
+msgid "Description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1085
+msgid "Short description for contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1103
+msgid "Field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1104
+msgid "Custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1108
+#: shortcodes/shortcodes_settings.php:1435 shortcodes/shortcodes_vc.php:1458
+#: shortcodes/shortcodes_vc.php:1876
+msgid "Type"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1109
+msgid "Type of the custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1117 shortcodes/shortcodes_vc.php:1468
+msgid "Name of the custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1122 shortcodes/shortcodes_vc.php:1476
+msgid "Default value"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1123 shortcodes/shortcodes_vc.php:1477
+msgid "Default value of the custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1128 shortcodes/shortcodes_vc.php:1484
+msgid "Label"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1129 shortcodes/shortcodes_vc.php:1485
+msgid "Label for the custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1134 shortcodes/shortcodes_vc.php:1493
+msgid "Label position"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1135 shortcodes/shortcodes_vc.php:1494
+msgid "Label position relative to the field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1158 shortcodes/shortcodes_vc.php:1524
+msgid "Content block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1159
+msgid ""
+"Container for main content block with desired class and style (use it only "
+"on fullscreen pages)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1186 shortcodes/shortcodes_vc.php:1564
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1187 shortcodes/shortcodes_vc.php:1565
+msgid "Insert countdown object"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1192
+#: shortcodes/shortcodes_settings.php:4313
+#: shortcodes/shortcodes_settings.php:4356
+#: shortcodes/shortcodes_settings.php:4391
+#: shortcodes/shortcodes_settings.php:4434
+#: shortcodes/shortcodes_settings.php:4477
+#: shortcodes/shortcodes_settings.php:4520
+#: shortcodes/shortcodes_settings.php:4586
+#: shortcodes/shortcodes_settings.php:4629
+#: shortcodes/shortcodes_settings.php:4684 shortcodes/shortcodes_vc.php:1575
+#: shortcodes/shortcodes_vc.php:5533 shortcodes/shortcodes_vc.php:5593
+#: shortcodes/shortcodes_vc.php:5644 shortcodes/shortcodes_vc.php:5704
+#: shortcodes/shortcodes_vc.php:5764 shortcodes/shortcodes_vc.php:5824
+#: shortcodes/shortcodes_vc.php:5915 shortcodes/shortcodes_vc.php:5976
+#: shortcodes/shortcodes_vc.php:6054
+msgid "Date"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1193 shortcodes/shortcodes_vc.php:1576
+msgid "Upcoming date (format: yyyy-mm-dd)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1199 shortcodes/shortcodes_vc.php:1584
+msgid "Time"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1200 shortcodes/shortcodes_vc.php:1585
+msgid "Upcoming time (format: HH:mm:ss)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1206 shortcodes/shortcodes_vc.php:1594
+msgid "Countdown style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1216
+#: shortcodes/shortcodes_settings.php:2273 shortcodes/shortcodes_vc.php:1606
+#: shortcodes/shortcodes_vc.php:2960
+msgid "Align counter to left, center or right"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1241 shortcodes/shortcodes_vc.php:1637
+msgid "Dropcaps"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1242
+msgid "Make first letter as dropcaps"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1248 shortcodes/shortcodes_vc.php:1649
+msgid "Dropcaps style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1254 shortcodes/shortcodes_vc.php:1655
+#: shortcodes/shortcodes_vc.php:3304 shortcodes/shortcodes_vc.php:3461
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1255 shortcodes/shortcodes_vc.php:1656
+#: shortcodes/shortcodes_vc.php:3305 shortcodes/shortcodes_vc.php:3462
+msgid "Style 4"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1259
+msgid "Paragraph content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1260
+msgid "Paragraph with dropcaps content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1279 shortcodes/shortcodes_vc.php:1690
+msgid "E-mail collector"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1280
+msgid "Collect the e-mail address into specified group"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1286 shortcodes/shortcodes_vc.php:1702
+msgid "The name of group to collect e-mail address"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1291
+msgid "Open"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1292 shortcodes/shortcodes_vc.php:1711
+msgid "Initially open the input field on show object"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1300
+msgid "Align object to left, center or right"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1326 shortcodes/shortcodes_vc.php:1751
+msgid "Gap"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1327
+msgid ""
+"Insert gap (fullwidth area) in the post content. Attention! Use the gap "
+"only in the posts (pages) without left or right sidebar"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1332
+msgid "Gap content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1333
+msgid "Gap inner content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1347 shortcodes/shortcodes_vc.php:1785
+msgid "Google map"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1348 shortcodes/shortcodes_vc.php:1786
+msgid "Insert Google map with desired address or coordinates"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1353 shortcodes/shortcodes_vc.php:1796
+msgid "Address"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1354 shortcodes/shortcodes_vc.php:1797
+msgid "Address to show in map center"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1359 shortcodes/shortcodes_vc.php:1805
+msgid "Latitude and Longtitude"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1360 shortcodes/shortcodes_vc.php:1806
+msgid "Comma separated map center coorditanes (instead Address)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1371
+#: shortcodes/shortcodes_settings.php:4045
+#: shortcodes/shortcodes_settings.php:4058 shortcodes/shortcodes_vc.php:1823
+#: shortcodes/shortcodes_vc.php:5140 shortcodes/shortcodes_vc.php:5157
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1372 shortcodes/shortcodes_vc.php:1824
+msgid "Map zoom factor"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1380
+msgid "Map style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1381
+msgid "Select map style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1403
+msgid "Hide/Show any block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1404
+msgid "Hide or Show any block with desired CSS-selector"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1409
+msgid "Selector"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1410
+msgid "Any block's CSS-selector"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1415
+msgid "Hide or Show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1416
+msgid "New state for the block: hide or show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1429 shortcodes/shortcodes_vc.php:1865
+#: shortcodes/shortcodes_vc.php:1914
+msgid "Highlight text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1430 shortcodes/shortcodes_vc.php:1866
+msgid "Highlight text with selected color, background color and other styles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1436 shortcodes/shortcodes_vc.php:1877
+msgid "Highlight type"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1441 shortcodes/shortcodes_vc.php:1882
+msgid "Type 1"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1442 shortcodes/shortcodes_vc.php:1883
+msgid "Type 2"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1443 shortcodes/shortcodes_vc.php:1884
+msgid "Type 3"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1447
+#: shortcodes/shortcodes_settings.php:1744
+#: shortcodes/shortcodes_settings.php:1780
+#: shortcodes/shortcodes_settings.php:1841
+#: shortcodes/shortcodes_settings.php:2636 shortcodes/shortcodes_vc.php:2308
+#: shortcodes/shortcodes_vc.php:2406 shortcodes/shortcodes_vc.php:3324
+#: shortcodes/shortcodes_vc.php:3428
+msgid "Color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1448 shortcodes/shortcodes_vc.php:1891
+msgid "Color for the highlighted text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1455 shortcodes/shortcodes_vc.php:1899
+msgid "Background color for the highlighted text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1461
+msgid ""
+"Font size of the highlighted text (default - in pixels, allows any CSS "
+"units of measure)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1466
+msgid "Highlighting content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1467 shortcodes/shortcodes_vc.php:1915
+msgid "Content for highlight"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1484
+#: shortcodes/shortcodes_settings.php:1490
+#: shortcodes/shortcodes_settings.php:2158 shortcodes/shortcodes_vc.php:1940
+#: shortcodes/shortcodes_vc.php:1951 shortcodes/shortcodes_vc.php:2802
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1485
+msgid "Insert icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1491
+msgid "Select font icon from the Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1497
+#: shortcodes/shortcodes_settings.php:1498 shortcodes/shortcodes_vc.php:1961
+msgid "Icon's color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1506 shortcodes/shortcodes_vc.php:1976
+msgid "Background shape"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1507 shortcodes/shortcodes_vc.php:1977
+msgid "Shape of the icon background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1520
+msgid "Background style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1521 shortcodes/shortcodes_vc.php:1990
+msgid "Select icon's color scheme"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1528
+#: shortcodes/shortcodes_settings.php:1529
+msgid "Icon's background color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1539 shortcodes/shortcodes_vc.php:1998
+msgid "Icon's font size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1550
+msgid "Icon font weight"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1566
+msgid "Icon text alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1577 shortcodes/shortcodes_vc.php:2029
+msgid "Link URL from this icon (if not empty)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1596 shortcodes/shortcodes_vc.php:2058
+msgid "Image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1597
+msgid "Insert image into your post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1602
+msgid "URL for image file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1603
+msgid "Select or upload image or write URL from other site"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1610
+msgid "Image title (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1615
+msgid "Icon before title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1622
+msgid "Float image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1623
+msgid "Float image to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1630
+msgid "Image Shape"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1631
+msgid "Shape of the image: square (rectangle) or round"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1657 shortcodes/shortcodes_vc.php:2140
+msgid "Infobox"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1658
+msgid "Insert infobox into your post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1664 shortcodes/shortcodes_vc.php:2152
+msgid "Infobox style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1669
+#: shortcodes/shortcodes_settings.php:2306
+#: shortcodes/shortcodes_settings.php:3543 shortcodes/shortcodes_vc.php:2156
+#: shortcodes/shortcodes_vc.php:3004 shortcodes/shortcodes_vc.php:4580
+msgid "Regular"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1670 shortcodes/shortcodes_vc.php:2157
+msgid "Info"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1671 shortcodes/shortcodes_vc.php:2158
+msgid "Success"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1672 shortcodes/shortcodes_vc.php:2159
+msgid "Error"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1673 shortcodes/shortcodes_vc.php:2160
+msgid "Warning"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1677
+msgid "Closeable box"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1678 shortcodes/shortcodes_vc.php:2167
+msgid "Create closeable box (with close button)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1684 shortcodes/shortcodes_vc.php:2174
+msgid "Custom icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1685 shortcodes/shortcodes_vc.php:2175
+msgid ""
+"Select icon for the infobox from Fontello icons set. If empty - use "
+"default icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1691
+#: shortcodes/shortcodes_settings.php:1952 shortcodes/shortcodes_vc.php:1890
+#: shortcodes/shortcodes_vc.php:1960 shortcodes/shortcodes_vc.php:2182
+#: shortcodes/shortcodes_vc.php:2550
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1692
+msgid "Any color for text and headers"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1698 shortcodes/shortcodes_vc.php:2191
+msgid "Any background color for this infobox"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1703
+msgid "Infobox content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1704
+msgid "Content for infobox"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1725 shortcodes/shortcodes_vc.php:2229
+msgid "Line"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1726
+msgid "Insert Line into your post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1732 shortcodes/shortcodes_vc.php:2241
+msgid "Line style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1737 shortcodes/shortcodes_vc.php:2245
+msgid "Solid"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1738 shortcodes/shortcodes_vc.php:2246
+msgid "Dashed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1739 shortcodes/shortcodes_vc.php:2247
+msgid "Dotted"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1740 shortcodes/shortcodes_vc.php:2248
+msgid "Double"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1745 shortcodes/shortcodes_vc.php:2255
+#: shortcodes/shortcodes_vc.php:2256
+msgid "Line color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1767 shortcodes/shortcodes_vc.php:2287
+msgid "List"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1768 shortcodes/shortcodes_vc.php:2288
+msgid "List items with specific bullets"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1773 shortcodes/shortcodes_vc.php:2299
+msgid "Bullet's style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1774 shortcodes/shortcodes_vc.php:2300
+msgid "Bullet's style for each list item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1781 shortcodes/shortcodes_vc.php:2309
+msgid "List items color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1786
+#: shortcodes/shortcodes_settings.php:1847 shortcodes/shortcodes_vc.php:2316
+msgid "List icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1787 shortcodes/shortcodes_vc.php:2317
+msgid "Select list icon from Fontello icons set (only for style=Iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1796
+#: shortcodes/shortcodes_settings.php:1854 shortcodes/shortcodes_vc.php:2329
+#: shortcodes/shortcodes_vc.php:2423
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1797 shortcodes/shortcodes_vc.php:2330
+msgid "List icons color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1805 shortcodes/shortcodes_vc.php:2341
+msgid "Boxed Icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1806 shortcodes/shortcodes_vc.php:2342
+msgid "Create border around icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1823 shortcodes/shortcodes_vc.php:2366
+msgid "List item with specific bullet"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1828
+msgid "List item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1829
+msgid "Current list item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1835 shortcodes/shortcodes_vc.php:2377
+msgid "List item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1836
+msgid "Current list item title (show it as tooltip)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1842 shortcodes/shortcodes_vc.php:2407
+msgid "Text color for this item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1848 shortcodes/shortcodes_vc.php:2415
+msgid "Select list item icon from Fontello icons set (only for style=Iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1855 shortcodes/shortcodes_vc.php:2424
+msgid "Icon color for this item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1861 shortcodes/shortcodes_vc.php:2387
+msgid "Link URL for the current list item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1868 shortcodes/shortcodes_vc.php:2397
+msgid "Link target for the current list item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1883
+#: shortcodes/shortcodes_settings.php:4210
+#: shortcodes/shortcodes_settings.php:4268
+#: shortcodes/shortcodes_settings.php:4293
+#: shortcodes/shortcodes_settings.php:4336
+#: shortcodes/shortcodes_settings.php:4371
+#: shortcodes/shortcodes_settings.php:4414
+#: shortcodes/shortcodes_settings.php:4457
+#: shortcodes/shortcodes_settings.php:4500
+#: shortcodes/shortcodes_settings.php:4609
+#: shortcodes/shortcodes_settings.php:4664 shortcodes/shortcodes_vc.php:2461
+#: shortcodes/shortcodes_vc.php:5381 shortcodes/shortcodes_vc.php:5471
+#: shortcodes/shortcodes_vc.php:5510 shortcodes/shortcodes_vc.php:5570
+#: shortcodes/shortcodes_vc.php:5621 shortcodes/shortcodes_vc.php:5681
+#: shortcodes/shortcodes_vc.php:5741 shortcodes/shortcodes_vc.php:5801
+#: shortcodes/shortcodes_vc.php:5953 shortcodes/shortcodes_vc.php:6031
+msgid "Number"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1884
+msgid "Insert number or any word as set separate characters"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1889
+#: shortcodes/shortcodes_settings.php:2628 shortcodes/shortcodes_vc.php:2472
+#: shortcodes/shortcodes_vc.php:3419
+msgid "Value"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1890
+msgid "Number or any word"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1918 shortcodes/shortcodes_vc.php:2511
+msgid "Parallax"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1919 shortcodes/shortcodes_vc.php:2512
+msgid "Create the parallax container (with asinc background image)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1924 shortcodes/shortcodes_vc.php:2522
+#: shortcodes/shortcodes_vc.php:2525
+msgid "Create gap"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1925
+msgid "Create gap around parallax container"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1932
+msgid "Dir"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1933 shortcodes/shortcodes_vc.php:2531
+msgid "Scroll direction for the parallax background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1937 shortcodes/shortcodes_vc.php:2535
+msgid "Up"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1938 shortcodes/shortcodes_vc.php:2536
+msgid "Down"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1943 shortcodes/shortcodes_vc.php:2542
+msgid "Speed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1944
+msgid "Image motion speed (from 0.0 to 1.0)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1953 shortcodes/shortcodes_vc.php:2551
+msgid "Select color for text object inside parallax block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1959 shortcodes/shortcodes_vc.php:2558
+msgid "Bg tint"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1960 shortcodes/shortcodes_vc.php:2559
+msgid ""
+"Select tint of the parallax background (for correct font color choise)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1971 shortcodes/shortcodes_vc.php:2571
+msgid "Select color for parallax background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1976
+#: shortcodes/shortcodes_settings.php:3984
+#: shortcodes/shortcodes_settings.php:4084 shortcodes/shortcodes_vc.php:2578
+#: shortcodes/shortcodes_vc.php:5071 shortcodes/shortcodes_vc.php:5188
+msgid "Background image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1977 shortcodes/shortcodes_vc.php:2579
+msgid ""
+"Select or upload image or write URL from other site for the parallax "
+"background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1983 shortcodes/shortcodes_vc.php:2586
+msgid "Image X position"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1984
+msgid ""
+"Image horizontal position (as background of the parallax block) - in "
+"percent"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1991 shortcodes/shortcodes_vc.php:2594
+msgid "Video background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1992
+msgid ""
+"Select video from media library or paste URL for video file from other "
+"site to show it as parallax background"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:1997
+#: shortcodes/shortcodes_settings.php:3935
+msgid "Choose video"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2003
+#: shortcodes/shortcodes_settings.php:3941
+msgid "Choose video file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2004
+#: shortcodes/shortcodes_settings.php:3942
+msgid "Select video file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2013 shortcodes/shortcodes_vc.php:2602
+msgid "Video ratio"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2014 shortcodes/shortcodes_vc.php:2603
+msgid ""
+"Specify ratio of the video background. For example: 16:9 (default), 4:3, "
+"etc."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2037 shortcodes/shortcodes_vc.php:238
+#: shortcodes/shortcodes_vc.php:373 shortcodes/shortcodes_vc.php:439
+#: shortcodes/shortcodes_vc.php:540 shortcodes/shortcodes_vc.php:730
+#: shortcodes/shortcodes_vc.php:987 shortcodes/shortcodes_vc.php:1026
+#: shortcodes/shortcodes_vc.php:1182 shortcodes/shortcodes_vc.php:1251
+#: shortcodes/shortcodes_vc.php:1381 shortcodes/shortcodes_vc.php:1526
+#: shortcodes/shortcodes_vc.php:1566 shortcodes/shortcodes_vc.php:1639
+#: shortcodes/shortcodes_vc.php:1692 shortcodes/shortcodes_vc.php:1787
+#: shortcodes/shortcodes_vc.php:1867 shortcodes/shortcodes_vc.php:1942
+#: shortcodes/shortcodes_vc.php:2060 shortcodes/shortcodes_vc.php:2142
+#: shortcodes/shortcodes_vc.php:2231 shortcodes/shortcodes_vc.php:2289
+#: shortcodes/shortcodes_vc.php:2463 shortcodes/shortcodes_vc.php:2659
+#: shortcodes/shortcodes_vc.php:2700 shortcodes/shortcodes_vc.php:2768
+#: shortcodes/shortcodes_vc.php:2882 shortcodes/shortcodes_vc.php:2950
+#: shortcodes/shortcodes_vc.php:2991 shortcodes/shortcodes_vc.php:3052
+#: shortcodes/shortcodes_vc.php:3239 shortcodes/shortcodes_vc.php:3488
+#: shortcodes/shortcodes_vc.php:3776 shortcodes/shortcodes_vc.php:3879
+#: shortcodes/shortcodes_vc.php:3934 shortcodes/shortcodes_vc.php:4045
+#: shortcodes/shortcodes_vc.php:4280 shortcodes/shortcodes_vc.php:4542
+#: shortcodes/shortcodes_vc.php:4723 shortcodes/shortcodes_vc.php:4855
+#: shortcodes/shortcodes_vc.php:5017 shortcodes/shortcodes_vc.php:5142
+msgid "Content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2038
+msgid "Content for the parallax container"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2061 shortcodes/shortcodes_vc.php:2657
+msgid "Popup window"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2062 shortcodes/shortcodes_vc.php:2658
+msgid ""
+"Container for any html-block with desired class and style for popup window"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2089 shortcodes/shortcodes_vc.php:2698
+msgid "Price"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2090 shortcodes/shortcodes_vc.php:2699
+msgid "Insert price with decoration"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2095
+#: shortcodes/shortcodes_settings.php:2165 shortcodes/shortcodes_vc.php:2709
+#: shortcodes/shortcodes_vc.php:2810 shortcodes/shortcodes_vc.php:2813
+#: shortcodes/shortcodes_vc.php:2823 shortcodes/shortcodes_vc.php:2833
+msgid "Money"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2096
+#: shortcodes/shortcodes_settings.php:2166 shortcodes/shortcodes_vc.php:2710
+#: shortcodes/shortcodes_vc.php:2811
+msgid "Money value (dot or comma separated)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2101
+#: shortcodes/shortcodes_settings.php:2172
+msgid "Currency"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2102
+#: shortcodes/shortcodes_settings.php:2173 shortcodes/shortcodes_vc.php:2719
+#: shortcodes/shortcodes_vc.php:2821
+msgid "Currency character"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2107
+#: shortcodes/shortcodes_settings.php:2178 shortcodes/shortcodes_vc.php:2727
+#: shortcodes/shortcodes_vc.php:2830
+msgid "Period"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2108
+#: shortcodes/shortcodes_settings.php:2179 shortcodes/shortcodes_vc.php:2728
+#: shortcodes/shortcodes_vc.php:2831
+msgid "Period text (if need). For example: monthly, daily, etc."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2114
+#: shortcodes/shortcodes_settings.php:2185 shortcodes/shortcodes_vc.php:2737
+#: shortcodes/shortcodes_vc.php:2841
+msgid "Align price to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2134 shortcodes/shortcodes_vc.php:2766
+msgid "Price block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2135 shortcodes/shortcodes_vc.php:2767
+msgid "Insert price block with title, price and description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2141 shortcodes/shortcodes_vc.php:2778
+msgid "Block title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2147 shortcodes/shortcodes_vc.php:2787
+msgid "URL for link from button (at bottom of the block)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2152 shortcodes/shortcodes_vc.php:2794
+msgid "Link text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2153 shortcodes/shortcodes_vc.php:2795
+msgid ""
+"Text (caption) for the link button (at bottom of the block). If empty - "
+"button not showed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2159 shortcodes/shortcodes_vc.php:2803
+msgid "Select icon from Fontello icons set (placed before/instead price)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2194 shortcodes/shortcodes_vc.php:2850
+msgid "Description for this price block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2218 shortcodes/shortcodes_vc.php:2880
+msgid "Quote"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2219 shortcodes/shortcodes_vc.php:2881
+msgid "Quote text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2225 shortcodes/shortcodes_vc.php:2892
+msgid "Quote style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2231 shortcodes/shortcodes_vc.php:2899
+msgid "Quote cite"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2232
+msgid "URL for quote cite"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2237 shortcodes/shortcodes_vc.php:2907
+msgid "Title (author)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2238 shortcodes/shortcodes_vc.php:2908
+msgid "Quote title (author name)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2243
+#: shortcodes/shortcodes_settings.php:2244 shortcodes/shortcodes_vc.php:2916
+#: shortcodes/shortcodes_vc.php:2917
+msgid "Quote content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2266 shortcodes/shortcodes_vc.php:2948
+msgid "Reviews"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2267 shortcodes/shortcodes_vc.php:2949
+msgid "Insert reviews block in the single post"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2297
+msgid "Show search form"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2303 shortcodes/shortcodes_vc.php:3001
+msgid "Select style to display search field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2307 shortcodes/shortcodes_vc.php:3005
+msgid "Flat"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2313 shortcodes/shortcodes_vc.php:3012
+msgid "Title (placeholder) for the search field"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2314 shortcodes/shortcodes_vc.php:3015
+msgid "Search &hellip;"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2318 shortcodes/shortcodes_vc.php:3020
+msgid "AJAX"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2319 shortcodes/shortcodes_vc.php:3021
+msgid "Search via AJAX or reload page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2340 shortcodes/shortcodes_vc.php:3050
+msgid "Section container"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2341
+msgid "Container for any block with desired class and style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2384 shortcodes/shortcodes_vc.php:3106
+msgid "Scroll and Pan direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2385 shortcodes/shortcodes_vc.php:3107
+msgid "Scroll and Pan direction (if Use scroller = yes or Pan = yes)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2494
+msgid "Insert skills diagramm in your page (post)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2499 shortcodes/shortcodes_vc.php:3249
+msgid "Max value"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2500 shortcodes/shortcodes_vc.php:3250
+msgid "Max value for skills items"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2506 shortcodes/shortcodes_vc.php:3258
+msgid "Skills type"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2507 shortcodes/shortcodes_vc.php:3259
+msgid "Select type of skills block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2512 shortcodes/shortcodes_vc.php:3263
+msgid "Bar"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2513 shortcodes/shortcodes_vc.php:3264
+msgid "Pie chart"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2515 shortcodes/shortcodes_vc.php:3266
+msgid "Arc"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2519 shortcodes/shortcodes_vc.php:3272
+msgid "Skills layout"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2520 shortcodes/shortcodes_vc.php:3273
+msgid "Select layout of skills block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2528 shortcodes/shortcodes_vc.php:3281
+msgid "Rows"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2533 shortcodes/shortcodes_vc.php:2530
+#: shortcodes/shortcodes_vc.php:3288
+msgid "Direction"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2534 shortcodes/shortcodes_vc.php:3289
+msgid "Select direction of skills block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2544 shortcodes/shortcodes_vc.php:3297
+msgid "Counters style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2545 shortcodes/shortcodes_vc.php:3298
+msgid "Select style of skills items (only for type=counter)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2556
+msgid "Skills items color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2557 shortcodes/shortcodes_vc.php:3325
+msgid "Color for all skills items"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2564 shortcodes/shortcodes_vc.php:3333
+msgid "Background color for all skills items (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2572
+#: shortcodes/shortcodes_settings.php:2648 shortcodes/shortcodes_vc.php:3344
+#: shortcodes/shortcodes_vc.php:3446
+msgid "Border color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2573 shortcodes/shortcodes_vc.php:3345
+msgid "Border color for all skills items (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2581
+msgid "Skills title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2582
+msgid "Skills block title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2588
+msgid "Skills subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2589
+msgid "Skills block subtitle - text in the center (only for type=arc)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2597
+msgid "Align skills block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2598 shortcodes/shortcodes_vc.php:3378
+msgid "Align skills block to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2617 shortcodes/shortcodes_vc.php:3399
+msgid "Skill"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2618 shortcodes/shortcodes_vc.php:3400
+msgid "Skills item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2623
+msgid "Current skills item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2629
+msgid "Current skills level"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2637
+msgid "Current skills item color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2643
+msgid "Current skills item background color (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2649
+msgid "Current skills item border color (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2654
+msgid "Counter tyle"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2655 shortcodes/shortcodes_vc.php:3455
+msgid "Select style for the current skills item (only for type=counter)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2673 shortcodes/shortcodes_vc.php:3486
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2674
+msgid "Insert slider into your post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2679
+msgid "Slider engine"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2680 shortcodes/shortcodes_vc.php:3499
+msgid ""
+"Select engine for slider. Attention! Swiper is built-in engine, all other "
+"engines appears only if corresponding plugings are installed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2686 shortcodes/shortcodes_vc.php:3507
+msgid "Float slider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2687 shortcodes/shortcodes_vc.php:3508
+msgid "Float slider to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2695 shortcodes/shortcodes_vc.php:3515
+#: shortcodes/shortcodes_vc.php:3518
+msgid "Custom slides"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2696 shortcodes/shortcodes_vc.php:3516
+msgid ""
+"Make custom slides from inner shortcodes (prepare it on tabs) or prepare "
+"slides from posts thumbnails"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2705 shortcodes/shortcodes_vc.php:3525
+msgid "Revolution slider alias"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2706 shortcodes/shortcodes_vc.php:3526
+msgid "Alias for Revolution slider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2715
+msgid "Swiper: Category list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2716
+msgid ""
+"Comma separated list of category slugs. If empty - select posts from any "
+"category or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2728 shortcodes/shortcodes_vc.php:3550
+msgid "Swiper: Number of posts"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2739 shortcodes/shortcodes_vc.php:3562
+msgid "Swiper: Offset before select posts"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2749
+msgid "Swiper: Post order by"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2759 shortcodes/shortcodes_vc.php:3586
+msgid "Swiper: Post order"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2770 shortcodes/shortcodes_vc.php:3598
+msgid "Swiper: Post IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2779 shortcodes/shortcodes_vc.php:3610
+msgid "Swiper: Show slider controls"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2780 shortcodes/shortcodes_vc.php:3611
+msgid "Show arrows inside slider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2790 shortcodes/shortcodes_vc.php:3622
+msgid "Swiper: Show slider pagination"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2791
+msgid "Show bullets for switch slides"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2798 shortcodes/shortcodes_vc.php:3631
+msgid "Dots"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2799 shortcodes/shortcodes_vc.php:3632
+msgid "Side Titles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2800 shortcodes/shortcodes_vc.php:3633
+msgid "Over Titles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2805 shortcodes/shortcodes_vc.php:3640
+msgid "Swiper: Show titles section"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2806 shortcodes/shortcodes_vc.php:3641
+msgid "Show section with post's title and short post's description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2814 shortcodes/shortcodes_vc.php:3649
+msgid "Not show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2815 shortcodes/shortcodes_vc.php:3650
+msgid "Show/Hide info"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2816 shortcodes/shortcodes_vc.php:3651
+msgid "Fixed info"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2820 shortcodes/shortcodes_vc.php:3657
+msgid "Swiper: Post descriptions"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2824 shortcodes/shortcodes_vc.php:3658
+msgid "Show post's excerpt max length (characters)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2832 shortcodes/shortcodes_vc.php:3670
+msgid "Swiper: Post's title as link"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2833 shortcodes/shortcodes_vc.php:3671
+msgid "Make links from post's titles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2842 shortcodes/shortcodes_vc.php:3683
+msgid "Swiper: Crop images"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2843 shortcodes/shortcodes_vc.php:3684
+msgid "Crop images in each slide or live it unchanged"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2852 shortcodes/shortcodes_vc.php:3696
+msgid "Swiper: Autoheight"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2853
+#: shortcodes/shortcodes_settings.php:3333
+#: shortcodes/shortcodes_settings.php:3863 shortcodes/shortcodes_vc.php:3697
+#: shortcodes/shortcodes_vc.php:4316 shortcodes/shortcodes_vc.php:4939
+msgid "Change whole slider's height (make it equal current slide's height)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2862 shortcodes/shortcodes_vc.php:3709
+msgid "Swiper: Slides change interval"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2863 shortcodes/shortcodes_vc.php:3710
+msgid "Slides change interval (in milliseconds: 1000ms = 1s)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2885 shortcodes/shortcodes_vc.php:3736
+msgid "Slide"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2886
+msgid "Slider item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2890 shortcodes/shortcodes_vc.php:3747
+msgid "URL (source) for image file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2891 shortcodes/shortcodes_vc.php:3748
+msgid ""
+"Select or upload image or write URL from other site for the current slide"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2908 shortcodes/shortcodes_vc.php:3774
+msgid "Social icons"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2909
+msgid "List of social icons (with hovers)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2914 shortcodes/shortcodes_vc.php:3786
+msgid "Icon's size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2915 shortcodes/shortcodes_vc.php:3787
+msgid "Size of the icons"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2919 shortcodes/shortcodes_vc.php:3790
+msgid "Tiny"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2925 shortcodes/shortcodes_vc.php:3798
+msgid "Manual socials list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2926 shortcodes/shortcodes_vc.php:3799
+msgid ""
+"Custom list of social networks. For example: twitter=http://twitter.com/"
+"my_profile|facebook=http://facebooc.com/my_profile. If empty - use socials "
+"from Theme options."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2932 shortcodes/shortcodes_vc.php:3806
+#: shortcodes/shortcodes_vc.php:3809
+msgid "Custom socials"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2933 shortcodes/shortcodes_vc.php:3807
+msgid "Make custom icons from inner shortcodes (prepare it on tabs)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2950 shortcodes/shortcodes_vc.php:3826
+msgid "Custom social item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2951 shortcodes/shortcodes_vc.php:3827
+msgid "Custom social item: name, profile url and icon url"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2956 shortcodes/shortcodes_vc.php:3837
+msgid "Social name"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2957 shortcodes/shortcodes_vc.php:3838
+msgid "Name (slug) of the social network (twitter, facebook, linkedin, etc.)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2962 shortcodes/shortcodes_vc.php:3845
+msgid "Your profile URL"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2963 shortcodes/shortcodes_vc.php:3846
+msgid "URL of your profile in specified social network"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2968 shortcodes/shortcodes_vc.php:3853
+msgid "URL (source) for icon file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2969 shortcodes/shortcodes_vc.php:3854
+msgid ""
+"Select or upload image or write URL from other site for the current social "
+"icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2983 shortcodes/shortcodes_vc.php:3877
+msgid "Table"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2984
+msgid "Insert a table into post (page). "
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2989
+msgid "Content alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2990 shortcodes/shortcodes_vc.php:3889
+msgid "Select alignment for each table cell"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2997 shortcodes/shortcodes_vc.php:3897
+msgid "Table content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:2998 shortcodes/shortcodes_vc.php:3898
+msgid "Content, created with any table-generator"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3022 shortcodes/shortcodes_vc.php:3932
+#: shortcodes/shortcodes_vc.php:3933
+msgid "Tabs"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3023
+msgid "Insert tabs in your page (post)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3028 shortcodes/shortcodes_vc.php:3944
+msgid "Tabs style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3029
+msgid "Select style for tabs items"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3038 shortcodes/shortcodes_vc.php:3956
+msgid "Initially opened tab"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3039 shortcodes/shortcodes_vc.php:3957
+msgid "Number of initially opened tab"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3047 shortcodes/shortcodes_vc.php:3965
+msgid "Use scroller to show tab content (height parameter required)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3066
+msgid "Tab"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3067 shortcodes/shortcodes_vc.php:3998
+msgid "Tab item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3071 shortcodes/shortcodes_vc.php:4010
+msgid "Tab title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3072
+msgid "Current tab title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3077
+msgid "Tab content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3078
+msgid "Current tab content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3098
+msgid "Insert team in your page (post)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3103 shortcodes/shortcodes_vc.php:4055
+msgid "Team style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3104 shortcodes/shortcodes_vc.php:4056
+msgid "Select style to display team members"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3114 shortcodes/shortcodes_vc.php:4068
+msgid "How many columns use to show team members"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3123 shortcodes/shortcodes_vc.php:4077
+msgid ""
+"Allow get team members from inner shortcodes (custom) or get it from "
+"specified group (cat)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3131
+msgid ""
+"Select categories (groups) to show team members. If empty - select team "
+"members from any category (group) or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3143
+#: shortcodes/shortcodes_settings.php:3360 shortcodes/shortcodes_vc.php:4097
+#: shortcodes/shortcodes_vc.php:4344
+msgid "Number of posts"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3204
+msgid "Member"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3209
+msgid "Registerd user"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3210 shortcodes/shortcodes_vc.php:4192
+msgid ""
+"Select one of registered users (if present) or put name, position, etc. in "
+"fields below"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3217 shortcodes/shortcodes_vc.php:4201
+msgid ""
+"Select one of team members (if present) or put name, position, etc. in "
+"fields below"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3223
+#: shortcodes/shortcodes_settings.php:3473 shortcodes/shortcodes_vc.php:1122
+#: shortcodes/shortcodes_vc.php:1131 shortcodes/shortcodes_vc.php:1140
+#: shortcodes/shortcodes_vc.php:1149 shortcodes/shortcodes_vc.php:2389
+#: shortcodes/shortcodes_vc.php:2399 shortcodes/shortcodes_vc.php:4209
+#: shortcodes/shortcodes_vc.php:4489
+msgid "Link"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3224 shortcodes/shortcodes_vc.php:4210
+msgid "Link on team member's personal page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3231 shortcodes/shortcodes_vc.php:4218
+msgid "Team member's name"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3241 shortcodes/shortcodes_vc.php:4226
+msgid "Position"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3242 shortcodes/shortcodes_vc.php:4227
+msgid "Team member's position"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3252 shortcodes/shortcodes_vc.php:4236
+msgid "Team member's e-mail"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3261
+#: shortcodes/shortcodes_settings.php:3485 shortcodes/shortcodes_vc.php:4505
+msgid "Photo"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3262
+msgid "Team member's photo (avatar)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3272 shortcodes/shortcodes_vc.php:4251
+msgid "Socials"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3273 shortcodes/shortcodes_vc.php:4252
+msgid ""
+"Team member's socials icons: name=url|name=url... For example: "
+"facebook=http://facebook.com/myaccount|twitter=http://twitter.com/myaccount"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3283
+msgid "Team member's short description"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3303
+msgid "Insert testimonials into post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3308
+#: shortcodes/shortcodes_settings.php:3838 shortcodes/shortcodes_vc.php:4290
+#: shortcodes/shortcodes_vc.php:4913
+msgid "Show arrows"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3309
+#: shortcodes/shortcodes_settings.php:3839 shortcodes/shortcodes_vc.php:4291
+#: shortcodes/shortcodes_vc.php:4914
+msgid "Show control buttons"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3315 shortcodes/shortcodes_vc.php:4299
+msgid "Testimonials change interval"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3316 shortcodes/shortcodes_vc.php:4300
+msgid "Testimonials change interval (in milliseconds: 1000ms = 1s)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3324 shortcodes/shortcodes_vc.php:4308
+msgid "Alignment of the testimonials block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3332
+#: shortcodes/shortcodes_settings.php:3862 shortcodes/shortcodes_vc.php:3704
+#: shortcodes/shortcodes_vc.php:4315 shortcodes/shortcodes_vc.php:4938
+msgid "Autoheight"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3340 shortcodes/shortcodes_vc.php:4324
+msgid ""
+"Allow get testimonials from inner shortcodes (custom) or get it from "
+"specified group (cat)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3348 shortcodes/shortcodes_vc.php:4332
+msgid ""
+"Select categories (groups) to show testimonials. If empty - select "
+"testimonials from any category (group) or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3463
+msgid "Testimonials item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3468 shortcodes/shortcodes_vc.php:4481
+msgid "Name of the testimonmials author"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3474 shortcodes/shortcodes_vc.php:4490
+msgid "Link URL to the testimonmials author page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3480
+msgid "E-mail of the testimonmials author (to get gravatar)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3486 shortcodes/shortcodes_vc.php:4506
+msgid ""
+"Select or upload photo of testimonmials author or write URL of photo from "
+"other site"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3491
+msgid "Testimonials text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3492
+msgid "Current testimonials text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3511 shortcodes/shortcodes_vc.php:4541
+msgid "Create header tag (1-6 level) with many styles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3516
+#: shortcodes/shortcodes_settings.php:3517 shortcodes/shortcodes_vc.php:4551
+#: shortcodes/shortcodes_vc.php:4552
+msgid "Title content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3523 shortcodes/shortcodes_vc.php:4559
+msgid "Title type"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3524 shortcodes/shortcodes_vc.php:4560
+msgid "Title type (header level)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3529 shortcodes/shortcodes_vc.php:4564
+msgid "Header 1"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3530 shortcodes/shortcodes_vc.php:4565
+msgid "Header 2"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3531 shortcodes/shortcodes_vc.php:4566
+msgid "Header 3"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3532 shortcodes/shortcodes_vc.php:4567
+msgid "Header 4"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3533 shortcodes/shortcodes_vc.php:4568
+msgid "Header 5"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3534 shortcodes/shortcodes_vc.php:4569
+msgid "Header 6"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3538
+#: shortcodes/shortcodes_settings.php:3539 shortcodes/shortcodes_vc.php:4575
+msgid "Title style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3544 shortcodes/shortcodes_vc.php:4581
+msgid "Underline"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3545 shortcodes/shortcodes_vc.php:4582
+msgid "Divider"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3546 shortcodes/shortcodes_vc.php:4583
+msgid "With icon (image)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3551 shortcodes/shortcodes_vc.php:4590
+msgid "Title text alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3558
+msgid "Font_size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3559 shortcodes/shortcodes_vc.php:4599
+msgid "Custom font size. If empty - use theme default"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3565 shortcodes/shortcodes_vc.php:4607
+msgid "Custom font weight. If empty or inherit - use theme default"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3574 shortcodes/shortcodes_vc.php:4614
+msgid "Semibold (600)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3576 shortcodes/shortcodes_vc.php:4616
+msgid "Black (900)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3580
+msgid "Figure botoom border"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3581
+msgid "Apply a figure botoom border"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3587 shortcodes/shortcodes_vc.php:4630
+msgid "Title color"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3588 shortcodes/shortcodes_vc.php:4631
+msgid "Select color for the title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3593 shortcodes/shortcodes_vc.php:4638
+msgid "Title font icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3594 shortcodes/shortcodes_vc.php:4639
+msgid ""
+"Select font icon for the title from Fontello icons set (if style=iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3603 shortcodes/shortcodes_vc.php:4651
+msgid "or image icon"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3604 shortcodes/shortcodes_vc.php:4652
+msgid "Select image icon for the title instead icon above (if style=iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3614
+msgid "or URL for image file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3615 shortcodes/shortcodes_vc.php:4665
+msgid "Select or upload image or write URL from other site (if style=iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3624 shortcodes/shortcodes_vc.php:4673
+msgid "Image (picture) size"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3625
+msgid "Select image (picture) size (if style='iconed')"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3638 shortcodes/shortcodes_vc.php:4686
+msgid "Icon (image) position"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3639 shortcodes/shortcodes_vc.php:4687
+msgid "Select icon (image) position (if style=iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3646 shortcodes/shortcodes_vc.php:4691
+msgid "Top"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3667 shortcodes/shortcodes_vc.php:4721
+msgid "Toggles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3668 shortcodes/shortcodes_vc.php:4722
+msgid "Toggles items"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3673 shortcodes/shortcodes_vc.php:4733
+msgid "Toggles style"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3674 shortcodes/shortcodes_vc.php:4734
+msgid "Select style for display toggles"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3684 shortcodes/shortcodes_vc.php:4746
+msgid "Display counter before each toggles title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3691
+#: shortcodes/shortcodes_settings.php:3733 shortcodes/shortcodes_vc.php:4754
+#: shortcodes/shortcodes_vc.php:4821
+msgid "Select icon for the closed toggles item from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3698
+#: shortcodes/shortcodes_settings.php:3740 shortcodes/shortcodes_vc.php:4762
+#: shortcodes/shortcodes_vc.php:4829
+msgid "Select icon for the opened toggles item from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3714
+#: shortcodes/shortcodes_settings.php:3715 shortcodes/shortcodes_vc.php:4792
+msgid "Toggles item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3719
+msgid "Toggles item title"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3720 shortcodes/shortcodes_vc.php:4804
+msgid "Title for current toggles item"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3725 shortcodes/shortcodes_vc.php:4812
+msgid "Open on show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3726
+msgid "Open current toggles item on show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3746
+msgid "Toggles item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3747
+msgid "Current toggles item content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3765
+msgid "Tooltip"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3766
+msgid "Create tooltip for selected text"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3772
+msgid "Tooltip title (required)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3777
+msgid "Tipped content"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3778
+msgid "Highlighted content with tooltip"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3793 shortcodes/shortcodes_vc.php:4853
+msgid "Twitter"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3794 shortcodes/shortcodes_vc.php:4854
+msgid "Insert twitter feed into post (page)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3799 shortcodes/shortcodes_vc.php:4864
+msgid "Twitter Username"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3800 shortcodes/shortcodes_vc.php:4865
+msgid ""
+"Your username in the twitter account. If empty - get it from Theme Options."
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3805 shortcodes/shortcodes_vc.php:4872
+msgid "Consumer Key"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3806 shortcodes/shortcodes_vc.php:4873
+msgid "Consumer Key from the twitter account"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3811 shortcodes/shortcodes_vc.php:4880
+msgid "Consumer Secret"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3812 shortcodes/shortcodes_vc.php:4881
+msgid "Consumer Secret from the twitter account"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3817 shortcodes/shortcodes_vc.php:4888
+msgid "Token Key"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3818 shortcodes/shortcodes_vc.php:4889
+msgid "Token Key from the twitter account"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3823 shortcodes/shortcodes_vc.php:4896
+msgid "Token Secret"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3824 shortcodes/shortcodes_vc.php:4897
+msgid "Token Secret from the twitter account"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3829 shortcodes/shortcodes_vc.php:4904
+msgid "Tweets number"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3830
+msgid "Tweets number to show"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3845 shortcodes/shortcodes_vc.php:4922
+msgid "Tweets change interval"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3846 shortcodes/shortcodes_vc.php:4923
+msgid "Tweets change interval (in milliseconds: 1000ms = 1s)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3854 shortcodes/shortcodes_vc.php:4931
+msgid "Alignment of the tweets block"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3923 shortcodes/shortcodes_vc.php:5015
+msgid "Video"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3924 shortcodes/shortcodes_vc.php:5016
+msgid "Insert video player"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3929 shortcodes/shortcodes_vc.php:5026
+msgid "URL for video file"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3930
+msgid ""
+"Select video from media library or paste URL for video file from other site"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3951 shortcodes/shortcodes_vc.php:5035
+msgid "Ratio"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3952
+msgid "Ratio of the video"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3957 shortcodes/shortcodes_vc.php:5039
+msgid "16:9"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3958 shortcodes/shortcodes_vc.php:5040
+msgid "4:3"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3962 shortcodes/shortcodes_vc.php:5046
+msgid "Autoplay video"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3963 shortcodes/shortcodes_vc.php:5047
+msgid "Autoplay video on page load"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3978 shortcodes/shortcodes_vc.php:5064
+msgid "Select or upload image or write URL from other site for video preview"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3985 shortcodes/shortcodes_vc.php:5072
+msgid ""
+"Select or upload image or write URL from other site for video background. "
+"Attention! If you use background image - specify paddings below from "
+"background margins to video block in percents!"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3992
+#: shortcodes/shortcodes_settings.php:4092 shortcodes/shortcodes_vc.php:5080
+#: shortcodes/shortcodes_vc.php:5197
+msgid "Top offset"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:3993
+msgid ""
+"Top offset (padding) inside background image to video block (in percent). "
+"For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4001
+#: shortcodes/shortcodes_settings.php:4101 shortcodes/shortcodes_vc.php:5089
+#: shortcodes/shortcodes_vc.php:5206
+msgid "Bottom offset"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4002
+msgid ""
+"Bottom offset (padding) inside background image to video block (in "
+"percent). For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4010
+#: shortcodes/shortcodes_settings.php:4110 shortcodes/shortcodes_vc.php:5098
+#: shortcodes/shortcodes_vc.php:5215
+msgid "Left offset"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4011
+msgid ""
+"Left offset (padding) inside background image to video block (in percent). "
+"For example: 20%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4019
+#: shortcodes/shortcodes_settings.php:4119 shortcodes/shortcodes_vc.php:5107
+#: shortcodes/shortcodes_vc.php:5224
+msgid "Right offset"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4020
+msgid ""
+"Right offset (padding) inside background image to video block (in "
+"percent). For example: 12%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4046 shortcodes/shortcodes_vc.php:5141
+msgid "Insert the image with zoom/lens effect"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4051 shortcodes/shortcodes_vc.php:5151
+msgid "Effect"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4052 shortcodes/shortcodes_vc.php:5152
+msgid "Select effect to display overlapping image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4057 shortcodes/shortcodes_vc.php:5156
+msgid "Lens"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4062 shortcodes/shortcodes_vc.php:5163
+msgid "Main image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4063 shortcodes/shortcodes_vc.php:5164
+msgid "Select or upload main image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4069 shortcodes/shortcodes_vc.php:5171
+msgid "Overlaping image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4070 shortcodes/shortcodes_vc.php:5172
+msgid "Select or upload overlaping image"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4076
+msgid "Float zoom"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4077 shortcodes/shortcodes_vc.php:5180
+msgid "Float zoom to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4085
+msgid ""
+"Select or upload image or write URL from other site for zoom block "
+"background. Attention! If you use background image - specify paddings "
+"below from background margins to zoom block in percents!"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4093
+msgid ""
+"Top offset (padding) inside background image to zoom block (in percent). "
+"For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4102
+msgid ""
+"Bottom offset (padding) inside background image to zoom block (in "
+"percent). For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4111
+msgid ""
+"Left offset (padding) inside background image to zoom block (in percent). "
+"For example: 20%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4120
+msgid ""
+"Right offset (padding) inside background image to zoom block (in percent). "
+"For example: 12%"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4147
+msgid "Woocommerce: Cart"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4148
+msgid "WooCommerce shortcode: show Cart page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4156
+msgid "Woocommerce: Checkout"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4157
+msgid "WooCommerce shortcode: show Checkout page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4165
+msgid "Woocommerce: My Account"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4166
+msgid "WooCommerce shortcode: show My Account page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4174
+msgid "Woocommerce: Order Tracking"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4175
+msgid "WooCommerce shortcode: show Order Tracking page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4183
+msgid "Woocommerce: Shop Messages"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4184 shortcodes/shortcodes_vc.php:5334
+msgid "WooCommerce shortcode: show shop messages"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4192
+msgid "Woocommerce: Product Page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4193 shortcodes/shortcodes_vc.php:5353
+msgid "WooCommerce shortcode: display single product page"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4198
+#: shortcodes/shortcodes_settings.php:4246 shortcodes/shortcodes_vc.php:5363
+#: shortcodes/shortcodes_vc.php:5433
+msgid "SKU"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4199
+#: shortcodes/shortcodes_settings.php:4247 shortcodes/shortcodes_vc.php:5364
+msgid "SKU code of displayed product"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4204
+#: shortcodes/shortcodes_settings.php:4252 shortcodes/shortcodes_vc.php:5372
+#: shortcodes/shortcodes_vc.php:5442
+msgid "ID"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4205
+#: shortcodes/shortcodes_settings.php:4253 shortcodes/shortcodes_vc.php:5373
+msgid "ID of displayed product"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4211
+#: shortcodes/shortcodes_settings.php:4269
+#: shortcodes/shortcodes_settings.php:4294
+#: shortcodes/shortcodes_settings.php:4337
+#: shortcodes/shortcodes_settings.php:4372
+#: shortcodes/shortcodes_settings.php:4415
+#: shortcodes/shortcodes_settings.php:4458
+#: shortcodes/shortcodes_settings.php:4501
+#: shortcodes/shortcodes_settings.php:4610 shortcodes/shortcodes_vc.php:5382
+#: shortcodes/shortcodes_vc.php:5472 shortcodes/shortcodes_vc.php:5511
+#: shortcodes/shortcodes_vc.php:5571 shortcodes/shortcodes_vc.php:5622
+#: shortcodes/shortcodes_vc.php:5682 shortcodes/shortcodes_vc.php:5742
+#: shortcodes/shortcodes_vc.php:5802 shortcodes/shortcodes_vc.php:5954
+msgid "How many products showed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4218 shortcodes/shortcodes_vc.php:5391
+msgid "Post type for the WP query (leave 'product')"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4223 shortcodes/shortcodes_vc.php:5398
+msgid "Post status"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4224 shortcodes/shortcodes_vc.php:5399
+msgid "Display posts only with this status"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4228 shortcodes/shortcodes_vc.php:5402
+msgid "Publish"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4229 shortcodes/shortcodes_vc.php:5403
+msgid "Protected"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4230 shortcodes/shortcodes_vc.php:5404
+msgid "Private"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4231 shortcodes/shortcodes_vc.php:5405
+msgid "Pending"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4232 shortcodes/shortcodes_vc.php:5406
+msgid "Draft"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4240
+msgid "Woocommerce: Product"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4241 shortcodes/shortcodes_vc.php:5423
+msgid "WooCommerce shortcode: display one product"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4262
+msgid "Woocommerce: Best Selling Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4263 shortcodes/shortcodes_vc.php:5461
+msgid "WooCommerce shortcode: show best selling products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4276
+#: shortcodes/shortcodes_settings.php:4301
+#: shortcodes/shortcodes_settings.php:4344
+#: shortcodes/shortcodes_settings.php:4379
+#: shortcodes/shortcodes_settings.php:4422
+#: shortcodes/shortcodes_settings.php:4465
+#: shortcodes/shortcodes_settings.php:4508
+#: shortcodes/shortcodes_settings.php:4574
+#: shortcodes/shortcodes_settings.php:4617 shortcodes/shortcodes_vc.php:5481
+#: shortcodes/shortcodes_vc.php:5520 shortcodes/shortcodes_vc.php:5580
+#: shortcodes/shortcodes_vc.php:5631 shortcodes/shortcodes_vc.php:5691
+#: shortcodes/shortcodes_vc.php:5751 shortcodes/shortcodes_vc.php:5811
+#: shortcodes/shortcodes_vc.php:5902 shortcodes/shortcodes_vc.php:5963
+msgid "How many columns per row use for products output"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4287
+msgid "Woocommerce: Recent Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4288 shortcodes/shortcodes_vc.php:5500
+msgid "WooCommerce shortcode: show recent products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4308
+#: shortcodes/shortcodes_settings.php:4351
+#: shortcodes/shortcodes_settings.php:4386
+#: shortcodes/shortcodes_settings.php:4429
+#: shortcodes/shortcodes_settings.php:4472
+#: shortcodes/shortcodes_settings.php:4515
+#: shortcodes/shortcodes_settings.php:4581
+#: shortcodes/shortcodes_settings.php:4624
+#: shortcodes/shortcodes_settings.php:4679 shortcodes/shortcodes_vc.php:5528
+#: shortcodes/shortcodes_vc.php:5588 shortcodes/shortcodes_vc.php:5639
+#: shortcodes/shortcodes_vc.php:5699 shortcodes/shortcodes_vc.php:5759
+#: shortcodes/shortcodes_vc.php:5819 shortcodes/shortcodes_vc.php:5910
+#: shortcodes/shortcodes_vc.php:5971 shortcodes/shortcodes_vc.php:6049
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4309
+#: shortcodes/shortcodes_settings.php:4319
+#: shortcodes/shortcodes_settings.php:4352
+#: shortcodes/shortcodes_settings.php:4387
+#: shortcodes/shortcodes_settings.php:4397
+#: shortcodes/shortcodes_settings.php:4430
+#: shortcodes/shortcodes_settings.php:4440
+#: shortcodes/shortcodes_settings.php:4473
+#: shortcodes/shortcodes_settings.php:4483
+#: shortcodes/shortcodes_settings.php:4516
+#: shortcodes/shortcodes_settings.php:4526
+#: shortcodes/shortcodes_settings.php:4582
+#: shortcodes/shortcodes_settings.php:4592
+#: shortcodes/shortcodes_settings.php:4625
+#: shortcodes/shortcodes_settings.php:4635
+#: shortcodes/shortcodes_settings.php:4680
+#: shortcodes/shortcodes_settings.php:4690 shortcodes/shortcodes_vc.php:5529
+#: shortcodes/shortcodes_vc.php:5541 shortcodes/shortcodes_vc.php:5589
+#: shortcodes/shortcodes_vc.php:5640 shortcodes/shortcodes_vc.php:5652
+#: shortcodes/shortcodes_vc.php:5700 shortcodes/shortcodes_vc.php:5712
+#: shortcodes/shortcodes_vc.php:5760 shortcodes/shortcodes_vc.php:5772
+#: shortcodes/shortcodes_vc.php:5820 shortcodes/shortcodes_vc.php:5832
+#: shortcodes/shortcodes_vc.php:5911 shortcodes/shortcodes_vc.php:5923
+#: shortcodes/shortcodes_vc.php:5972 shortcodes/shortcodes_vc.php:5984
+#: shortcodes/shortcodes_vc.php:6050 shortcodes/shortcodes_vc.php:6062
+msgid "Sorting order for products output"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4318
+#: shortcodes/shortcodes_settings.php:4396
+#: shortcodes/shortcodes_settings.php:4439
+#: shortcodes/shortcodes_settings.php:4482
+#: shortcodes/shortcodes_settings.php:4525
+#: shortcodes/shortcodes_settings.php:4591
+#: shortcodes/shortcodes_settings.php:4634
+#: shortcodes/shortcodes_settings.php:4689 shortcodes/shortcodes_vc.php:5540
+#: shortcodes/shortcodes_vc.php:5651 shortcodes/shortcodes_vc.php:5711
+#: shortcodes/shortcodes_vc.php:5771 shortcodes/shortcodes_vc.php:5831
+#: shortcodes/shortcodes_vc.php:5922 shortcodes/shortcodes_vc.php:5983
+#: shortcodes/shortcodes_vc.php:6061
+msgid "Order"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4330
+msgid "Woocommerce: Related Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4331 shortcodes/shortcodes_vc.php:5560
+msgid "WooCommerce shortcode: show related products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4365
+msgid "Woocommerce: Featured Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4366 shortcodes/shortcodes_vc.php:5611
+msgid "WooCommerce shortcode: show featured products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4408
+msgid "Woocommerce: Top Rated Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4409 shortcodes/shortcodes_vc.php:5671
+msgid "WooCommerce shortcode: show top rated products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4451
+msgid "Woocommerce: Sale Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4452 shortcodes/shortcodes_vc.php:5731
+msgid "WooCommerce shortcode: list products on sale"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4494
+msgid "Woocommerce: Products from category"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4495 shortcodes/shortcodes_vc.php:5791
+msgid "WooCommerce shortcode: list products in specified category(-ies)"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4534 shortcodes/shortcodes_vc.php:5841
+msgid "Comma separated category slugs"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4539 shortcodes/shortcodes_vc.php:5849
+msgid "Operator"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4540 shortcodes/shortcodes_vc.php:5850
+msgid "Categories operator"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4545 shortcodes/shortcodes_vc.php:5854
+msgid "IN"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4546 shortcodes/shortcodes_vc.php:5855
+msgid "NOT IN"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4547 shortcodes/shortcodes_vc.php:5856
+msgid "AND"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4555
+msgid "Woocommerce: Products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4556 shortcodes/shortcodes_vc.php:5873
+msgid "WooCommerce shortcode: list all products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4561 shortcodes/shortcodes_vc.php:5883
+msgid "SKUs"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4562 shortcodes/shortcodes_vc.php:5884
+msgid "Comma separated SKU codes of products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4567
+#: shortcodes/shortcodes_settings.php:4703 shortcodes/shortcodes_vc.php:5892
+#: shortcodes/shortcodes_vc.php:6079
+msgid "IDs"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4568
+#: shortcodes/shortcodes_settings.php:4704 shortcodes/shortcodes_vc.php:5893
+#: shortcodes/shortcodes_vc.php:6080
+msgid "Comma separated ID of products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4603
+msgid "Woocommerce: Products by Attribute"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4604 shortcodes/shortcodes_vc.php:5943
+msgid "WooCommerce shortcode: show products with specified attribute"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4642 shortcodes/shortcodes_vc.php:5992
+msgid "Attribute"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4643 shortcodes/shortcodes_vc.php:5993
+msgid "Attribute name"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4648 shortcodes/shortcodes_vc.php:6001
+msgid "Filter"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4649 shortcodes/shortcodes_vc.php:6002
+msgid "Attribute value"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4658
+msgid "Woocommerce: Product Categories"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4659 shortcodes/shortcodes_vc.php:6021
+msgid "WooCommerce shortcode: show categories with products"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4665 shortcodes/shortcodes_vc.php:6032
+msgid "How many categories showed"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4672 shortcodes/shortcodes_vc.php:6041
+msgid "How many columns per row use for categories output"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4697 shortcodes/shortcodes_vc.php:6070
+msgid "Parent"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4698 shortcodes/shortcodes_vc.php:6071
+msgid "Parent category slug"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4709 shortcodes/shortcodes_vc.php:6088
+msgid "Hide empty"
+msgstr ""
+
+#: shortcodes/shortcodes_settings.php:4710 shortcodes/shortcodes_vc.php:6089
+msgid "Hide empty categories"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:9
+msgid "Width (in pixels or percent) of the current element"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:10 shortcodes/shortcodes_vc.php:22
+#: shortcodes/shortcodes_vc.php:156 shortcodes/shortcodes_vc.php:166
+#: shortcodes/shortcodes_vc.php:186 shortcodes/shortcodes_vc.php:197
+#: shortcodes/shortcodes_vc.php:206 shortcodes/shortcodes_vc.php:215
+#: shortcodes/shortcodes_vc.php:224
+msgid "Size &amp; Margins"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:21
+msgid "Height (only in pixels) of the current element"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:149
+msgid "Ancora shortcodes"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:165
+msgid "CSS class for current element"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:196
+msgid "Top margin (in pixels)."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:205
+msgid "Bottom margin (in pixels)."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:214
+msgid "Left margin (in pixels)."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:223
+msgid "Right margin (in pixels)."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:300 shortcodes/shortcodes_vc.php:4775
+msgid "Item 1 title"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:301 shortcodes/shortcodes_vc.php:4776
+msgid "Item 2 title"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:308 shortcodes/shortcodes_vc.php:4783
+msgid "Add item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:318
+msgid "Inner accordion item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:457
+msgid "Put here URL for audio file"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:490
+msgid "Controls"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:491
+msgid "Show/hide controls"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:498
+msgid "Autoplay"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:553 shortcodes/shortcodes_vc.php:3065
+msgid "Use as dedicated content"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:577 shortcodes/shortcodes_vc.php:586
+#: shortcodes/shortcodes_vc.php:598 shortcodes/shortcodes_vc.php:611
+#: shortcodes/shortcodes_vc.php:946 shortcodes/shortcodes_vc.php:955
+#: shortcodes/shortcodes_vc.php:3089 shortcodes/shortcodes_vc.php:3098
+#: shortcodes/shortcodes_vc.php:3110 shortcodes/shortcodes_vc.php:3119
+msgid "Scroll"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:579 shortcodes/shortcodes_vc.php:589
+#: shortcodes/shortcodes_vc.php:3091 shortcodes/shortcodes_vc.php:3101
+msgid "Content scroller"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:623 shortcodes/shortcodes_vc.php:632
+#: shortcodes/shortcodes_vc.php:641 shortcodes/shortcodes_vc.php:650
+#: shortcodes/shortcodes_vc.php:659 shortcodes/shortcodes_vc.php:668
+#: shortcodes/shortcodes_vc.php:3131 shortcodes/shortcodes_vc.php:3140
+#: shortcodes/shortcodes_vc.php:3149 shortcodes/shortcodes_vc.php:3158
+#: shortcodes/shortcodes_vc.php:3167 shortcodes/shortcodes_vc.php:3176
+#: shortcodes/shortcodes_vc.php:4411 shortcodes/shortcodes_vc.php:4420
+#: shortcodes/shortcodes_vc.php:4429 shortcodes/shortcodes_vc.php:4438
+#: shortcodes/shortcodes_vc.php:4447 shortcodes/shortcodes_vc.php:4948
+#: shortcodes/shortcodes_vc.php:4957 shortcodes/shortcodes_vc.php:4966
+#: shortcodes/shortcodes_vc.php:4975 shortcodes/shortcodes_vc.php:4984
+msgid "Colors and Images"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:649 shortcodes/shortcodes_vc.php:3157
+#: shortcodes/shortcodes_vc.php:4428 shortcodes/shortcodes_vc.php:4965
+msgid "Select background image from library for this section"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:667 shortcodes/shortcodes_vc.php:2619
+#: shortcodes/shortcodes_vc.php:3175 shortcodes/shortcodes_vc.php:4446
+#: shortcodes/shortcodes_vc.php:4983
+msgid "Texture style from 1 to 11. Empty or 0 - without texture."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:739
+msgid "Output style"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:804 shortcodes/shortcodes_vc.php:821
+#: shortcodes/shortcodes_vc.php:830 shortcodes/shortcodes_vc.php:839
+#: shortcodes/shortcodes_vc.php:3624 shortcodes/shortcodes_vc.php:3642
+#: shortcodes/shortcodes_vc.php:3659 shortcodes/shortcodes_vc.php:3672
+#: shortcodes/shortcodes_vc.php:3685 shortcodes/shortcodes_vc.php:3698
+#: shortcodes/shortcodes_vc.php:3711
+msgid "Details"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:806
+msgid "Show rating"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:814
+msgid "Show info"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:828
+msgid "Allow links to the post"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:829
+msgid "Allow links to the post from each blogger item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:832
+msgid "Allow links"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:848 shortcodes/shortcodes_vc.php:857
+#: shortcodes/shortcodes_vc.php:870 shortcodes/shortcodes_vc.php:884
+#: shortcodes/shortcodes_vc.php:897 shortcodes/shortcodes_vc.php:910
+#: shortcodes/shortcodes_vc.php:920 shortcodes/shortcodes_vc.php:929
+#: shortcodes/shortcodes_vc.php:938 shortcodes/shortcodes_vc.php:4086
+#: shortcodes/shortcodes_vc.php:4099 shortcodes/shortcodes_vc.php:4112
+#: shortcodes/shortcodes_vc.php:4125 shortcodes/shortcodes_vc.php:4138
+#: shortcodes/shortcodes_vc.php:4151 shortcodes/shortcodes_vc.php:4333
+#: shortcodes/shortcodes_vc.php:4346 shortcodes/shortcodes_vc.php:4359
+#: shortcodes/shortcodes_vc.php:4372 shortcodes/shortcodes_vc.php:4385
+#: shortcodes/shortcodes_vc.php:4398
+msgid "Query"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:865
+msgid ""
+"Put here comma separated category slugs or ids. If empty - show posts from "
+"any category or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:872 shortcodes/shortcodes_vc.php:3545
+msgid "- Select category -"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:892
+msgid "How many columns used to display posts?"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:985
+msgid "Line break"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:986
+msgid "Line break or Clear Floating"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:997
+msgid "Select clear side (if need)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1120
+msgid "URL for the link on button click"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1129
+msgid "Target for the link on button click"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1141
+msgid "Open in popup"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1147
+msgid "Rel attribute for the button's link (if need"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1192
+msgid "Title for current chat item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1209
+msgid "URL for the link on chat title click"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1250
+msgid "Insert columns with margins"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1261 shortcodes/shortcodes_vc.php:3315
+msgid "Columns count"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1262
+msgid "Number of the columns in the container."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1394
+msgid "Create custom form"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1417
+msgid "Title above contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1425
+msgid "Description (under the title)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1426
+msgid "Contact form description"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1446
+msgid "Form item (custom field)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1447
+msgid "Custom field for the contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1459
+msgid "Select type of the custom field"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1525
+msgid "Container for main content block (use it only on fullscreen pages)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1638
+msgid "Make first letter of the text as dropcaps"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1691
+msgid "Collect e-mails into specified group"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1710
+msgid "Opened"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1713
+msgid "Initially opened"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1719
+msgid "Align field to left, center or right"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1752
+msgid "Insert gap (fullwidth area) in the post content"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1753 shortcodes/shortcodes_vc.php:2513
+msgid "Structure"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1833
+msgid "Map custom style"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1907
+msgid ""
+"Font size for the highlighted text (default - in pixels, allows any CSS "
+"units of measure)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1941
+msgid "Insert the icon"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1952
+msgid "Select icon class from Fontello icons set"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1969
+msgid "Background color for the icon"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:1989
+msgid "Icon's color scheme"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2006
+msgid "Icon's font weight"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2019
+msgid "Icon's alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2020
+msgid "Align icon to left, center or right"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2059
+msgid "Insert image"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2069
+msgid "Select image"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2070
+msgid "Select image from library"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2078
+msgid "Image alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2079
+msgid "Align image to left or right side"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2087
+msgid "Image shape"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2088
+msgid "Shape of the image: square or round"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2100
+msgid "Image's title"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2108
+msgid "Title's icon"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2141
+msgid "Box with info or error message"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2166
+msgid "Closeable"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2169
+msgid "Close button"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2183
+msgid "Any color for the text and headers"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2230
+msgid "Insert line (delimiter)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2249
+msgid "Shadow"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2357
+msgid "Item 1"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2358
+msgid "Item 2"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2365
+msgid "List item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2378
+msgid "Title for the current list item (show it as tooltip)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2414
+msgid "List item icon"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2462
+msgid "Insert number or any word as set of separated characters"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2473
+msgid "Number or any word to separate"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2523
+msgid "Create gap around parallax container (not need in fullscreen pages)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2543
+msgid "Parallax background motion speed (from 0.0 to 1.0)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2570
+msgid "Backgroud color"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2587
+msgid "Parallax background X position (in percents)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2595
+msgid "Paste URL for video file to show it as parallax background"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2718 shortcodes/shortcodes_vc.php:2820
+msgid "Currency symbol"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2900
+msgid "URL for the quote cite link"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2989
+msgid "Search form"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:2990
+msgid "Insert search form"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3023
+msgid "Use AJAX search"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3051
+msgid "Container for any block ([block] analog - to enable nesting)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3238
+msgid "Insert skills diagramm"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3316
+msgid "Skills columns count (required)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3357
+msgid "Title of the skills block"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3365
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3366
+msgid "Default subtitle of the skills block (only if type=arc)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3411
+msgid "Title for the current skills item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3420
+msgid "Value for the current skills item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3429
+msgid "Color for current skills item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3438
+msgid "Background color for current skills item (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3447
+msgid "Border color for current skills item (only for type=pie)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3454
+msgid "Item style"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3487
+msgid "Insert slider"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3498
+msgid "Engine"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3539
+msgid ""
+"Select category. If empty - show posts from any category or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3574
+msgid "Swiper: Post sorting"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3623
+msgid "Show bullets or titles to switch slides"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3678
+msgid "Titles as a links"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3691
+msgid "Crop images"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3737
+msgid "Slider item - single slide"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3775
+msgid "Custom social icons"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3878
+msgid "Insert a table"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3888
+msgid "Cells content alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3945
+msgid "Select style of tabs items"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3964
+msgid "Scroller"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3982
+msgid "Tab 1"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3983
+msgid "Tab 2"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:3999
+msgid "Single tab item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4011
+msgid "Title for current tab"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4019
+msgid "Tab ID"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4020
+msgid "ID for current tab (required). Please, start it from letter."
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4044
+msgid "Insert team members"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4085
+msgid ""
+"Put here comma separated categories (ids or slugs) to show team members. "
+"If empty - select team members from any category (group) or from IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4123 shortcodes/shortcodes_vc.php:4370
+msgid "Post sorting"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4149
+msgid "Team member's IDs list"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4150
+msgid ""
+"Comma separated list of team members's ID. If set - parameters above "
+"(category, count, order, etc.)  are ignored!"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4170
+msgid "Member 1"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4171
+msgid "Member 2"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4180
+msgid "Team member - all data pull out from it account on your site"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4191
+msgid "Registered user"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4243
+msgid "Member's Photo"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4244
+msgid "Team member's photo (avatar"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4279
+msgid "Insert testimonials slider"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4469
+msgid "Single testimonials item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4498
+msgid "E-mail of the testimonmials author"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4576
+msgid "Title style: only text (regular) or with icon/image (iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4622
+msgid "Figure bottom border"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4623
+msgid "Apply a figure bottom border"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4641 shortcodes/shortcodes_vc.php:4654
+#: shortcodes/shortcodes_vc.php:4666 shortcodes/shortcodes_vc.php:4675
+#: shortcodes/shortcodes_vc.php:4688
+msgid "Icon &amp; Image"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4664
+msgid "or select uploaded image"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4674
+msgid "Select image (picture) size (if style=iconed)"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4793
+msgid "Single toggles item"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4813
+msgid "Open current toggle item on show"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:4905
+msgid "Number tweets to show"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5027
+msgid "Paste URL for video file"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5036
+msgid "Select ratio for display video"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5073 shortcodes/shortcodes_vc.php:5082
+#: shortcodes/shortcodes_vc.php:5091 shortcodes/shortcodes_vc.php:5100
+#: shortcodes/shortcodes_vc.php:5109 shortcodes/shortcodes_vc.php:5190
+#: shortcodes/shortcodes_vc.php:5199 shortcodes/shortcodes_vc.php:5208
+#: shortcodes/shortcodes_vc.php:5217 shortcodes/shortcodes_vc.php:5226
+msgid "Background"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5081
+msgid ""
+"Top offset (padding) from background image to video block (in percent). "
+"For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5090
+msgid ""
+"Bottom offset (padding) from background image to video block (in percent). "
+"For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5099
+msgid ""
+"Left offset (padding) from background image to video block (in percent). "
+"For example: 20%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5108
+msgid ""
+"Right offset (padding) from background image to video block (in percent). "
+"For example: 12%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5189
+msgid ""
+"Select or upload image or write URL from other site for zoom background. "
+"Attention! If you use background image - specify paddings below from "
+"background margins to video block in percents!"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5198
+msgid ""
+"Top offset (padding) from background image to zoom block (in percent). For "
+"example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5207
+msgid ""
+"Bottom offset (padding) from background image to zoom block (in percent). "
+"For example: 3%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5216
+msgid ""
+"Left offset (padding) from background image to zoom block (in percent). "
+"For example: 20%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5225
+msgid ""
+"Right offset (padding) from background image to zoom block (in percent). "
+"For example: 12%"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5257
+msgid "Cart"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5258
+msgid "WooCommerce shortcode: show cart page"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5276
+msgid "Checkout"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5277
+msgid "WooCommerce shortcode: show checkout page"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5295
+msgid "My Account"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5296
+msgid "WooCommerce shortcode: show my account page"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5314
+msgid "Order Tracking"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5315
+msgid "WooCommerce shortcode: show order tracking page"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5333
+msgid "Shop Messages"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5352
+msgid "Product Page"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5422
+msgid "Product"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5434
+msgid "Product's SKU code"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5443
+msgid "Product's ID"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5460
+msgid "Best Selling Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5499
+msgid "Recent Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5559
+msgid "Related Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5610
+msgid "Featured Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5670
+msgid "Top Rated Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5730
+msgid "Sale Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5790
+msgid "Products from category"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5872
+msgid "Products"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:5942
+msgid "Products by Attribute"
+msgstr ""
+
+#: shortcodes/shortcodes_vc.php:6020
+msgid "Product Categories"
+msgstr ""
+
+#: widgets/advert.php:24 widgets/advert.php:88
+msgid "Advertisement block"
+msgstr ""
+
+#: widgets/advert.php:30
+msgid "Ancora - Advertisement block"
+msgstr ""
+
+#: widgets/advert.php:97 widgets/banner.php:105 widgets/big_banner.php:112
+#: widgets/categories.php:141 widgets/flickr.php:107
+#: widgets/qrcode/qrcode.php:188 widgets/socials.php:119
+#: widgets/twitter.php:124
+msgid "Title:"
+msgstr ""
+
+#: widgets/advert.php:102
+msgid "Image source URL:<br />(leave empty if you paste advert code)"
+msgstr ""
+
+#: widgets/advert.php:115
+msgid "Image link URL:<br />(leave empty if you paste advert code)"
+msgstr ""
+
+#: widgets/advert.php:120
+msgid "or paste Advert Widget HTML Code:"
+msgstr ""
+
+#: widgets/banner.php:24
+msgid "Banner"
+msgstr ""
+
+#: widgets/banner.php:30
+msgid "Ancora - Banner"
+msgstr ""
+
+#: widgets/banner.php:109
+msgid "Title link"
+msgstr ""
+
+#: widgets/banner.php:117 widgets/big_banner.php:120
+msgid "Background image (url):"
+msgstr ""
+
+#: widgets/big_banner.php:24
+msgid "Big banner"
+msgstr ""
+
+#: widgets/big_banner.php:30
+msgid "Ancora - Big banner"
+msgstr ""
+
+#: widgets/big_banner.php:116
+msgid "Text"
+msgstr ""
+
+#: widgets/big_banner.php:124
+msgid "Show form:"
+msgstr ""
+
+#: widgets/big_banner.php:126 widgets/most_commented.php:223
+#: widgets/most_commented.php:231 widgets/most_commented.php:239
+#: widgets/most_commented.php:247 widgets/most_viewed.php:223
+#: widgets/most_viewed.php:231 widgets/most_viewed.php:239
+#: widgets/most_viewed.php:247 widgets/popular_posts.php:247
+#: widgets/popular_posts.php:255 widgets/popular_posts.php:263
+#: widgets/popular_posts.php:271 widgets/recent_posts.php:205
+#: widgets/recent_posts.php:213 widgets/recent_posts.php:221
+#: widgets/recent_posts.php:229 widgets/recent_reviews.php:221
+#: widgets/recent_reviews.php:229 widgets/recent_reviews.php:237
+#: widgets/socials.php:145 widgets/socials.php:152 widgets/top10.php:242
+#: widgets/top10.php:250 widgets/top10.php:258
+msgid "Show"
+msgstr ""
+
+#: widgets/big_banner.php:128 widgets/most_commented.php:225
+#: widgets/most_commented.php:233 widgets/most_commented.php:241
+#: widgets/most_commented.php:249 widgets/most_viewed.php:225
+#: widgets/most_viewed.php:233 widgets/most_viewed.php:241
+#: widgets/most_viewed.php:249 widgets/popular_posts.php:249
+#: widgets/popular_posts.php:257 widgets/popular_posts.php:265
+#: widgets/popular_posts.php:273 widgets/recent_posts.php:207
+#: widgets/recent_posts.php:215 widgets/recent_posts.php:223
+#: widgets/recent_posts.php:231 widgets/recent_reviews.php:223
+#: widgets/recent_reviews.php:231 widgets/recent_reviews.php:239
+#: widgets/recent_reviews.php:250 widgets/socials.php:147
+#: widgets/socials.php:154 widgets/top10.php:244 widgets/top10.php:252
+#: widgets/top10.php:260 widgets/top10.php:271
+msgid "Hide"
+msgstr ""
+
+#: widgets/calendar.php:24
+msgid "Calendar for posts and/or Events"
+msgstr ""
+
+#: widgets/calendar.php:30
+msgid "Ancora - Advanced Calendar"
+msgstr ""
+
+#: widgets/calendar.php:92 widgets/most_commented.php:188
+#: widgets/most_viewed.php:185 widgets/popular_posts.php:197
+#: widgets/recent_posts.php:170 widgets/recent_reviews.php:186
+#: widgets/top10.php:197
+msgid "Widget title:"
+msgstr ""
+
+#: widgets/calendar.php:97 widgets/categories.php:146
+#: widgets/most_commented.php:193 widgets/most_viewed.php:193
+#: widgets/popular_posts.php:217 widgets/recent_posts.php:175
+#: widgets/recent_reviews.php:191 widgets/top10.php:212
+msgid "Post type:"
+msgstr ""
+
+#: widgets/calendar.php:106
+msgid ""
+"Attention! If you check custom post types, please check also settings in "
+"the correspond plugins and enable display this posts in the blog!"
+msgstr ""
+
+#: widgets/categories.php:24
+msgid "Subcategories list"
+msgstr ""
+
+#: widgets/categories.php:30
+msgid "Ancora - Subcategories list"
+msgstr ""
+
+#: widgets/categories.php:63
+msgid "Select Category"
+msgstr ""
+
+#: widgets/categories.php:157
+msgid "Root category:"
+msgstr ""
+
+#: widgets/categories.php:159 widgets/most_commented.php:206
+#: widgets/most_viewed.php:206 widgets/popular_posts.php:230
+#: widgets/recent_posts.php:188 widgets/recent_reviews.php:204
+#: widgets/top10.php:225
+msgid "-- Any category --"
+msgstr ""
+
+#: widgets/categories.php:170
+msgid "Display as dropdown"
+msgstr ""
+
+#: widgets/categories.php:173
+msgid "Show post counts"
+msgstr ""
+
+#: widgets/categories.php:176
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/flickr.php:24
+msgid "Last flickr photos."
+msgstr ""
+
+#: widgets/flickr.php:30
+msgid "Ancora - Flickr photos"
+msgstr ""
+
+#: widgets/flickr.php:99
+msgid "Last flickr photos"
+msgstr ""
+
+#: widgets/flickr.php:111
+msgid ""
+"Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</"
+"a>):"
+msgstr ""
+
+#: widgets/flickr.php:115
+msgid "Number of photos:"
+msgstr ""
+
+#: widgets/most_commented.php:24 widgets/most_viewed.php:24
+#: widgets/popular_posts.php:24
+msgid "The most popular and most commented blog posts (extended)"
+msgstr ""
+
+#: widgets/most_commented.php:30
+msgid "Ancora - Most Commented Posts"
+msgstr ""
+
+#: widgets/most_commented.php:204 widgets/most_viewed.php:204
+#: widgets/popular_posts.php:228 widgets/recent_posts.php:186
+#: widgets/recent_reviews.php:202 widgets/top10.php:223
+msgid "Category:"
+msgstr ""
+
+#: widgets/most_commented.php:216 widgets/most_viewed.php:216
+#: widgets/popular_posts.php:240 widgets/recent_posts.php:198
+#: widgets/recent_reviews.php:214 widgets/top10.php:235
+msgid "Number posts to show:"
+msgstr ""
+
+#: widgets/most_commented.php:221 widgets/most_viewed.php:221
+#: widgets/popular_posts.php:245 widgets/recent_posts.php:203
+#: widgets/recent_reviews.php:219 widgets/top10.php:240
+msgid "Show post image:"
+msgstr ""
+
+#: widgets/most_commented.php:229 widgets/most_viewed.php:229
+#: widgets/popular_posts.php:253 widgets/recent_posts.php:211
+#: widgets/recent_reviews.php:227 widgets/top10.php:248
+msgid "Show post author:"
+msgstr ""
+
+#: widgets/most_commented.php:237 widgets/most_viewed.php:237
+#: widgets/popular_posts.php:261 widgets/recent_posts.php:219
+#: widgets/recent_reviews.php:235 widgets/top10.php:256
+msgid "Show post date:"
+msgstr ""
+
+#: widgets/most_commented.php:245 widgets/most_viewed.php:245
+#: widgets/popular_posts.php:269 widgets/recent_posts.php:227
+#: widgets/recent_reviews.php:244 widgets/top10.php:265
+msgid "Show post counters:"
+msgstr ""
+
+#: widgets/most_viewed.php:30
+msgid "Ancora - Most Viewed Posts"
+msgstr ""
+
+#: widgets/popular_posts.php:30
+msgid "Ancora - Most Popular & Commented Posts"
+msgstr ""
+
+#: widgets/popular_posts.php:202
+msgid "Most popular tab title:"
+msgstr ""
+
+#: widgets/popular_posts.php:207
+msgid "Most commented tab title:"
+msgstr ""
+
+#: widgets/popular_posts.php:212
+msgid "Most liked tab title:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:25
+msgid "Generate QRCode with your personal data or with any text (links)"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:31
+msgid "Ancora - QRCode generator"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:82 widgets/qrcode/qrcode.php:227
+#: widgets/qrcode/qrcode.php:290
+msgid "Company:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:83 widgets/qrcode/qrcode.php:232
+#: widgets/qrcode/qrcode.php:291
+msgid "Phone:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:85 widgets/qrcode/qrcode.php:293
+msgid "Site:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:152
+msgid "QR Code Generator (for your vcard)"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:182
+msgid "Settings"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:183
+msgid "Personal Data"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:184
+msgid "Any Text"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:192
+msgid "Show as QR Code:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:194
+msgid "Personal VCard"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:196
+msgid "Any text"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:200
+msgid "Show data under QR Code:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:203
+msgid "Width:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:207
+msgid "Color:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:211
+msgid "Bg color:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:217
+msgid "Last name:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:222
+msgid "First name:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:237
+msgid "Address:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:242
+msgid "City:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:247
+msgid "Post code:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:252
+msgid "Country:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:262
+msgid "Web Site URL:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:268
+msgid "Text to show as QR Code:"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:278
+msgid "Update"
+msgstr ""
+
+#: widgets/qrcode/qrcode.php:280
+msgid "Auto"
+msgstr ""
+
+#: widgets/recent_posts.php:24
+msgid "The recent blog posts (extended)"
+msgstr ""
+
+#: widgets/recent_posts.php:30
+msgid "Ancora - Recent Posts"
+msgstr ""
+
+#: widgets/recent_reviews.php:24
+msgid "Recent reviews"
+msgstr ""
+
+#: widgets/recent_reviews.php:30
+msgid "Ancora - Recent reviews"
+msgstr ""
+
+#: widgets/recent_reviews.php:246 widgets/top10.php:267
+msgid "As stars"
+msgstr ""
+
+#: widgets/recent_reviews.php:248 widgets/top10.php:269
+msgid "As icon"
+msgstr ""
+
+#: widgets/socials.php:24
+msgid "Show site logo and social links"
+msgstr ""
+
+#: widgets/socials.php:30
+msgid "Ancora - Show logo and social links"
+msgstr ""
+
+#: widgets/socials.php:108
+msgid "Show logo and social icons"
+msgstr ""
+
+#: widgets/socials.php:123
+msgid "Description:"
+msgstr ""
+
+#: widgets/socials.php:127
+msgid "Logo image:<br />(if empty - use logo from Theme Options)"
+msgstr ""
+
+#: widgets/socials.php:139
+msgid "Logo text:"
+msgstr ""
+
+#: widgets/socials.php:143
+msgid "Show logo:"
+msgstr ""
+
+#: widgets/socials.php:150
+msgid "Show social icons:"
+msgstr ""
+
+#: widgets/top10.php:24
+msgid "Top 10 posts by average reviews marks (by author and users)"
+msgstr ""
+
+#: widgets/top10.php:30
+msgid "Ancora - Top 10 Posts"
+msgstr ""
+
+#: widgets/top10.php:202
+msgid "Author rating tab title:"
+msgstr ""
+
+#: widgets/top10.php:207
+msgid "Users rating tab title:"
+msgstr ""
+
+#: widgets/twitter.php:25
+msgid "Last Twitter Updates. Version for new Twitter API 1.1"
+msgstr ""
+
+#: widgets/twitter.php:31
+msgid "Ancora - Twitter"
+msgstr ""
+
+#: widgets/twitter.php:112
+msgid "Last Twitter Updates"
+msgstr ""
+
+#: widgets/twitter.php:129
+msgid "Tweets count:"
+msgstr ""
+
+#: widgets/twitter.php:134
+msgid "Twitter Username:"
+msgstr ""
+
+#: widgets/twitter.php:134
+msgid "leave empty if you paste widget code"
+msgstr ""
+
+#: widgets/twitter.php:139
+msgid "Twitter Consumer Key:"
+msgstr ""
+
+#: widgets/twitter.php:143
+msgid "Twitter Consumer Secret:"
+msgstr ""
+
+#: widgets/twitter.php:147
+msgid "Twitter Token Key:"
+msgstr ""
+
+#: widgets/twitter.php:151
+msgid "Twitter Token Secret:"
+msgstr ""
